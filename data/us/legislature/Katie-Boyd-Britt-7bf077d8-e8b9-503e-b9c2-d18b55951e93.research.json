@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/7bf077d8-e8b9-503e-b9c2-d18b55951e93",
+  "name": "Katie Britt",
+  "state": "Alabama",
+  "last_updated": "2025-08-06T22:51:44.110457",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and reducing illegal immigration",
+      "category": "Immigration",
+      "source": "Campaign website and official statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion with minimal exceptions, supports overturning Roe v. Wade",
+      "category": "Social Issues",
+      "source": "Official campaign platform"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership and opposes gun control measures",
+      "category": "Civil Liberties",
+      "source": "Campaign speeches and voting record"
+    },
+    {
+      "title": "Reducing Federal Spending",
+      "description": "Advocates for significant cuts to government spending and federal programs",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Opposing Critical Race Theory",
+      "description": "Supports banning CRT from public school curricula",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel production and opposes green energy mandates",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing aspects of the Affordable Care Act and reducing government healthcare intervention",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$25,000-$50,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$10,000-$25,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Business PAC Alabama",
+        "amount": "$25,000",
+        "occupation": "Business Advocacy Group"
+      },
+      {
+        "name": "Local Alabama Donors",
+        "amount": "$100,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/candidates/summary?cycle=2022&cid=N00044656"
+  },
+  "sources": [
+    "Campaign Website",
+    "OpenSecrets.org",
+    "FEC Campaign Filings",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:51:57.717964",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1000
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

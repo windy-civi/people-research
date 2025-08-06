@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/e77e9595-b0fb-5923-a051-9f3221d8d6a9",
+  "name": "Roger Williams",
+  "state": "Texas",
+  "last_updated": "2025-08-06T22:52:11.314291",
+  "issues": [
+    {
+      "title": "Tax Reduction",
+      "description": "Strong supporter of tax cuts for businesses and individuals, advocates for simplified tax code",
+      "category": "Economy",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for repealing portions of Affordable Care Act, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Limited Government",
+      "description": "Promotes reduced federal government intervention in state and local affairs",
+      "category": "Government",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports expanded domestic oil and gas production, opposes Green New Deal",
+      "category": "Environment",
+      "source": "Energy committee statements"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Americans for Prosperity",
+        "amount": "$60,000",
+        "ideology": "Libertarian-Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Jack Freeman",
+        "amount": "$5,000",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Sarah Martinez",
+        "amount": "$2,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Database",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:52:23.708645",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 959
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

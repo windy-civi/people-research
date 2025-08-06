@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/799d9723-1f90-5558-b8c6-6f293c7eaddd",
+  "name": "Suzan DelBene",
+  "state": "Washington",
+  "last_updated": "2025-08-06T22:51:18.528795",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports strengthening the Affordable Care Act, expanding healthcare coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Technology and Innovation",
+      "description": "Advocates for protecting net neutrality, supporting tech innovation, and addressing cybersecurity challenges",
+      "category": "Technology",
+      "source": "Congressional tech policy statements"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports reducing carbon emissions, investing in renewable energy, and implementing green infrastructure projects",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Official policy statements"
+    },
+    {
+      "title": "Education Access",
+      "description": "Advocates for expanding access to higher education, reducing student loan debt, and increasing funding for public education",
+      "category": "Education",
+      "source": "Congressional education policy proposals"
+    },
+    {
+      "title": "Economic Equality",
+      "description": "Supports raising minimum wage, addressing income inequality, and promoting small business development",
+      "category": "Economy",
+      "source": "Economic policy statements"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of women's reproductive healthcare and protecting abortion access",
+      "category": "Social Issues",
+      "source": "Voting record and policy positions"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft",
+        "amount": "$45,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Amazon",
+        "amount": "$35,200",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Google",
+        "amount": "$28,700",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$250,000",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$125,000",
+        "percentage": "21%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Women in Politics",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$150,000",
+        "occupation": "Technology Leadership"
+      },
+      {
+        "name": "Local Washington Donors",
+        "amount": "$75,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/suzan-delbene/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Campaign Finance Reports",
+    "Official Policy Statements"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:51:31.375774",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1018
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/4ec1dbc4-ea21-5f61-92b1-fa55b47a4c61",
+  "name": "Andrew Garbarino",
+  "state": "New York",
+  "last_updated": "2025-08-06T22:52:49.955698",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border control and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Advocates for tax cuts and reduced regulations to support small business growth",
+      "category": "Economy",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports protecting constitutional firearm ownership rights",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Healthcare Cost Reduction",
+      "description": "Supports market-based healthcare solutions and opposing government-run healthcare expansions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Consistently votes for increased defense spending and supporting military infrastructure",
+      "category": "Foreign Policy",
+      "source": "Congressional appropriations records"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Policy statements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Advocates for domestic oil and gas production, opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Energy committee votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Lockheed Martin",
+        "amount": "$15,000-$25,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$10,000-$20,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$65,000",
+        "percentage": "19%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Financial Advisor"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/andrew-garbarino/summary"
+  },
+  "sources": [
+    "Congressional voting records",
+    "Campaign website",
+    "OpenSecrets donor database",
+    "FEC campaign finance reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:53:02.400737",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 973
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

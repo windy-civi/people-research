@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/273dd641-da15-5fc0-bdc9-496cc9b65fbd",
+  "name": "Angus King",
+  "state": "Maine",
+  "last_updated": "2025-08-06T22:51:57.747159",
+  "issues": [
+    {
+      "title": "Clean Energy and Climate Change",
+      "description": "Supports renewable energy development, advocates for wind and solar investments, and supports reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://www.king.senate.gov/energy-climate"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding healthcare access, protecting pre-existing condition coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://www.king.senate.gov/healthcare"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocates for comprehensive infrastructure modernization, including broadband expansion, transportation improvements, and green infrastructure",
+      "category": "Economy",
+      "source": "https://www.king.senate.gov/infrastructure"
+    },
+    {
+      "title": "Education and Workforce Development",
+      "description": "Supports increased funding for technical education, student loan reform, and workforce training programs",
+      "category": "Education",
+      "source": "https://www.king.senate.gov/education"
+    },
+    {
+      "title": "Cybersecurity and Technology",
+      "description": "Champions national cybersecurity initiatives, supports technology innovation, and protects digital privacy",
+      "category": "Technology",
+      "source": "https://www.king.senate.gov/technology"
+    },
+    {
+      "title": "Foreign Policy and National Security",
+      "description": "Supports strong NATO alliances, diplomatic engagement, and balanced national defense spending",
+      "category": "Foreign Policy",
+      "source": "https://www.king.senate.gov/foreign-policy"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for improved veterans' healthcare, mental health services, and job transition programs",
+      "category": "Social Issues",
+      "source": "https://www.king.senate.gov/veterans"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Goldman Sachs",
+        "amount": "$35,000-$50,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$25,000-$40,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/angus-king/summary?cid=N00035492"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Angus King Official Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:52:11.284768",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1042
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

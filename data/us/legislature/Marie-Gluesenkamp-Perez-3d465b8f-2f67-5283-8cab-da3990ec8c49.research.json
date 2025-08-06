@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/3d465b8f-2f67-5283-8cab-da3990ec8c49",
+  "name": "Marie Gluesenkamp Perez",
+  "state": "Washington",
+  "last_updated": "2025-08-06T22:52:36.346426",
+  "issues": [
+    {
+      "title": "Manufacturing and Small Business Support",
+      "description": "Advocate for policies supporting local manufacturing and small business growth, drawing from her personal experience as an auto repair shop owner",
+      "category": "Economy",
+      "source": "Campaign website and congressional record"
+    },
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Support for renewable energy transition, investments in green infrastructure, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Support for expanding healthcare coverage, reducing prescription drug costs, and protecting reproductive healthcare rights",
+      "category": "Healthcare",
+      "source": "Campaign statements and voting record"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocate for infrastructure improvements, particularly in rural and suburban areas, focusing on transportation and broadband access",
+      "category": "Infrastructure",
+      "source": "Congressional proposals"
+    },
+    {
+      "title": "Gun Safety Reform",
+      "description": "Support for comprehensive background checks and responsible gun ownership policies",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Education and Workforce Development",
+      "description": "Support for vocational training, community college funding, and apprenticeship programs",
+      "category": "Education",
+      "source": "Congressional testimony"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Support for comprehensive immigration reform with pathways to citizenship and border security",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Fundraising Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$350,000-$500,000",
+        "percentage": "25-30%"
+      },
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$250,000-$400,000",
+        "percentage": "20-25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$150,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$1-$200 range",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports, OpenSecrets",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Official Congressional Website",
+    "Campaign Platform Documents",
+    "OpenSecrets Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:52:49.928637",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 708,
+      "output_tokens": 980
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

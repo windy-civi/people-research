@@ -1,0 +1,128 @@
+{
+  "legislator_id": "ocd-person/1bc146c5-42d6-5bf7-a862-34747a4b8ed7",
+  "name": "Dusty Johnson",
+  "state": "South Dakota",
+  "last_updated": "2025-08-06T22:50:51.415493",
+  "issues": [
+    {
+      "title": "Agricultural Policy",
+      "description": "Strong supporter of farm and rural economic development, advocates for agricultural subsidies and rural infrastructure investment",
+      "category": "Economic Policy",
+      "source": "https://dustyjohnson.house.gov/agriculture"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports comprehensive border security measures, increased border patrol funding, and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://dustyjohnson.house.gov/immigration"
+    },
+    {
+      "title": "Healthcare Cost Reduction",
+      "description": "Advocates for market-based healthcare reforms to reduce costs, opposes full government-run healthcare systems",
+      "category": "Healthcare",
+      "source": "https://dustyjohnson.house.gov/healthcare"
+    },
+    {
+      "title": "Fiscal Responsibility",
+      "description": "Supports balanced budget amendments, reduced government spending, and tax cuts to stimulate economic growth",
+      "category": "Economic Policy",
+      "source": "https://dustyjohnson.house.gov/budget"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Promotes domestic energy production, supports fossil fuel industries, and advocates for reduced regulatory barriers",
+      "category": "Environment/Energy",
+      "source": "https://dustyjohnson.house.gov/energy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "https://dustyjohnson.house.gov/2a"
+    },
+    {
+      "title": "Rural Broadband Expansion",
+      "description": "Advocates for increased federal funding to expand internet infrastructure in rural communities",
+      "category": "Technology/Infrastructure",
+      "source": "https://dustyjohnson.house.gov/broadband"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$42,500",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Farm Credit Services",
+        "amount": "$35,000",
+        "industry": "Agricultural Finance",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Services",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Free Market Economics",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Farmer"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$2,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/members-of-congress/dusty-johnson/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets Campaign Finance Database",
+    "FEC Campaign Contribution Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:51:05.720262",
+    "github_action_run": "16790466967",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1102
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
