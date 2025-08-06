@@ -187,9 +187,11 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                     tools=tools
                 )
                 
-                # Extract JSON from response
-                response_text = message.content[0].text
-                json_match = self._extract_json_from_response(response_text)
+                # Handle tool use and get final response
+                final_response = self._handle_tool_use_and_get_response(message, tools, prompt)
+                
+                # Extract JSON from final response
+                json_match = self._extract_json_from_response(final_response)
                 
                 if json_match:
                     try:
@@ -213,7 +215,7 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                         raise ValueError(f"Invalid JSON structure: {e}")
                 else:
                     # Log the full response for debugging
-                    logger.error(f"Full Claude response: {response_text}")
+                    logger.error(f"Full Claude response: {final_response}")
                     
                     # If this is the last attempt, raise the error
                     if attempt == max_retries:
@@ -225,6 +227,57 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
             except Exception as e:
                 logger.error(f"Research error for {legislator_data.get('name', 'Unknown')}: {e}")
                 return self._create_error_response(legislator_data, str(e))
+    
+    def _handle_tool_use_and_get_response(self, message, tools: List[Dict], original_prompt: str) -> str:
+        """Handle tool use requests and return the final text response."""
+        # Check if the response contains tool use
+        if message.stop_reason == "tool_use":
+            # For this simple version, we'll simulate tool results since we don't have actual web search
+            # In a real implementation, you would execute the actual tool calls
+            
+            # Find tool use blocks
+            tool_use_blocks = [block for block in message.content if hasattr(block, 'type') and block.type == "tool_use"]
+            
+            if tool_use_blocks:
+                # Simulate web search results
+                messages = [
+                    {"role": "user", "content": original_prompt},
+                    {"role": "assistant", "content": message.content}
+                ]
+                
+                # Add simulated tool results
+                for tool_block in tool_use_blocks:
+                    tool_result = {
+                        "role": "user",
+                        "content": [{
+                            "type": "tool_result",
+                            "tool_use_id": tool_block.id,
+                            "content": "Web search functionality not available in this environment. Please provide the JSON response based on your knowledge."
+                        }]
+                    }
+                    messages.append(tool_result)
+                
+                # Get the final response
+                final_message = self.anthropic.messages.create(
+                    model="claude-sonnet-4-20250514",
+                    max_tokens=3000,
+                    messages=messages,
+                    tools=tools
+                )
+                
+                # Extract text from the final response
+                text_blocks = [block for block in final_message.content if hasattr(block, 'type') and block.type == "text"]
+                if text_blocks:
+                    return text_blocks[0].text
+                else:
+                    return "No text response received"
+        
+        # If no tool use, extract text directly
+        text_blocks = [block for block in message.content if hasattr(block, 'type') and block.type == "text"]
+        if text_blocks:
+            return text_blocks[0].text
+        else:
+            return "No text response received"
     
     def _extract_json_from_response(self, response_text: str) -> Optional[str]:
         """Extract JSON from Claude's response."""
