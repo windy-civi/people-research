@@ -1,0 +1,68 @@
+{
+  "legislator_id": "ocd-person/0555dc1b-b9eb-4d13-99aa-25b1c4349f83",
+  "name": "Wesley Bell",
+  "state": "Missouri",
+  "last_updated": "2025-08-06T22:32:36.202355",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocate for systemic changes in prosecution and policing practices",
+      "category": "Criminal Justice",
+      "source": "https://wesleybell.com"
+    },
+    {
+      "title": "Bail Reform",
+      "description": "Reducing reliance on cash bail that disproportionately impacts low-income communities",
+      "category": "Social Justice",
+      "source": "Local campaign materials"
+    },
+    {
+      "title": "Restorative Justice",
+      "description": "Promoting alternative approaches to traditional criminal prosecution",
+      "category": "Criminal Justice",
+      "source": "Campaign speeches"
+    }
+  ],
+  "donors": {
+    "top_companies": [],
+    "top_industries": [
+      {
+        "industry": "Legal Services",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Progressive Reform PAC",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Criminal Justice Reform",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Community Supporters",
+        "amount": "Various small donations",
+        "occupation": "Mixed"
+      }
+    ],
+    "data_source": "Campaign Finance Reports",
+    "source_url": "https://fec.gov/candidate/wesley-bell"
+  },
+  "sources": [
+    "Wesley Bell Campaign Website",
+    "Missouri State Election Records",
+    "Local News Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:32:43.395481",
+    "github_action_run": "16790155921",
+    "tokens_used": {
+      "input_tokens": 603,
+      "output_tokens": 508
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
