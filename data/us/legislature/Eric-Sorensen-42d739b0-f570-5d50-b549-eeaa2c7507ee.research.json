@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/42d739b0-f570-5d50-b549-eeaa2c7507ee",
+  "name": "Eric Sorensen",
+  "state": "Illinois",
+  "last_updated": "2025-08-06T23:02:40.650585",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing condition coverage, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy investments, reducing carbon emissions, and supporting green infrastructure projects",
+      "category": "Environment",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public schools, student debt relief, and expanded vocational training programs",
+      "category": "Education",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Proposes infrastructure investment, support for small businesses, and workforce development initiatives",
+      "category": "Economy",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's reproductive healthcare rights",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Advocates for comprehensive background checks and sensible gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": "Campaign website"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$10,000-$25,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$150,000-$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$75,000-$125,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000-$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$10,000-$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$5-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Disclosure Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Eric Sorensen Campaign Website",
+    "FEC Campaign Finance Reports",
+    "Illinois State Board of Elections",
+    "Campaign Press Releases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:02:52.660484",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 954
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

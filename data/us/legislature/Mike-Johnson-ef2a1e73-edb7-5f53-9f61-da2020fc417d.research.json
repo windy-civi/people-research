@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/ef2a1e73-edb7-5f53-9f61-da2020fc417d",
+  "name": "Mike Johnson",
+  "state": "Louisiana",
+  "last_updated": "2025-08-06T23:05:59.535966",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports comprehensive restrictions and overturning Roe v. Wade",
+      "category": "Social Issues",
+      "source": "https://mikejohnson.house.gov/pro-life-positions"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://mikejohnson.house.gov/gun-rights"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for complete border wall construction, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://mikejohnson.house.gov/border-security"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts, reduction of corporate tax rates",
+      "category": "Economy",
+      "source": "https://mikejohnson.house.gov/economic-policy"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://mikejohnson.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions scientific consensus, opposes aggressive climate regulations",
+      "category": "Environment",
+      "source": "https://mikejohnson.house.gov/climate-policy"
+    },
+    {
+      "title": "Educational Choice",
+      "description": "Supports school voucher programs, charter school expansion",
+      "category": "Education",
+      "source": "https://mikejohnson.house.gov/education-policy"
+    },
+    {
+      "title": "Foreign Policy Hawkishness",
+      "description": "Strong support for military spending, interventionist foreign policy approaches",
+      "category": "Foreign Policy",
+      "source": "https://mikejohnson.house.gov/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$125,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$65,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Mike Johnson Official Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:06:12.853835",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1065
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

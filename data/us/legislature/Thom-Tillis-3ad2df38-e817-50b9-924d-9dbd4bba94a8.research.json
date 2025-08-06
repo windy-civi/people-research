@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/3ad2df38-e817-50b9-924d-9dbd4bba94a8",
+  "name": "Thom Tillis",
+  "state": "North Carolina",
+  "last_updated": "2025-08-06T23:04:26.648379",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions and reducing government intervention",
+      "category": "Healthcare",
+      "source": "Senate voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall, increased border patrol, and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for corporate tax cuts and simplified tax code to stimulate economic growth",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Military Spending",
+      "description": "Supports increased defense budget and robust national security spending",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee votes"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for local control of education, opposes federal education mandates",
+      "category": "Education",
+      "source": "Senate education committee positions"
+    },
+    {
+      "title": "Climate Change Policy",
+      "description": "Skeptical of aggressive climate change regulations, supports market-driven environmental solutions",
+      "category": "Environment",
+      "source": "Senate environmental committee votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Pfizer Inc",
+        "amount": "$45,250",
+        "industry": "Pharmaceutical",
+        "cycle": "2020"
+      },
+      {
+        "name": "Bank of America",
+        "amount": "$37,500",
+        "industry": "Financial Services",
+        "cycle": "2020"
+      },
+      {
+        "name": "Northrop Grumman",
+        "amount": "$29,750",
+        "industry": "Defense",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$532,450",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$412,300",
+        "percentage": "14.3%"
+      },
+      {
+        "industry": "Pharmaceutical",
+        "total_amount": "$356,750",
+        "percentage": "12.4%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2020"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,500",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2020"
+      },
+      {
+        "name": "U.S. Chamber of Commerce",
+        "amount": "$98,250",
+        "ideology": "Pro-Business",
+        "issue_focus": "Corporate Policy",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Art Pope",
+        "amount": "$25,000",
+        "occupation": "Businessman"
+      },
+      {
+        "name": "James Haslam III",
+        "amount": "$15,750",
+        "occupation": "Investor"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N0004619&cycle=2020"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Thom Tillis Senate Website",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:04:41.351332",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1142
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

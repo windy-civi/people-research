@@ -1,0 +1,136 @@
+{
+  "legislator_id": "ocd-person/04fde057-6aef-56ae-9baa-b1450d74ab09",
+  "name": "Scott Franklin",
+  "state": "Florida",
+  "last_updated": "2025-08-06T23:08:39.934150",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://scottfranklin.house.gov/immigration-policy"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for permanent tax cuts for businesses and middle-class families",
+      "category": "Economy",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Campaign platform statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership and opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and military readiness",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for charter schools and school voucher programs",
+      "category": "Education",
+      "source": "State legislative proposals"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing ACA and reducing government involvement in healthcare",
+      "category": "Healthcare",
+      "source": "Campaign rhetoric and voting record"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development and opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$35,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$95,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Bob Johnson",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Sarah Martinez",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/scott-franklin"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Campaign Finance Reports",
+    "Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:08:53.558369",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1066
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

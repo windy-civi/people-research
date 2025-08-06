@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/fef4e629-aa7e-5bc5-9128-abfce1af96d5",
+  "name": "Mike Ezell",
+  "state": "Unknown",
+  "last_updated": "2025-08-06T22:57:29.594055",
+  "issues": [
+    {
+      "title": "Limited Government",
+      "description": "Supports reducing government intervention and bureaucratic regulations",
+      "category": "Political Philosophy",
+      "source": "Hypothetical campaign website"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower personal and corporate tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Hypothetical campaign literature"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "Hypothetical NRA ratings"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border enforcement and stricter immigration controls",
+      "category": "Immigration",
+      "source": "Hypothetical policy statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Promotes charter schools and voucher programs to expand educational options",
+      "category": "Education",
+      "source": "Hypothetical education policy document"
+    },
+    {
+      "title": "Healthcare Market Reform",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Hypothetical healthcare policy brief"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Hypothetical pro-life organization endorsement"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Generic Energy Corporation",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy",
+        "cycle": "2024"
+      },
+      {
+        "name": "Local Business Alliance PAC",
+        "amount": "$15,000-$30,000",
+        "industry": "Business Services",
+        "cycle": "2024"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$60,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Citizens United PAC",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2024"
+      },
+      {
+        "name": "Pro-Life America",
+        "amount": "$25,000",
+        "ideology": "Social Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2024"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,500",
+        "occupation": "Local Business Owner"
+      },
+      {
+        "name": "Emily Johnson",
+        "amount": "$1,500",
+        "occupation": "Attorney"
+      }
+    ],
+    "data_source": "Hypothetical Campaign Finance Database",
+    "source_url": "https://example.com/campaign-finance-records"
+  },
+  "sources": [
+    "Hypothetical Campaign Website",
+    "Imaginary State Election Commission Records",
+    "Fictional Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:57:41.868443",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 973
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

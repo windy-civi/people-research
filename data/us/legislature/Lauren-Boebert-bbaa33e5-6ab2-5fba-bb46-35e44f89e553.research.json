@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/bbaa33e5-6ab2-5fba-bb46-35e44f89e553",
+  "name": "Lauren Boebert",
+  "state": "Colorado",
+  "last_updated": "2025-08-06T22:57:54.389641",
+  "issues": [
+    {
+      "title": "Gun Rights",
+      "description": "Strong Second Amendment advocate, opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "https://boebert.house.gov/issues"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports building border wall, advocates for strict immigration enforcement, opposes sanctuary cities",
+      "category": "Immigration",
+      "source": "https://boebert.house.gov/immigration"
+    },
+    {
+      "title": "Anti-Abortion",
+      "description": "Pro-life stance, supports complete abortion ban, opposes federal funding for reproductive healthcare",
+      "category": "Social Issues",
+      "source": "https://boebert.house.gov/pro-life"
+    },
+    {
+      "title": "Reduced Government Spending",
+      "description": "Advocates for significant federal budget cuts, opposes massive infrastructure and social spending bills",
+      "category": "Economy",
+      "source": "https://boebert.house.gov/fiscal-policy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Rejects mainstream climate change narratives, opposes green energy mandates, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://boebert.house.gov/energy"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports school voucher programs, advocates for parental control in education, critical of teachers' unions",
+      "category": "Education",
+      "source": "https://boebert.house.gov/education"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions, against government-managed healthcare",
+      "category": "Healthcare",
+      "source": "https://boebert.house.gov/healthcare"
+    },
+    {
+      "title": "America First Foreign Policy",
+      "description": "Supports isolationist foreign policy, skeptical of international interventions, critical of multinational agreements",
+      "category": "Foreign Policy",
+      "source": "https://boebert.house.gov/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Energy Transfer LP",
+        "amount": "$15,000-$25,000",
+        "industry": "Oil and Gas",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$200,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Donald Trump Jr.",
+        "amount": "$5,000",
+        "occupation": "Political Activist"
+      },
+      {
+        "name": "Numerous Small-Dollar Donors",
+        "amount": "$500-$2,900",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "OpenSecrets.org",
+    "House.gov Official Webpage",
+    "Campaign Financial Disclosures"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:58:09.033396",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1148
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

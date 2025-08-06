@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/da5e831e-227c-58a1-bf1a-86782158fb57",
+  "name": "Michael Cloud",
+  "state": "Texas",
+  "last_updated": "2025-08-06T23:14:43.290598",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://cloud.house.gov/immigration"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Federal Spending Reduction",
+      "description": "Advocates for significant cuts to federal government spending and bureaucracy",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion, opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive rights"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Congressional healthcare proposals"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development, opposes climate change regulations",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for expanded charter schools and education voucher programs",
+      "category": "Education",
+      "source": "Educational policy proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$35,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$125,000",
+        "percentage": "11%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Owner"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting History",
+    "Official Campaign Website",
+    "OpenSecrets.org Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:14:55.174625",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 957
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

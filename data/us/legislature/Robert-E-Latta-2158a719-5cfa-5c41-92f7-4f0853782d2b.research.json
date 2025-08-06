@@ -1,0 +1,147 @@
+{
+  "legislator_id": "ocd-person/2158a719-5cfa-5c41-92f7-4f0853782d2b",
+  "name": "Bob Latta",
+  "state": "Ohio",
+  "last_updated": "2025-08-06T23:12:56.398541",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Consistently voted to repeal and replace the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Tax Cuts and Jobs Act Support",
+      "description": "Voted in favor of 2017 tax reform bill, supports reducing corporate and individual tax rates",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Opposes strict environmental regulations, supports fossil fuel industry",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports local control of education, opposes federal overreach in educational policy",
+      "category": "Education",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Consistently votes against abortion funding and supports pro-life legislation",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Defense Spending",
+      "description": "Supports robust military funding and national defense investments",
+      "category": "Foreign Policy",
+      "source": "Congressional appropriations votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$10,000-$25,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corporation",
+        "amount": "$5,000-$15,000",
+        "industry": "Communications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$150,000-$250,000",
+        "percentage": "25-30%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$100,000-$200,000",
+        "percentage": "15-20%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$75,000-$150,000",
+        "percentage": "10-15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000-$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$10,000-$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Heritage Foundation Action",
+        "amount": "$15,000-$30,000",
+        "ideology": "Conservative",
+        "issue_focus": "Conservative Policy Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Donors from Ohio",
+        "amount": "$50,000-$100,000",
+        "occupation": "Farmers and Agricultural Businessowners"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$25,000-$50,000",
+        "occupation": "Various Small Business Owners"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Campaign Finance Reports",
+    "source_url": "https://www.opensecrets.org/members-of-congress/bob-latta/summary"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Congressional Biography",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:13:11.973920",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1243
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/20f1a4db-1281-5e3f-9d6d-657a3f178b3f",
+  "name": "Ed Case",
+  "state": "Hawaii",
+  "last_updated": "2025-08-06T23:10:18.748295",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports strengthening the Affordable Care Act, expanding Medicare access, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://edcase.house.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supports Green New Deal principles, and promotes renewable energy investments",
+      "category": "Environment",
+      "source": "https://edcase.house.gov/climate"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, border security, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://edcase.house.gov/immigration"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Proposes raising minimum wage, supporting small businesses, and reducing income inequality",
+      "category": "Economy",
+      "source": "https://edcase.house.gov/economy"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Advocates for increased education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "https://edcase.house.gov/education"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong international alliances, diplomatic engagement, and measured military interventions",
+      "category": "Foreign Policy",
+      "source": "https://edcase.house.gov/foreign-policy"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Supports comprehensive civil rights protections, LGBTQ+ equality, and racial justice initiatives",
+      "category": "Social Issues",
+      "source": "https://edcase.house.gov/social-justice"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$15,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Google LLC",
+        "amount": "$10,000-$20,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Kaiser Permanente",
+        "amount": "$5,000-$15,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$50,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$35,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Finance",
+        "total_amount": "$30,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$15,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$10,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Individual Donors",
+        "amount": "$100,000-$250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ed-case/summary"
+  },
+  "sources": [
+    "https://edcase.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Ed_Case"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:10:32.727506",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1167
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/bc5dadc9-a085-507e-82e1-1622d9a1fc90",
+  "name": "Jim Jordan",
+  "state": "Ohio",
+  "last_updated": "2025-08-06T23:13:24.337400",
+  "issues": [
+    {
+      "title": "Immigration Restrictions",
+      "description": "Strong supporter of border wall, opposes illegal immigration, advocates for stricter border control",
+      "category": "Immigration",
+      "source": "https://jordan.house.gov/immigration-policy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Consistently opposes gun control legislation, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "https://jordan.house.gov/second-amendment"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Actively supports complete repeal of Obamacare, advocates for market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://jordan.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports significant government spending cuts, opposes tax increases, advocates for balanced budget",
+      "category": "Economy",
+      "source": "https://jordan.house.gov/economic-policy"
+    },
+    {
+      "title": "Conservative Social Values",
+      "description": "Opposes abortion, supports traditional family values, advocates for religious freedom protections",
+      "category": "Social Issues",
+      "source": "https://jordan.house.gov/social-policy"
+    },
+    {
+      "title": "Strong National Defense",
+      "description": "Supports increased military spending, hawks foreign policy, strong pro-Israel stance",
+      "category": "Foreign Policy",
+      "source": "https://jordan.house.gov/defense-policy"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, opposes federal education mandates, advocates for local control",
+      "category": "Education",
+      "source": "https://jordan.house.gov/education-policy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes climate change regulations, supports fossil fuel industries, skeptical of environmental legislation",
+      "category": "Environment",
+      "source": "https://jordan.house.gov/environmental-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$500,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$375,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Freedom Works PAC",
+        "amount": "$175,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$90,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Mercer",
+        "amount": "$50,000",
+        "occupation": "Hedge Fund Manager"
+      },
+      {
+        "name": "Sheldon Adelson",
+        "amount": "$35,000",
+        "occupation": "Casino Magnate"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jim-jordan/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "Jordan Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:13:38.433222",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1120
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

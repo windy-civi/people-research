@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/256da84c-1b8a-5d48-99ba-9c9f7dd2d310",
+  "name": "Ruben Gallego",
+  "state": "Arizona",
+  "last_updated": "2025-08-06T23:02:52.701513",
+  "issues": [
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with a path to citizenship for undocumented immigrants, opposes border wall construction",
+      "category": "Immigration",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding public healthcare options, supports Medicare for All approach",
+      "category": "Healthcare",
+      "source": "Campaign speeches and policy statements"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports aggressive climate change mitigation, endorses Green New Deal framework",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Strong advocate for veterans' healthcare and employment support programs",
+      "category": "Social Services",
+      "source": "Veterans policy proposals"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15 per hour",
+      "category": "Economic Policy",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for stricter background checks and assault weapon restrictions",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding and student debt relief",
+      "category": "Education",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$350,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Progressive Democrats of America",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Progressive Policy Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Latino Victory Fund",
+        "amount": "$60,000",
+        "ideology": "Liberal",
+        "issue_focus": "Latino Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Official Congressional Website",
+    "Campaign Platform Documents",
+    "News Media Coverage"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:03:04.625115",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 921
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

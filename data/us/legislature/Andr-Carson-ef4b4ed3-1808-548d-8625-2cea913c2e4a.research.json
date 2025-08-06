@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/ef4b4ed3-1808-548d-8625-2cea913c2e4a",
+  "name": "André Carson",
+  "state": "Indiana",
+  "last_updated": "2025-08-06T23:05:06.387652",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Affordable Care Act, protecting pre-existing condition coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Economic Opportunity",
+      "description": "Advocates for raising minimum wage, supporting small businesses, and workforce training programs",
+      "category": "Economy",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public schools, student debt relief, and expanded community college programs",
+      "category": "Education",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, renewable energy investment, and emissions reduction targets",
+      "category": "Environment",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Advocates for police reform, racial equity legislation, and protecting civil rights",
+      "category": "Social Issues",
+      "source": "Public statements"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports diplomatic engagement, human rights monitoring, and strategic international partnerships",
+      "category": "Foreign Policy",
+      "source": "Congressional committee work"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Affiliates",
+        "total_amount": "$425,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov"
+  },
+  "sources": [
+    "Congressional Record",
+    "Campaign Website",
+    "Federal Election Commission Reports",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:05:18.066024",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 928
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

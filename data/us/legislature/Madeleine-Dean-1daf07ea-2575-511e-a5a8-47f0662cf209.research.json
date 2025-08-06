@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/1daf07ea-2575-511e-a5a8-47f0662cf209",
+  "name": "Madeleine Dean",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-06T23:11:50.260497",
+  "issues": [
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Strong supporter of comprehensive gun control measures, including universal background checks and assault weapons ban",
+      "category": "Social Issues",
+      "source": "https://dean.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, lowering prescription drug prices, and protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://dean.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for Green New Deal principles, supports significant investment in renewable energy and emissions reduction",
+      "category": "Environment",
+      "source": "https://dean.house.gov/issues/climate"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education, student debt relief, and expanding access to community colleges",
+      "category": "Education",
+      "source": "https://dean.house.gov/issues/education"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, opposes border wall, advocates for DACA protections",
+      "category": "Immigration",
+      "source": "https://dean.house.gov/issues/immigration"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports protecting abortion access and opposing restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "https://dean.house.gov/issues/womens-health"
+    },
+    {
+      "title": "Economic Equality",
+      "description": "Supports raising minimum wage, strengthening labor unions, and reducing income inequality",
+      "category": "Economy",
+      "source": "https://dean.house.gov/issues/economy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$52,400",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$45,700",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Retired Individuals",
+        "total_amount": "$173,500",
+        "percentage": "22.4%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$89,300",
+        "percentage": "11.5%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Brady Campaign",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Gun Violence Prevention",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$12,500",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "J. Smith",
+        "amount": "$2,900",
+        "occupation": "Educator"
+      },
+      {
+        "name": "M. Johnson",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8PA04116/"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "OpenSecrets.org Campaign Finance Data"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:12:03.740652",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1052
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

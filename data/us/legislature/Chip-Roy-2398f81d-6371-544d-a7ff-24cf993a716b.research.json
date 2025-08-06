@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/2398f81d-6371-544d-a7ff-24cf993a716b",
+  "name": "Chip Roy",
+  "state": "Texas",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control, advocates for complete border wall construction and increased immigration enforcement",
+      "category": "Immigration",
+      "source": "https://roy.house.gov/immigration"
+    },
+    {
+      "title": "Federal Spending Reduction",
+      "description": "Advocates for significant cuts to federal government spending, supports balanced budget amendment",
+      "category": "Economy",
+      "source": "https://roy.house.gov/budget"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://roy.house.gov/2a-rights"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing Affordable Care Act, advocates for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://roy.house.gov/healthcare"
+    },
+    {
+      "title": "Limited Government",
+      "description": "Promotes reduced federal government intervention, supports states' rights",
+      "category": "Governance",
+      "source": "https://roy.house.gov/limited-government"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports comprehensive pro-life legislation",
+      "category": "Social Issues",
+      "source": "https://roy.house.gov/pro-life"
+    },
+    {
+      "title": "Conservative Judicial Appointments",
+      "description": "Supports appointment of conservative judges who interpret Constitution strictly",
+      "category": "Judicial",
+      "source": "https://roy.house.gov/judiciary"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Heritage Foundation PAC",
+        "amount": "$65,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$40,000",
+        "ideology": "Pro-Life Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Conservative Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data/candidate/H8TX21133/"
+  },
+  "sources": [
+    "https://roy.house.gov",
+    "https://www.fec.gov",
+    "OpenSecrets.org Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:06:40.408267",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 987
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

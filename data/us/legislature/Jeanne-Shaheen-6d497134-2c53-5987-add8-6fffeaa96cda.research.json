@@ -1,0 +1,142 @@
+{
+  "legislator_id": "ocd-person/6d497134-2c53-5987-add8-6fffeaa96cda",
+  "name": "Jeanne Shaheen",
+  "state": "New Hampshire",
+  "last_updated": "2025-08-06T23:10:01.789121",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports protecting and expanding the Affordable Care Act, reducing prescription drug costs, and improving healthcare access",
+      "category": "Healthcare",
+      "source": "https://www.shaheen.senate.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy investments, reducing carbon emissions, and supporting renewable energy infrastructure",
+      "category": "Environment",
+      "source": "https://www.shaheen.senate.gov/climate"
+    },
+    {
+      "title": "Women's Reproductive Rights",
+      "description": "Strong supporter of abortion rights, protecting Roe v. Wade, and maintaining women's healthcare choices",
+      "category": "Social Issues",
+      "source": "https://www.shaheen.senate.gov/womenshealth"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports comprehensive infrastructure spending, including broadband expansion, transportation improvements, and rural development",
+      "category": "Economy",
+      "source": "https://www.shaheen.senate.gov/infrastructure"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for improved veterans' healthcare, mental health services, and job training programs",
+      "category": "Veterans Affairs",
+      "source": "https://www.shaheen.senate.gov/veterans"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://www.shaheen.senate.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for higher education, student debt relief, and workforce training programs",
+      "category": "Education",
+      "source": "https://www.shaheen.senate.gov/education"
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Advocates for strengthening national cybersecurity infrastructure and protecting against foreign cyber threats",
+      "category": "National Security",
+      "source": "https://www.shaheen.senate.gov/cybersecurity"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$1,250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$750,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corp",
+        "amount": "$125,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Action",
+        "total_amount": "$3,500,000",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$1,200,000",
+        "percentage": "14%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$850,000",
+        "percentage": "10%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$350,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$250,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$300,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors (Small Donations)",
+        "amount": "$2,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Campaign Finance Database",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jeanne-shaheen/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Shaheen Senate Official Website",
+    "Federal Election Commission Records",
+    "Campaign Finance Reporting Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:10:16.753167",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1250
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

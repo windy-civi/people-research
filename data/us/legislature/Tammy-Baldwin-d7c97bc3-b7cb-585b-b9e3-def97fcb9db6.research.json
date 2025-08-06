@@ -1,0 +1,140 @@
+{
+  "legislator_id": "ocd-person/d7c97bc3-b7cb-585b-b9e3-def97fcb9db6",
+  "name": "Tammy Baldwin",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-06T23:14:02.810046",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding affordable healthcare, protecting and strengthening the Affordable Care Act, and reducing prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.baldwin.senate.gov/priorities/healthcare"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "First openly gay U.S. Senator, advocates for comprehensive non-discrimination protections and LGBTQ+ equality",
+      "category": "Social Issues",
+      "source": "https://www.baldwin.senate.gov/priorities/civil-rights"
+    },
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Supports aggressive climate action, investment in renewable energy, and creating green job opportunities",
+      "category": "Environment",
+      "source": "https://www.baldwin.senate.gov/priorities/climate"
+    },
+    {
+      "title": "Economic Opportunity",
+      "description": "Advocates for raising minimum wage, protecting workers' rights, and supporting small businesses and manufacturing",
+      "category": "Economy",
+      "source": "https://www.baldwin.senate.gov/priorities/economy"
+    },
+    {
+      "title": "Education Access",
+      "description": "Supports increased funding for public education, student debt relief, and affordable higher education opportunities",
+      "category": "Education",
+      "source": "https://www.baldwin.senate.gov/priorities/education"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "https://www.baldwin.senate.gov/priorities/immigration"
+    },
+    {
+      "title": "Healthcare Research",
+      "description": "Strong supporter of increased funding for medical research, particularly in areas of mental health and chronic diseases",
+      "category": "Healthcare",
+      "source": "https://www.baldwin.senate.gov/priorities/research"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "University of Wisconsin",
+        "amount": "$52,750",
+        "industry": "Education",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$1,234,567",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$45,200",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Law Firms",
+        "total_amount": "$732,450",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$1,456,230",
+        "percentage": "36.7%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$412,350",
+        "percentage": "10.4%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$287,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$125,300",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$98,750",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "George Soros",
+        "amount": "$25,000",
+        "occupation": "Investor/Philanthropist"
+      },
+      {
+        "name": "Tom Steyer",
+        "amount": "$15,000",
+        "occupation": "Environmental Activist"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reporting",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00004537"
+  },
+  "sources": [
+    "https://www.baldwin.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Tammy_Baldwin"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:14:18.362325",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1252
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/5f3c8a1d-e9b4-4f5e-9f0a-2c7d6b8e1a3c",
+  "name": "Mike Levin",
+  "state": "California",
+  "last_updated": "2025-08-06T23:15:57.608462",
+  "issues": [
+    {
+      "title": "Climate Change and Environmental Protection",
+      "description": "Strong advocate for combating climate change, supports Green New Deal framework, pushes for renewable energy investments and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://mikelevin.org/climate"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, advocates for lowering prescription drug prices, and believes in protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://mikelevin.org/healthcare"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, and expanding access to community colleges and vocational training",
+      "category": "Education",
+      "source": "https://mikelevin.org/education"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, opposes border wall, advocates for DACA protections",
+      "category": "Immigration",
+      "source": "https://mikelevin.org/immigration"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports increasing minimum wage, protecting workers' rights, promoting small business growth, and infrastructure investment",
+      "category": "Economy",
+      "source": "https://mikelevin.org/economy"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Advocates for universal background checks, assault weapons ban, and other gun control measures to reduce gun violence",
+      "category": "Social Issues",
+      "source": "https://mikelevin.org/gunsafety"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion rights, opposes restrictions on reproductive healthcare, supports Planned Parenthood funding",
+      "category": "Social Issues",
+      "source": "https://mikelevin.org/reproductivehealthcare"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$125,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Environmental Organizations",
+        "total_amount": "$350,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Sierra Club",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$60,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Dollar Donors",
+        "amount": "$1,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/mike-levin/summary"
+  },
+  "sources": [
+    "https://mikelevin.org",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Mike_Levin"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:16:11.712265",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1060
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

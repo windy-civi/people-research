@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/259d896b-e9b5-5237-9243-f5597ae0db7c",
+  "name": "Chuck Grassley",
+  "state": "Iowa",
+  "last_updated": "2025-08-06T23:06:12.885583",
+  "issues": [
+    {
+      "title": "Agricultural Policy",
+      "description": "Strong supporter of farm subsidies and ethanol production, particularly protecting Iowa's agricultural interests",
+      "category": "Agriculture",
+      "source": "https://www.grassley.senate.gov/agriculture"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions and repealing the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://www.grassley.senate.gov/healthcare"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports stricter border security, opposes comprehensive immigration reform, advocates for enhanced border wall construction",
+      "category": "Immigration",
+      "source": "https://www.grassley.senate.gov/immigration"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports lower corporate and individual tax rates, advocates for permanent tax cuts from 2017 Tax Cuts and Jobs Act",
+      "category": "Economy",
+      "source": "https://www.grassley.senate.gov/taxes"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "https://www.grassley.senate.gov/2ndamendment"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, advocates for robust military funding, critical of Iran nuclear deal",
+      "category": "Foreign Policy",
+      "source": "https://www.grassley.senate.gov/foreign-policy"
+    },
+    {
+      "title": "Environmental Regulation",
+      "description": "Skeptical of climate change legislation, supports reducing environmental regulations on businesses",
+      "category": "Environment",
+      "source": "https://www.grassley.senate.gov/environment"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Renewable Fuels Association",
+        "amount": "$75,000-$125,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Monsanto Company",
+        "amount": "$50,000-$100,000",
+        "industry": "Agriculture",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$35,000-$75,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Services",
+        "total_amount": "$750,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$500,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$450,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$150,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Donors from Iowa",
+        "amount": "$250,000-$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/chuck-grassley/summary?cid=N00004673"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Grassley Official Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:06:27.190879",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1138
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

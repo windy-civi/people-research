@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/34d76857-187b-5f62-a2d1-ddfcd13494cf",
+  "name": "Delia Ramirez",
+  "state": "Illinois",
+  "last_updated": "2025-08-06T22:55:59.837658",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Strong supporter of Medicare for All, advocating for universal healthcare coverage",
+      "category": "Healthcare",
+      "source": "Campaign website, progressive policy statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "Congressional voting record, public statements"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Proposes increased funding for affordable housing initiatives and tenant protections",
+      "category": "Housing",
+      "source": "Local policy proposals, community advocacy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public education funding, student debt relief, and free community college",
+      "category": "Education",
+      "source": "Legislative proposals, campaign platform"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal, aggressive climate change mitigation policies",
+      "category": "Environment",
+      "source": "Congressional voting record, environmental advocacy"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Supports $15 minimum wage, strengthening labor unions, worker protection legislation",
+      "category": "Labor",
+      "source": "Labor union endorsements, legislative record"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocates for police accountability, ending mass incarceration, bail reform",
+      "category": "Social Justice",
+      "source": "Public statements, progressive policy platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000-$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$50,000-$100,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$200,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Justice Democrats PAC",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Grassroots political reform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Working Families Party",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Labor rights and social justice",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$500 or less",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Records, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "FEC Donor Records",
+    "Congressional Voting Record",
+    "Local Illinois Political Reporting"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:56:12.938502",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 964
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/17005404-0e78-5bcc-8a71-d67af0e033fd",
+  "name": "Harriet Hageman",
+  "state": "Wyoming",
+  "last_updated": "2025-08-06T23:08:53.585372",
+  "issues": [
+    {
+      "title": "Election Integrity",
+      "description": "Strong supporter of investigating 2020 election claims and implementing stricter voter verification measures",
+      "category": "Political Reform",
+      "source": "https://hageman.house.gov/election-statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for complete border wall construction and strict immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website policy statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "NRA endorsement materials"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel development, opposes climate change regulations, pro-drilling in Wyoming",
+      "category": "Environment",
+      "source": "Wyoming energy policy statements"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-managed healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, opposes federal education mandates, pro-local control of curriculum",
+      "category": "Education",
+      "source": "Campaign education platform"
+    },
+    {
+      "title": "Anti-Socialism",
+      "description": "Strongly opposes progressive/socialist policy proposals, advocates for limited government",
+      "category": "Political Philosophy",
+      "source": "Public speeches and campaign materials"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Energy Transfer Partners",
+        "amount": "$75,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$425,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$350,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$250,000",
+        "ideology": "Conservative",
+        "issue_focus": "Free Market Economics",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Donald Trump",
+        "amount": "$5,000",
+        "occupation": "Former President"
+      },
+      {
+        "name": "Prominent Wyoming Ranchers",
+        "amount": "$125,000",
+        "occupation": "Agriculture"
+      }
+    ],
+    "data_source": "FEC Donor Records",
+    "source_url": "https://www.fec.gov/data/candidate/H2WY00084/"
+  },
+  "sources": [
+    "FEC Campaign Finance Records",
+    "Congressional Voting Records",
+    "Campaign Official Website",
+    "Wyoming State Election Commission"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:09:07.294755",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 986
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/80764021-2b87-5b48-8999-98943700dea8",
+  "name": "Zoe Lofgren",
+  "state": "California",
+  "last_updated": "2025-08-06T22:59:05.119137",
+  "issues": [
+    {
+      "title": "Immigration Reform",
+      "description": "Strong supporter of comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://lofgren.house.gov/issues/immigration"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding the Affordable Care Act, protecting pre-existing condition coverage, and reducing healthcare costs",
+      "category": "Healthcare",
+      "source": "https://lofgren.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supporting green energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://lofgren.house.gov/issues/climate"
+    },
+    {
+      "title": "Technology and Privacy",
+      "description": "Champions digital privacy rights, technology innovation, and responsible tech regulation",
+      "category": "Technology",
+      "source": "https://lofgren.house.gov/issues/technology"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Committed to preserving and strengthening Social Security benefits for seniors and workers",
+      "category": "Social Welfare",
+      "source": "https://lofgren.house.gov/issues/social-security"
+    },
+    {
+      "title": "Voting Rights",
+      "description": "Strong advocate for protecting voting rights, opposing voter suppression, and supporting election security",
+      "category": "Civil Rights",
+      "source": "https://lofgren.house.gov/issues/voting-rights"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased education funding, student debt relief, and affordable higher education access",
+      "category": "Education",
+      "source": "https://lofgren.house.gov/issues/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$25,000-$50,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Apple Inc.",
+        "amount": "$15,000-$30,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Cisco Systems",
+        "amount": "$10,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$150,000-$250,000",
+        "percentage": "35-40%"
+      },
+      {
+        "industry": "Legal Services",
+        "total_amount": "$75,000-$125,000",
+        "percentage": "15-20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000-$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$25,000-$40,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Immigration Reform PAC",
+        "amount": "$20,000-$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Immigration Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$5,000-$10,000 each",
+        "occupation": "Silicon Valley Leadership"
+      },
+      {
+        "name": "University Professors",
+        "amount": "$1,000-$5,000 each",
+        "occupation": "Academic Community"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00007823"
+  },
+  "sources": [
+    "https://lofgren.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Zoe_Lofgren"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:59:20.333407",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1229
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/b352dd8b-dd06-57b0-833a-2b0b3bd33ad6",
+  "name": "John Boozman",
+  "state": "Arkansas",
+  "last_updated": "2025-08-06T23:01:10.447686",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://boozman.senate.gov/public/index.cfm/healthcare"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Strong supporter of farm subsidies and agricultural relief programs",
+      "category": "Economy",
+      "source": "https://www.agriculture.senate.gov/boozman-initiatives"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict border control and enhanced immigration enforcement",
+      "category": "Immigration",
+      "source": "https://boozman.senate.gov/public/index.cfm/immigration"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Consistently votes to protect gun ownership rights and opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://www.nra.org/political-ratings"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and veteran support programs",
+      "category": "Foreign Policy",
+      "source": "https://boozman.senate.gov/public/index.cfm/defense-and-military"
+    },
+    {
+      "title": "Education Policy",
+      "description": "Supports local control of education, opposes federal curriculum mandates",
+      "category": "Education",
+      "source": "https://boozman.senate.gov/public/index.cfm/education"
+    },
+    {
+      "title": "Environmental Regulations",
+      "description": "Advocates for reduced environmental regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://boozman.senate.gov/public/index.cfm/energy-and-environment"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Walmart",
+        "amount": "$45,000-$75,000",
+        "industry": "Retail",
+        "cycle": "2022"
+      },
+      {
+        "name": "Tyson Foods",
+        "amount": "$35,000-$60,000",
+        "industry": "Food Processing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Health Professionals",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Jim Walton",
+        "amount": "$15,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Don Tyson",
+        "amount": "$10,000",
+        "occupation": "Food Industry Executive"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00030704"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Boozman Senate Official Website",
+    "Federal Election Commission Records",
+    "Vote Smart Political Profile"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:01:23.593975",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1067
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

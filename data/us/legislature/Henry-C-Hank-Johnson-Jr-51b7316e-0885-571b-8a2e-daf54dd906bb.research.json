@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/51b7316e-0885-571b-8a2e-daf54dd906bb",
+  "name": "Hank Johnson",
+  "state": "Georgia",
+  "last_updated": "2025-08-06T23:11:11.855722",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Affordable Care Act, reducing prescription drug costs, protecting Medicare and Medicaid",
+      "category": "Healthcare",
+      "source": "https://hankjohnson.house.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for Green New Deal principles, supporting renewable energy transition and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://hankjohnson.house.gov/environment"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports ending mass incarceration, reducing mandatory minimum sentences, promoting rehabilitation programs",
+      "category": "Social Issues",
+      "source": "https://hankjohnson.house.gov/criminal-justice"
+    },
+    {
+      "title": "Voting Rights Protection",
+      "description": "Strong opponent of voter suppression, supports expanding voter access and combating discriminatory voting laws",
+      "category": "Civil Rights",
+      "source": "https://hankjohnson.house.gov/voting-rights"
+    },
+    {
+      "title": "Economic Inequality",
+      "description": "Advocates for raising minimum wage, supporting workers' rights, implementing progressive tax policies",
+      "category": "Economy",
+      "source": "https://hankjohnson.house.gov/economic-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://hankjohnson.house.gov/immigration"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Supports increasing education funding, reducing student debt, expanding access to community colleges and trade schools",
+      "category": "Education",
+      "source": "https://hankjohnson.house.gov/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Liberal/Progressive Advocacy",
+        "total_amount": "$450,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$750,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00042721"
+  },
+  "sources": [
+    "https://hankjohnson.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Hank_Johnson"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:11:24.687196",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1056
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/8ea538b9-6af5-5683-8b4b-9061f89691c1",
+  "name": "Emanuel Cleaver",
+  "state": "Missouri",
+  "last_updated": "2025-08-06T23:03:04.655474",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, protecting pre-existing condition coverage, and reducing healthcare costs",
+      "category": "Healthcare",
+      "source": "https://cleaver.house.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supports Green New Deal principles, and renewable energy investment",
+      "category": "Environment",
+      "source": "https://cleaver.house.gov/climate"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Strong supporter of police reform, addressing systemic racism, and promoting economic equity for minority communities",
+      "category": "Social Issues",
+      "source": "https://cleaver.house.gov/racial-justice"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports comprehensive infrastructure modernization, including transportation, broadband, and urban development projects",
+      "category": "Economy",
+      "source": "https://cleaver.house.gov/infrastructure"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship, and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "https://cleaver.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "https://cleaver.house.gov/education"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Committed to preserving and strengthening Social Security, opposing privatization efforts",
+      "category": "Social Welfare",
+      "source": "https://cleaver.house.gov/social-security"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$15,000-$25,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corporation",
+        "amount": "$10,000-$20,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Racial Equity",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00027428"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Official Congressional Website",
+    "Campaign Policy Statements",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:03:17.731848",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1028
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

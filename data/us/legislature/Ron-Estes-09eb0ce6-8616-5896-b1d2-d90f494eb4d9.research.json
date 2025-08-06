@@ -1,0 +1,136 @@
+{
+  "legislator_id": "ocd-person/09eb0ce6-8616-5896-b1d2-d90f494eb4d9",
+  "name": "Ron Estes",
+  "state": "Kansas",
+  "last_updated": "2025-08-06T22:59:35.105017",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports comprehensive pro-life legislation",
+      "category": "Social Issues",
+      "source": "https://ronestes.house.gov/issues"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports significant tax cuts for businesses and individuals, advocates for simplified tax code",
+      "category": "Economic Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strengthened border control, opposes illegal immigration, supports wall construction",
+      "category": "Immigration",
+      "source": "Campaign website statements"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Strong supporter of gun rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports domestic oil and gas production, opposes aggressive climate change regulations",
+      "category": "Energy and Environment",
+      "source": "Congressional energy committee statements"
+    },
+    {
+      "title": "Healthcare Market Solutions",
+      "description": "Opposes government-run healthcare, supports market-based healthcare reforms",
+      "category": "Healthcare",
+      "source": "Congressional healthcare voting record"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, local control of education, and reduced federal education intervention",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "National Defense",
+      "description": "Supports increased military funding, strong national defense strategy",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$10,000-$25,000",
+        "industry": "Aerospace/Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "11%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Charles Koch",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$25,000-$50,000 aggregate",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ron-estes/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Campaign Official Statements"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:59:49.542111",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1108
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

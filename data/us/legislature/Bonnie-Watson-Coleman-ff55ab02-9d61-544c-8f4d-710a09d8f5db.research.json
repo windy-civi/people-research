@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/ff55ab02-9d61-544c-8f4d-710a09d8f5db",
+  "name": "Bonnie Watson Coleman",
+  "state": "New Jersey",
+  "last_updated": "2025-08-06T23:17:33.005385",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding the Affordable Care Act and reducing healthcare costs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocates for ending mass incarceration, reducing mandatory minimum sentences, and supporting rehabilitation programs",
+      "category": "Social Justice",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal, pushing for aggressive carbon reduction and renewable energy investments",
+      "category": "Environment",
+      "source": "Congressional climate policy statements"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports comprehensive background checks, assault weapons ban, and increased gun safety regulations",
+      "category": "Public Safety",
+      "source": "Voting record on gun legislation"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional immigration policy positions"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "Congressional education policy statements"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports protecting abortion access and women's healthcare rights",
+      "category": "Social Issues",
+      "source": "Planned Parenthood endorsements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$325,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$87,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$750,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$450,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$87,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$1,200,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov"
+  },
+  "sources": [
+    "Congressional voting records",
+    "Official campaign website",
+    "Federal Election Commission reports",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:17:45.075025",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 946
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

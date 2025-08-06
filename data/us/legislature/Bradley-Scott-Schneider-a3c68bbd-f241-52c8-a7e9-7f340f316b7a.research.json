@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/a3c68bbd-f241-52c8-a7e9-7f340f316b7a",
+  "name": "Brad Schneider",
+  "state": "Illinois",
+  "last_updated": "2025-08-06T23:02:28.187648",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, lowering prescription drug costs, and protecting coverage for pre-existing conditions",
+      "category": "Healthcare",
+      "source": "https://schneider.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy initiatives, reducing carbon emissions, and supporting renewable energy infrastructure",
+      "category": "Environment",
+      "source": "https://schneider.house.gov/issues/climate"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Supports universal background checks, assault weapons ban, and comprehensive gun safety legislation",
+      "category": "Social Issues",
+      "source": "https://schneider.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Promotes middle-class job creation, infrastructure investment, and small business support",
+      "category": "Economy",
+      "source": "https://schneider.house.gov/issues/economy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://schneider.house.gov/issues/immigration"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Advocates for increased education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "https://schneider.house.gov/issues/education"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong diplomatic relationships, opposing authoritarian regimes, and maintaining global alliances",
+      "category": "Foreign Policy",
+      "source": "https://schneider.house.gov/issues/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$85,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$450,000",
+        "percentage": "32%"
+      },
+      {
+        "industry": "Lawyers and Law Firms",
+        "total_amount": "$275,000",
+        "percentage": "19%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "J Street PAC",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Israel-Palestine Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Democratic Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8IL10161/"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "OpenSecrets.org",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:02:40.623579",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1021
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

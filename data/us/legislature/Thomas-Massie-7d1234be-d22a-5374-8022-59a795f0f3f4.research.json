@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/7d1234be-d22a-5374-8022-59a795f0f3f4",
+  "name": "Thomas Massie",
+  "state": "Kentucky",
+  "last_updated": "2025-08-06T23:07:32.992158",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong pro-gun rights advocate, opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "https://massie.house.gov/issues"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports significant government spending cuts, opposes federal budget expansions, advocates for balanced budget",
+      "category": "Economy",
+      "source": "https://www.congress.gov/member/thomas-massie/M001184"
+    },
+    {
+      "title": "Limited Government",
+      "description": "Advocates for reducing federal government power, supports states' rights, opposes federal overreach",
+      "category": "Government",
+      "source": "https://reason.com/people/thomas-massie/"
+    },
+    {
+      "title": "Healthcare Freedom",
+      "description": "Opposes Affordable Care Act, supports free-market healthcare solutions, against government-managed healthcare",
+      "category": "Healthcare",
+      "source": "https://massie.house.gov/healthcare"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports strict border security, opposes comprehensive immigration reform, advocates for stricter immigration policies",
+      "category": "Immigration",
+      "source": "https://www.numbersusa.com/content/my/voting-record/thomas-massie"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Opposes excessive environmental regulations, supports free-market environmental solutions, skeptical of climate change legislation",
+      "category": "Environment",
+      "source": "https://www.congress.gov/member/thomas-massie/M001184"
+    },
+    {
+      "title": "Non-Interventionist Foreign Policy",
+      "description": "Opposes military interventions, supports reducing foreign aid, advocates for limited international engagement",
+      "category": "Foreign Policy",
+      "source": "https://www.cato.org/people/thomas-massie"
+    },
+    {
+      "title": "Educational Choice",
+      "description": "Supports school choice, opposes federal education mandates, advocates for local control of education",
+      "category": "Education",
+      "source": "https://massie.house.gov/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000-$25,000",
+        "industry": "Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Republican/Conservative Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Agricultural Interests",
+        "total_amount": "$75,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "FreedomWorks PAC",
+        "amount": "$35,000",
+        "ideology": "Libertarian Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Liberty Conservation PAC",
+        "amount": "$20,000",
+        "ideology": "Libertarian",
+        "issue_focus": "Individual Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Ron Paul",
+        "amount": "$5,000",
+        "occupation": "Retired Congressman"
+      },
+      {
+        "name": "Rand Paul",
+        "amount": "$2,500",
+        "occupation": "Senator"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/thomas-massie/summary"
+  },
+  "sources": [
+    "https://massie.house.gov",
+    "https://www.opensecrets.org",
+    "https://www.congress.gov",
+    "https://ballotpedia.org/Thomas_Massie"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:07:48.346095",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1202
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

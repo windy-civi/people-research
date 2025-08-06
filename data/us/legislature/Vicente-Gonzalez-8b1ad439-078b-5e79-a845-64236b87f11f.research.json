@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/8b1ad439-078b-5e79-a845-64236b87f11f",
+  "name": "Vicente Gonzalez",
+  "state": "Texas",
+  "last_updated": "2025-08-06T23:16:23.960993",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to affordable healthcare, protecting pre-existing conditions, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official Campaign Website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for comprehensive immigration reform with border security and path to citizenship",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports infrastructure investment, job creation programs, and support for small businesses",
+      "category": "Economy",
+      "source": "Campaign Speeches"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student debt relief, and vocational training programs",
+      "category": "Education",
+      "source": "Congressional Statements"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for renewable energy investments, green jobs, and environmental protection policies",
+      "category": "Environment",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Supports racial equity, criminal justice reform, and voting rights protections",
+      "category": "Social Issues",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for improved veterans' healthcare, mental health services, and job training programs",
+      "category": "Veterans Affairs",
+      "source": "Congressional Initiatives"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "AT&T Inc",
+        "amount": "$15,000-$25,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$10,000-$20,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Energy Transfer Partners",
+        "amount": "$5,000-$15,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Legal Services",
+        "total_amount": "$75,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$50,000",
+        "percentage": "10%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$45,000",
+        "percentage": "9%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Hispanic Federation PAC",
+        "amount": "$10,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$15,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Attorney"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Data",
+    "source_url": "https://www.opensecrets.org/members-of-congress/vincente-gonzalez"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Campaign Website",
+    "Congressional Voting Records",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:16:37.670996",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1126
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/4662eadc-a9a7-500c-b9c2-521a013d3729",
+  "name": "Randy Weber",
+  "state": "Texas",
+  "last_updated": "2025-08-06T22:57:41.897807",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and increased border enforcement, advocates for stricter immigration controls",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Consistently opposes gun control legislation, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and voting history"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Supports complete repeal of Obamacare, advocates for market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports significant tax cuts for corporations and individuals, advocates for reduced government spending",
+      "category": "Economy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Rejects mainstream climate change science, opposes carbon regulation and green energy mandates",
+      "category": "Environment",
+      "source": "Congressional environmental votes"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive legislation"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports school voucher programs and expanded charter school funding",
+      "category": "Education",
+      "source": "Education policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "James Baker",
+        "amount": "$5,000",
+        "occupation": "Energy Industry Executive"
+      },
+      {
+        "name": "Robert Peterson",
+        "amount": "$3,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Congressional Voting Records",
+    "Federal Election Commission",
+    "OpenSecrets.org",
+    "Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:57:54.362252",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 972
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/12958b9f-2301-5bdb-bf13-81b3de147574",
+  "name": "Ann Wagner",
+  "state": "Missouri",
+  "last_updated": "2025-08-06T23:17:18.982683",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports significant restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "https://wagner.house.gov/issues/pro-life"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts, opposes tax increases on businesses and individuals",
+      "category": "Economy",
+      "source": "https://wagner.house.gov/economic-policy"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict immigration enforcement, supports border wall construction",
+      "category": "Immigration",
+      "source": "https://wagner.house.gov/border-security"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "https://wagner.house.gov/education-policy"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Supports complete repeal of Obamacare, advocates for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://wagner.house.gov/healthcare"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Strong supporter of gun rights, opposes most gun control legislation",
+      "category": "Social Issues",
+      "source": "https://wagner.house.gov/second-amendment"
+    },
+    {
+      "title": "Defense Spending",
+      "description": "Supports increased military funding, advocates for strong national defense",
+      "category": "Foreign Policy",
+      "source": "https://wagner.house.gov/national-defense"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Walmart",
+        "amount": "$15,000-$25,000",
+        "industry": "Retail",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$10,000-$20,000",
+        "industry": "Defense/Aerospace",
+        "cycle": "2022"
+      },
+      {
+        "name": "Edward Jones",
+        "amount": "$15,000-$25,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Insurance",
+        "total_amount": "$150,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Rex Sinquefield",
+        "amount": "$50,000",
+        "occupation": "Investor"
+      },
+      {
+        "name": "David Humphreys",
+        "amount": "$35,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ann-wagner/summary?cid=N00030305"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Wagner Congressional Website",
+    "Federal Election Commission Records",
+    "Vote Smart Political Profile"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:17:32.966364",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 1173
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

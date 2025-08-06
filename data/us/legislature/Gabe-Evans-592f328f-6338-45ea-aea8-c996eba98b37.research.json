@@ -1,0 +1,25 @@
+{
+  "legislator_id": "ocd-person/592f328f-6338-45ea-aea8-c996eba98b37",
+  "name": "Gabe Evans",
+  "state": "Unknown",
+  "last_updated": "2025-08-06T23:10:16.777812",
+  "issues": [],
+  "donors": {
+    "top_companies": [],
+    "top_industries": [],
+    "ideological_donors": [],
+    "individual_donors": [],
+    "data_source": null,
+    "source_url": null
+  },
+  "sources": [],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:10:18.720214",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 157
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

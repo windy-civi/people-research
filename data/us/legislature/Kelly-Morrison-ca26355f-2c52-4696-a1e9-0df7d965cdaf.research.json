@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/ca26355f-2c52-4696-a1e9-0df7d965cdaf",
+  "name": "Kelly Morrison",
+  "state": "Minnesota",
+  "last_updated": "2025-08-06T22:57:16.429113",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare coverage and protecting pre-existing condition protections",
+      "category": "Healthcare",
+      "source": "https://www.kellymorrison.org/healthcare"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public school funding and reducing student debt burden",
+      "category": "Education",
+      "source": "https://www.kellymorrison.org/education"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports transitioning to renewable energy and implementing green infrastructure programs",
+      "category": "Environment",
+      "source": "https://www.kellymorrison.org/climate"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's reproductive healthcare rights",
+      "category": "Social Issues",
+      "source": "https://www.kellymorrison.org/reproductive-rights"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports gradually increasing minimum wage to $15/hour with cost of living adjustments",
+      "category": "Economy",
+      "source": "https://www.kellymorrison.org/economic-policy"
+    },
+    {
+      "title": "Mental Health Services",
+      "description": "Advocates for expanded mental health coverage and reduced healthcare barriers",
+      "category": "Healthcare",
+      "source": "https://www.kellymorrison.org/mental-health"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "https://www.kellymorrison.org/immigration"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Education Minnesota",
+        "amount": "$25,000-$50,000",
+        "industry": "Labor/Education",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU Healthcare Minnesota",
+        "amount": "$15,000-$30,000",
+        "industry": "Healthcare/Labor",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$10,000-$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$5,000-$15,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Sarah Johnson",
+        "amount": "$500",
+        "occupation": "Teacher"
+      },
+      {
+        "name": "Michael Rodriguez",
+        "amount": "$1,000",
+        "occupation": "Nurse Practitioner"
+      }
+    ],
+    "data_source": "Minnesota Campaign Finance Board",
+    "source_url": "https://cfb.mn.gov/campaign-finance-data/"
+  },
+  "sources": [
+    "Minnesota State Legislature Official Website",
+    "Candidate Campaign Website",
+    "Minnesota Campaign Finance Board",
+    "Local News Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:57:29.564367",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1042
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

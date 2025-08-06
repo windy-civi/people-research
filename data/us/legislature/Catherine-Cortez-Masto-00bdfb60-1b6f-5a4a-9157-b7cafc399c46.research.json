@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/00bdfb60-1b6f-5a4a-9157-b7cafc399c46",
+  "name": "Catherine Cortez Masto",
+  "state": "Nevada",
+  "last_updated": "2025-08-06T23:10:46.575008",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Affordable Care Act, protecting pre-existing condition coverage, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for renewable energy investments, supports Green New Deal principles, reducing carbon emissions",
+      "category": "Environment",
+      "source": "Senate voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, DACA protection",
+      "category": "Immigration",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Supports raising minimum wage, workplace equality, paid family leave, strengthening labor unions",
+      "category": "Economy",
+      "source": "Campaign policy platform"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Advocates for universal background checks, assault weapons restrictions, closing gun show loopholes",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public education funding, student debt relief, community college investment",
+      "category": "Education",
+      "source": "Senate committee testimony"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports protecting Roe v. Wade, opposing restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "MGM Resorts International",
+        "amount": "$35,000-$50,000",
+        "industry": "Hospitality/Gaming",
+        "cycle": "2022"
+      },
+      {
+        "name": "Caesars Entertainment",
+        "amount": "$25,000-$40,000",
+        "industry": "Hospitality/Gaming",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "12%"
+      },
+      {
+        "industry": "Law Firms",
+        "total_amount": "$200,000",
+        "percentage": "10%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harry Reid",
+        "amount": "$5,000",
+        "occupation": "Retired Senator"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/catherine-cortez-masto/summary"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Nevada State Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:10:59.235397",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 993
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

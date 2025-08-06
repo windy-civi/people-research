@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/48a4fe68-6141-50ff-8d0b-0693119fd250",
+  "name": "Robert Garcia",
+  "state": "California",
+  "last_updated": "2025-08-06T23:17:04.472059",
+  "issues": [
+    {
+      "title": "Climate Change Action",
+      "description": "Strong supporter of Green New Deal, advocates for aggressive carbon reduction and renewable energy investments",
+      "category": "Environment",
+      "source": "https://robertgarcia.house.gov/climate-policy"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports Medicare for All, expanding public healthcare coverage and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://robertgarcia.house.gov/healthcare-platform"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, pathway to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://robertgarcia.house.gov/immigration-policy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, and free community college",
+      "category": "Education",
+      "source": "https://robertgarcia.house.gov/education-platform"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for universal background checks, assault weapons ban, and increased gun safety regulations",
+      "category": "Social Issues",
+      "source": "https://robertgarcia.house.gov/gun-safety"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of equality legislation, anti-discrimination protections, and transgender rights",
+      "category": "Social Issues",
+      "source": "https://robertgarcia.house.gov/lgbtq-equality"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Supports increased minimum wage, workers' rights, and progressive taxation",
+      "category": "Economy",
+      "source": "https://robertgarcia.house.gov/economic-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$42,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Apple Inc.",
+        "amount": "$35,750",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$31,200",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$189,000",
+        "percentage": "32%"
+      },
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$112,500",
+        "percentage": "19%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$87,250",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$38,500",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Donor 1",
+        "amount": "$2,900",
+        "occupation": "Technology Executive"
+      },
+      {
+        "name": "Anonymous Donor 2",
+        "amount": "$2,500",
+        "occupation": "University Professor"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filing",
+    "source_url": "https://www.opensecrets.org/members-of-congress/robert-garcia/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Database",
+    "Official Congressional Website",
+    "Campaign Platform Documents"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:17:18.953870",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 1180
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

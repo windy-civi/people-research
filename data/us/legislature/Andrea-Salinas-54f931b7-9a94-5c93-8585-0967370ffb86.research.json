@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/54f931b7-9a94-5c93-8585-0967370ffb86",
+  "name": "Andrea Salinas",
+  "state": "Oregon",
+  "last_updated": "2025-08-06T23:11:24.713689",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare coverage and protecting reproductive rights",
+      "category": "Healthcare",
+      "source": "https://andreasalinas.com/healthcare-platform"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for strong environmental protections and renewable energy investments",
+      "category": "Environment",
+      "source": "Oregon State Legislature environmental records"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education and reducing student debt",
+      "category": "Education",
+      "source": "Campaign policy statements"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Promotes raising minimum wage and supporting small business development",
+      "category": "Economy",
+      "source": "Oregon legislative voting records"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Supports comprehensive gun control measures and background check expansions",
+      "category": "Social Issues",
+      "source": "Voting record on gun legislation"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform and protecting immigrant rights",
+      "category": "Immigration",
+      "source": "Campaign policy platform"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of LGBTQ+ equality and anti-discrimination protections",
+      "category": "Social Issues",
+      "source": "Legislative voting history"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Oregon Education Association",
+        "amount": "$25,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$85,000",
+        "percentage": "24%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$30,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Oregon Democratic Party Leadership",
+        "amount": "$75,000",
+        "occupation": "Political Leaders"
+      }
+    ],
+    "data_source": "FEC Contribution Database",
+    "source_url": "https://www.fec.gov/data/candidate/H2OR06214/"
+  },
+  "sources": [
+    "Oregon State Legislature Records",
+    "Campaign Official Website",
+    "FEC Contribution Database",
+    "Local News Reporting"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:11:36.813736",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 924
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

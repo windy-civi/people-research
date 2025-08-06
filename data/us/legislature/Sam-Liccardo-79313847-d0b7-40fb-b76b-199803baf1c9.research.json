@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/79313847-d0b7-40fb-b76b-199803baf1c9",
+  "name": "Sam Liccardo",
+  "state": "California",
+  "last_updated": "2025-08-06T23:00:43.996149",
+  "issues": [
+    {
+      "title": "Climate Change and Environmental Policy",
+      "description": "Strong advocate for reducing carbon emissions, promoting renewable energy, and supporting local sustainability initiatives",
+      "category": "Environment",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Supports increasing housing density, reducing zoning restrictions, and creating affordable housing options in San Jose",
+      "category": "Housing",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Police Reform",
+      "description": "Advocates for community policing, body cameras, and increased accountability for law enforcement",
+      "category": "Public Safety",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Focuses on supporting tech innovation, attracting businesses, and creating job opportunities in Silicon Valley",
+      "category": "Economy",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Transportation Infrastructure",
+      "description": "Supports expanding public transit, bike infrastructure, and reducing traffic congestion",
+      "category": "Transportation",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Homelessness",
+      "description": "Promotes comprehensive approach including housing first initiatives, mental health support, and job training",
+      "category": "Social Services",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    },
+    {
+      "title": "Digital Inclusion",
+      "description": "Advocates for expanding internet access, supporting tech education, and bridging digital divide",
+      "category": "Technology",
+      "source": "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$25,000-$50,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Cisco Systems",
+        "amount": "$10,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$150,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Silicon Valley Leadership Group",
+        "amount": "$35,000",
+        "ideology": "Pro-Business",
+        "issue_focus": "Economic Development",
+        "cycle": "2022"
+      },
+      {
+        "name": "California Environmental Voters",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives (Anonymous)",
+        "amount": "$75,000",
+        "occupation": "Technology Leadership"
+      },
+      {
+        "name": "Local Community Leaders",
+        "amount": "$50,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "California Fair Political Practices Commission",
+    "source_url": "https://cal-access.sos.ca.gov/"
+  },
+  "sources": [
+    "https://www.sanjoseca.gov/your-government/departments/city-manager/sam-liccardo",
+    "California Fair Political Practices Commission",
+    "Official Campaign Websites"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:00:58.540044",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1158
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

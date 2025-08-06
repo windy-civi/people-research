@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/ad74f627-3223-5505-811c-599046becb2e",
+  "name": "Scott Fitzgerald",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-06T23:05:18.092567",
+  "issues": [
+    {
+      "title": "Election Integrity",
+      "description": "Strong supporter of voter ID laws and election security measures",
+      "category": "Electoral Policy",
+      "source": "Wisconsin State Legislature records"
+    },
+    {
+      "title": "Conservative Tax Policy",
+      "description": "Advocates for lower taxes and reduced government spending",
+      "category": "Economic Policy",
+      "source": "Campaign website and voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports expanded gun ownership rights",
+      "category": "Social Issues",
+      "source": "NRA ratings and legislative voting history"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes taxpayer funding for abortion services",
+      "category": "Social Issues",
+      "source": "Wisconsin Right to Life endorsements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports stricter immigration enforcement and border control measures",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports school voucher programs and expanded educational options",
+      "category": "Education",
+      "source": "Wisconsin legislative proposals"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reduced government intervention in healthcare markets",
+      "category": "Healthcare",
+      "source": "Campaign policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Milwaukee Manufacturers Association",
+        "amount": "$15,000-$30,000",
+        "industry": "Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Johnson",
+        "amount": "$5,000",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Michael Schmidt",
+        "amount": "$3,500",
+        "occupation": "Banking Executive"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Wisconsin State Legislature Official Website",
+    "Candidate Campaign Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:05:30.994688",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 1012
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

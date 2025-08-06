@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/fc8623ea-be1e-518f-aa76-3598910fa676",
+  "name": "Mariannette Miller-Meeks",
+  "state": "Iowa",
+  "last_updated": "2025-08-06T23:15:45.402466",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare systems",
+      "category": "Healthcare",
+      "source": "Campaign website and voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border security and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Advocates for strong gun ownership protections and opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and campaign statements"
+    },
+    {
+      "title": "Economic Growth",
+      "description": "Supports tax cuts, deregulation, and pro-business economic policies",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school choice, charter schools, and local control of education",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Climate and Energy",
+      "description": "Supports fossil fuel development and opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$100,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Republican Congressional Committee",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Party",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000-$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000-$250,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000-$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000-$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Private Donors",
+        "amount": "$500-$5,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00039503&cycle=2022"
+  },
+  "sources": [
+    "Federal Election Commission",
+    "OpenSecrets.org",
+    "Miller-Meeks Campaign Website",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:15:57.581160",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 976
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

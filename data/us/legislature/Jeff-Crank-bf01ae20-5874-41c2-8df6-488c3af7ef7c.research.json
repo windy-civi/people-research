@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/bf01ae20-5874-41c2-8df6-488c3af7ef7c",
+  "name": "Jeff Crank",
+  "state": "Colorado",
+  "last_updated": "2025-08-06T23:06:53.460818",
+  "issues": [
+    {
+      "title": "Conservative Fiscal Policy",
+      "description": "Strong advocate for reduced government spending and lower taxes",
+      "category": "Economy",
+      "source": "Colorado Republican Party Platform"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership and opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA Candidate Questionnaire"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Colorado Right to Life Endorsement"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Campaign Website Statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Colorado School Choice Coalition"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions and opposes government-run healthcare",
+      "category": "Healthcare",
+      "source": "Conservative Healthcare Policy Group"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development and opposes renewable energy mandates",
+      "category": "Environment",
+      "source": "Colorado Oil and Gas Association"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Americans for Prosperity",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000-$50,000",
+        "industry": "Conservative PAC",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Energy Sector",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association PAC",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Pro-Life Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Business Owners",
+        "amount": "$5,000-$10,000",
+        "occupation": "Various Small Business Owners"
+      },
+      {
+        "name": "Conservative Grassroots Donors",
+        "amount": "$1,000-$5,000",
+        "occupation": "Mixed Professions"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Colorado Secretary of State Records",
+    "Federal Election Commission Database",
+    "Candidate Campaign Website",
+    "Colorado Republican Party Platform"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:07:05.881099",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 990
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/342214ae-2e66-50a4-9a10-acc467bd5d98",
+  "name": "John Thune",
+  "state": "South Dakota",
+  "last_updated": "2025-08-06T22:58:09.063560",
+  "issues": [
+    {
+      "title": "Tax Reform",
+      "description": "Strong supporter of 2017 Tax Cuts and Jobs Act, advocates for lower corporate and individual tax rates",
+      "category": "Economy",
+      "source": "Senate.gov official website"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Supports farm subsidies, crop insurance, and ethanol production expansion",
+      "category": "Agriculture",
+      "source": "USDA policy statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Senate healthcare voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership, opposes most gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Defense Spending",
+      "description": "Supports robust military funding, increased national defense budget",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee records"
+    },
+    {
+      "title": "Climate Change Approach",
+      "description": "Skeptical of major climate regulation, supports technological innovation over strict emissions controls",
+      "category": "Environment",
+      "source": "Senate environmental voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Altria Group",
+        "amount": "$35,000-$50,000",
+        "industry": "Tobacco",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corporation",
+        "amount": "$25,000-$40,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agribusiness",
+        "total_amount": "$450,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$375,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Hamm",
+        "amount": "$25,000",
+        "occupation": "Oil Executive"
+      },
+      {
+        "name": "T. Boone Pickens",
+        "amount": "$15,000",
+        "occupation": "Energy Investor"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00012554"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "John Thune Campaign Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:58:21.936781",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1001
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

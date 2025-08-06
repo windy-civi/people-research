@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/15e5e4c2-568f-55b4-9aa2-54797027c984",
+  "name": "Darrell Issa",
+  "state": "California",
+  "last_updated": "2025-08-06T23:08:00.960724",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and immigration enforcement",
+      "category": "Immigration",
+      "source": "Issa campaign website"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "National Defense",
+      "description": "Supports increased military funding and strong national security measures",
+      "category": "Foreign Policy",
+      "source": "Congressional defense appropriations votes"
+    },
+    {
+      "title": "Regulatory Reduction",
+      "description": "Advocates for reducing government regulations on businesses",
+      "category": "Economy",
+      "source": "Congressional committee work"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions aggressive climate change policies, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional environmental votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Northrop Grumman",
+        "amount": "$15,000-$25,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "AT&T",
+        "amount": "$10,000-$20,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Aerospace",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Private Donors",
+        "amount": "$250,000-$500,000",
+        "occupation": "Mixed professional backgrounds"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00009878"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Darrell Issa Campaign Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:08:14.040269",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 996
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

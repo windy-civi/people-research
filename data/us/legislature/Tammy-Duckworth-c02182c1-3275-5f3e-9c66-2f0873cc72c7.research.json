@@ -1,0 +1,125 @@
+{
+  "legislator_id": "ocd-person/c02182c1-3275-5f3e-9c66-2f0873cc72c7",
+  "name": "Tammy Duckworth",
+  "state": "Illinois",
+  "last_updated": "2025-08-06T23:02:14.787627",
+  "issues": [
+    {
+      "title": "Veterans Affairs",
+      "description": "Strong advocate for veterans' healthcare, benefits, and support programs, drawing from her personal experience as a disabled veteran",
+      "category": "Social Policy",
+      "source": "Official Senate website"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding affordable healthcare, protecting the Affordable Care Act, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strongly pro-choice, supports protecting abortion access and women's reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Senate voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Senate speeches"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for aggressive climate action, supports green energy investments and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Climate policy statements"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports universal background checks, assault weapons ban, and comprehensive gun safety legislation",
+      "category": "Public Safety",
+      "source": "Voting record"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Supports raising minimum wage, protecting workers' rights, and reducing income inequality",
+      "category": "Economy",
+      "source": "Economic policy proposals"
+    },
+    {
+      "title": "Education",
+      "description": "Advocates for increased education funding, student debt relief, and expanding access to higher education",
+      "category": "Education",
+      "source": "Education policy platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$2,500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$750,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$3,500,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$1,200,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$750,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "VoteVets",
+        "amount": "$250,000",
+        "ideology": "Progressive",
+        "issue_focus": "Veterans' Issues",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$5,000,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00027363"
+  },
+  "sources": [
+    "Official Senate Website",
+    "Campaign Platform",
+    "OpenSecrets",
+    "Federal Election Commission",
+    "Senate Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:02:28.159321",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 1027
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

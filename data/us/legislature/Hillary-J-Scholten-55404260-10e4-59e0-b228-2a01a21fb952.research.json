@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/55404260-10e4-59e0-b228-2a01a21fb952",
+  "name": "Hillary Scholten",
+  "state": "Michigan",
+  "last_updated": "2025-08-06T23:13:38.459564",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing condition coverage, and lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "Campaign Website"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports protecting abortion access and women's reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Campaign Statements"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Supports clean energy transition, reducing carbon emissions, and creating green jobs in Michigan",
+      "category": "Environment",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for middle-class job creation, infrastructure investment, and supporting small businesses",
+      "category": "Economy",
+      "source": "Campaign Materials"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship and border security",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student debt relief, and workforce training programs",
+      "category": "Education",
+      "source": "Campaign Website"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Advocates for common-sense gun control measures, background checks, and reducing gun violence",
+      "category": "Social Issues",
+      "source": "Campaign Platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$75,000-$125,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Act Blue",
+        "amount": "$50,000-$100,000",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$500-$5000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Filings, OpenSecrets",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Hillary Scholten Campaign Website",
+    "FEC Campaign Finance Records",
+    "Congressional Voting Records",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:13:50.177398",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 942
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

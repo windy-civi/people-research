@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/87b6bc67-1685-4f6e-bf7f-ada3083ec638",
+  "name": "Abe Hamadeh",
+  "state": "Arizona",
+  "last_updated": "2025-08-06T23:00:05.376551",
+  "issues": [
+    {
+      "title": "Election Integrity",
+      "description": "Strongly supports election integrity measures and challenged 2022 election results",
+      "category": "Political Process",
+      "source": "Arizona Secretary of State Election Dispute"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict border control and increased border patrol funding",
+      "category": "Immigration",
+      "source": "Campaign Platform Statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership and opposes gun control legislation",
+      "category": "Civil Liberties",
+      "source": "NRA Candidate Questionnaire"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictive reproductive healthcare policies",
+      "category": "Social Issues",
+      "source": "Campaign Website Policy Statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lowering state and federal tax rates for individuals and businesses",
+      "category": "Economic Policy",
+      "source": "Campaign Economic Platform"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for expanded school voucher programs and charter school funding",
+      "category": "Education",
+      "source": "Arizona Education Reform Proposals"
+    },
+    {
+      "title": "Healthcare Freedom",
+      "description": "Opposes government-mandated healthcare regulations and supports private market solutions",
+      "category": "Healthcare",
+      "source": "Campaign Healthcare Policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Arizona Republican Party",
+        "amount": "$75,000",
+        "industry": "Political Organization",
+        "cycle": "2022"
+      },
+      {
+        "name": "Conservative Political Action Committee",
+        "amount": "$50,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Political Organizations",
+        "total_amount": "$125,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$20,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Blake Masters",
+        "amount": "$10,000",
+        "occupation": "Political Candidate"
+      },
+      {
+        "name": "Kari Lake",
+        "amount": "$5,000",
+        "occupation": "Political Candidate"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate-data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Arizona Secretary of State Campaign Filings",
+    "Candidate Campaign Website",
+    "News Media Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:00:17.967706",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 972
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

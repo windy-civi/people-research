@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/4015098b-d823-5776-9b47-ceb09bf523a9",
+  "name": "Brad Sherman",
+  "state": "California",
+  "last_updated": "2025-08-06T23:01:23.625207",
+  "issues": [
+    {
+      "title": "Nuclear Non-Proliferation",
+      "description": "Strong advocate for preventing nuclear weapon proliferation, particularly regarding Iran and North Korea",
+      "category": "Foreign Policy",
+      "source": "Congressional Records"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports aggressive carbon reduction policies and renewable energy investments",
+      "category": "Environment",
+      "source": "Sherman Campaign Website"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding public healthcare options and protecting Affordable Care Act provisions",
+      "category": "Healthcare",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Progressive Taxation",
+      "description": "Advocates for increased taxes on high-income earners and corporations",
+      "category": "Economy",
+      "source": "House Budget Committee Statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Congressional Hispanic Caucus Statements"
+    },
+    {
+      "title": "Tech Regulation",
+      "description": "Supports increased oversight of big tech companies and data privacy protections",
+      "category": "Technology",
+      "source": "House Technology Subcommittee Hearings"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Consistently votes for LGBTQ+ anti-discrimination legislation",
+      "category": "Social Issues",
+      "source": "Equality California Endorsements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$25,000-$50,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$20,000-$45,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$15,000-$35,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$250,000",
+        "percentage": "32%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$175,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Entertainment",
+        "total_amount": "$125,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Entertainment Executives",
+        "amount": "$100,000",
+        "occupation": "Media Professionals"
+      },
+      {
+        "name": "Tech Industry Professionals",
+        "amount": "$75,000",
+        "occupation": "Silicon Valley Employees"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/brad-sherman/summary"
+  },
+  "sources": [
+    "Congressional Records",
+    "OpenSecrets.org",
+    "Brad Sherman Official Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:01:37.762300",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 1128
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

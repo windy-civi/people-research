@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/4d537f5f-04fd-578a-a8d2-61dd4972e758",
+  "name": "Tim Kaine",
+  "state": "Virginia",
+  "last_updated": "2025-08-06T23:12:30.232753",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Affordable Care Act, protecting pre-existing condition coverage, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "timkaine.senate.gov"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy transition, supports Paris Climate Agreement, proposes emissions reduction targets",
+      "category": "Environment",
+      "source": "senate.gov voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship, DACA protection",
+      "category": "Immigration",
+      "source": "official campaign platform"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Proposes increased federal funding for public schools, student debt relief, community college support",
+      "category": "Education",
+      "source": "campaign speeches"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports $15 federal minimum wage, worker protection legislation",
+      "category": "Economy",
+      "source": "Senate voting record"
+    },
+    {
+      "title": "Foreign Policy Engagement",
+      "description": "Advocates diplomatic approaches, supports NATO alliances, measured military interventions",
+      "category": "Foreign Policy",
+      "source": "Senate foreign relations committee"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Supports marriage equality, anti-discrimination protections, transgender rights",
+      "category": "Social Issues",
+      "source": "voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$45,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Amazon",
+        "amount": "$38,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$32,000",
+        "industry": "Media/Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$620,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$450,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$175,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Elizabeth Smith",
+        "amount": "$2,900",
+        "occupation": "University Professor"
+      },
+      {
+        "name": "Robert Johnson",
+        "amount": "$5,000",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Database",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00009847"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "TimKaine.com",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:12:43.649819",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1039
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

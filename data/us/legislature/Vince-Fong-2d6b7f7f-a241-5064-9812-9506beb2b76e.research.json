@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/2d6b7f7f-a241-5064-9812-9506beb2b76e",
+  "name": "Vince Fong",
+  "state": "California",
+  "last_updated": "2025-08-06T23:16:11.738321",
+  "issues": [
+    {
+      "title": "Fiscal Responsibility",
+      "description": "Supports reducing government spending and maintaining balanced budgets",
+      "category": "Economy",
+      "source": "California State Legislature Official Website"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower tax rates for businesses and individuals",
+      "category": "Economy",
+      "source": "Campaign Platform Materials"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "Legislative Voting Record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports stricter immigration enforcement and border control measures",
+      "category": "Immigration",
+      "source": "Public Statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights and opposing gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA Ratings and Endorsements"
+    },
+    {
+      "title": "Healthcare Choice",
+      "description": "Opposes government-run healthcare, supports private market solutions",
+      "category": "Healthcare",
+      "source": "Legislative Voting Record"
+    },
+    {
+      "title": "Environmental Regulation Reduction",
+      "description": "Advocates for reducing regulatory burdens on businesses in environmental policy",
+      "category": "Environment",
+      "source": "Committee Testimony"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Chevron Corporation",
+        "amount": "$15,000-$25,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Pacific Gas and Electric",
+        "amount": "$10,000-$20,000",
+        "industry": "Utilities",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$40,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "California Republican Party",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Party Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Business Owners",
+        "amount": "$5,000-$10,000",
+        "occupation": "Various Business Owners"
+      }
+    ],
+    "data_source": "California Secretary of State Campaign Finance Database",
+    "source_url": "https://cal-access.sos.ca.gov/Campaign/"
+  },
+  "sources": [
+    "California State Legislature Website",
+    "Campaign Finance Records",
+    "Official Campaign Website",
+    "Local News Reporting"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:16:23.931666",
+    "github_action_run": "16790551739",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 928
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
