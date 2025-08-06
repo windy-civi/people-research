@@ -1,5 +1,6 @@
-anthropic==0.18.1
+anthropic==0.61.0
 pyyaml==6.0.1
 requests==2.31.0
 beautifulsoup4==4.12.2
-lxml==4.9.3 
+lxml==4.9.3
+httpx>=0.25.0 

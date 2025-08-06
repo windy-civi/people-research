@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Any, Optional
 from anthropic import Anthropic
+import anthropic
 import logging
 
 # Configure logging
@@ -22,7 +23,19 @@ logger = logging.getLogger(__name__)
 class LegislatorResearcher:
     def __init__(self, api_key: str):
         """Initialize the researcher with Anthropic API key."""
-        self.anthropic = Anthropic(api_key=api_key)
+        # Clear any proxy environment variables that might interfere
+        proxy_vars = ['HTTP_PROXY', 'HTTPS_PROXY', 'http_proxy', 'https_proxy']
+        for var in proxy_vars:
+            if var in os.environ:
+                logger.info(f"Clearing proxy environment variable: {var}")
+                del os.environ[var]
+        
+        try:
+            self.anthropic = Anthropic(api_key=api_key)
+            logger.info("Anthropic client initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize Anthropic client: {e}")
+            raise
         
     def load_legislator_data(self, yaml_path: str) -> Dict[str, Any]:
         """Load legislator data from YAML file."""
@@ -241,6 +254,11 @@ def main():
     yaml_path = sys.argv[1]
     output_path = sys.argv[2]
     
+    # Log environment for debugging
+    logger.info(f"Python version: {sys.version}")
+    logger.info(f"Anthropic version: {anthropic.__version__}")
+    logger.info(f"Working directory: {os.getcwd()}")
+    
     # Get API key from environment
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -249,6 +267,7 @@ def main():
     
     try:
         # Initialize researcher
+        logger.info("Initializing LegislatorResearcher...")
         researcher = LegislatorResearcher(api_key)
         
         # Load legislator data
