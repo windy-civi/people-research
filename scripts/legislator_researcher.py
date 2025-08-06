@@ -2,7 +2,7 @@
 """
 Legislator Research Script
 
-This script processes individual legislator data from OpenStates and uses Claude Deep Research
+This script processes individual legislator data from OpenStates and uses Claude
 to find campaign websites, issues, and donor information.
 """
 
@@ -137,7 +137,9 @@ Output ONLY valid JSON in this exact structure:
   ]
 }}
 
-Be efficient - find campaign site and OpenSecrets/donor database for both corporate AND ideological donors (PACs, advocacy groups), extract key info, done."""
+Be efficient - find campaign site and OpenSecrets/donor database for both corporate AND ideological donors (PACs, advocacy groups), extract key info, done.
+
+IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown formatting, or code blocks. The response should be a single JSON object that can be parsed directly."""
         
         return prompt
     
@@ -147,18 +149,19 @@ Be efficient - find campaign site and OpenSecrets/donor database for both corpor
         return datetime.now().isoformat()
     
     def research_legislator(self, legislator_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Research a single legislator using Claude Deep Research."""
-        try:
-            prompt = self.create_research_prompt(legislator_data)
-            
-            message = self.anthropic.messages.create(
-                model="claude-3-5-sonnet-20241022",
-                max_tokens=3000,
-                messages=[{
-                    "role": "user",
-                    "content": prompt
-                }],
-                tools=[{
+        """Research a single legislator using Claude with tools."""
+        max_retries = 2
+        
+        for attempt in range(max_retries + 1):
+            try:
+                prompt = self.create_research_prompt(legislator_data)
+                
+                # Add retry instruction if this is a retry
+                if attempt > 0:
+                    prompt += f"\n\nRETRY ATTEMPT {attempt + 1}: Please ensure you output ONLY valid JSON without any markdown formatting, code blocks, or explanatory text."
+                
+                # Define the web search tool
+                tools = [{
                     "name": "web_search",
                     "description": "Search the web for information",
                     "input_schema": {
@@ -172,46 +175,87 @@ Be efficient - find campaign site and OpenSecrets/donor database for both corpor
                         "required": ["query"]
                     }
                 }]
-            )
-            
-            # Extract JSON from response
-            response_text = message.content[0].text
-            json_match = self._extract_json_from_response(response_text)
-            
-            if json_match:
-                json_data = json.loads(json_match)
                 
-                # Add processing metadata
-                json_data["processing_metadata"] = {
-                    "processed_date": self._get_current_time(),
-                    "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
-                    "tokens_used": message.usage.dict() if message.usage else "unknown"
-                }
+                # Use the latest Claude Sonnet 4 model with updated API
+                message = self.anthropic.messages.create(
+                    model="claude-sonnet-4-20250514",
+                    max_tokens=3000,
+                    messages=[{
+                        "role": "user",
+                        "content": prompt
+                    }],
+                    tools=tools
+                )
                 
-                return json_data
-            else:
-                raise ValueError("No valid JSON found in Claude response")
+                # Extract JSON from response
+                response_text = message.content[0].text
+                json_match = self._extract_json_from_response(response_text)
                 
-        except Exception as e:
-            logger.error(f"Research error for {legislator_data.get('name', 'Unknown')}: {e}")
-            return self._create_error_response(legislator_data, str(e))
+                if json_match:
+                    try:
+                        json_data = json.loads(json_match)
+                        
+                        # Add processing metadata
+                        json_data["processing_metadata"] = {
+                            "processed_date": self._get_current_time(),
+                            "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
+                            "tokens_used": {
+                                "input_tokens": message.usage.input_tokens if message.usage else "unknown",
+                                "output_tokens": message.usage.output_tokens if message.usage else "unknown"
+                            },
+                            "model": "claude-sonnet-4-20250514"
+                        }
+                        
+                        return json_data
+                    except json.JSONDecodeError as e:
+                        logger.error(f"Failed to parse extracted JSON: {e}")
+                        logger.error(f"Extracted JSON: {json_match}")
+                        raise ValueError(f"Invalid JSON structure: {e}")
+                else:
+                    # Log the full response for debugging
+                    logger.error(f"Full Claude response: {response_text}")
+                    
+                    # If this is the last attempt, raise the error
+                    if attempt == max_retries:
+                        raise ValueError("No valid JSON found in Claude response after all retries")
+                    else:
+                        logger.info(f"Retrying research for {legislator_data.get('name', 'Unknown')} (attempt {attempt + 2}/{max_retries + 1})")
+                        continue
+                        
+            except Exception as e:
+                logger.error(f"Research error for {legislator_data.get('name', 'Unknown')}: {e}")
+                return self._create_error_response(legislator_data, str(e))
     
     def _extract_json_from_response(self, response_text: str) -> Optional[str]:
         """Extract JSON from Claude's response."""
         import re
         
-        # Try to find JSON in the response
-        json_pattern = r'\{[\s\S]*\}'
-        match = re.search(json_pattern, response_text)
+        # Log the response for debugging
+        logger.debug(f"Raw response: {response_text[:500]}...")
         
-        if match:
-            try:
-                # Validate JSON
-                json.loads(match.group())
-                return match.group()
-            except json.JSONDecodeError:
-                pass
+        # Try multiple patterns to find JSON
+        patterns = [
+            r'\{[\s\S]*\}',  # Basic JSON object
+            r'```json\s*(\{[\s\S]*?\})\s*```',  # JSON in code blocks
+            r'```\s*(\{[\s\S]*?\})\s*```',  # JSON in generic code blocks
+        ]
         
+        for pattern in patterns:
+            matches = re.findall(pattern, response_text, re.IGNORECASE)
+            for match in matches:
+                try:
+                    # Clean up the match
+                    json_str = match.strip()
+                    # Validate JSON
+                    json.loads(json_str)
+                    logger.debug(f"Found valid JSON with pattern: {pattern}")
+                    return json_str
+                except json.JSONDecodeError as e:
+                    logger.debug(f"Invalid JSON with pattern {pattern}: {e}")
+                    continue
+        
+        # If no JSON found, try to extract a basic structure
+        logger.warning("No valid JSON found in response, attempting to create basic structure")
         return None
     
     def _create_error_response(self, legislator_data: Dict[str, Any], error_message: str) -> Dict[str, Any]:
@@ -235,7 +279,8 @@ Be efficient - find campaign site and OpenSecrets/donor database for both corpor
             "processing_metadata": {
                 "processed_date": self._get_current_time(),
                 "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
-                "error": True
+                "error": True,
+                "model": "claude-sonnet-4-20250514"
             }
         }
     
@@ -305,4 +350,4 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main() 
+    main()
