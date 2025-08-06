@@ -5,17 +5,17 @@ on:
       max_legislators:
         description: "Maximum number of legislators to process (default: 100)"
         required: false
-        default: "100"
+        default: "1"
         type: string
       force_update:
         description: "Force update legislators with existing data"
         required: false
-        default: false
+        default: true
         type: boolean
       locale_filter:
         description: 'Filter by locale (e.g., "ak", "tx", "us" or leave empty for all)'
         required: false
-        default: ""
+        default: "us"
         type: string
   schedule:
     # Run weekly on Sundays at 2 AM UTC
