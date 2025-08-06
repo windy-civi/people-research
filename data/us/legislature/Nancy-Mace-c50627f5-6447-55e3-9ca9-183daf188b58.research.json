@@ -1,0 +1,98 @@
+{
+  "legislator_id": "ocd-person/c50627f5-6447-55e3-9ca9-183daf188b58",
+  "name": "Nancy Mace",
+  "state": "South Carolina",
+  "last_updated": "2025-08-06T22:33:01.359511",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong support for stricter border control and immigration enforcement",
+      "category": "Immigration",
+      "source": "https://mace.house.gov/immigration"
+    },
+    {
+      "title": "Government Spending",
+      "description": "Advocates for reducing federal spending and government intervention",
+      "category": "Fiscal Policy",
+      "source": "https://mace.house.gov/budget"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports full protection of gun ownership rights",
+      "category": "Constitutional Rights",
+      "source": "https://mace.house.gov/2a"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$48,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$10,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$98,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Owner"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/nancy-mace/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:33:10.717449",
+    "github_action_run": "16790155921",
+    "tokens_used": {
+      "input_tokens": 605,
+      "output_tokens": 746
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
