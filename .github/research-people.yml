@@ -1,544 +1,199 @@
 name: Legislator Research Processor
 on:
-workflow_dispatch:
-inputs:
-max_legislators:
-description: ‘Maximum number of legislators to process (default: 100)’
-required: false
-default: ‘100’
-type: string
-force_update:
-description: ‘Force update legislators with existing data’
-required: false
-default: false
-type: boolean
-locale_filter:
-description: ‘Filter by locale (e.g., “ak”, “tx”, “us” or leave empty for all)’
-required: false
-default: ‘’
-type: string
-schedule:
-# Run weekly on Sundays at 2 AM UTC
-- cron: ‘0 2 * * 0’
+  workflow_dispatch:
+    inputs:
+      max_legislators:
+        description: "Maximum number of legislators to process (default: 100)"
+        required: false
+        default: "100"
+        type: string
+      force_update:
+        description: "Force update legislators with existing data"
+        required: false
+        default: false
+        type: boolean
+      locale_filter:
+        description: 'Filter by locale (e.g., "ak", "tx", "us" or leave empty for all)'
+        required: false
+        default: ""
+        type: string
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: "0 2 * * 0"
 
 jobs:
-setup:
-runs-on: ubuntu-latest
-outputs:
-legislators: ${{ steps.identify.outputs.legislators }}
-steps:
-- name: Checkout
-uses: actions/checkout@v4
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      legislators: ${{ steps.identify.outputs.legislators }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-```
-- name: Checkout OpenStates People Repo
-  run: |
-    git clone https://github.com/openstates/people.git openstates-people
-    
-- name: Setup Node.js
-  uses: actions/setup-node@v4
-  with:
-    node-version: '18'
-    
-- name: Install dependencies
-  run: |
-    npm init -y
-    npm install js-yaml glob
-    
-- name: Identify Legislators to Process
-  id: identify
-  run: |
-    cat > identify_legislators.js << 'EOF'
-    const fs = require('fs');
-    const path = require('path');
-    const yaml = require('js-yaml');
-    const { glob } = require('glob');
-    
-    async function identifyLegislators() {
-      const maxLegislators = parseInt(process.env.MAX_LEGISLATORS) || 100;
-      const forceUpdate = process.env.FORCE_UPDATE === 'true';
-      const localeFilter = process.env.LOCALE_FILTER?.trim();
-      
-      // Build glob pattern based on locale filter
-      let globPattern;
-      if (localeFilter) {
-        globPattern = `openstates-people/data/${localeFilter}/legislature/*.yml`;
-      } else {
-        globPattern = 'openstates-people/data/*/legislature/*.yml';
-      }
-      
-      console.log(`Searching for legislators with pattern: ${globPattern}`);
-      
-      // Find legislators from specified locale(s)
-      const yamlFiles = await glob(globPattern);
-      const legislators = [];
-      
-      for (const filePath of yamlFiles) {
-        try {
-          const content = fs.readFileSync(filePath, 'utf8');
-          const personData = yaml.load(content);
-          
-          // Check if person has active legislative role
-          const hasCurrentRole = personData.roles?.some(role => 
-            ['upper', 'lower', 'legislature'].includes(role.type) && 
-            (!role.end_date || new Date(role.end_date) > new Date())
-          );
-          
-          if (!hasCurrentRole) continue;
-          
-          // Parse state and determine paths
-          const pathParts = filePath.split('/');
-          const state = pathParts[pathParts.indexOf('data') + 1];
-          const filename = path.basename(filePath, '.yml');
-          
-          // Check if we already have research data
-          const researchPath = `data/${state}/legislature/${filename}.research.json`;
-          let needsUpdate = !fs.existsSync(researchPath);
-          
-          if (!needsUpdate && !forceUpdate) {
-            // Check if existing data is older than 1 year
-            const stats = fs.statSync(researchPath);
-            const oneYearAgo = new Date();
-            oneYearAgo.setFullYear(oneYearAgo.getFullYear() - 1);
-            needsUpdate = stats.mtime < oneYearAgo;
-          }
-          
-          if (needsUpdate || forceUpdate) {
-            legislators.push({
-              id: personData.id,
-              name: personData.name,
-              state: state,
-              filename: filename,
-              party: personData.party?.[0]?.name || 'Unknown',
-              district: personData.roles?.find(r => ['upper', 'lower'].includes(r.type))?.district || '',
-              chamber: personData.roles?.find(r => ['upper', 'lower'].includes(r.type))?.type || 'legislature'
+      - name: Checkout OpenStates People Repo
+        run: |
+          git clone https://github.com/openstates/people.git openstates-people
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Identify Legislators to Process
+        id: identify
+        run: |
+          python scripts/legislator_discovery.py openstates-people ${{ github.event.inputs.max_legislators }} ${{ github.event.inputs.force_update }} ${{ github.event.inputs.locale_filter }}
+        env:
+          MAX_LEGISLATORS: ${{ github.event.inputs.max_legislators }}
+          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
+          LOCALE_FILTER: ${{ github.event.inputs.locale_filter }}
+
+      - name: Upload Legislator List
+        uses: actions/upload-artifact@v4
+        with:
+          name: legislators-list
+          path: legislators_to_process.json
+
+  research:
+    needs: setup
+    runs-on: ubuntu-latest
+    if: ${{ fromJson(needs.setup.outputs.legislators)[0] }}
+    strategy:
+      matrix:
+        legislator: ${{ fromJson(needs.setup.outputs.legislators) }}
+      max-parallel: 3 # Respect rate limits - conservative approach
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download Legislator List
+        uses: actions/download-artifact@v4
+        with:
+          name: legislators-list
+
+      - name: Create directory structure
+        run: |
+          mkdir -p data/${{ matrix.legislator.state }}/legislature
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Research Legislator
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LEGISLATOR_DATA: ${{ toJson(matrix.legislator) }}
+        run: |
+          python scripts/legislator_researcher.py ${{ matrix.legislator.yaml_path }} ${{ matrix.legislator.output_path }}
+
+      - name: Upload Individual Result
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-${{ matrix.legislator.state }}-${{ matrix.legislator.filename }}
+          path: data/${{ matrix.legislator.state }}/legislature/${{ matrix.legislator.filename }}.research.json
+
+  consolidate:
+    needs: [setup, research]
+    runs-on: ubuntu-latest
+    if: always() && needs.setup.result == 'success'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all research artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: research-*
+          merge-multiple: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Consolidate Results and Generate Summary
+        run: |
+          python scripts/consolidate_results.py
+
+      - name: Commit Results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Legislator Research Bot"
+
+          # Add new research files
+          git add data/
+          git add research_summary.json
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No new research data to commit"
+          else
+            PROCESSED_COUNT=$(cat research_summary.json | grep -o '"total_processed":[^,]*' | cut -d':' -f2)
+            git commit -m "Add research data for $(date +%Y-%m-%d) - ${PROCESSED_COUNT} legislators"
+            git push
+          fi
+
+      - name: Upload Final Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-research-data
+          path: |
+            data/
+            research_summary.json
+
+      - name: Comment on PR (if applicable)
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const summary = JSON.parse(fs.readFileSync('research_summary.json', 'utf8'));
+
+            const comment = `## Legislator Research Results
+            ${summary.locale ? `**Locale**: ${summary.locale}` : '**Locale**: All'}
+
+            - **Processed**: ${summary.total_processed} legislators
+            - **Successful**: ${summary.successful}
+            - **Errors**: ${summary.errors}
+            - **Issues Found**: ${summary.total_issues}
+            - **Donors Found**: ${summary.total_donors}
+            - **Estimated Cost**: $${summary.estimated_cost_usd}
+
+            ### By State
+            ${Object.entries(summary.by_state)
+              .map(([state, stats]) => `- **${state.toUpperCase()}**: ${stats.processed} processed, ${stats.issues} issues, ${stats.donors} donors`)
+              .join('\n')}
+            `;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
             });
-          }
-          
-        } catch (error) {
-          console.warn(`Error processing ${filePath}:`, error.message);
-        }
-      }
-      
-      // Shuffle and limit to max
-      const shuffled = legislators.sort(() => 0.5 - Math.random());
-      const selected = shuffled.slice(0, maxLegislators);
-      
-      console.log(`Found ${legislators.length} legislators needing updates in ${localeFilter || 'all locales'}`);
-      console.log(`Selected ${selected.length} for processing`);
-      
-      return selected;
-    }
-    
-    identifyLegislators().then(legislators => {
-      // Output for GitHub Actions
-      console.log(`::set-output name=legislators::${JSON.stringify(legislators)}`);
-      
-      // Save for artifact
-      fs.writeFileSync('legislators_to_process.json', JSON.stringify(legislators, null, 2));
-    }).catch(console.error);
-    EOF
-    
-    node identify_legislators.js
-  env:
-    MAX_LEGISLATORS: ${{ github.event.inputs.max_legislators }}
-    FORCE_UPDATE: ${{ github.event.inputs.force_update }}
-    LOCALE_FILTER: ${{ github.event.inputs.locale_filter }}
-    
-- name: Upload Legislator List
-  uses: actions/upload-artifact@v4
-  with:
-    name: legislators-list
-    path: legislators_to_process.json
-```
 
-research:
-needs: setup
-runs-on: ubuntu-latest
-if: ${{ fromJson(needs.setup.outputs.legislators)[0] }}
-strategy:
-matrix:
-legislator: ${{ fromJson(needs.setup.outputs.legislators) }}
-max-parallel: 3 # Respect rate limits - conservative approach
-steps:
-- name: Checkout
-uses: actions/checkout@v4
-
-```
-- name: Create directory structure
-  run: |
-    mkdir -p data/${{ matrix.legislator.state }}/legislature
-    
-- name: Setup Node.js
-  uses: actions/setup-node@v4
-  with:
-    node-version: '18'
-    
-- name: Install dependencies
-  run: |
-    npm init -y
-    npm install @anthropic-ai/sdk
-    
-- name: Research Legislator
-  env:
-    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-  run: |
-    cat > research_legislator.js << 'EOF'
-    const Anthropic = require('@anthropic-ai/sdk');
-    const fs = require('fs');
-    
-    const anthropic = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
-    });
-    
-    async function researchLegislator(legislator) {
-      const prompt = `Research ${legislator.name}, a ${legislator.party} ${legislator.chamber} legislator from ${legislator.state} district ${legislator.district}.
-    
-    Find their campaign website and donor information with minimal searches:
-    
-    1. Search for their official campaign website to find policy positions/issues
-    2. Search for donor information (OpenSecrets, FEC, or state records)
-    
-    For donors, include both corporate AND ideological/single-issue donors (PACs, advocacy groups, etc.).
-    
-    Keep searches to 2-3 maximum. Focus on finding the most direct sources.
-    
-    Output ONLY valid JSON in this exact structure:
-    {
-      "legislator_id": "${legislator.id}",
-      "name": "${legislator.name}",
-      "state": "${legislator.state}",
-      "last_updated": "${new Date().toISOString()}",
-      "issues": [
-        {
-          "title": "Issue Title",
-          "description": "Their specific stance or position",
-          "category": "Policy category (healthcare, education, etc.)",
-          "source": "URL or source of information"
-        }
-      ],
-      "donors": {
-        "top_companies": [
-          {
-            "name": "Company/Organization Name",
-            "amount": "Dollar amount or range if available",
-            "industry": "Industry classification",
-            "cycle": "Election cycle (e.g., 2024, 2022)"
-          }
-        ],
-        "top_industries": [
-          {
-            "industry": "Industry Name",
-            "total_amount": "Total contributions if available",
-            "percentage": "Percentage of total if available"
-          }
-        ],
-        "ideological_donors": [
-          {
-            "name": "PAC/Advocacy group name",
-            "amount": "Dollar amount or range if available",
-            "ideology": "Conservative/Liberal/Single-issue description",
-            "issue_focus": "Specific issue they advocate for",
-            "cycle": "Election cycle"
-          }
-        ],
-        "individual_donors": [
-          {
-            "name": "Individual donor name",
-            "amount": "Amount if available",
-            "occupation": "Occupation if available"
-          }
-        ],
-        "data_source": "Source of donor information (OpenSecrets, FEC, state records, etc.)",
-        "source_url": "URL to donor database or records"
-      },
-      "sources": [
-        "List of primary sources used for this research"
-      ]
-    }
-    
-    Be efficient - find campaign site and OpenSecrets/donor database for both corporate AND ideological donors (PACs, advocacy groups), extract key info, done.`;
-    
-      try {
-        const message = await anthropic.messages.create({
-          model: 'claude-sonnet-4-20250514',
-          max_tokens: 3000,
-          messages: [{
-            role: 'user',
-            content: prompt
-          }],
-          tools: [
-            {
-              name: 'web_search',
-              description: 'Search the web for information',
-              input_schema: {
-                type: 'object',
-                properties: {
-                  query: {
-                    type: 'string',
-                    description: 'Search query'
-                  }
-                },
-                required: ['query']
-              }
-            }
-          ]
-        });
-        
-        // Extract JSON from response
-        const responseText = message.content[0].text;
-        const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-        
-        if (jsonMatch) {
-          const jsonData = JSON.parse(jsonMatch[0]);
-          
-          // Add processing metadata
-          jsonData.processing_metadata = {
-            processed_date: new Date().toISOString(),
-            github_action_run: process.env.GITHUB_RUN_ID || 'unknown',
-            tokens_used: message.usage || 'unknown'
-          };
-          
-          return jsonData;
-        } else {
-          throw new Error('No valid JSON found in Claude response');
-        }
-        
-      } catch (error) {
-        console.error('Research error:', error);
-        return {
-          legislator_id: legislator.id,
-          name: legislator.name,
-          state: legislator.state,
-          error: error.message,
-          last_updated: new Date().toISOString(),
-          issues: [],
-          donors: { 
-            top_companies: [], 
-            top_industries: [], 
-            ideological_donors: [],
-            individual_donors: [],
-            data_source: "Error occurred",
-            source_url: ""
-          },
-          sources: [],
-          processing_metadata: {
-            processed_date: new Date().toISOString(),
-            github_action_run: process.env.GITHUB_RUN_ID || 'unknown',
-            error: true
-          }
-        };
-      }
-    }
-    
-    async function main() {
-      const legislator = JSON.parse(process.env.LEGISLATOR_DATA);
-      
-      console.log(`Researching ${legislator.name} (${legislator.state})`);
-      
-      const result = await researchLegislator(legislator);
-      
-      // Save to matching OpenStates structure
-      const outputPath = `data/${legislator.state}/legislature/${legislator.filename}.research.json`;
-      fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
-      
-      console.log(`Research completed and saved to ${outputPath}`);
-      console.log(`Issues found: ${result.issues?.length || 0}`);
-      console.log(`Donors found: ${result.donors?.top_companies?.length || 0}`);
-      if (result.error) console.log(`Error occurred: ${result.error}`);
-    }
-    
-    main().catch(console.error);
-    EOF
-    
-    node research_legislator.js
-  env:
-    LEGISLATOR_DATA: ${{ toJson(matrix.legislator) }}
-    
-- name: Upload Individual Result
-  uses: actions/upload-artifact@v4
-  with:
-    name: research-${{ matrix.legislator.state }}-${{ matrix.legislator.filename }}
-    path: data/${{ matrix.legislator.state }}/legislature/${{ matrix.legislator.filename }}.research.json
-```
-
-consolidate:
-needs: [setup, research]
-runs-on: ubuntu-latest
-if: always() && needs.setup.result == ‘success’
-steps:
-- name: Checkout
-uses: actions/checkout@v4
-
-```
-- name: Download all research artifacts
-  uses: actions/download-artifact@v4
-  with:
-    pattern: research-*
-    merge-multiple: true
-    
-- name: Setup Node.js
-  uses: actions/setup-node@v4
-  with:
-    node-version: '18'
-    
-- name: Consolidate Results and Generate Summary
-  run: |
-    cat > consolidate.js << 'EOF'
-    const fs = require('fs');
-    const path = require('path');
-    
-    function consolidateResults() {
-      const results = [];
-      const stateStats = {};
-      let totalCost = 0;
-      
-      function scanDirectory(dir) {
-        if (!fs.existsSync(dir)) return;
-        
-        const items = fs.readdirSync(dir, { withFileTypes: true });
-        
-        for (const item of items) {
-          const fullPath = path.join(dir, item.name);
-          
-          if (item.isDirectory()) {
-            scanDirectory(fullPath);
-          } else if (item.name.endsWith('.research.json')) {
-            try {
-              const data = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
-              const state = data.state;
-              
-              if (!stateStats[state]) {
-                stateStats[state] = { processed: 0, issues: 0, donors: 0, errors: 0 };
-              }
-              
-              stateStats[state].processed++;
-              stateStats[state].issues += data.issues?.length || 0;
-              stateStats[state].donors += (data.donors?.top_companies?.length || 0) + (data.donors?.ideological_donors?.length || 0);
-              if (data.error) stateStats[state].errors++;
-              
-              // Estimate cost (rough calculation)
-              if (data.processing_metadata?.tokens_used) {
-                const tokens = data.processing_metadata.tokens_used;
-                if (tokens.input_tokens && tokens.output_tokens) {
-                  totalCost += (tokens.input_tokens / 1000000 * 3) + (tokens.output_tokens / 1000000 * 15);
-                }
-              }
-              
-              results.push({
-                name: data.name,
-                state: data.state,
-                issues_count: data.issues?.length || 0,
-                donors_count: (data.donors?.top_companies?.length || 0) + (data.donors?.ideological_donors?.length || 0),
-                has_error: !!data.error,
-                last_updated: data.last_updated
-              });
-            } catch (error) {
-              console.warn(`Error reading ${fullPath}:`, error.message);
-            }
-          }
-        }
-      }
-      
-      scanDirectory('data');
-      
-      const summary = {
-        run_date: new Date().toISOString(),
-        total_processed: results.length,
-        successful: results.filter(r => !r.has_error).length,
-        errors: results.filter(r => r.has_error).length,
-        total_issues: results.reduce((sum, r) => sum + r.issues_count, 0),
-        total_donors: results.reduce((sum, r) => sum + r.donors_count, 0),
-        estimated_cost_usd: Math.round(totalCost * 100) / 100,
-        by_state: stateStats,
-        legislators: results.sort((a, b) => a.state.localeCompare(b.state) || a.name.localeCompare(b.name))
-      };
-      
-      fs.writeFileSync('research_summary.json', JSON.stringify(summary, null, 2));
-      
-      console.log(`Research Summary:`);
-      console.log(`- Processed: ${summary.total_processed} legislators`);
-      console.log(`- Successful: ${summary.successful}`);
-      console.log(`- Errors: ${summary.errors}`);
-      console.log(`- Total Issues Found: ${summary.total_issues}`);
-      console.log(`- Total Donors Found: ${summary.total_donors}`);
-      console.log(`- Estimated Cost: $${summary.estimated_cost_usd}`);
-      
-      return summary;
-    }
-    
-    consolidateResults();
-    EOF
-    
-    node consolidate.js
-    
-- name: Commit Results
-  run: |
-    git config --local user.email "action@github.com"
-    git config --local user.name "Legislator Research Bot"
-    
-    # Add new research files
-    git add data/
-    git add research_summary.json
-    
-    # Check if there are changes to commit
-    if git diff --staged --quiet; then
-      echo "No new research data to commit"
-    else
-      PROCESSED_COUNT=$(cat research_summary.json | grep -o '"total_processed":[^,]*' | cut -d':' -f2)
-      git commit -m "Add research data for $(date +%Y-%m-%d) - ${PROCESSED_COUNT} legislators"
-      git push
-    fi
-    
-- name: Upload Final Results
-  uses: actions/upload-artifact@v4
-  with:
-    name: final-research-data
-    path: |
-      data/
-      research_summary.json
-      
-- name: Comment on PR (if applicable)
-  if: github.event_name == 'pull_request'
-  uses: actions/github-script@v7
-  with:
-    script: |
-      const fs = require('fs');
-      const summary = JSON.parse(fs.readFileSync('research_summary.json', 'utf8'));
-      
-      const comment = `## Legislator Research Results
-      ${summary.locale ? `**Locale**: ${summary.locale}` : '**Locale**: All'}
-      
-      - **Processed**: ${summary.total_processed} legislators
-      - **Successful**: ${summary.successful}
-      - **Errors**: ${summary.errors}
-      - **Issues Found**: ${summary.total_issues}
-      - **Donors Found**: ${summary.total_donors}
-      - **Estimated Cost**: $${summary.estimated_cost_usd}
-      
-      ### By State
-      ${Object.entries(summary.by_state)
-        .map(([state, stats]) => `- **${state.toUpperCase()}**: ${stats.processed} processed, ${stats.issues} issues, ${stats.donors} donors`)
-        .join('\n')}
-      `;
-      
-      github.rest.issues.createComment({
-        issue_number: context.issue.number,
-        owner: context.repo.owner,
-        repo: context.repo.repo,
-        body: comment
-      });
-      
-- name: Create Issue on Errors
-  if: failure()
-  uses: actions/github-script@v7
-  with:
-    script: |
-      github.rest.issues.create({
-        owner: context.repo.owner,
-        repo: context.repo.repo,
-        title: 'Legislator Research Action Failed',
-        body: `Research action failed on ${new Date().toISOString()}\n\nCheck logs: ${context.payload.repository.html_url}/actions/runs/${context.runId}`,
-        labels: ['bug', 'automated']
-      });
-```
+      - name: Create Issue on Errors
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: 'Legislator Research Action Failed',
+              body: `Research action failed on ${new Date().toISOString()}\n\nCheck logs: ${context.payload.repository.html_url}/actions/runs/${context.runId}`,
+              labels: ['bug', 'automated']
+            });
