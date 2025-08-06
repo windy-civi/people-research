@@ -1,6 +1,6 @@
-# Legislator Research Processor
+# Simple Legislator Research
 
-A GitHub Action-based system that automatically researches state legislators using Claude Deep Research to find campaign websites, policy issues, and donor information.
+A hyper-simple GitHub Action that researches state legislators using Claude Deep Research to find campaign websites, policy issues, and donor information.
 
 ## Overview
 
@@ -12,10 +12,10 @@ This project clones the [OpenStates People repository](https://github.com/openst
 
 ## Features
 
-- **Automated Discovery**: Identifies active legislators needing research updates
+- **Simple Workflow**: Direct iteration through OpenStates people data
+- **Locale Filtering**: Process specific states or all states
 - **Claude Deep Research Integration**: Uses web search capabilities to find current information
 - **Structured Output**: JSON files matching OpenStates directory structure
-- **Cost Tracking**: Estimates API usage costs for monitoring
 - **Error Handling**: Graceful failure handling with detailed logging
 - **Scheduled Updates**: Weekly automated runs with manual trigger options
 
@@ -152,12 +152,20 @@ You can also test individual scripts directly:
 # Install dependencies
 pip install -r requirements.txt
 
-# Test the discovery script
-python scripts/test_discovery.py
+# Clone OpenStates people repo for testing
+git clone https://github.com/openstates/people.git openstates-people
 
 # Test with a single legislator (requires API key)
 export ANTHROPIC_API_KEY="your-api-key-here"
-python scripts/legislator_researcher.py path/to/legislator.yml output.json
+python scripts/legislator_researcher.py openstates-people/data/us/legislature/john-doe.yml output.json
+
+# Test the simple researcher
+export LOCALE="us"
+export MAX_PEOPLE="5"
+python scripts/simple_researcher.py openstates-people .
+
+# Test the setup
+python scripts/test_simple.py
 ```
 
 ### GitHub Secrets
@@ -171,21 +179,19 @@ python scripts/legislator_researcher.py path/to/legislator.yml output.json
 ### Manual Trigger
 
 1. Go to your repository's Actions tab
-2. Select "Legislator Research Processor"
+2. Select "Simple Legislator Research"
 3. Click "Run workflow"
 4. Configure options:
-   - **Max Legislators**: Number to process (default: 100)
-   - **Force Update**: Override existing data (default: false)
-   - **Locale Filter**: Specific state(s) to process (e.g., "ak", "tx")
+   - **Locale**: Specific state to process (e.g., "ak", "tx", "us") or leave empty for all
+   - **Max People**: Number of people to process (default: 10)
 
 ### Scheduled Runs
 
-The workflow runs automatically every Sunday at 2 AM UTC, processing up to 100 legislators that need updates.
+The workflow runs automatically every Sunday at 2 AM UTC, processing up to 10 people that need research.
 
 ### Output Files
 
-- **Individual Research**: `data/{state}/legislature/{name}-{uuid}.research.json`
-- **Summary Report**: `research_summary.json`
+- **Individual Research**: `data/{state}/legislature/{name}.research.json`
 - **Processing Logs**: Available in GitHub Actions logs
 
 ## Configuration
@@ -194,29 +200,20 @@ The workflow runs automatically every Sunday at 2 AM UTC, processing up to 100 l
 
 | Input | Type | Default | Description |
 |-------|------|---------|-------------|
-| `max_legislators` | string | "100" | Maximum legislators to process |
-| `force_update` | boolean | false | Force update existing data |
-| `locale_filter` | string | "" | Filter by specific locale(s) |
+| `locale` | string | "us" | Specific locale to process (or empty for all) |
+| `max_people` | string | "10" | Maximum people to process |
 
-### Rate Limiting
+### Processing
 
-- **Max Parallel Jobs**: 3 (conservative to respect API limits)
-- **Processing Strategy**: Matrix strategy for parallel processing
-- **Error Handling**: Individual job failures don't stop the entire workflow
-
-## Cost Estimation
-
-The system tracks estimated costs based on:
-- Input tokens: $3 per 1M tokens
-- Output tokens: $15 per 1M tokens
-
-Costs are estimated in the summary report and processing metadata.
+- **Sequential Processing**: Simple one-by-one processing to respect API limits
+- **Error Handling**: Individual failures don't stop the entire workflow
+- **Skip Existing**: Automatically skips people who already have research data
 
 ## Error Handling
 
 - **Individual Failures**: Failed research jobs create error responses
-- **Network Issues**: Retry logic and graceful degradation
-- **API Limits**: Conservative parallel processing
+- **Network Issues**: Graceful degradation with detailed logging
+- **API Limits**: Sequential processing to respect rate limits
 - **Data Validation**: JSON validation and error logging
 
 ## Contributing
@@ -241,7 +238,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues or questions:
 1. Check the GitHub Actions logs for detailed error information
-2. Review the `research_summary.json` for processing statistics
+2. Review the individual research files in `data/` for processing results
 3. Open an issue in this repository
 
 ## Security

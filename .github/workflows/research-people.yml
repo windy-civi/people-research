@@ -1,72 +1,24 @@
-name: Legislator Research Processor
+name: Simple Legislator Research
 on:
   workflow_dispatch:
     inputs:
-      max_legislators:
-        description: "Maximum number of legislators to process (default: 100)"
-        required: false
-        default: "1"
-        type: string
-      force_update:
-        description: "Force update legislators with existing data"
-        required: false
-        default: true
-        type: boolean
-      locale_filter:
-        description: 'Filter by locale (e.g., "ak", "tx", "us" or leave empty for all)'
+      locale:
+        description: "Locale to process (e.g., 'ak', 'tx', 'us' or leave empty for all)"
         required: false
         default: "us"
+        type: string
+      max_people:
+        description: "Maximum number of people to process"
+        required: false
+        default: "10"
         type: string
   schedule:
     # Run weekly on Sundays at 2 AM UTC
     - cron: "0 2 * * 0"
 
 jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      legislators: ${{ steps.identify.outputs.legislators }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Checkout OpenStates People Repo
-        run: |
-          git clone https://github.com/openstates/people.git openstates-people
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          # Updated anthropic to 0.61.0 to fix proxies parameter issue
-
-      - name: Identify Legislators to Process
-        id: identify
-        run: |
-          python scripts/legislator_discovery.py openstates-people ${{ github.event.inputs.max_legislators }} ${{ github.event.inputs.force_update }} ${{ github.event.inputs.locale_filter }}
-        env:
-          MAX_LEGISLATORS: ${{ github.event.inputs.max_legislators }}
-          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
-          LOCALE_FILTER: ${{ github.event.inputs.locale_filter }}
-
-      - name: Upload Legislator List
-        uses: actions/upload-artifact@v4
-        with:
-          name: legislators-list
-          path: legislators_to_process.json
-
   research:
-    needs: setup
     runs-on: ubuntu-latest
-    if: ${{ needs.setup.outputs.legislators != '[]' }}
-    strategy:
-      matrix:
-        legislator: ${{ fromJson(needs.setup.outputs.legislators) }}
-      max-parallel: 3 # Respect rate limits - conservative approach
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,15 +26,6 @@ jobs:
       - name: Checkout OpenStates People Repo
         run: |
           git clone https://github.com/openstates/people.git openstates-people
-
-      - name: Download Legislator List
-        uses: actions/download-artifact@v4
-        with:
-          name: legislators-list
-
-      - name: Create directory structure
-        run: |
-          mkdir -p data/${{ matrix.legislator.state }}/legislature
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -93,112 +36,26 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Research Legislator
+      - name: Research People
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          LEGISLATOR_DATA: ${{ toJson(matrix.legislator) }}
+          LOCALE: ${{ github.event.inputs.locale }}
+          MAX_PEOPLE: ${{ github.event.inputs.max_people }}
         run: |
-          python scripts/legislator_researcher.py ${{ matrix.legislator.yaml_path }} ${{ matrix.legislator.output_path }}
-
-      - name: Upload Individual Result
-        uses: actions/upload-artifact@v4
-        with:
-          name: research-${{ matrix.legislator.state }}-${{ matrix.legislator.filename }}
-          path: data/${{ matrix.legislator.state }}/legislature/${{ matrix.legislator.filename }}.research.json
-
-  consolidate:
-    needs: [setup, research]
-    runs-on: ubuntu-latest
-    if: always() && needs.setup.result == 'success'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Download all research artifacts
-        uses: actions/download-artifact@v4
-        with:
-          pattern: research-*
-          merge-multiple: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-
-      - name: Consolidate Results and Generate Summary
-        run: |
-          python scripts/consolidate_results.py
+          python scripts/simple_researcher.py openstates-people .
 
       - name: Commit Results
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Legislator Research Bot"
-
-          # Add new research files
+          
+          # Add all new research files
           git add data/
-          git add research_summary.json
-
+          
           # Check if there are changes to commit
           if git diff --staged --quiet; then
             echo "No new research data to commit"
           else
-            PROCESSED_COUNT=$(cat research_summary.json | grep -o '"total_processed":[^,]*' | cut -d':' -f2)
-            git commit -m "Add research data for $(date +%Y-%m-%d) - ${PROCESSED_COUNT} legislators"
+            git commit -m "Add research data for $(date +%Y-%m-%d)"
             git push
           fi
-
-      - name: Upload Final Results
-        uses: actions/upload-artifact@v4
-        with:
-          name: final-research-data
-          path: |
-            data/
-            research_summary.json
-
-      - name: Comment on PR (if applicable)
-        if: github.event_name == 'pull_request'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const summary = JSON.parse(fs.readFileSync('research_summary.json', 'utf8'));
-
-            const comment = `## Legislator Research Results
-            ${summary.locale ? `**Locale**: ${summary.locale}` : '**Locale**: All'}
-
-            - **Processed**: ${summary.total_processed} legislators
-            - **Successful**: ${summary.successful}
-            - **Errors**: ${summary.errors}
-            - **Issues Found**: ${summary.total_issues}
-            - **Donors Found**: ${summary.total_donors}
-            - **Estimated Cost**: $${summary.estimated_cost_usd}
-
-            ### By State
-            ${Object.entries(summary.by_state)
-              .map(([state, stats]) => `- **${state.toUpperCase()}**: ${stats.processed} processed, ${stats.issues} issues, ${stats.donors} donors`)
-              .join('\n')}
-            `;
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: comment
-            });
-
-      - name: Create Issue on Errors
-        if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: 'Legislator Research Action Failed',
-              body: `Research action failed on ${new Date().toISOString()}\n\nCheck logs: ${context.payload.repository.html_url}/actions/runs/${context.runId}`,
-              labels: ['bug', 'automated']
-            });
