@@ -74,9 +74,13 @@ class LegislatorResearcher:
         
         prompt = f"""Research {name}, a {party} {chamber} legislator from {state} district {district}.
 
-Based on your knowledge, provide information about their campaign issues and donor information.
+Based on your knowledge, provide COMPREHENSIVE and EXHAUSTIVE information about their campaign issues and donor information. 
 
-For donors, include both corporate AND ideological/single-issue donors (PACs, advocacy groups, etc.).
+REQUIREMENTS:
+- Issues: Provide 5-10 issues minimum covering all major policy areas they have taken positions on
+- Include detailed policy positions across: healthcare, economy, immigration, education, environment, foreign policy, social issues, etc.
+- Donors: Include extensive lists of corporate AND ideological/single-issue donors (PACs, advocacy groups, etc.)
+- Be thorough - this is for comprehensive political research
 
 Output ONLY valid JSON in this exact structure:
 {{
@@ -132,7 +136,7 @@ Output ONLY valid JSON in this exact structure:
   ]
 }}
 
-Be efficient - provide information based on your knowledge about their campaign issues and donor information.
+Be COMPREHENSIVE and EXHAUSTIVE - provide detailed information based on your knowledge about their campaign issues (5-10 minimum) and extensive donor information across all categories.
 
 IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown formatting, or code blocks. The response should be a single JSON object that can be parsed directly."""
         
@@ -155,10 +159,10 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                 if attempt > 0:
                     prompt += f"\n\nRETRY ATTEMPT {attempt + 1}: Please ensure you output ONLY valid JSON without any markdown formatting, code blocks, or explanatory text."
                 
-                # Use Claude Haiku 3.5 for cost efficiency
+                # Use Claude Haiku 3.5 for cost efficiency with higher token limit for comprehensive responses
                 message = self.anthropic.messages.create(
                     model="claude-3-5-haiku-latest",
-                    max_tokens=2000,  # Reduced since Haiku is more concise
+                    max_tokens=4000,  # Increased for comprehensive responses
                     messages=[{
                         "role": "user",
                         "content": prompt
