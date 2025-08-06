@@ -62,7 +62,7 @@ jobs:
   research:
     needs: setup
     runs-on: ubuntu-latest
-    if: ${{ fromJson(needs.setup.outputs.legislators)[0] }}
+    if: ${{ needs.setup.outputs.legislators != '[]' }}
     strategy:
       matrix:
         legislator: ${{ fromJson(needs.setup.outputs.legislators) }}
@@ -70,6 +70,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Checkout OpenStates People Repo
+        run: |
+          git clone https://github.com/openstates/people.git openstates-people
 
       - name: Download Legislator List
         uses: actions/download-artifact@v4

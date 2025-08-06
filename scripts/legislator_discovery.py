@@ -201,9 +201,10 @@ def main():
         # Save results
         discovery.save_legislators_list(legislators)
         
-        # Output for GitHub Actions
-        print(f"::set-output name=legislators::{json.dumps(legislators)}")
-        
+        # Output for GitHub Actions (new format)
+        legislators_json = json.dumps(legislators)
+        print(f"legislators={legislators_json}")
+        logger.info(f"Output JSON length: {len(legislators_json)}")
         logger.info(f"Discovery completed: {len(legislators)} legislators selected for processing")
         
     except Exception as e:

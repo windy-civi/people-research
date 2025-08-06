@@ -40,6 +40,15 @@ class LegislatorResearcher:
     def load_legislator_data(self, yaml_path: str) -> Dict[str, Any]:
         """Load legislator data from YAML file."""
         try:
+            # Check if file exists
+            if not os.path.exists(yaml_path):
+                logger.error(f"File does not exist: {yaml_path}")
+                logger.info(f"Current working directory: {os.getcwd()}")
+                logger.info(f"Directory contents: {os.listdir('.')}")
+                if os.path.exists('openstates-people'):
+                    logger.info(f"openstates-people contents: {os.listdir('openstates-people')}")
+                raise FileNotFoundError(f"File not found: {yaml_path}")
+            
             with open(yaml_path, 'r', encoding='utf-8') as file:
                 return yaml.safe_load(file)
         except Exception as e:
