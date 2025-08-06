@@ -155,10 +155,10 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                 if attempt > 0:
                     prompt += f"\n\nRETRY ATTEMPT {attempt + 1}: Please ensure you output ONLY valid JSON without any markdown formatting, code blocks, or explanatory text."
                 
-                # Use the latest Claude Sonnet 4 model
+                # Use Claude Haiku 3.5 for cost efficiency
                 message = self.anthropic.messages.create(
-                    model="claude-sonnet-4-20250514",
-                    max_tokens=3000,
+                    model="claude-3-5-haiku-latest",
+                    max_tokens=2000,  # Reduced since Haiku is more concise
                     messages=[{
                         "role": "user",
                         "content": prompt
@@ -187,7 +187,7 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                                 "input_tokens": message.usage.input_tokens if message.usage else "unknown",
                                 "output_tokens": message.usage.output_tokens if message.usage else "unknown"
                             },
-                            "model": "claude-sonnet-4-20250514"
+                            "model": "claude-3-5-haiku-latest"
                         }
                         
                         return json_data
@@ -209,7 +209,6 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
             except Exception as e:
                 logger.error(f"Research error for {legislator_data.get('name', 'Unknown')}: {e}")
                 return self._create_error_response(legislator_data, str(e))
-    
 
     
     def _extract_json_from_response(self, response_text: str) -> Optional[str]:
@@ -266,7 +265,7 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                 "processed_date": self._get_current_time(),
                 "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
                 "error": True,
-                "model": "claude-sonnet-4-20250514"
+                "model": "claude-3-5-haiku-latest"
             }
         }
     
