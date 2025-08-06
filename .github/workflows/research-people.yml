@@ -19,6 +19,9 @@ on:
 jobs:
   research:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -46,8 +49,8 @@ jobs:
 
       - name: Commit Results
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Legislator Research Bot"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           
           # Add all new research files
           git add data/
@@ -57,5 +60,5 @@ jobs:
             echo "No new research data to commit"
           else
             git commit -m "Add research data for $(date +%Y-%m-%d)"
-            git push
+            git push origin main
           fi
