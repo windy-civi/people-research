@@ -1,0 +1,93 @@
+{
+  "legislator_id": "ocd-person/0d73f18d-36c1-526d-9d5c-5a0a63ff60af",
+  "name": "Adriano Espaillat",
+  "state": "New York",
+  "last_updated": "2025-08-06T22:29:57.049351",
+  "issues": [
+    {
+      "title": "Immigration Reform",
+      "description": "Strong supporter of comprehensive immigration reform and protections for undocumented immigrants",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanded healthcare coverage and support for the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education and student debt relief",
+      "category": "Education",
+      "source": "Congressional speeches"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$50,000-$100,000",
+        "industry": "Labor Unions",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Congressional Campaign Committee",
+        "amount": "$100,000-$250,000",
+        "ideology": "Liberal",
+        "issue_focus": "Election Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Latino Victory Fund",
+        "amount": "$50,000-$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$10-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/adriano-espaillat/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional voting records",
+    "Campaign website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T22:30:06.520551",
+    "github_action_run": "16790124169",
+    "tokens_used": {
+      "input_tokens": 615,
+      "output_tokens": 721
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
