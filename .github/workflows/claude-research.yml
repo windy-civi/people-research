@@ -38,13 +38,9 @@ jobs:
         # Simple hello world prompt
         full_prompt="Hello Claude! Please respond with 'Hello World' and tell me what 2+2 equals."
         
-        # Debug: Check if Claude CLI is working
-        echo "Testing Claude CLI..."
-        echo "Hello Claude" | claude --help || echo "Claude help failed"
-        
-        # Use Claude CLI with timeout and echo output
+        # Use Claude CLI with --print flag for non-interactive output
         echo "=== SENDING PROMPT TO CLAUDE ==="
-        echo "Prompt length: $(echo "$full_prompt" | wc -c) characters"
+        echo "Prompt: $full_prompt"
         echo "=== CLAUDE OUTPUT ==="
-        timeout 300 bash -c 'echo "$0" | claude' "$full_prompt" || echo "Claude command timed out or failed"
+        echo "$full_prompt" | claude --print
         echo "=== END CLAUDE OUTPUT ==="
