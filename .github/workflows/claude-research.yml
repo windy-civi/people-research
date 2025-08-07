@@ -20,6 +20,10 @@ jobs:
     - name: Install Claude CLI
       run: |
         npm install -g @anthropic-ai/claude-code
+        echo "Claude CLI installed, checking version..."
+        claude --version || echo "Claude version check failed"
+        echo "Checking if Claude CLI is in PATH..."
+        which claude || echo "Claude not found in PATH"
     
     - name: Research Katie Britt
       env:
@@ -53,7 +57,13 @@ jobs:
         
         Use web search tools to gather this information before responding. Do not make up or guess at information."
         
-        # Use Claude CLI and echo output
+        # Debug: Check if Claude CLI is working
+        echo "Testing Claude CLI..."
+        echo "Hello Claude" | claude --help || echo "Claude help failed"
+        
+        # Use Claude CLI with timeout and echo output
+        echo "=== SENDING PROMPT TO CLAUDE ==="
+        echo "Prompt length: $(echo "$full_prompt" | wc -c) characters"
         echo "=== CLAUDE OUTPUT ==="
-        echo "$full_prompt" | claude
+        timeout 300 bash -c 'echo "$0" | claude' "$full_prompt" || echo "Claude command timed out or failed"
         echo "=== END CLAUDE OUTPUT ==="
