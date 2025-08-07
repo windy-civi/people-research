@@ -176,7 +176,8 @@ Use web search to find the most current and accurate information available. Be t
                         "content": prompt
                     }],
                     tools=[{
-                        "type": "web_search_20250305"
+                        "type": "web_search_20250305",
+                        "name": "web_search"
                     }]
                 )
                 
