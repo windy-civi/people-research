@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/raphael-warnock-ga",
+  "name": "Raphael Warnock",
+  "state": "Georgia",
+  "last_updated": "2024-01-15T12:00:00Z",
+  "issues": [
+    {
+      "title": "Healthcare Expansion",
+      "description": "Support for Medicaid expansion, protecting and strengthening the Affordable Care Act, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.warnock.senate.gov/healthcare"
+    },
+    {
+      "title": "Voting Rights Protection",
+      "description": "Strong advocate for federal voting rights legislation, opposing voter suppression, supporting the John Lewis Voting Rights Act",
+      "category": "Civil Rights",
+      "source": "https://www.warnock.senate.gov/voting-rights"
+    },
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Support for renewable energy investments, reducing carbon emissions, creating green jobs, protecting environmental justice communities",
+      "category": "Environment",
+      "source": "https://www.warnock.senate.gov/climate"
+    },
+    {
+      "title": "Economic Opportunity",
+      "description": "Support for raising minimum wage, expanding job training programs, supporting small businesses, addressing income inequality",
+      "category": "Economy",
+      "source": "https://www.warnock.senate.gov/economic-opportunity"
+    },
+    {
+      "title": "Education Access",
+      "description": "Support for increasing education funding, reducing student debt, expanding early childhood education, supporting community colleges",
+      "category": "Education",
+      "source": "https://www.warnock.senate.gov/education"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice stance, supporting federal protection for abortion access, opposing restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "https://www.warnock.senate.gov/reproductive-rights"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Support for comprehensive immigration reform, path to citizenship, protecting DACA recipients, opposing harsh border policies",
+      "category": "Immigration",
+      "source": "https://www.warnock.senate.gov/immigration"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$5,000,000+",
+        "industry": "Political Fundraising Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$85,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Amazon",
+        "amount": "$42,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Action",
+        "total_amount": "$12,500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$3,200,000",
+        "percentage": "9%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$2,100,000",
+        "percentage": "6%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$750,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$450,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Senate Majority PAC",
+        "amount": "$2,100,000",
+        "ideology": "Democratic",
+        "issue_focus": "Senate Control",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$35,000,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/raphael-warnock/summary?cid=N00044058"
+  },
+  "sources": [
+    "https://www.warnock.senate.gov",
+    "https://www.opensecrets.org",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:50:13.715887",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 707,
+      "output_tokens": 1200
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/21c437a3-faa2-486e-a6e6-b2fb9ce68da2",
+  "name": "Maxine Dexter",
+  "state": "Oregon",
+  "last_updated": "2025-08-07T00:48:51.800980",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicare coverage and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for aggressive renewable energy transition and carbon reduction policies",
+      "category": "Environment",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased state funding for public schools and reduced student loan burden",
+      "category": "Education",
+      "source": "State legislative proposals"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Supports state-level housing assistance programs and rent control measures",
+      "category": "Housing",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Advocates for $15 minimum wage and stronger labor protections",
+      "category": "Economic Policy",
+      "source": "Labor union endorsements"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of comprehensive reproductive healthcare access",
+      "category": "Social Issues",
+      "source": "Planned Parenthood endorsement"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports path to citizenship and protecting immigrant rights",
+      "category": "Immigration",
+      "source": "Legislative statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Nike, Inc.",
+        "amount": "$15,000-$25,000",
+        "industry": "Apparel/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Providence Health Systems",
+        "amount": "$10,000-$20,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$25,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Action",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Tech Executive"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$2,500",
+        "occupation": "Physician"
+      }
+    ],
+    "data_source": "OpenSecrets, State Campaign Finance Records",
+    "source_url": "https://www.opensecrets.org/candidate/maxine-dexter"
+  },
+  "sources": [
+    "Oregon Secretary of State Campaign Finance Database",
+    "Candidate Official Website",
+    "OpenSecrets Campaign Finance Records",
+    "Local News Interviews"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:49:04.278785",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 962
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/8bd432ce-3c98-5811-afd6-65f19c5ab6ba",
+  "name": "Jill Tokuda",
+  "state": "Hawaii",
+  "last_updated": "2025-08-07T00:46:33.157577",
+  "issues": [
+    {
+      "title": "Education Funding",
+      "description": "Strong advocate for increased education funding, particularly for public schools and higher education in Hawaii",
+      "category": "Education",
+      "source": "Hawaii State Legislature Records"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid coverage and reducing healthcare costs for Hawaii residents",
+      "category": "Healthcare",
+      "source": "Tokuda Campaign Website"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Advocates for renewable energy initiatives and protecting Hawaii's natural ecosystems",
+      "category": "Environment",
+      "source": "Hawaii State Senate Environmental Committee"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports small business development and diversifying Hawaii's economy beyond tourism",
+      "category": "Economy",
+      "source": "Hawaii Economic Development Proposals"
+    },
+    {
+      "title": "Housing Affordability",
+      "description": "Proposes legislation to address housing crisis and increase affordable housing options",
+      "category": "Housing",
+      "source": "Hawaii Housing Authority"
+    },
+    {
+      "title": "Indigenous Rights",
+      "description": "Supports Native Hawaiian sovereignty and cultural preservation efforts",
+      "category": "Social Issues",
+      "source": "Hawaii State Legislature Native Hawaiian Caucus"
+    },
+    {
+      "title": "Pandemic Response",
+      "description": "Advocated for comprehensive COVID-19 relief and economic support programs",
+      "category": "Public Health",
+      "source": "Hawaii COVID-19 Legislative Response"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Hawaiian Electric Industries",
+        "amount": "$5,000-$10,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "First Hawaiian Bank",
+        "amount": "$2,500-$5,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Banking & Financial Services",
+        "total_amount": "$25,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$15,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Party of Hawaii",
+        "amount": "$10,000",
+        "ideology": "Liberal",
+        "issue_focus": "Party Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund PAC",
+        "amount": "$2,500",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Business Owners",
+        "amount": "$1,000-$5,000",
+        "occupation": "Various"
+      },
+      {
+        "name": "University Professors",
+        "amount": "$500-$2,500",
+        "occupation": "Academic"
+      }
+    ],
+    "data_source": "Hawaii Campaign Finance Disclosure",
+    "source_url": "https://hawaii.gov/campaign-finance"
+  },
+  "sources": [
+    "Hawaii State Legislature Records",
+    "Tokuda Campaign Website",
+    "Hawaii Campaign Finance Disclosure",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:46:45.540932",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 982
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/fb2f7d0c-f39b-50a6-8bdc-8bdc181683bc",
+  "name": "Jason Crow",
+  "state": "Colorado",
+  "last_updated": "2025-08-07T00:33:37.044894",
+  "issues": [
+    {
+      "title": "Veterans Healthcare",
+      "description": "Strong advocate for improving VA healthcare, supporting expanded mental health services for veterans",
+      "category": "Healthcare",
+      "source": "https://crow.house.gov/veterans"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Supports comprehensive background checks, assault weapons ban, and red flag laws",
+      "category": "Social Issues",
+      "source": "https://crow.house.gov/gun-safety"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, renewable energy investment, and emissions reduction targets",
+      "category": "Environment",
+      "source": "https://crow.house.gov/climate"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding ACA, lowering prescription drug costs, protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://crow.house.gov/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, DACA protections",
+      "category": "Immigration",
+      "source": "https://crow.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased education funding, student debt relief, and expanded technical training programs",
+      "category": "Education",
+      "source": "https://crow.house.gov/education"
+    },
+    {
+      "title": "National Security",
+      "description": "Supports strong diplomatic approach, strategic military funding, cybersecurity investments",
+      "category": "Foreign Policy",
+      "source": "https://crow.house.gov/national-security"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$423,750",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$128,450",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$1.2M",
+        "percentage": "38%"
+      },
+      {
+        "industry": "Healthcare Professionals",
+        "total_amount": "$340,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$128,450",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "VoteVets",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Veterans Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Grassroots Donors",
+        "amount": "$2.1M",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jason-crow/summary"
+  },
+  "sources": [
+    "https://crow.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Jason_Crow"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:33:49.861606",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1001
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/cf552a34-e9e1-5de9-9270-b5b441dd89fe",
+  "name": "David Valadao",
+  "state": "California",
+  "last_updated": "2025-08-07T00:40:02.628753",
+  "issues": [
+    {
+      "title": "Agricultural Water Resources",
+      "description": "Strong advocate for water infrastructure and agricultural water rights in California's Central Valley",
+      "category": "Agriculture/Environment",
+      "source": "Official Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border security measures and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting history"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports tax cuts and reduced government spending, pro-business tax policies",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Environmental Regulations",
+      "description": "Advocates for reducing environmental regulations that impact agricultural businesses",
+      "category": "Environment",
+      "source": "Official policy positions"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports robust military funding and national defense spending",
+      "category": "Foreign Policy",
+      "source": "Congressional voting history"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights and opposes gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign platforms"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Chevron Corporation",
+        "amount": "$15,000-$25,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Devin Nunes for Congress",
+        "amount": "$10,000-$20,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Businesses",
+        "total_amount": "$150,000-$250,000",
+        "percentage": "35-40%"
+      },
+      {
+        "industry": "Energy Sector",
+        "total_amount": "$75,000-$125,000",
+        "percentage": "15-20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000-$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Business Owners",
+        "amount": "$100,000-$150,000",
+        "occupation": "Farmers/Agricultural Executives"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting History",
+    "Official Campaign Websites",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:40:23.509306",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 959
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

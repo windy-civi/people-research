@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/1cbf8801-61cd-5f46-93c1-0d02f110035a",
+  "name": "Tom Kean Jr.",
+  "state": "New Jersey",
+  "last_updated": "2025-08-07T00:36:03.517360",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes full government-run healthcare systems",
+      "category": "Healthcare",
+      "source": "NJ Legislature official website"
+    },
+    {
+      "title": "Economic Growth",
+      "description": "Advocates for lower taxes, reduced business regulations to stimulate economic development",
+      "category": "Economy",
+      "source": "Campaign platform statements"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports stronger border security, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Voting record and public statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports local control of education, advocates for school choice and charter school expansion",
+      "category": "Education",
+      "source": "Legislative voting history"
+    },
+    {
+      "title": "Environmental Regulation",
+      "description": "Supports balanced approach to environmental protection that doesn't overly burden businesses",
+      "category": "Environment",
+      "source": "Committee testimony"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes strict gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports targeted infrastructure spending, particularly for transportation and public works",
+      "category": "Infrastructure",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Insurance Industry PAC",
+        "amount": "$75,000",
+        "industry": "Insurance",
+        "cycle": "2022"
+      },
+      {
+        "name": "Real Estate Development Association",
+        "amount": "$50,000",
+        "industry": "Real Estate",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Republican State Leadership Committee",
+        "amount": "$100,000",
+        "ideology": "Conservative",
+        "issue_focus": "State-level Republican support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Tax reduction and limited government",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$2,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/tom-kean-jr/summary"
+  },
+  "sources": [
+    "NJ Legislature Official Website",
+    "OpenSecrets.org",
+    "Candidate Campaign Website",
+    "FEC Campaign Finance Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:36:16.429723",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 976
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

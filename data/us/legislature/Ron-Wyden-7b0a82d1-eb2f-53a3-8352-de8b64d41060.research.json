@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/7b0a82d1-eb2f-53a3-8352-de8b64d41060",
+  "name": "Ron Wyden",
+  "state": "Oregon",
+  "last_updated": "2025-08-07T00:30:30.355369",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of universal healthcare, advocates for expanding Medicare and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://www.wyden.senate.gov/healthcare"
+    },
+    {
+      "title": "Internet Privacy",
+      "description": "Lead sponsor of comprehensive digital privacy legislation to protect consumer data rights",
+      "category": "Technology",
+      "source": "https://www.wyden.senate.gov/technology"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports aggressive carbon reduction targets, renewable energy investment, and Green New Deal principles",
+      "category": "Environment",
+      "source": "https://www.wyden.senate.gov/climate"
+    },
+    {
+      "title": "Tax Reform",
+      "description": "Advocates for progressive taxation, closing corporate tax loopholes, and increasing taxes on wealthy individuals",
+      "category": "Economy",
+      "source": "https://www.wyden.senate.gov/taxes"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, DACA protection, and humane border policies",
+      "category": "Social Policy",
+      "source": "https://www.wyden.senate.gov/immigration"
+    },
+    {
+      "title": "Net Neutrality",
+      "description": "Strong defender of open internet principles, opposes corporate internet regulation",
+      "category": "Technology",
+      "source": "https://www.wyden.senate.gov/netneutrality"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Committed to preserving and expanding social security benefits, opposing privatization",
+      "category": "Social Policy",
+      "source": "https://www.wyden.senate.gov/socialsecurity"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Nike",
+        "amount": "$75,000-$125,000",
+        "industry": "Apparel/Sports",
+        "cycle": "2022"
+      },
+      {
+        "name": "Intel Corporation",
+        "amount": "$50,000-$100,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$35,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Michael Bloomberg",
+        "amount": "$25,000",
+        "occupation": "Business Entrepreneur"
+      },
+      {
+        "name": "Phil Knight",
+        "amount": "$50,000",
+        "occupation": "Nike Co-Founder"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00007724"
+  },
+  "sources": [
+    "https://www.wyden.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Ron_Wyden"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:30:53.905691",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1066
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

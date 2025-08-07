@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/f32918a9-b738-5f20-8c3e-f95c7fda80cb",
+  "name": "John James",
+  "state": "Michigan",
+  "last_updated": "2025-08-07T00:35:49.174840",
+  "issues": [
+    {
+      "title": "Military and Veterans Support",
+      "description": "Strong advocate for veterans' healthcare, support for military families, and improved veteran employment programs",
+      "category": "Veterans Affairs",
+      "source": "https://johnjamesforsenate.com/veterans-policy"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports tax cuts, reducing business regulations, and creating job opportunities in manufacturing and technology sectors",
+      "category": "Economy",
+      "source": "https://johnjames.com/economic-platform"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Advocates for market-based healthcare solutions, reducing prescription drug costs, and protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://johnjames.senate.gov/healthcare-policy"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding, stricter immigration enforcement, and merit-based immigration system",
+      "category": "Immigration",
+      "source": "https://johnjames.senate.gov/immigration-policy"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, increased vocational training programs, and reducing federal education bureaucracy",
+      "category": "Education",
+      "source": "https://johnjames.com/education-platform"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "https://johnjames.senate.gov/second-amendment"
+    },
+    {
+      "title": "Climate and Energy Policy",
+      "description": "Supports all-of-the-above energy strategy, including fossil fuels and limited renewable energy development",
+      "category": "Environment",
+      "source": "https://johnjames.com/energy-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Boeing",
+        "amount": "$25,000-$50,000",
+        "industry": "Aerospace/Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$20,000-$45,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Aerospace",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Conservatism",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Donald Trump Jr.",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Unknown Individual Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8MI13033/"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Official Campaign Website",
+    "Senate Campaign Disclosure Documents"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:36:03.489865",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1057
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

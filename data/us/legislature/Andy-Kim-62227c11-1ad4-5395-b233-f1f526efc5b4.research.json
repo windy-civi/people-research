@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/62227c11-1ad4-5395-b233-f1f526efc5b4",
+  "name": "Andy Kim",
+  "state": "New Jersey",
+  "last_updated": "2025-08-07T00:48:12.002008",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing conditions, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "AndyKimNJ.com"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocates for major infrastructure spending to create jobs and modernize transportation and technology systems",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, clean energy investments, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Supports universal background checks, assault weapons ban, and enhanced gun control measures",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship and border security",
+      "category": "Immigration",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and community college support",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Supports increased VA funding, mental health services for veterans, and job training programs",
+      "category": "Social Services",
+      "source": "Congressional veteran support initiatives"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Fundraising",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$750,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$450,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Swing Left",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Electoral Strategy",
+        "cycle": "2022"
+      },
+      {
+        "name": "End Citizens United",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Campaign Finance Reform",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$1-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC",
+    "source_url": "https://www.fec.gov/data/candidate/H8NJ03143/"
+  },
+  "sources": [
+    "Andy Kim Campaign Website",
+    "FEC Donor Records",
+    "Congressional Voting Records",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:48:24.779704",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 947
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

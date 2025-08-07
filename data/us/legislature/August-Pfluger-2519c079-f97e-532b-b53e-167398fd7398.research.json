@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/2519c079-f97e-532b-b53e-167398fd7398",
+  "name": "August Pfluger",
+  "state": "Texas",
+  "last_updated": "2025-08-07T00:38:15.709530",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and increased border patrol funding, advocates for stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports expanded domestic oil and gas production, opposes Green New Deal, advocates for fossil fuel industry protection",
+      "category": "Energy/Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly pro-gun, opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Oppose Government Spending",
+      "description": "Advocates for reduced federal spending, supports tax cuts, opposes large infrastructure and social programs",
+      "category": "Economy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive healthcare, advocates for defunding Planned Parenthood",
+      "category": "Social Issues",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions, critical of Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Official policy statements"
+    },
+    {
+      "title": "National Defense",
+      "description": "Supports increased military funding, strong national defense, hawks on foreign policy interventions",
+      "category": "Foreign Policy",
+      "source": "Congressional defense appropriations votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Chevron Corporation",
+        "amount": "$50,000-$75,000",
+        "industry": "Oil and Gas",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Simmons",
+        "amount": "$25,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Dan Duncan",
+        "amount": "$15,000",
+        "occupation": "Energy Investor"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/august-pfluger/summary"
+  },
+  "sources": [
+    "August Pfluger Official Congressional Website",
+    "OpenSecrets Donor Database",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:38:29.849935",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1095
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/36a3cc6d-57a7-4312-a979-f6a17ae40c93",
+  "name": "Derek Schmidt",
+  "state": "Kansas",
+  "last_updated": "2025-08-07T00:41:10.267753",
+  "issues": [
+    {
+      "title": "Conservative Judicial Philosophy",
+      "description": "Strong supporter of conservative judicial interpretation, advocating for strict constructionist approaches to legal interpretation",
+      "category": "Judicial Policy",
+      "source": "Kansas Attorney General Office official statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports significant restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Campaign rhetoric and voting record"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Supports expansive gun rights, opposes gun control legislation, advocates for constitutional carry",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and legislative voting history"
+    },
+    {
+      "title": "Tax Reduction Policy",
+      "description": "Advocates for lower taxes, reduced government spending, and business-friendly economic policies",
+      "category": "Economic Policy",
+      "source": "Kansas Republican Party platform"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, opposes sanctuary policies, advocates for enhanced border control",
+      "category": "Immigration",
+      "source": "Campaign statements and policy proposals"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, charter school expansion, and conservative curriculum standards",
+      "category": "Education",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Healthcare Limited Government",
+      "description": "Opposes expanded government healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "State legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$50,000-$75,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Kansas Farm Bureau",
+        "amount": "$25,000-$40,000",
+        "industry": "Agricultural Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Legal Services",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agricultural Interests",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Kansas Family Policy Council",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Social Conservative Values",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association PAC",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous High-Dollar Donors",
+        "amount": "$100,000-$250,000",
+        "occupation": "Various Professional Backgrounds"
+      }
+    ],
+    "data_source": "Kansas Secretary of State Campaign Finance Records",
+    "source_url": "https://www.kansas.gov/campaign-finance"
+  },
+  "sources": [
+    "Kansas Secretary of State Records",
+    "Campaign Official Website",
+    "State Legislative Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:41:24.122072",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 971
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

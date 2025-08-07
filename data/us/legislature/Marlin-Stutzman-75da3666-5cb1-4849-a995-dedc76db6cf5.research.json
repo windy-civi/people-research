@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/75da3666-5cb1-4849-a995-dedc76db6cf5",
+  "name": "Marlin Stutzman",
+  "state": "Indiana",
+  "last_updated": "2025-08-07T00:45:40.841819",
+  "issues": [
+    {
+      "title": "Agricultural Policy",
+      "description": "Strong supporter of farm subsidies and agricultural interests, particularly corn and soybean farming in Indiana",
+      "category": "Agriculture",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Advocated for significant federal budget cuts, reducing government spending, and balancing the federal budget",
+      "category": "Economic Policy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Consistently voted against abortion funding and supported restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive rights legislation"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supported stricter border control, opposed comprehensive immigration reform, advocated for more restrictive immigration policies",
+      "category": "Immigration",
+      "source": "Congressional immigration bills"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposed gun control measures, supported expanded concealed carry laws",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and voting record"
+    },
+    {
+      "title": "Healthcare Opposition",
+      "description": "Consistently voted against the Affordable Care Act, advocated for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional healthcare votes"
+    },
+    {
+      "title": "Education Policy",
+      "description": "Supported local control of education, opposed federal educational mandates, advocated for school choice",
+      "category": "Education",
+      "source": "Educational policy statements"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Opposed strict environmental regulations, supported fossil fuel industry interests",
+      "category": "Environment",
+      "source": "Environmental voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2012-2014"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2010-2014"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Interests",
+        "total_amount": "$500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$250,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$350,000",
+        "ideology": "Conservative",
+        "issue_focus": "Fiscal Conservatism",
+        "cycle": "2010-2014"
+      },
+      {
+        "name": "National Right to Life Committee",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2012-2014"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Business Owners",
+        "amount": "$200,000",
+        "occupation": "Farmers/Agribusiness Executives"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Records",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Congressional Voting Records",
+    "FEC Campaign Finance Database",
+    "Official Congressional Biography",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:45:54.671832",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1039
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

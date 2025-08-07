@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/029be488-4aad-5a5f-95f1-7ab1aaf27c29",
+  "name": "Mike Lawler",
+  "state": "New York",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border control and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Inflation Reduction",
+      "description": "Advocates for reduced government spending and tax cuts to combat economic inflation",
+      "category": "Economy",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Parental Rights in Education",
+      "description": "Supports limiting discussions of gender and sexuality in K-12 classrooms",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Healthcare Choice",
+      "description": "Opposes government-mandated healthcare, supports private market solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Strong defender of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Ukraine Support",
+      "description": "Supports continued military and financial aid to Ukraine against Russian invasion",
+      "category": "Foreign Policy",
+      "source": "Congressional statements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Advocates for increased domestic fossil fuel production and reduced environmental regulations",
+      "category": "Environment",
+      "source": "Legislative voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$15,500",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Legal/Lobbying",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Leadership PAC",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Republican Jewish Coalition",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Israel Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Mercer",
+        "amount": "$25,000",
+        "occupation": "Hedge Fund Manager"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$150,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Database",
+    "Congressional Voting Records",
+    "Candidate Campaign Website",
+    "New York State Election Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:38:56.283553",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 952
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

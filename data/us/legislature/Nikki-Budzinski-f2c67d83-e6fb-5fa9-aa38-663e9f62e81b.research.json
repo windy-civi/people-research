@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/f2c67d83-e6fb-5fa9-aa38-663e9f62e81b",
+  "name": "Nikki Budzinski",
+  "state": "Illinois",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Manufacturing Job Protection",
+      "description": "Supports policies to protect and expand manufacturing jobs in Illinois, advocating for workforce training and economic incentives",
+      "category": "Economy",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Healthcare Affordability",
+      "description": "Supports expanding healthcare access, reducing prescription drug costs, and protecting coverage for pre-existing conditions",
+      "category": "Healthcare",
+      "source": "Campaign policy statements"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocates for increased federal infrastructure spending to create jobs and modernize transportation systems",
+      "category": "Infrastructure",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports clean energy initiatives, reducing carbon emissions, and creating green jobs",
+      "category": "Environment",
+      "source": "Congressional climate caucus involvement"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education, workforce training, and student debt relief",
+      "category": "Education",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of reproductive healthcare access and protecting abortion rights",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Labor Union Support",
+      "description": "Advocates for workers' rights, collective bargaining, and protecting union jobs",
+      "category": "Labor",
+      "source": "Union endorsements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "AFSCME",
+        "amount": "$25,000-$50,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$15,000-$30,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$75,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "AFL-CIO",
+        "amount": "$20,000",
+        "ideology": "Progressive Labor",
+        "issue_focus": "Workers' Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$100-$500",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Filings",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Campaign Website",
+    "FEC Filings",
+    "Congressional Voting Record",
+    "Campaign Press Releases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:33:08.965662",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 953
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

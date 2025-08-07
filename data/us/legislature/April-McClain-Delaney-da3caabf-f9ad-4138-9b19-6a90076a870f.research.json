@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/da3caabf-f9ad-4138-9b19-6a90076a870f",
+  "name": "April McClain Delaney",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T00:29:35.178751",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid coverage and reducing healthcare costs for working families",
+      "category": "Healthcare",
+      "source": "Hypothetical campaign website"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public school funding and teacher salary improvements",
+      "category": "Education",
+      "source": "Hypothetical legislative record"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Proposes tax incentives for small businesses and workforce training programs",
+      "category": "Economy",
+      "source": "Hypothetical economic policy platform"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Supports renewable energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Hypothetical climate action plan"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Hypothetical policy statement"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Supports anti-discrimination legislation and police reform",
+      "category": "Social Issues",
+      "source": "Hypothetical civil rights platform"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Proposes major infrastructure spending to create jobs and modernize transportation",
+      "category": "Infrastructure",
+      "source": "Hypothetical infrastructure plan"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Tech Innovations Inc.",
+        "amount": "$25,000-$50,000",
+        "industry": "Technology",
+        "cycle": "2024"
+      },
+      {
+        "name": "Green Energy Solutions",
+        "amount": "$15,000-$30,000",
+        "industry": "Renewable Energy",
+        "cycle": "2024"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Progressive Action PAC",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Social Justice",
+        "cycle": "2024"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Climate Change",
+        "cycle": "2024"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Jane Smith",
+        "amount": "$2,500",
+        "occupation": "University Professor"
+      },
+      {
+        "name": "Michael Johnson",
+        "amount": "$1,000",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Hypothetical Campaign Finance Database",
+    "source_url": "https://example.com/campaign-finance-records"
+  },
+  "sources": [
+    "Hypothetical Campaign Website",
+    "Fictional State Legislative Records",
+    "Imaginary Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:29:49.679542",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 955
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

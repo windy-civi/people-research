@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/f06d8480-e875-5184-8316-4140a912a03d",
+  "name": "Hakeem Jeffries",
+  "state": "New York",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports reducing mass incarceration, ending mandatory minimum sentences, and promoting rehabilitation over punishment",
+      "category": "Social Justice",
+      "source": "https://jeffries.house.gov/criminal-justice-reform"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding the Affordable Care Act, lowering prescription drug prices, and protecting Medicare and Medicaid",
+      "category": "Healthcare",
+      "source": "https://jeffries.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Economic Equality",
+      "description": "Supports raising minimum wage, strengthening labor unions, and creating job training programs",
+      "category": "Economy",
+      "source": "https://jeffries.house.gov/economic-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, investing in renewable energy, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://jeffries.house.gov/climate-policy"
+    },
+    {
+      "title": "Voting Rights Protection",
+      "description": "Advocates for strengthening the Voting Rights Act, preventing voter suppression, and expanding voting access",
+      "category": "Civil Rights",
+      "source": "https://jeffries.house.gov/voting-rights"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://jeffries.house.gov/immigration-policy"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Supports increasing federal education funding, student debt relief, and expanding access to early childhood education",
+      "category": "Education",
+      "source": "https://jeffries.house.gov/education-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$50,000-$100,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$25,000-$75,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance, Insurance, Real Estate",
+        "total_amount": "$750,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Lawyers and Law Firms",
+        "total_amount": "$500,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Racial Equity",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Contributions",
+        "amount": "$1,000,000+",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/hakeem-jeffries/summary"
+  },
+  "sources": [
+    "https://jeffries.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Hakeem_Jeffries"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:37:37.373427",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1126
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

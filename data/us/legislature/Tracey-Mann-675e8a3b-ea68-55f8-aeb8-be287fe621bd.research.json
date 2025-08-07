@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/675e8a3b-ea68-55f8-aeb8-be287fe621bd",
+  "name": "Tracey Mann",
+  "state": "Kansas",
+  "last_updated": "2025-08-07T00:31:23.066652",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong supporter of farm subsidies and agricultural policy benefiting Kansas farmers",
+      "category": "Agriculture",
+      "source": "Mann Congressional Website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership, opposes gun control measures",
+      "category": "Social Issues",
+      "source": "NRA Ratings"
+    },
+    {
+      "title": "Reduced Government Regulation",
+      "description": "Advocates for reducing federal regulations on businesses and agriculture",
+      "category": "Economy",
+      "source": "Congressional Speeches"
+    },
+    {
+      "title": "Tax Cut Support",
+      "description": "Supports permanent tax cuts for individuals and businesses",
+      "category": "Economy",
+      "source": "Voting Record"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and military infrastructure",
+      "category": "Foreign Policy",
+      "source": "Congressional Budget Votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Cargill Inc",
+        "amount": "$15,000-$30,000",
+        "industry": "Agriculture",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Charles Koch",
+        "amount": "$10,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Local Kansas Farmers",
+        "amount": "$5,000-$15,000",
+        "occupation": "Agriculture"
+      }
+    ],
+    "data_source": "FEC Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "Mann Campaign Website",
+    "OpenSecrets Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:31:35.748263",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1005
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

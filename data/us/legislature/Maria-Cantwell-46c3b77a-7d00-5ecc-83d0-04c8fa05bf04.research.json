@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/46c3b77a-7d00-5ecc-83d0-04c8fa05bf04",
+  "name": "Maria Cantwell",
+  "state": "Washington",
+  "last_updated": "2025-08-07T00:31:35.789597",
+  "issues": [
+    {
+      "title": "Clean Energy and Climate Change",
+      "description": "Strong advocate for renewable energy, supports emissions reduction and clean technology investments",
+      "category": "Environment",
+      "source": "https://www.cantwell.senate.gov/climate"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Affordable Care Act, protecting pre-existing condition coverage, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.cantwell.senate.gov/healthcare"
+    },
+    {
+      "title": "Technology and Innovation",
+      "description": "Promotes tech sector growth, supports research funding, cybersecurity initiatives",
+      "category": "Economy",
+      "source": "https://www.cantwell.senate.gov/technology"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, DACA protections",
+      "category": "Social Issues",
+      "source": "https://www.cantwell.senate.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student loan reform, workforce training programs",
+      "category": "Education",
+      "source": "https://www.cantwell.senate.gov/education"
+    },
+    {
+      "title": "Trade Policy",
+      "description": "Supports fair trade agreements, protecting American manufacturing, supporting Pacific Northwest economic interests",
+      "category": "Foreign Policy",
+      "source": "https://www.cantwell.senate.gov/trade"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Promotes small business development, tax incentives, access to capital for entrepreneurs",
+      "category": "Economy",
+      "source": "https://www.cantwell.senate.gov/smallbusiness"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$87,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Amazon.com",
+        "amount": "$65,300",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Deloitte LLP",
+        "amount": "$42,750",
+        "industry": "Professional Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      },
+      {
+        "industry": "Finance",
+        "total_amount": "$225,000",
+        "percentage": "14%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$75,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$65,000",
+        "ideology": "Environmental",
+        "issue_focus": "Green Energy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$250,000",
+        "occupation": "Technology Leadership"
+      },
+      {
+        "name": "Healthcare Professionals",
+        "amount": "$175,000",
+        "occupation": "Medical/Healthcare"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/maria-cantwell/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Maria Cantwell Official Senate Website",
+    "FEC Campaign Finance Reports",
+    "Senate.gov Biographical Information"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:31:49.809957",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1183
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/e59ccc1e-b5f0-5b86-9b5b-a8fbf6038665",
+  "name": "Eli Crane",
+  "state": "Arizona",
+  "last_updated": "2025-08-07T00:37:49.635097",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and completing border wall construction",
+      "category": "Immigration",
+      "source": "Campaign website and public statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Ardent defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Campaign rhetoric and voting record"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Advocates for reduced government spending, lower taxes, and balanced budgets",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Legislative voting history"
+    },
+    {
+      "title": "Military Support",
+      "description": "Strong supporter of increased military funding and veteran benefits",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reducing government involvement in healthcare, opposes Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Election Integrity",
+      "description": "Supports stricter voter ID laws and election verification processes",
+      "category": "Political Reform",
+      "source": "Public statements and legislative efforts"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Freedom Caucus PAC",
+        "amount": "$15,000-$30,000",
+        "industry": "Conservative Political Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense",
+        "total_amount": "$75,000-$100,000",
+        "percentage": "15-20%"
+      },
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$100,000-$150,000",
+        "percentage": "25-30%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association PAC",
+        "amount": "$10,000-$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$5,000-$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small dollar donors",
+        "amount": "$100-$500",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate/H2AZ02307"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:38:02.843918",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1019
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/a9a4d048-36e2-4f72-a764-5c361593a0d3",
+  "name": "Bernie Moreno",
+  "state": "Ohio",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Election Integrity",
+      "description": "Strong supporter of voter ID laws and election security measures",
+      "category": "Political Reform",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for complete border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "NRA endorsement"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports complete abortion ban with no exceptions",
+      "category": "Social Issues",
+      "source": "Debate statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports comprehensive tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Economic policy platform"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Advocates for market-driven healthcare solutions, opposes government-run healthcare",
+      "category": "Healthcare",
+      "source": "Campaign literature"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development and opposes green energy mandates",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Restore Our Future PAC",
+        "amount": "$175,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$350,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$100,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Peter Thiel",
+        "amount": "$50,000",
+        "occupation": "Tech Investor"
+      },
+      {
+        "name": "Bob Stefanowski",
+        "amount": "$25,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "FEC Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Candidate Campaign Website",
+    "OpenSecrets.org",
+    "Campaign Speech Transcripts"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:47:21.588816",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 947
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

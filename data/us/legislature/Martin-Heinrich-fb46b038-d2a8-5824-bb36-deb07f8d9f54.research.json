@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/fb46b038-d2a8-5824-bb36-deb07f8d9f54",
+  "name": "Martin Heinrich",
+  "state": "New Mexico",
+  "last_updated": "2025-08-07T00:43:39.608839",
+  "issues": [
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Strong advocate for renewable energy, supports reducing carbon emissions and transitioning to clean energy sources",
+      "category": "Environment",
+      "source": "https://www.heinrich.senate.gov/issues/energy-and-environment"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare coverage, protecting Affordable Care Act, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.heinrich.senate.gov/issues/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://www.heinrich.senate.gov/issues/immigration"
+    },
+    {
+      "title": "Education and Workforce Development",
+      "description": "Advocates for increased education funding, student debt relief, technical training programs",
+      "category": "Education",
+      "source": "https://www.heinrich.senate.gov/issues/education"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports infrastructure investment, small business development, middle-class economic policies",
+      "category": "Economy",
+      "source": "https://www.heinrich.senate.gov/issues/economic-development"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Strong advocate for veterans' healthcare, job training, mental health services",
+      "category": "Social Issues",
+      "source": "https://www.heinrich.senate.gov/issues/veterans"
+    },
+    {
+      "title": "Native American Rights",
+      "description": "Supports tribal sovereignty, increased funding for Native American communities, cultural preservation",
+      "category": "Social Issues",
+      "source": "https://www.heinrich.senate.gov/issues/native-american-affairs"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$1.2 million",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Environmental Organizations",
+        "total_amount": "$450,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$2-$200 range",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/members-of-congress/martin-heinrich/summary?cid=N00033540"
+  },
+  "sources": [
+    "https://www.heinrich.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Martin_Heinrich"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:43:52.868253",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1058
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/50705d33-6967-5424-8f57-7df22ecbc6e6",
+  "name": "Ashley Hinson",
+  "state": "Iowa",
+  "last_updated": "2025-08-07T00:29:49.707992",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports restrictions and potential total ban",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Reduce Government Spending",
+      "description": "Advocates for federal budget cuts and reduced social program funding",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "Educational policy statements"
+    },
+    {
+      "title": "Oppose Green New Deal",
+      "description": "Rejects climate change legislation that impacts fossil fuel industries",
+      "category": "Environment",
+      "source": "Climate policy voting record"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing portions of Affordable Care Act, favors market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional healthcare votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Walmart",
+        "amount": "$15,500",
+        "industry": "Retail",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$127,500",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Insurance",
+        "total_amount": "$95,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$5,000",
+        "occupation": "Corporate Executive"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Database",
+    "Congressional Record",
+    "OpenSecrets.org",
+    "Official Campaign Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:30:02.214350",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 950
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

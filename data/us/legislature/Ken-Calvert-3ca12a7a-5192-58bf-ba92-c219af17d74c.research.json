@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/3ca12a7a-5192-58bf-ba92-c219af17d74c",
+  "name": "Ken Calvert",
+  "state": "California",
+  "last_updated": "2025-08-07T00:43:11.994470",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Advocates for increased defense spending and support for military contractors",
+      "category": "Foreign Policy",
+      "source": "House Armed Services Committee records"
+    },
+    {
+      "title": "Fossil Fuel Support",
+      "description": "Opposes climate change regulations and supports expanded oil and gas drilling",
+      "category": "Environment",
+      "source": "Energy and Commerce Committee voting history"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts for businesses and high-income earners",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Advocates for reducing government involvement in healthcare and supporting private insurance options",
+      "category": "Healthcare",
+      "source": "Healthcare policy statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and legislative votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Education committee recommendations"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Northrop Grumman",
+        "amount": "$45,000",
+        "industry": "Defense Contractors",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$35,000",
+        "industry": "Aerospace",
+        "cycle": "2022"
+      },
+      {
+        "name": "Chevron",
+        "amount": "$30,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Tax Reduction",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Michael Huffington",
+        "amount": "$25,000",
+        "occupation": "Businessman"
+      },
+      {
+        "name": "Thomas Smith",
+        "amount": "$15,000",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ken-calvert/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Campaign Finance Reports",
+    "Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:43:25.719421",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1094
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

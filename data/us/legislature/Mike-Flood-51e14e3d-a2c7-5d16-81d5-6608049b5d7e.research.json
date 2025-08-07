@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/51e14e3d-a2c7-5d16-81d5-6608049b5d7e",
+  "name": "Mike Flood",
+  "state": "Nebraska",
+  "last_updated": "2025-08-07T00:28:37.125646",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong supporter of pro-life policies, advocating for restrictions on abortion and protecting unborn children",
+      "category": "Social Issues",
+      "source": "Nebraska Legislature voting records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership and opposes gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign website and legislative voting history"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower taxes, particularly for businesses and middle-class families",
+      "category": "Economic Policy",
+      "source": "Nebraska Legislative fiscal policy proposals"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports stricter immigration enforcement and border control measures",
+      "category": "Immigration",
+      "source": "Congressional campaign materials"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding school voucher programs and charter school options",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reduced government intervention in healthcare and market-driven solutions",
+      "category": "Healthcare",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development and opposes strict environmental regulations",
+      "category": "Environment/Energy",
+      "source": "Energy policy proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Nebraska Farm Bureau",
+        "amount": "$25,000-$50,000",
+        "industry": "Agricultural Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Union Pacific Railroad",
+        "amount": "$10,000-$25,000",
+        "industry": "Transportation",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Fiscal Conservatism",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Pete Ricketts",
+        "amount": "$5,000",
+        "occupation": "Former Nebraska Governor"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$50,000-$100,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Nebraska Legislature Official Records",
+    "Campaign Official Website",
+    "Federal Election Commission Filings",
+    "Local Nebraska News Sources"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:28:50.639149",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1035
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

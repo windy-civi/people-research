@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/3a4aef6c-28c5-5cb7-a664-0e8c9d0c4fd2",
+  "name": "Ritchie Torres",
+  "state": "New York",
+  "last_updated": "2025-08-07T00:45:13.622334",
+  "issues": [
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong advocate for LGBTQ+ equality, first openly gay Afro-Latino member of Congress",
+      "category": "Social Issues",
+      "source": "Congressional Record"
+    },
+    {
+      "title": "Housing Affordability",
+      "description": "Supports increased federal funding for affordable housing, tenant protections, and anti-gentrification policies",
+      "category": "Housing",
+      "source": "Torres Congressional Website"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding public healthcare options, lowering prescription drug prices, and protecting Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for Green New Deal principles, supports aggressive carbon reduction and renewable energy investments",
+      "category": "Environment",
+      "source": "Congressional Speeches"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Supports comprehensive police reform, addressing systemic racism, and economic equity for marginalized communities",
+      "category": "Social Justice",
+      "source": "Public Statements"
+    },
+    {
+      "title": "COVID-19 Response",
+      "description": "Supported extensive pandemic relief, vaccine distribution, and economic support for small businesses",
+      "category": "Public Health",
+      "source": "Legislative Record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Economic Inequality",
+      "description": "Advocates for higher minimum wage, stronger labor protections, and progressive taxation",
+      "category": "Economy",
+      "source": "Campaign Proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Securities",
+        "total_amount": "$750,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$450,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$1-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00044569"
+  },
+  "sources": [
+    "Congressional Website",
+    "OpenSecrets",
+    "Campaign Platform",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:45:27.346484",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 1038
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

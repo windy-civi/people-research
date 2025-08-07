@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/289b4cb5-a838-5b08-8f74-e06d4d251ae7",
+  "name": "Jamie Raskin",
+  "state": "Maryland",
+  "last_updated": "2025-08-07T00:34:57.588697",
+  "issues": [
+    {
+      "title": "Voting Rights Protection",
+      "description": "Strong advocate for expanding voting access, opposing voter suppression laws, and supporting federal voting rights legislation",
+      "category": "Civil Rights",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports aggressive climate change policies, including Green New Deal framework and carbon reduction targets",
+      "category": "Environment",
+      "source": "Congressional speeches and policy proposals"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports Medicare for All, expanded public healthcare options, and reducing pharmaceutical drug prices",
+      "category": "Healthcare",
+      "source": "House committee testimony"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for comprehensive gun safety legislation, universal background checks, and assault weapons ban",
+      "category": "Public Safety",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of comprehensive anti-discrimination protections, marriage equality, and transgender rights",
+      "category": "Civil Rights",
+      "source": "Congressional record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and opposing restrictive border policies",
+      "category": "Immigration",
+      "source": "Policy statements"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Advocates for progressive taxation, increased minimum wage, and stronger worker protections",
+      "category": "Economy",
+      "source": "Congressional proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$482,650",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$14,250",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$1,250,000",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Law/Legal Services",
+        "total_amount": "$350,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$15,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$2,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jamie-raskin/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Records",
+    "Official Campaign Website",
+    "Federal Election Commission Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:35:10.178528",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 958
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

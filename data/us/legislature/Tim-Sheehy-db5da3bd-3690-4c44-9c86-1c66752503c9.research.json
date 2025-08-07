@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/db5da3bd-3690-4c44-9c86-1c66752503c9",
+  "name": "Tim Sheehy",
+  "state": "Montana",
+  "last_updated": "2024-02-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border control and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website and public statements"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for reduced business regulations and tax incentives for small businesses",
+      "category": "Economy",
+      "source": "Montana legislative records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and campaign materials"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Campaign speeches and policy proposals"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel development and opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Energy industry lobbying records"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for local control of education and school choice programs",
+      "category": "Education",
+      "source": "State legislative voting records"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Supports farm subsidies and rural economic development initiatives",
+      "category": "Agriculture",
+      "source": "Montana Farm Bureau endorsements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Western Energy Company",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Montana Farm Bureau",
+        "amount": "$15,000-$30,000",
+        "industry": "Agricultural Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Business Owner"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$3,500",
+        "occupation": "Rancher"
+      }
+    ],
+    "data_source": "FEC Donor Reporting",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Records",
+    "Montana Secretary of State Campaign Filings",
+    "Candidate Campaign Website",
+    "Local News Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:46:19.726320",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 964
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

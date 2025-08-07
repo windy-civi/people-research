@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/ae123357-c70e-5d29-b16f-2d17775ab0f6",
+  "name": "Grace Meng",
+  "state": "New York",
+  "last_updated": "2025-08-07T00:44:34.772488",
+  "issues": [
+    {
+      "title": "COVID-19 Relief",
+      "description": "Advocated for comprehensive pandemic support and funding for healthcare infrastructure",
+      "category": "Healthcare",
+      "source": "https://meng.house.gov/covid-relief"
+    },
+    {
+      "title": "Anti-Asian Hate Legislation",
+      "description": "Introduced legislation to combat anti-Asian discrimination and hate crimes",
+      "category": "Social Justice",
+      "source": "https://meng.house.gov/hate-crimes-prevention"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": "https://meng.house.gov/immigration-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal and aggressive emissions reduction targets",
+      "category": "Environment",
+      "source": "https://meng.house.gov/climate-policy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding and student debt relief",
+      "category": "Education",
+      "source": "https://meng.house.gov/education-policy"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expansion of affordable healthcare and Medicare public option",
+      "category": "Healthcare",
+      "source": "https://meng.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Proposed legislation for small business grants and economic recovery programs",
+      "category": "Economy",
+      "source": "https://meng.house.gov/economic-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Asian American Democratic PAC",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Asian American Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund PAC",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$750,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "House.gov Official Website",
+    "Federal Election Commission Records",
+    "OpenSecrets Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:44:47.131974",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 969
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

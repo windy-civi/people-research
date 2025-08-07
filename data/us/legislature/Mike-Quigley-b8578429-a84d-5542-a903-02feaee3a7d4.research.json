@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/b8578429-a84d-5542-a903-02feaee3a7d4",
+  "name": "Mike Quigley",
+  "state": "Illinois",
+  "last_updated": "2025-08-07T00:35:10.208144",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports strengthening the Affordable Care Act and expanding public healthcare options",
+      "category": "Healthcare",
+      "source": "https://quigley.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supports Green New Deal principles",
+      "category": "Environment",
+      "source": "https://quigley.house.gov/issues/climate"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "https://quigley.house.gov/issues/immigration"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports universal background checks and assault weapons ban",
+      "category": "Public Safety",
+      "source": "https://quigley.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of LGBTQ+ equality and anti-discrimination protections",
+      "category": "Social Issues",
+      "source": "https://quigley.house.gov/issues/civil-rights"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding and student debt relief",
+      "category": "Education",
+      "source": "https://quigley.house.gov/issues/education"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure spending to create jobs and modernize infrastructure",
+      "category": "Economy",
+      "source": "https://quigley.house.gov/issues/infrastructure"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$324,567",
+        "industry": "Political Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$156,890",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$412,000",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Law Firms",
+        "total_amount": "$387,500",
+        "percentage": "16.2%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$78,500",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$65,300",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$1,200,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/mike-quigley/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "House.gov Official Website",
+    "Campaign Finance Reports",
+    "Official Campaign Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:35:22.836802",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 999
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

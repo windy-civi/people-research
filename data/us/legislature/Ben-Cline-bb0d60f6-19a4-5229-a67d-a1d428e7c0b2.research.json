@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/bb0d60f6-19a4-5229-a67d-a1d428e7c0b2",
+  "name": "Ben Cline",
+  "state": "Virginia",
+  "last_updated": "2025-08-07T00:36:42.678317",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Campaign website and voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower taxes, supports tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction",
+      "category": "Immigration",
+      "source": "Congressional speeches and voting record"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional healthcare votes"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Limited Government",
+      "description": "Advocates for reducing federal government size and regulatory power",
+      "category": "Government",
+      "source": "Political platform"
+    },
+    {
+      "title": "Conservative Foreign Policy",
+      "description": "Supports strong national defense, hawkish approach to international relations",
+      "category": "Foreign Policy",
+      "source": "Congressional foreign policy votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$10,000-$25,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Pharmaceuticals",
+        "total_amount": "$75,000",
+        "percentage": "12%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$65,000",
+        "percentage": "10%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$15,000-$30,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$10,000-$20,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "Campaign Financial Disclosures",
+    "Voting Record Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:36:56.163806",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1022
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

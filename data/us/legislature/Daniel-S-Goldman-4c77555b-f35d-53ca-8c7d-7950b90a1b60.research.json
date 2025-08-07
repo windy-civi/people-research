@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/4c77555b-f35d-53ca-8c7d-7950b90a1b60",
+  "name": "Dan Goldman",
+  "state": "New York",
+  "last_updated": "2025-08-07T00:42:11.195777",
+  "issues": [
+    {
+      "title": "Gun Control",
+      "description": "Supports comprehensive gun safety legislation, including universal background checks and assault weapons ban",
+      "category": "Social Policy",
+      "source": "Official Campaign Website"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Advocates for expanding affordable healthcare, protecting Medicare and supporting public option",
+      "category": "Healthcare",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Strong supporter of Green New Deal principles, supports aggressive carbon reduction targets",
+      "category": "Environment",
+      "source": "Congressional Speeches"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Fully supports abortion access and opposes restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Voting Record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Campaign Statements"
+    },
+    {
+      "title": "Economic Policy",
+      "description": "Supports middle-class tax relief, raising minimum wage, and strengthening worker protections",
+      "category": "Economy",
+      "source": "Policy Proposals"
+    },
+    {
+      "title": "Education",
+      "description": "Advocates for increased education funding, student debt relief, and expanded community college access",
+      "category": "Education",
+      "source": "Campaign Platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Legal Services",
+        "total_amount": "$375,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Party National Committee",
+        "amount": "$500,000",
+        "ideology": "Liberal",
+        "issue_focus": "General Democratic Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$1,000,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov"
+  },
+  "sources": [
+    "FEC Campaign Reports",
+    "Official Campaign Website",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:42:33.544214",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 918
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "legislator_id": "ocd-person/200bd7b3-ce8e-5541-a649-b53e30862567",
+  "name": "Mitch McConnell",
+  "state": "Kentucky",
+  "last_updated": "2025-08-07T00:50:32.158787",
+  "issues": [
+    {
+      "title": "Supreme Court Appointments",
+      "description": "Strong advocate for conservative judicial nominations, blocked Merrick Garland's nomination in 2016 and fast-tracked conservative justices",
+      "category": "Judicial Policy",
+      "source": "Senate.gov records"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposed Affordable Care Act, supports market-driven healthcare solutions, against government-run healthcare",
+      "category": "Healthcare",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports substantial tax cuts for corporations and high-income earners, championed 2017 Tax Cuts and Jobs Act",
+      "category": "Economic Policy",
+      "source": "Senate Budget Committee records"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports stricter border control, opposes comprehensive immigration reform, favors merit-based immigration",
+      "category": "Immigration",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Campaign Finance",
+      "description": "Supports fewer restrictions on political spending, defended Citizens United decision",
+      "category": "Political Process",
+      "source": "OpenSecrets.org"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Hawkish stance on national defense, supports strong military funding, critical of diplomatic engagement with adversaries",
+      "category": "National Security",
+      "source": "Senate Foreign Relations Committee records"
+    },
+    {
+      "title": "Environmental Regulations",
+      "description": "Opposes strict environmental regulations, supports fossil fuel industries, skeptical of climate change legislation",
+      "category": "Environment",
+      "source": "Senate Environment Committee records"
+    },
+    {
+      "title": "Abortion Rights",
+      "description": "Pro-life stance, supports restrictions on abortion, nominated conservative judges likely to limit abortion access",
+      "category": "Social Issues",
+      "source": "Voting records and public statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blackstone Group",
+        "amount": "$250,000-$500,000",
+        "industry": "Finance/Investment",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$150,000-$300,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$100,000-$250,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$2.5 million",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$1.8 million",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Oil & Gas",
+        "total_amount": "$1.5 million",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Senate Leadership Fund",
+        "amount": "$50 million",
+        "ideology": "Conservative",
+        "issue_focus": "Republican Senate Control",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$5 million",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$1 million",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Sheldon Adelson",
+        "amount": "$500,000",
+        "occupation": "Casino Magnate"
+      },
+      {
+        "name": "Richard Uihlein",
+        "amount": "$250,000",
+        "occupation": "Packaging Supplies Businessman"
+      }
+    ],
+    "data_source": "OpenSecrets.org, FEC Records",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00003389"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Federal Election Commission",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:50:49.025524",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1261
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

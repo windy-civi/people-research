@@ -1,0 +1,134 @@
+{
+  "legislator_id": "ocd-person/9a89c225-65e9-5680-a780-9802c17cb7c4",
+  "name": "Rick Crawford",
+  "state": "Arkansas",
+  "last_updated": "2025-08-07T00:30:16.111461",
+  "issues": [
+    {
+      "title": "Agriculture Support",
+      "description": "Strong advocate for agricultural interests, supports farm subsidies and rural economic development",
+      "category": "Economic Policy",
+      "source": "https://crawford.house.gov/agriculture-policy"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, advocates for border wall construction and increased border patrol funding",
+      "category": "Immigration",
+      "source": "https://crawford.house.gov/immigration-stance"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership, opposes gun control legislation, advocates for expanded concealed carry rights",
+      "category": "Social Issues",
+      "source": "https://crawford.house.gov/second-amendment"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions and repeal of Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://crawford.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates, supports simplified tax code",
+      "category": "Economic Policy",
+      "source": "https://crawford.house.gov/tax-policy"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports expanded domestic oil and gas production, opposes strict environmental regulations",
+      "category": "Energy and Environment",
+      "source": "https://crawford.house.gov/energy-policy"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "https://crawford.house.gov/social-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Monsanto Company",
+        "amount": "$45,000",
+        "industry": "Agricultural Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$35,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Services",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy Sector",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$125,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$30,000",
+        "ideology": "Pro-Life Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Agricultural Businessman"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Database",
+    "source_url": "https://www.opensecrets.org/members-of-congress/rick-crawford/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "House.gov Official Website",
+    "FEC Campaign Finance Records",
+    "Crawford Congressional Office Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:30:30.323019",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1127
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

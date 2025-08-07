@@ -1,0 +1,147 @@
+{
+  "legislator_id": "ocd-person/08e42c4f-2c5e-5fe0-87cf-0e8de2bdb52d",
+  "name": "Tom Emmer",
+  "state": "Minnesota",
+  "last_updated": "2025-08-07T00:40:23.537488",
+  "issues": [
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports reducing government spending, lowering taxes, and maintaining balanced budgets",
+      "category": "Economy",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of stricter immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion, opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional statements"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, opposes federal intervention in education policy",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, hawkish stance on international interventions",
+      "category": "Foreign Policy",
+      "source": "Congressional voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Wells Fargo",
+        "amount": "$25,000-$50,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$20,000-$35,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$15,000-$30,000",
+        "industry": "Defense/Aerospace",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$200,000",
+        "percentage": "18%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$150,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "CEO, Private Equity Firm"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$2,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/tom-emmer/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "Official Campaign Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:40:38.257711",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1184
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

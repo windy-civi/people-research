@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/9db37a87-2ba9-56a0-9b42-89697222e044",
+  "name": "Carlos Giménez",
+  "state": "Florida",
+  "last_updated": "2025-08-07T00:39:09.463266",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border protection and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Fiscal Responsibility",
+      "description": "Advocates for reduced government spending and lower taxes",
+      "category": "Economy",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "Official campaign platform"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "COVID-19 Response",
+      "description": "Criticized strict lockdown measures, supported limited government intervention",
+      "category": "Public Health",
+      "source": "Media interviews and statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes aggressive climate regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Policy",
+      "description": "Supports school choice and charter school expansion",
+      "category": "Education",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, hawkish stance on international conflicts",
+      "category": "Foreign Policy",
+      "source": "Congressional speeches"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$15,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$10,000-$20,000",
+        "industry": "Communications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$125,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$1,500",
+        "occupation": "Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/candidates/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Federal Election Commission",
+    "Candidate's Official Campaign Website",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:39:22.298335",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 993
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

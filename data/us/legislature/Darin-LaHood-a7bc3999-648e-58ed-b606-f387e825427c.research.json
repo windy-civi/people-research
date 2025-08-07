@@ -1,0 +1,136 @@
+{
+  "legislator_id": "ocd-person/a7bc3999-648e-58ed-b606-f387e825427c",
+  "name": "Darin LaHood",
+  "state": "Illinois",
+  "last_updated": "2025-08-07T00:36:28.553090",
+  "issues": [
+    {
+      "title": "Conservative Fiscal Policy",
+      "description": "Strong supporter of tax cuts and reduced government spending",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for stricter immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Support",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and military preparedness",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "Fossil Fuel Support",
+      "description": "Advocates for continued oil and gas exploration, opposes climate change regulations",
+      "category": "Environment",
+      "source": "Energy committee voting record"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare",
+      "category": "Healthcare",
+      "source": "Congressional healthcare votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Education policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Caterpillar Inc.",
+        "amount": "$15,000-$25,000",
+        "industry": "Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "State Farm",
+        "amount": "$10,000-$20,000",
+        "industry": "Insurance",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy/Natural Resources",
+        "total_amount": "$100,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Ray LaHood",
+        "amount": "$5,000",
+        "occupation": "Retired Politician"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$50,000-$75,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/darin-lahood/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets.org",
+    "Federal Election Commission",
+    "Campaign Financial Disclosures"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:36:42.650359",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1091
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

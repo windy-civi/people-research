@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/64be0348-ad79-4c2f-b548-babc5c27203c",
+  "name": "Josh Riley",
+  "state": "New York",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding public healthcare options and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for infrastructure investment and support for small businesses in rural communities",
+      "category": "Economy",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports green energy transition and investments in renewable infrastructure",
+      "category": "Environment",
+      "source": "Policy platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased funding for public schools and student debt relief",
+      "category": "Education",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Candidate debates"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Advocates for minimum wage increase and stronger labor protections",
+      "category": "Labor",
+      "source": "Legislative record"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Supports universal background checks and assault weapons restrictions",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "DCCC",
+        "amount": "$100,000",
+        "ideology": "Liberal",
+        "issue_focus": "Electoral Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Working Families Party",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Economic Justice",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Campaign Website",
+    "FEC Donor Records",
+    "OpenSecrets.org",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:28:23.717004",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 880
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

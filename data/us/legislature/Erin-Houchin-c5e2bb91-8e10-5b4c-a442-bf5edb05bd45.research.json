@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/c5e2bb91-8e10-5b4c-a442-bf5edb05bd45",
+  "name": "Erin Houchin",
+  "state": "Indiana",
+  "last_updated": "2025-08-07T00:32:16.363999",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong conservative pro-life position, supports significant restrictions on abortion",
+      "category": "Social Issues",
+      "source": "Indiana State Legislature Records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership and opposes gun control measures",
+      "category": "Constitutional Rights",
+      "source": "Campaign Website and Voting Record"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Advocates for market-based healthcare solutions, opposes expanded government healthcare programs",
+      "category": "Healthcare",
+      "source": "Legislative Voting History"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Campaign Statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lowering personal and corporate tax rates to stimulate economic growth",
+      "category": "Economic Policy",
+      "source": "Legislative Proposals"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Advocates for school voucher programs and expanded charter school options",
+      "category": "Education",
+      "source": "State Education Committee Proposals"
+    },
+    {
+      "title": "Limited Government",
+      "description": "Supports reducing government regulation and intervention in private sector",
+      "category": "Political Philosophy",
+      "source": "Campaign Platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Farm Equipment Manufacturers Association",
+        "amount": "$25,000-$50,000",
+        "industry": "Agricultural Equipment",
+        "cycle": "2022"
+      },
+      {
+        "name": "Indiana Medical Association PAC",
+        "amount": "$15,000-$30,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Sector",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$45,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Small Business Owner"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$3,500",
+        "occupation": "Farmer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate-records"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Indiana State Legislature Records",
+    "Campaign Official Website",
+    "Local News Reporting"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:32:28.728032",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 968
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

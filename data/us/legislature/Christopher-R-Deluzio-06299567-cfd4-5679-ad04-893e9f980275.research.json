@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/06299567-cfd4-5679-ad04-893e9f980275",
+  "name": "Chris Deluzio",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-07T00:37:37.410819",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding affordable healthcare access, protecting pre-existing condition coverage, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for job creation, supporting small businesses, and investing in manufacturing and technology sectors in Pennsylvania",
+      "category": "Economy",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Committed to improving veterans' healthcare, mental health services, and job transition programs",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure spending to repair roads, bridges, and expand broadband access in rural communities",
+      "category": "Infrastructure",
+      "source": "Infrastructure bill voting record"
+    },
+    {
+      "title": "Gun Safety Reform",
+      "description": "Advocates for universal background checks, red flag laws, and reasonable gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports clean energy investments, reducing carbon emissions, and creating green job opportunities",
+      "category": "Environment",
+      "source": "Environmental policy statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student debt relief, and workforce training programs",
+      "category": "Education",
+      "source": "Congressional voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$45,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sheet Metal Workers Union",
+        "amount": "$15,000",
+        "industry": "Labor",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$75,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Small Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "FEC Donor Records",
+    "Congressional Voting Record",
+    "Campaign Speeches"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:37:49.608580",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 934
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

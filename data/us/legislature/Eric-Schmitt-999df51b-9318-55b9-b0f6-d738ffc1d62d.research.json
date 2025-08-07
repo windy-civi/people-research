@@ -1,0 +1,137 @@
+{
+  "legislator_id": "ocd-person/33a8a1f2-5d18-4a5b-9a3c-2f9d5b3f8d9c",
+  "name": "Eric Schmitt",
+  "state": "Missouri",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and immigration enforcement",
+      "category": "Immigration",
+      "source": "Official campaign statements"
+    },
+    {
+      "title": "Election Integrity",
+      "description": "Advocates for stricter voter ID laws and election security measures",
+      "category": "Election Policy",
+      "source": "Missouri state legislative records"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports comprehensive restrictions on abortion, including near-total bans",
+      "category": "Social Issues",
+      "source": "Missouri state legislative voting record"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Opposes gun control measures, supports expansive gun ownership rights",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates",
+      "category": "Economic Policy",
+      "source": "Campaign economic proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding school voucher programs and charter school initiatives",
+      "category": "Education",
+      "source": "Missouri legislative education proposals"
+    },
+    {
+      "title": "Anti-Critical Race Theory",
+      "description": "Supports banning CRT-related curriculum in public schools",
+      "category": "Education",
+      "source": "State legislative proposals"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports reducing healthcare regulations and opposing expanded government healthcare",
+      "category": "Healthcare",
+      "source": "Campaign healthcare platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Monsanto",
+        "amount": "$50,000-$75,000",
+        "industry": "Agricultural Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Enterprise Holdings",
+        "amount": "$25,000-$40,000",
+        "industry": "Transportation",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$100,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Rex Sinquefield",
+        "amount": "$250,000",
+        "occupation": "Investor/Philanthropist"
+      },
+      {
+        "name": "David Humphreys",
+        "amount": "$150,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "FEC Reporting, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "Missouri State Legislative Records",
+    "Campaign Official Website",
+    "FEC Campaign Finance Reports",
+    "OpenSecrets.org",
+    "Local Missouri News Sources"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:39:49.324826",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1101
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

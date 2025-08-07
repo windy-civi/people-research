@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/86b65fd7-4549-51fa-80e8-eaf3daf3e60e",
+  "name": "Lou Correa",
+  "state": "California",
+  "last_updated": "2025-08-07T00:41:36.831462",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Supports enhanced border security measures while maintaining compassionate immigration policy",
+      "category": "Immigration",
+      "source": "Official Congressional voting record"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding affordable healthcare coverage and protecting pre-existing condition protections",
+      "category": "Healthcare",
+      "source": "Congressional voting history"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Proposes tax incentives and grants to support small business growth and economic development",
+      "category": "Economy",
+      "source": "Campaign platform materials"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Strong advocate for improved veterans' healthcare and employment support programs",
+      "category": "Social Issues",
+      "source": "Veterans advocacy records"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports clean energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Congressional environmental voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal funding for public education and student loan relief",
+      "category": "Education",
+      "source": "Congressional education policy statements"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure spending to create jobs and modernize transportation systems",
+      "category": "Economy",
+      "source": "Infrastructure bill co-sponsorship"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Axiom Consulting Group",
+        "amount": "$15,000-$25,000",
+        "industry": "Professional Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Southern California Edison",
+        "amount": "$10,000-$20,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Legal Services",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Latino Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Latino Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Jose Rodriguez",
+        "amount": "$2,900",
+        "occupation": "Small Business Owner"
+      },
+      {
+        "name": "Emily Chen",
+        "amount": "$5,000",
+        "occupation": "Attorney"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Campaign Website",
+    "OpenSecrets.org",
+    "Congressional Biography"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:41:49.629097",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 967
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

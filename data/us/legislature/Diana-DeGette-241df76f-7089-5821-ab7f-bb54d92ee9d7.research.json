@@ -1,0 +1,128 @@
+{
+  "legislator_id": "ocd-person/241df76f-7089-5821-ab7f-bb54d92ee9d7",
+  "name": "Diana DeGette",
+  "state": "Colorado",
+  "last_updated": "2025-08-07T00:45:27.377138",
+  "issues": [
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's reproductive healthcare, co-sponsor of multiple pro-choice legislative efforts",
+      "category": "Social Issues",
+      "source": "https://degette.house.gov/issues/womens-health"
+    },
+    {
+      "title": "Climate Change Legislation",
+      "description": "Advocate for comprehensive climate action, supports Green New Deal principles and renewable energy transition",
+      "category": "Environment",
+      "source": "https://degette.house.gov/environment"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Affordable Care Act, Medicare public option, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://degette.house.gov/healthcare"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Longtime advocate for universal background checks and assault weapons restrictions",
+      "category": "Social Issues",
+      "source": "https://degette.house.gov/gun-safety"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of comprehensive non-discrimination protections and marriage equality",
+      "category": "Social Issues",
+      "source": "https://degette.house.gov/equality"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": "https://degette.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "https://degette.house.gov/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$45,000",
+        "industry": "Healthcare Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Environmental Services",
+        "total_amount": "$125,000",
+        "percentage": "11%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$50,000",
+        "ideology": "Liberal Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$40,000",
+        "ideology": "LGBTQ+ Rights",
+        "issue_focus": "Equality",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors",
+        "amount": "$500,000",
+        "occupation": "Mixed Professional"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00007519"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Official Congressional Website",
+    "FEC Campaign Contribution Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:45:40.817428",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1077
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

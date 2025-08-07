@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/5048bd11-acf0-5775-a75f-5f085fc8bc11",
+  "name": "Tom Tiffany",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-07T00:42:33.570821",
+  "issues": [
+    {
+      "title": "Environmental Regulation Rollback",
+      "description": "Supports reducing environmental protections, particularly opposing regulations on mining and forestry",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Campaign statements and voting record"
+    },
+    {
+      "title": "Anti-Abortion Stance",
+      "description": "Supports strict limitations on abortion, advocates for pro-life policies",
+      "category": "Social Issues",
+      "source": "Legislative voting history"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower taxes, particularly for businesses and high-income earners",
+      "category": "Economy",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Opposition to COVID-19 Restrictions",
+      "description": "Criticized pandemic-related government mandates and restrictions",
+      "category": "Healthcare",
+      "source": "Public statements"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports stricter border control and reduced immigration",
+      "category": "Immigration",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "School Choice Support",
+      "description": "Advocates for expanding school voucher programs and charter school funding",
+      "category": "Education",
+      "source": "State legislative record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Americans for Prosperity",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$20,000-$40,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$75,000-$100,000",
+        "percentage": "15-20%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$50,000-$75,000",
+        "percentage": "10-15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Wisconsin Manufacturers & Commerce",
+        "amount": "$50,000-$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Business Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000-$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Uihlein",
+        "amount": "$100,000-$150,000",
+        "occupation": "Businessman"
+      },
+      {
+        "name": "Diane Hendricks",
+        "amount": "$75,000-$100,000",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Record",
+    "Campaign Financial Disclosures",
+    "Official Legislative Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:42:46.716414",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1007
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

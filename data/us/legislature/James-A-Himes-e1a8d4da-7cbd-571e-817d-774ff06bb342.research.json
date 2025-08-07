@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/e1a8d4da-7cbd-571e-817d-774ff06bb342",
+  "name": "Jim Himes",
+  "state": "Connecticut",
+  "last_updated": "2025-08-07T00:48:38.536826",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, protecting pre-existing condition coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://himes.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supports Green New Deal principles, and promotes renewable energy investments",
+      "category": "Environment",
+      "source": "https://himes.house.gov/issues/climate"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports universal background checks, assault weapons ban, and comprehensive gun safety legislation",
+      "category": "Social Issues",
+      "source": "https://himes.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports infrastructure investment, small business tax credits, and middle-class economic policies",
+      "category": "Economy",
+      "source": "https://himes.house.gov/issues/economy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://himes.house.gov/issues/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, and expanded access to higher education",
+      "category": "Education",
+      "source": "https://himes.house.gov/issues/education"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong NATO alliances, diplomatic engagement, and measured military interventions",
+      "category": "Foreign Policy",
+      "source": "https://himes.house.gov/issues/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Goldman Sachs",
+        "amount": "$42,500",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Google",
+        "amount": "$29,750",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Morgan Stanley",
+        "amount": "$25,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Credit",
+        "total_amount": "$215,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$150,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$10,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors",
+        "amount": "$375,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Data",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jim-himes/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "FEC Campaign Finance Reports",
+    "Ballotpedia"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:48:51.776950",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1056
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

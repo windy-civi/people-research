@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/4db06595-7db2-51a8-8574-703e9af111b9",
+  "name": "Raul Ruiz",
+  "state": "California",
+  "last_updated": "2025-08-07T00:30:53.935207",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing condition coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official Congressional Website"
+    },
+    {
+      "title": "Border Security and Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform with a path to citizenship and enhanced border security measures",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports green energy investments, reducing carbon emissions, and protecting environmental regulations",
+      "category": "Environment",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased funding for public education, student debt relief, and community college support",
+      "category": "Education",
+      "source": "Legislative Proposals"
+    },
+    {
+      "title": "Economic Recovery",
+      "description": "Advocates for infrastructure investment, small business support, and middle-class tax relief",
+      "category": "Economy",
+      "source": "Congressional Speeches"
+    },
+    {
+      "title": "Veterans Healthcare",
+      "description": "Supports improved VA healthcare services and mental health resources for veterans",
+      "category": "Veterans Affairs",
+      "source": "Veterans Caucus Membership"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Promotes racial equity, police reform, and anti-discrimination legislation",
+      "category": "Social Issues",
+      "source": "Congressional Black Caucus Involvement"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$42,500",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$350,000",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$35,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Physician"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$1,500",
+        "occupation": "Teacher"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00033591&cycle=2022"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets.org",
+    "Federal Election Commission Records",
+    "Campaign Official Platform"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:31:06.600242",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 990
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

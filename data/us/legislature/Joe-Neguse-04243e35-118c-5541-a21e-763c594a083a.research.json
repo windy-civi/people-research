@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/04243e35-118c-5541-a21e-763c594a083a",
+  "name": "Joe Neguse",
+  "state": "Colorado",
+  "last_updated": "2025-08-07T00:32:03.283225",
+  "issues": [
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Strong supporter of Green New Deal principles, advocates for transitioning to renewable energy sources and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://neguse.house.gov/issues/climate"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to affordable healthcare, protecting pre-existing conditions, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://neguse.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship for DACA recipients, and protecting immigrant rights",
+      "category": "Immigration",
+      "source": "https://neguse.house.gov/issues/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education, student debt relief, and expanding access to higher education",
+      "category": "Education",
+      "source": "https://neguse.house.gov/issues/education"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure bill to modernize transportation, broadband, and public works systems",
+      "category": "Economy",
+      "source": "https://neguse.house.gov/issues/infrastructure"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports protecting abortion access and women's reproductive healthcare",
+      "category": "Social Issues",
+      "source": "https://neguse.house.gov/issues/womens-rights"
+    },
+    {
+      "title": "Gun Safety Reform",
+      "description": "Supports universal background checks, assault weapons ban, and comprehensive gun violence prevention measures",
+      "category": "Social Issues",
+      "source": "https://neguse.house.gov/issues/gun-safety"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$325,000",
+        "percentage": "12%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$275,000",
+        "percentage": "10%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$55,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Dollar Donors",
+        "amount": "$1.2 million",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00042229"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets.org",
+    "Federal Election Commission Records",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:32:16.338018",
+    "github_action_run": "16791947576",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1026
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
