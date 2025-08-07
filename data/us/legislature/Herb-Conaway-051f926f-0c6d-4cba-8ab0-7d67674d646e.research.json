@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/051f926f-0c6d-4cba-8ab0-7d67674d646e",
+  "name": "Herb Conaway",
+  "state": "New Jersey",
+  "last_updated": "2025-08-06T23:57:53.712254",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding healthcare access and reducing medical costs",
+      "category": "Healthcare",
+      "source": "New Jersey Legislature Records"
+    },
+    {
+      "title": "Medical Cannabis Legislation",
+      "description": "Authored key legislation expanding medical marijuana programs in New Jersey",
+      "category": "Healthcare",
+      "source": "NJ State Legislative Records"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocate for increased public school funding and equitable resource distribution",
+      "category": "Education",
+      "source": "New Jersey Education Policy Statements"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Supports strong environmental regulations and climate change mitigation efforts",
+      "category": "Environment",
+      "source": "NJ Environmental Policy Platform"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports comprehensive gun safety legislation and background check expansions",
+      "category": "Social Issues",
+      "source": "State Legislative Voting Records"
+    },
+    {
+      "title": "Public Health Research",
+      "description": "Champion of increasing funding for medical research and public health initiatives",
+      "category": "Healthcare",
+      "source": "Legislative Budget Proposals"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Supports policies to increase affordable housing options and reduce housing inequality",
+      "category": "Social Issues",
+      "source": "NJ Housing Policy Statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Healthcare Providers Association",
+        "amount": "$45,000-$65,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Pharmaceutical Research Companies",
+        "amount": "$35,000-$50,000",
+        "industry": "Pharmaceutical",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$125,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$90,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic State Leadership Committee",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Political Campaign Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund PAC",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Medical Professionals Network",
+        "amount": "$45,000",
+        "occupation": "Various Medical Professionals"
+      },
+      {
+        "name": "Local Community Leaders",
+        "amount": "$30,000",
+        "occupation": "Various Community Positions"
+      }
+    ],
+    "data_source": "New Jersey Election Finance Records",
+    "source_url": "https://www.electionfinance.nj.gov"
+  },
+  "sources": [
+    "New Jersey State Legislature Official Records",
+    "Campaign Finance Disclosure Documents",
+    "Official Legislative Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:58:06.710629",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 963
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

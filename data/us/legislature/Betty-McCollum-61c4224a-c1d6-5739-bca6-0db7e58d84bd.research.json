@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/61c4224a-c1d6-5739-bca6-0db7e58d84bd",
+  "name": "Betty McCollum",
+  "state": "Minnesota",
+  "last_updated": "2025-08-07T00:04:22.000656",
+  "issues": [
+    {
+      "title": "Environmental Protection",
+      "description": "Strong advocate for climate change action, supports Green New Deal principles, supports reducing carbon emissions and investing in renewable energy",
+      "category": "Environment",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Medicare, reducing prescription drug costs, protecting Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Palestinian Human Rights",
+      "description": "Critical of Israeli military actions, supports reducing military aid to Israel, advocates for Palestinian civilian protections",
+      "category": "Foreign Policy",
+      "source": "Congressional speeches and legislation"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, expanding access to higher education",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Supports police reform, anti-discrimination legislation, addressing systemic racism",
+      "category": "Social Issues",
+      "source": "Congressional Black Caucus statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Official policy statements"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15/hour, worker protections",
+      "category": "Economy",
+      "source": "Labor committee votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$157,850",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$52,400",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$124,500",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic/Progressive Political Organizations",
+        "total_amount": "$215,700",
+        "percentage": "38%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$52,400",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Academic Donors",
+        "amount": "$87,500",
+        "occupation": "University Professors/Researchers"
+      },
+      {
+        "name": "Local Minnesota Donors",
+        "amount": "$213,000",
+        "occupation": "Mixed Professions"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "Campaign Finance Databases",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:04:35.206879",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 989
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

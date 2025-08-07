@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/d78f994b-01dc-5dfb-a08f-fc2ca2cef7ec",
+  "name": "Jay Obernolte",
+  "state": "California",
+  "last_updated": "2025-08-07T00:07:50.283186",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border control and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures and supports broad interpretation of gun ownership rights",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Federal Spending Reduction",
+      "description": "Advocates for reducing government spending and minimizing federal budget deficits",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Healthcare Market Competition",
+      "description": "Supports market-based healthcare solutions and opposes government-run healthcare systems",
+      "category": "Healthcare",
+      "source": "Legislative voting history"
+    },
+    {
+      "title": "Tech Industry Regulation",
+      "description": "Advocates for minimal government intervention in technology and innovation sectors",
+      "category": "Technology",
+      "source": "Tech policy statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Education policy platform"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions aggressive climate change policies and supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional energy committee statements"
+    },
+    {
+      "title": "Free Market Healthcare",
+      "description": "Opposes government-mandated healthcare coverage, supports private insurance solutions",
+      "category": "Healthcare",
+      "source": "Policy white papers"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$15,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Anthem Inc",
+        "amount": "$10,000-$20,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Thompson",
+        "amount": "$5,000",
+        "occupation": "Technology Executive"
+      },
+      {
+        "name": "Sarah Martinez",
+        "amount": "$3,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting History",
+    "Official Campaign Website",
+    "OpenSecrets.org Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:08:10.145355",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1008
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

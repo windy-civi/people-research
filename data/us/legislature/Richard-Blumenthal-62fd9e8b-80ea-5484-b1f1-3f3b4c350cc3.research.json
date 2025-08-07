@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/62fd9e8b-80ea-5484-b1f1-3f3b4c350cc3",
+  "name": "Richard Blumenthal",
+  "state": "Connecticut",
+  "last_updated": "2025-08-06T23:56:28.548303",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding the Affordable Care Act, advocating for lower prescription drug prices and protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://www.blumenthal.senate.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports aggressive carbon reduction targets, Green New Deal principles, and investment in renewable energy infrastructure",
+      "category": "Environment",
+      "source": "https://www.blumenthal.senate.gov/climate"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for universal background checks, assault weapons ban, and increased gun safety regulations",
+      "category": "Social Issues",
+      "source": "https://www.blumenthal.senate.gov/gunviolence"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship, DACA protections, and opposing border wall construction",
+      "category": "Immigration",
+      "source": "https://www.blumenthal.senate.gov/immigration"
+    },
+    {
+      "title": "Education Access",
+      "description": "Supports increased federal funding for public education, student debt relief, and expanding community college programs",
+      "category": "Education",
+      "source": "https://www.blumenthal.senate.gov/education"
+    },
+    {
+      "title": "Consumer Protection",
+      "description": "Strong advocate for protecting consumers from corporate fraud, supporting stricter financial regulations",
+      "category": "Economy",
+      "source": "https://www.blumenthal.senate.gov/consumerprotection"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for expanded veterans healthcare, mental health services, and job training programs",
+      "category": "Social Issues",
+      "source": "https://www.blumenthal.senate.gov/veterans"
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Supports increased federal investment in cybersecurity infrastructure and protecting against foreign digital interference",
+      "category": "Technology",
+      "source": "https://www.blumenthal.senate.gov/cybersecurity"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Yale New Haven Health",
+        "amount": "$45,000-$75,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boehringer Ingelheim",
+        "amount": "$35,000-$55,000",
+        "industry": "Pharmaceutical",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Law Firms",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$45,000",
+        "ideology": "Environmental Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors",
+        "amount": "$1.2 million",
+        "occupation": "Varied Small Donors"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00000028"
+  },
+  "sources": [
+    "https://www.blumenthal.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Richard_Blumenthal"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:56:42.852099",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1138
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

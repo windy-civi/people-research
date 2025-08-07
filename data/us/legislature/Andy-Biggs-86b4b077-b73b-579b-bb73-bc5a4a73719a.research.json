@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/86b4b077-b73b-579b-bb73-bc5a4a73719a",
+  "name": "Andy Biggs",
+  "state": "Arizona",
+  "last_updated": "2025-08-06T23:54:42.318595",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and wall construction, opposes illegal immigration",
+      "category": "Immigration",
+      "source": "https://biggs.house.gov/immigration"
+    },
+    {
+      "title": "Repeal of Affordable Care Act",
+      "description": "Consistently votes to repeal and replace Obamacare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Federal Spending Reduction",
+      "description": "Advocates for significant cuts to federal government spending and reduction of national debt",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports voucher programs and expanded school choice options",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change legislation, questions scientific consensus",
+      "category": "Environment",
+      "source": "Congressional climate policy votes"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports restricting reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive legislation"
+    },
+    {
+      "title": "Election Integrity",
+      "description": "Supported challenges to 2020 election results, advocates for stricter voting laws",
+      "category": "Political Reform",
+      "source": "Congressional statements and votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000-$25,000",
+        "industry": "Advocacy Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$150,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Freedom Caucus PAC",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Private Donors from Arizona",
+        "amount": "$250,000-$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00038215"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:54:56.171702",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1030
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

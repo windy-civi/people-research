@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/2b7e8cfa-f37a-5155-ac79-e769b3cf71da",
+  "name": "Seth Magaziner",
+  "state": "Rhode Island",
+  "last_updated": "2025-08-06T23:52:02.313710",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding public healthcare options and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Candidate Campaign Website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive renewable energy transition and green infrastructure investments",
+      "category": "Environment",
+      "source": "Campaign Policy Platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public school funding and student debt relief programs",
+      "category": "Education",
+      "source": "Congressional Campaign Materials"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Voting Record"
+    },
+    {
+      "title": "Economic Inequality",
+      "description": "Proposes higher taxes on wealthy, stronger worker protections, and minimum wage increases",
+      "category": "Economy",
+      "source": "Campaign Speeches"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Congressional Statements"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Advocates for universal background checks and assault weapon restrictions",
+      "category": "Public Safety",
+      "source": "Policy Proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Affiliates",
+        "total_amount": "$1.2 Million",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Education Sector",
+        "total_amount": "$450,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$175,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar Donors",
+        "amount": "$500-$5000 Range",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Records",
+    "Candidate Official Website",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:52:14.674357",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 916
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

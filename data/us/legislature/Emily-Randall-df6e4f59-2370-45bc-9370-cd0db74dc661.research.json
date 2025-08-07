@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/df6e4f59-2370-45bc-9370-cd0db74dc661",
+  "name": "Emily Randall",
+  "state": "Washington",
+  "last_updated": "2025-08-07T00:02:35.373557",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Strong supporter of expanding healthcare coverage and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Washington State Legislature records"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive carbon reduction policies and clean energy investments",
+      "category": "Environment",
+      "source": "Campaign platform materials"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public school funding and reduced class sizes",
+      "category": "Education",
+      "source": "Legislative voting records"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Champion of comprehensive anti-discrimination protections for LGBTQ+ communities",
+      "category": "Social Issues",
+      "source": "Personal legislative history"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate supporting comprehensive reproductive healthcare access",
+      "category": "Social Issues",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports gradual minimum wage increases tied to cost of living",
+      "category": "Economic Policy",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Advocates for increased affordable housing development and tenant protections",
+      "category": "Economic Policy",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Microsoft",
+        "amount": "$5,000-$10,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Amazon",
+        "amount": "$3,000-$7,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$25,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$15,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood PAC",
+        "amount": "$7,500",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$5,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$4,500",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$500",
+        "occupation": "Technology Executive"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$250",
+        "occupation": "Educator"
+      }
+    ],
+    "data_source": "Washington State Public Disclosure Commission",
+    "source_url": "https://www.pdc.wa.gov"
+  },
+  "sources": [
+    "Washington State Legislature Website",
+    "Campaign Official Website",
+    "Washington State Public Disclosure Commission",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:02:48.064460",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1005
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

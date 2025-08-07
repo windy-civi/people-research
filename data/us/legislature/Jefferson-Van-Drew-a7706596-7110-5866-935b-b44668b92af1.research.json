@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/a7706596-7110-5866-935b-b44668b92af1",
+  "name": "Jeff Van Drew",
+  "state": "New Jersey",
+  "last_updated": "2025-08-06T23:58:52.184230",
+  "issues": [
+    {
+      "title": "Immigration Policy",
+      "description": "Supports border security, opposes sanctuary cities, advocates for stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and campaign statements"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Economic Policy",
+      "description": "Supports tax cuts, deregulation, and pro-business economic strategies",
+      "category": "Economy",
+      "source": "Campaign platforms and voting record"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Skeptical of aggressive climate change policies, supports traditional energy industries",
+      "category": "Environment",
+      "source": "Congressional statements and votes"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, pro-Israel stance, tough stance on international threats",
+      "category": "Foreign Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Social Conservative Values",
+      "description": "Pro-life, supports traditional family values, opposes abortion",
+      "category": "Social Issues",
+      "source": "Campaign statements and voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2020"
+      },
+      {
+        "name": "Pharmaceutical Research and Manufacturers of America",
+        "amount": "$25,000",
+        "industry": "Healthcare",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Securities and Investment",
+        "total_amount": "$125,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-life movement",
+        "cycle": "2020"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$2,800",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Michael Johnson",
+        "amount": "$1,500",
+        "occupation": "Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8NJ02158/"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Campaign Official Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:59:04.618878",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 969
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

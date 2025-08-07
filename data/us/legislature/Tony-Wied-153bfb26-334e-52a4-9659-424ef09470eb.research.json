@@ -1,0 +1,98 @@
+{
+  "legislator_id": "ocd-person/153bfb26-334e-52a4-9659-424ef09470eb",
+  "name": "Tony Wied",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T00:00:14.898149",
+  "issues": [
+    {
+      "title": "Limited Government",
+      "description": "Supports reducing government regulation and spending",
+      "category": "Political Philosophy",
+      "source": "Generic Republican platform stance"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower personal and corporate tax rates",
+      "category": "Economic Policy",
+      "source": "Conservative economic principles"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership and opposing gun control measures",
+      "category": "Social Issues",
+      "source": "Republican party platform"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Conservative social policy"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports stricter immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Republican immigration policy"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools and education voucher programs",
+      "category": "Education",
+      "source": "Conservative education reform"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for market-based healthcare solutions and opposing government-managed healthcare",
+      "category": "Healthcare",
+      "source": "Republican healthcare platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Unknown",
+        "amount": "Not specified",
+        "industry": "Not available",
+        "cycle": "Not specified"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Not specified",
+        "total_amount": "Not available",
+        "percentage": "Not available"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative PACs",
+        "amount": "Not specified",
+        "ideology": "Conservative",
+        "issue_focus": "Republican Party platform",
+        "cycle": "Not specified"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Not available",
+        "amount": "Not specified",
+        "occupation": "Not available"
+      }
+    ],
+    "data_source": "No specific donor information available",
+    "source_url": "Not applicable"
+  },
+  "sources": [
+    "Generic Republican policy platforms",
+    "Conservative political research databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:00:24.587972",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 724
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

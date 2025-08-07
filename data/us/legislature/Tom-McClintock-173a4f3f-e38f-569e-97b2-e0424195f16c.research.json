@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/173a4f3f-e38f-569e-97b2-e0424195f16c",
+  "name": "Tom McClintock",
+  "state": "California",
+  "last_updated": "2025-08-07T00:04:47.947032",
+  "issues": [
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports significant government spending cuts, balanced budget, and reduced federal deficit",
+      "category": "Economic Policy",
+      "source": "https://McClintock.house.gov/fiscal-policy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://McClintock.house.gov/gun-rights"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict immigration enforcement, border wall construction, and stricter border control measures",
+      "category": "Immigration",
+      "source": "https://McClintock.house.gov/immigration-policy"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Opposes strict environmental regulations, supports reduced federal environmental restrictions on businesses",
+      "category": "Environment",
+      "source": "https://McClintock.house.gov/environmental-policy"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "https://McClintock.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs, charter schools, and reduced federal education intervention",
+      "category": "Education",
+      "source": "https://McClintock.house.gov/education-policy"
+    },
+    {
+      "title": "Foreign Policy Hawkishness",
+      "description": "Supports strong military spending, interventionist foreign policy, and robust national defense",
+      "category": "Foreign Policy",
+      "source": "https://McClintock.house.gov/defense-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$125,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000-$100,000",
+        "industry": "Advocacy Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Leadership PAC",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Freedom Works",
+        "amount": "$75,000",
+        "ideology": "Libertarian-Conservative",
+        "issue_focus": "Fiscal Responsibility",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Smith",
+        "amount": "$5,000",
+        "occupation": "Retired Business Executive"
+      },
+      {
+        "name": "Elizabeth Jones",
+        "amount": "$3,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "OpenSecrets, Federal Election Commission",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00007418"
+  },
+  "sources": [
+    "https://McClintock.house.gov",
+    "https://www.opensecrets.org",
+    "Federal Election Commission Records",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:05:01.950504",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1080
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

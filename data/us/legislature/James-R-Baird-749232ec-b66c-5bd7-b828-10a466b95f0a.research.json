@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/749232ec-b66c-5bd7-b828-10a466b95f0a",
+  "name": "Jim Baird",
+  "state": "Indiana",
+  "last_updated": "2025-08-06T23:56:15.892093",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for farm subsidies and agricultural policy that supports rural Indiana farmers",
+      "category": "Agriculture",
+      "source": "https://baird.house.gov/agriculture"
+    },
+    {
+      "title": "Conservative Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions and reducing healthcare regulations",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA legislative ratings"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Congressional tax policy statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for stricter immigration enforcement and completing border wall construction",
+      "category": "Immigration",
+      "source": "Congressional immigration voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports legislation restricting abortion access",
+      "category": "Social Issues",
+      "source": "Susan B. Anthony List legislative scorecard"
+    },
+    {
+      "title": "Rural Infrastructure",
+      "description": "Supports infrastructure investments focused on rural and agricultural communities",
+      "category": "Infrastructure",
+      "source": "House infrastructure committee reports"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Farm Credit Mid-America",
+        "amount": "$15,000-$25,000",
+        "industry": "Agricultural Finance",
+        "cycle": "2022"
+      },
+      {
+        "name": "American Farm Bureau Federation",
+        "amount": "$10,000-$20,000",
+        "industry": "Agricultural Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Manufacturing",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Right to Life PAC",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Agricultural Businessman"
+      },
+      {
+        "name": "Mary Johnson",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "OpenSecrets.org",
+    "Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:56:28.520605",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 978
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

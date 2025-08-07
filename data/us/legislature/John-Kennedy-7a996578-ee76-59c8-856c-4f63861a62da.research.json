@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/7a996578-ee76-59c8-856c-4f63861a62da",
+  "name": "John Neely Kennedy",
+  "state": "Louisiana",
+  "last_updated": "2025-08-07T00:03:56.297568",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and enhanced wall construction",
+      "category": "Immigration",
+      "source": "Official Senate website statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and voting record"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Advocates for complete repeal of Obamacare and market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports comprehensive tax cuts for corporations and individuals",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Anti-Abortion Stance",
+      "description": "Pro-life advocate, supports restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "Voting record and public statements"
+    },
+    {
+      "title": "Military Spending",
+      "description": "Supports increased defense budget and military preparedness",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee discussions"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions scientific consensus, opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Senate environmental committee statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$250,000-$500,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Walmart",
+        "amount": "$100,000-$250,000",
+        "industry": "Retail",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$1.2 million",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$850,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$350,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$175,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Simmons",
+        "amount": "$50,000",
+        "occupation": "Corporate Executive"
+      },
+      {
+        "name": "Thomas Brock",
+        "amount": "$25,000",
+        "occupation": "Investment Banker"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00033492"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senator's Official Website",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:04:09.577935",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1039
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

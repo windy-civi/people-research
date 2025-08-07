@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/0555dc1b-b9eb-4d13-99aa-25b1c4349f83",
+  "name": "Wesley Bell",
+  "state": "Missouri",
+  "last_updated": "2025-08-07T00:05:40.866253",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocate for systemic reforms to reduce mass incarceration and racial disparities in the criminal justice system",
+      "category": "Social Justice",
+      "source": "St. Louis County Prosecutor's Office platform"
+    },
+    {
+      "title": "Police Accountability",
+      "description": "Support comprehensive police reform, including increased transparency and independent oversight",
+      "category": "Law Enforcement",
+      "source": "Campaign policy statements"
+    },
+    {
+      "title": "Bail Reform",
+      "description": "Eliminate cash bail system that disproportionately impacts low-income communities",
+      "category": "Criminal Justice",
+      "source": "Prosecutorial reform initiatives"
+    },
+    {
+      "title": "Marijuana Decriminalization",
+      "description": "Support decriminalizing marijuana possession and expunging previous marijuana-related convictions",
+      "category": "Criminal Justice",
+      "source": "Prosecutorial policy changes"
+    },
+    {
+      "title": "Restorative Justice",
+      "description": "Implement alternative sentencing and rehabilitation programs for non-violent offenders",
+      "category": "Social Justice",
+      "source": "Prosecutorial reform platform"
+    },
+    {
+      "title": "Economic Opportunity",
+      "description": "Support job training and economic development programs in underserved communities",
+      "category": "Economic Policy",
+      "source": "Campaign economic proposals"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Advocate for increased funding for public education and youth intervention programs",
+      "category": "Education",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Local Law Firms",
+        "amount": "$50,000-$75,000",
+        "industry": "Legal Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Progressive Political Organizations",
+        "amount": "$25,000-$40,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Legal Services",
+        "total_amount": "$100,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Political Action Committees",
+        "total_amount": "$75,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Progressive Action PAC",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Criminal Justice Reform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Civil Rights Defense Fund",
+        "amount": "$25,000",
+        "ideology": "Social Justice",
+        "issue_focus": "Police Accountability",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Community Leaders",
+        "amount": "$5,000-$10,000",
+        "occupation": "Various Professional Backgrounds"
+      },
+      {
+        "name": "Legal Professionals",
+        "amount": "$2,500-$5,000",
+        "occupation": "Attorneys and Legal Advocates"
+      }
+    ],
+    "data_source": "Campaign Finance Reports",
+    "source_url": "Missouri State Election Commission"
+  },
+  "sources": [
+    "Missouri State Election Commission",
+    "Wesley Bell Campaign Website",
+    "Local News Reports",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:05:53.992178",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 999
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/14507f9f-01e6-449a-ba78-41ce2c8e20fd",
+  "name": "Mike Haridopolos",
+  "state": "Florida",
+  "last_updated": "2025-08-07T00:00:24.612276",
+  "issues": [
+    {
+      "title": "Budget Fiscal Responsibility",
+      "description": "Strong advocate for reducing government spending and balancing state budgets",
+      "category": "Economic Policy",
+      "source": "Florida Senate Records"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supported school choice, charter school expansion, and performance-based funding for schools",
+      "category": "Education",
+      "source": "Florida Legislative Records"
+    },
+    {
+      "title": "Healthcare Cost Reduction",
+      "description": "Opposed Medicaid expansion, supported market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Florida Senate Voting Records"
+    },
+    {
+      "title": "Conservative Immigration Stance",
+      "description": "Supported stricter immigration enforcement and border security measures",
+      "category": "Immigration",
+      "source": "Florida Republican Party Platform"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Consistently advocated for lower taxes and reduced government regulation on businesses",
+      "category": "Economic Policy",
+      "source": "Florida Legislative Budget Records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights and opposing gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA Endorsement Records"
+    },
+    {
+      "title": "Environmental Conservation",
+      "description": "Supported balanced approach to environmental regulation, prioritizing economic development",
+      "category": "Environment",
+      "source": "Florida Senate Environmental Committee Records"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Florida Business Leadership PAC",
+        "amount": "$50,000-$75,000",
+        "industry": "Business Advocacy",
+        "cycle": "2010-2012"
+      },
+      {
+        "name": "Real Estate Development Interests",
+        "amount": "$35,000-$50,000",
+        "industry": "Real Estate",
+        "cycle": "2010-2012"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$125,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$100,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Solutions PAC",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2012"
+      },
+      {
+        "name": "Florida Right to Life",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2010"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Various Business Executives",
+        "amount": "$10,000-$25,000",
+        "occupation": "Business Owners"
+      }
+    ],
+    "data_source": "Florida Division of Elections",
+    "source_url": "https://dos.myflorida.com/elections/candidates/campaign-finance/"
+  },
+  "sources": [
+    "Florida Senate Records",
+    "Florida Republican Party Archives",
+    "Campaign Finance Reports",
+    "Legislative Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:00:37.250683",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 955
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

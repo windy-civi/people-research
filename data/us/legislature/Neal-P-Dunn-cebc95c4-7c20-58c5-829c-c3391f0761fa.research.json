@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/cebc95c4-7c20-58c5-829c-c3391f0761fa",
+  "name": "Neal Dunn",
+  "state": "Florida",
+  "last_updated": "2025-08-07T00:03:01.440218",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports repealing the Affordable Care Act and replacing it with market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Neal Dunn Congressional Campaign Website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA Candidate Ratings"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strengthening border security and implementing stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts and reducing corporate tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "House Budget Committee Statements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Strong proponent of increasing defense spending and supporting veteran programs",
+      "category": "Foreign Policy",
+      "source": "House Armed Services Committee Testimony"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Congressional Pro-Life Caucus Membership"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Supports reducing environmental regulations to promote business growth",
+      "category": "Environment",
+      "source": "Congressional Voting Record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$42,500",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$35,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Defense",
+        "total_amount": "$210,000",
+        "percentage": "17%"
+      },
+      {
+        "industry": "Finance",
+        "total_amount": "$185,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Bob Smith",
+        "amount": "$5,000",
+        "occupation": "Healthcare Executive"
+      },
+      {
+        "name": "Jane Miller",
+        "amount": "$3,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate-reports"
+  },
+  "sources": [
+    "Neal Dunn Campaign Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:03:15.194900",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1111
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

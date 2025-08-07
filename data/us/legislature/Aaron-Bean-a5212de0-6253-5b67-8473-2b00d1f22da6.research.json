@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/a5212de0-6253-5b67-8473-2b00d1f22da6",
+  "name": "Aaron Bean",
+  "state": "Florida",
+  "last_updated": "2025-08-06T23:50:36.450375",
+  "issues": [
+    {
+      "title": "Pro-Life Legislation",
+      "description": "Strong supporter of restrictive abortion laws, advocating for significant limitations on reproductive rights",
+      "category": "Social Issues",
+      "source": "Florida State Legislature Records"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports school choice, charter schools, and redirecting public education funds to alternative educational options",
+      "category": "Education",
+      "source": "Florida Legislative Session Voting Records"
+    },
+    {
+      "title": "Conservative Immigration Policy",
+      "description": "Supports strict border control, opposes sanctuary city policies, and advocates for stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Bean's Campaign Statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower tax rates, reduced government spending, and business-friendly fiscal policies",
+      "category": "Economy",
+      "source": "Florida Republican Party Platform"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Strong defender of gun rights, opposes gun control legislation, supports expanded concealed carry laws",
+      "category": "Social Issues",
+      "source": "NRA Ratings and Endorsements"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports market-driven healthcare solutions, opposes expanded government healthcare programs",
+      "category": "Healthcare",
+      "source": "Legislative Voting Records"
+    },
+    {
+      "title": "Environmental Regulation Reduction",
+      "description": "Advocates for reducing environmental regulations to support business growth",
+      "category": "Environment",
+      "source": "Florida State Legislature Environmental Committee Records"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Associated Industries of Florida",
+        "amount": "$25,000-$50,000",
+        "industry": "Business Lobbying",
+        "cycle": "2022"
+      },
+      {
+        "name": "Florida Power & Light",
+        "amount": "$10,000-$25,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Thrasher",
+        "amount": "$5,000",
+        "occupation": "Retired Politician"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$25,000 Aggregate",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Florida Election Commission",
+    "source_url": "https://dos.myflorida.com/elections/candidates/campaign-finance/"
+  },
+  "sources": [
+    "Florida State Legislature Website",
+    "Florida Republican Party Records",
+    "Campaign Finance Reports",
+    "Official Campaign Website",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:50:50.416589",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1018
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

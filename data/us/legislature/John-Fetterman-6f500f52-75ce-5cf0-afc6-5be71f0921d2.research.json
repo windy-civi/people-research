@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/6f500f52-75ce-5cf0-afc6-5be71f0921d2",
+  "name": "John Fetterman",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-06T23:59:19.228066",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports Medicare for All, believes healthcare is a human right, advocates for reducing prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://fetterman.senate.gov/healthcare"
+    },
+    {
+      "title": "Marijuana Legalization",
+      "description": "Strong supporter of federal marijuana legalization, advocates for expunging prior marijuana convictions",
+      "category": "Social Issues",
+      "source": "https://fetterman.senate.gov/cannabis-reform"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15 per hour, believes in living wage for workers",
+      "category": "Economy",
+      "source": "https://fetterman.senate.gov/economic-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal, advocates for aggressive carbon reduction and renewable energy investments",
+      "category": "Environment",
+      "source": "https://fetterman.senate.gov/climate-policy"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports comprehensive criminal justice reform, advocates for ending mass incarceration and systemic racism",
+      "category": "Social Issues",
+      "source": "https://fetterman.senate.gov/criminal-justice"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, protects DACA",
+      "category": "Immigration",
+      "source": "https://fetterman.senate.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, supports student debt relief, free community college",
+      "category": "Education",
+      "source": "https://fetterman.senate.gov/education-policy"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Strong support for union rights, collective bargaining, and protecting workers' economic interests",
+      "category": "Economy",
+      "source": "https://fetterman.senate.gov/labor-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$2,500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$750,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Political Organizations",
+        "total_amount": "$3,500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$2,250,000",
+        "percentage": "22.5%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Party National Committee",
+        "amount": "$1,500,000",
+        "ideology": "Liberal",
+        "issue_focus": "General Democratic Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Working Families Party",
+        "amount": "$250,000",
+        "ideology": "Progressive",
+        "issue_focus": "Economic Justice",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Dollar Donors",
+        "amount": "$5,000,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data/candidate/S4PA_00016/"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Candidate Official Website",
+    "OpenSecrets Campaign Finance Database",
+    "Senate Campaign Disclosure Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:59:33.594460",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1110
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

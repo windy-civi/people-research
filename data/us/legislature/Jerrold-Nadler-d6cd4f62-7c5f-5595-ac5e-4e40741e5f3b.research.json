@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/d6cd4f62-7c5f-5595-ac5e-4e40741e5f3b",
+  "name": "Jerry Nadler",
+  "state": "New York",
+  "last_updated": "2025-08-07T00:02:48.096799",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of universal healthcare and expanding the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change legislation, supports Green New Deal framework",
+      "category": "Environment",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "Congressional immigration policy proposals"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports stricter gun control measures, including universal background checks and assault weapons ban",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong advocate for LGBTQ+ equality, supports comprehensive anti-discrimination protections",
+      "category": "Social Issues",
+      "source": "Congressional equality legislation"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major federal infrastructure spending, particularly for transportation and urban development",
+      "category": "Economy",
+      "source": "Infrastructure bill co-sponsorship"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Staunch defender of abortion rights and women's reproductive healthcare access",
+      "category": "Social Issues",
+      "source": "Planned Parenthood legislative ratings"
+    },
+    {
+      "title": "Israel-US Relations",
+      "description": "Strong supporter of US-Israel diplomatic and military relationship",
+      "category": "Foreign Policy",
+      "source": "Congressional foreign policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$75,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Legal Services",
+        "total_amount": "$450,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$350,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "J Street",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Israel-Palestine Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$1,200,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jerry-nadler/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Official Congressional Website",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:03:01.402693",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1005
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

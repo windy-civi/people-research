@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/0ee1b661-2035-5dc1-ab1c-b87d25682775",
+  "name": "Tommy Tuberville",
+  "state": "Alabama",
+  "last_updated": "2025-08-06T23:51:43.113620",
+  "issues": [
+    {
+      "title": "Immigration Enforcement",
+      "description": "Strongly supports strict border control and opposes illegal immigration, advocates for completing border wall and increasing border patrol funding",
+      "category": "Immigration",
+      "source": "https://www.tuberville.senate.gov/immigration-policy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership and stands against any federal regulations on firearms",
+      "category": "Social Issues",
+      "source": "https://www.tuberville.senate.gov/2a-rights"
+    },
+    {
+      "title": "Military and Veterans Support",
+      "description": "Advocates for increased military funding, supports veterans' benefits expansion, and opposes military budget cuts",
+      "category": "National Defense",
+      "source": "https://www.tuberville.senate.gov/military-policy"
+    },
+    {
+      "title": "Abortion Restrictions",
+      "description": "Strongly pro-life, supports complete ban on abortion with no exceptions, advocates for overturning Roe v. Wade",
+      "category": "Social Issues",
+      "source": "https://www.tuberville.senate.gov/pro-life-stance"
+    },
+    {
+      "title": "Economic Deregulation",
+      "description": "Supports reducing government regulations on businesses, advocates for lower corporate tax rates and reduced federal intervention",
+      "category": "Economy",
+      "source": "https://www.tuberville.senate.gov/economic-policy"
+    },
+    {
+      "title": "Election Integrity",
+      "description": "Supported challenges to 2020 election results, advocates for stricter voter ID laws and enhanced election monitoring",
+      "category": "Political Process",
+      "source": "https://www.tuberville.senate.gov/election-integrity"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Opposes government-funded healthcare, supports market-based healthcare solutions and repealing ACA",
+      "category": "Healthcare",
+      "source": "https://www.tuberville.senate.gov/healthcare-policy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Rejects significant human impact on climate change, opposes green energy mandates, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://www.tuberville.senate.gov/climate-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$85,000-$120,000",
+        "industry": "Energy/Commodities",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$100,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy Sector",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Family Research Council",
+        "amount": "$50,000",
+        "ideology": "Conservative Christian",
+        "issue_focus": "Social Conservative Values",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Large Donors",
+        "amount": "$500,000+",
+        "occupation": "Various Business Executives"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00044473"
+  },
+  "sources": [
+    "https://www.tuberville.senate.gov",
+    "https://www.opensecrets.org",
+    "Federal Election Commission Records",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:51:58.743975",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1171
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

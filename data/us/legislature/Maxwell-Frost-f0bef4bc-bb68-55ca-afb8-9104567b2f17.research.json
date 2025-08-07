@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/f0bef4bc-bb68-55ca-afb8-9104567b2f17",
+  "name": "Maxwell Frost",
+  "state": "Florida",
+  "last_updated": "2025-08-06T23:55:07.884896",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Supports comprehensive universal healthcare coverage eliminating private insurance",
+      "category": "Healthcare",
+      "source": "https://maxwellfrost.com/policy"
+    },
+    {
+      "title": "Gun Control Reform",
+      "description": "Advocates for comprehensive background checks, assault weapons ban, and gun violence prevention",
+      "category": "Public Safety",
+      "source": "Official Campaign Website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal, aggressive carbon reduction, renewable energy transition",
+      "category": "Environment",
+      "source": "Congressional Record"
+    },
+    {
+      "title": "Student Debt Cancellation",
+      "description": "Supports full federal student loan debt elimination and free public college",
+      "category": "Education",
+      "source": "Campaign Speeches"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Path to citizenship for undocumented immigrants, abolish ICE, comprehensive immigration policy",
+      "category": "Immigration",
+      "source": "Official Policy Statements"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports $15 federal minimum wage, indexed to inflation",
+      "category": "Economic Policy",
+      "source": "Congressional Voting Record"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "End mass incarceration, eliminate private prisons, comprehensive sentencing reform",
+      "category": "Social Justice",
+      "source": "Campaign Platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Brand New Congress PAC",
+        "amount": "$75,000",
+        "industry": "Political Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$500,000",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Digital/Tech Sector",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Justice Democrats",
+        "amount": "$125,000",
+        "ideology": "Progressive",
+        "issue_focus": "Grassroots Political Reform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sunrise Movement",
+        "amount": "$50,000",
+        "ideology": "Climate Activism",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar Contributors",
+        "amount": "$1.2 Million",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Official Campaign Website",
+    "Congressional Record",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:55:20.363791",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 935
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

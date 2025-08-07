@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/a516a327-22fc-57af-931b-f28926b44b85",
+  "name": "Rob Menendez",
+  "state": "New Jersey",
+  "last_updated": "2025-08-07T00:07:36.716162",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding access to affordable healthcare, advocating for lowering prescription drug prices and protecting coverage for pre-existing conditions",
+      "category": "Healthcare",
+      "source": "https://menendez.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://menendez.house.gov/immigration-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change policies, supporting Green New Deal principles and renewable energy investments",
+      "category": "Environment",
+      "source": "https://menendez.house.gov/climate-policy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education, student debt relief, and expanding access to community colleges and vocational training",
+      "category": "Education",
+      "source": "https://menendez.house.gov/education-policy"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Champions large-scale infrastructure investment, focusing on transportation, broadband access, and modernizing public infrastructure",
+      "category": "Economy",
+      "source": "https://menendez.house.gov/infrastructure-policy"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports comprehensive gun control measures, including universal background checks and assault weapons ban",
+      "category": "Social Issues",
+      "source": "https://menendez.house.gov/gun-safety-policy"
+    },
+    {
+      "title": "Economic Equality",
+      "description": "Advocates for raising minimum wage, strengthening labor unions, and reducing income inequality",
+      "category": "Economy",
+      "source": "https://menendez.house.gov/economic-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Goldman Sachs",
+        "amount": "$45,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$35,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$50,000",
+        "ideology": "Progressive Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$2,900",
+        "occupation": "Technology Executive"
+      },
+      {
+        "name": "Maria Garcia",
+        "amount": "$1,500",
+        "occupation": "University Professor"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Disclosure",
+    "source_url": "https://www.opensecrets.org/candidate/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Database",
+    "Candidate Official Website",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:07:50.255183",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1069
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

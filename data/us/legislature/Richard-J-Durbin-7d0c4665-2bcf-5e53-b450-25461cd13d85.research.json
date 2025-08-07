@@ -1,0 +1,128 @@
+{
+  "legislator_id": "ocd-person/7d0c4665-2bcf-5e53-b450-25461cd13d85",
+  "name": "Dick Durbin",
+  "state": "Illinois",
+  "last_updated": "2025-08-06T23:47:36.882666",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of the Affordable Care Act, advocates for expanding healthcare coverage and reducing prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.durbin.senate.gov/newsroom/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and DACA protections",
+      "category": "Immigration",
+      "source": "https://www.durbin.senate.gov/newsroom/immigration"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change policies, supports Green New Deal principles, and renewable energy investments",
+      "category": "Environment",
+      "source": "https://www.durbin.senate.gov/newsroom/climate"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports stricter gun control measures, universal background checks, and assault weapons ban",
+      "category": "Social Issues",
+      "source": "https://www.durbin.senate.gov/newsroom/gun-safety"
+    },
+    {
+      "title": "Student Loan Reform",
+      "description": "Advocates for student debt relief, lower interest rates, and expanded college affordability programs",
+      "category": "Education",
+      "source": "https://www.durbin.senate.gov/newsroom/education"
+    },
+    {
+      "title": "Economic Inequality",
+      "description": "Supports raising minimum wage, strengthening labor unions, and progressive tax policies",
+      "category": "Economy",
+      "source": "https://www.durbin.senate.gov/newsroom/economy"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports diplomatic engagement, critical of Russian interference, advocates for strong NATO alliance",
+      "category": "Foreign Policy",
+      "source": "https://www.durbin.senate.gov/newsroom/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$1,250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$750,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "University of Chicago",
+        "amount": "$350,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Affiliates",
+        "total_amount": "$3,500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Legal Services",
+        "total_amount": "$2,250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$1,750,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$750,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Rights, Democratic Candidates",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$250,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Small Donors",
+        "amount": "$5,000,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00004981"
+  },
+  "sources": [
+    "https://www.durbin.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Dick_Durbin"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:47:50.767090",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1145
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

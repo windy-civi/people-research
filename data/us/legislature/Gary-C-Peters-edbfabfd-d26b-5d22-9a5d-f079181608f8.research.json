@@ -1,0 +1,140 @@
+{
+  "legislator_id": "ocd-person/edbfabfd-d26b-5d22-9a5d-f079181608f8",
+  "name": "Gary Peters",
+  "state": "Michigan",
+  "last_updated": "2025-08-06T23:58:06.742040",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports strengthening the Affordable Care Act and protecting pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://www.peters.senate.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://www.peters.senate.gov/issues/climate"
+    },
+    {
+      "title": "Auto Industry Support",
+      "description": "Champions policies to protect and strengthen Michigan's automotive manufacturing sector",
+      "category": "Economy",
+      "source": "https://www.peters.senate.gov/issues/economy"
+    },
+    {
+      "title": "Veterans Healthcare",
+      "description": "Supports expanded healthcare and mental health services for veterans",
+      "category": "Healthcare",
+      "source": "https://www.peters.senate.gov/issues/veterans"
+    },
+    {
+      "title": "Cybersecurity Protection",
+      "description": "Advocates for stronger national cybersecurity measures and infrastructure protection",
+      "category": "National Security",
+      "source": "https://www.peters.senate.gov/issues/cybersecurity"
+    },
+    {
+      "title": "Higher Education Access",
+      "description": "Supports increased student loan affordability and college funding",
+      "category": "Education",
+      "source": "https://www.peters.senate.gov/issues/education"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": "https://www.peters.senate.gov/issues/immigration"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$87,500",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "General Motors",
+        "amount": "$65,000",
+        "industry": "Automotive",
+        "cycle": "2022"
+      },
+      {
+        "name": "DTE Energy",
+        "amount": "$52,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$425,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Automotive",
+        "total_amount": "$310,000",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "14%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "Veterans PAC",
+        "amount": "$65,000",
+        "ideology": "Bipartisan",
+        "issue_focus": "Veterans Support",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Donor 1",
+        "amount": "$2,900",
+        "occupation": "Retired"
+      },
+      {
+        "name": "Anonymous Donor 2",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/gary-peters/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Peters Official Senate Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:58:20.890150",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1146
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

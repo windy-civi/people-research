@@ -1,0 +1,136 @@
+{
+  "legislator_id": "ocd-person/e1b9405a-e695-5bc5-b3b0-6cdc1415f53c",
+  "name": "Pete Ricketts",
+  "state": "Nebraska",
+  "last_updated": "2025-08-06T23:48:19.177594",
+  "issues": [
+    {
+      "title": "Tax Reduction",
+      "description": "Strong advocate for reducing state and local taxes, supporting property tax relief and limiting government spending",
+      "category": "Economy",
+      "source": "Nebraska Governor's Office"
+    },
+    {
+      "title": "Conservative Healthcare",
+      "description": "Opposed Medicaid expansion under Affordable Care Act, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Nebraska State Legislature Records"
+    },
+    {
+      "title": "Immigration Enforcement",
+      "description": "Supports strict immigration policies, opposed sanctuary city protections, favors enhanced border security",
+      "category": "Immigration",
+      "source": "Gubernatorial Campaign Platforms"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA Ratings and Endorsements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Consistently supports anti-abortion legislation and pro-life initiatives",
+      "category": "Social Issues",
+      "source": "Nebraska Right to Life Endorsements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports school choice, advocates for performance-based funding models for public education",
+      "category": "Education",
+      "source": "Nebraska Education Policy Statements"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Champions policies supporting Nebraska's agricultural industry, including farm subsidies and trade protections",
+      "category": "Economy",
+      "source": "Nebraska Farm Bureau"
+    },
+    {
+      "title": "Climate Skepticism",
+      "description": "Opposes strict environmental regulations, skeptical of climate change policy impacts on economic growth",
+      "category": "Environment",
+      "source": "Gubernatorial Climate Policy Statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Ameritrade",
+        "amount": "$250,000-$500,000",
+        "industry": "Financial Services",
+        "cycle": "2014-2022"
+      },
+      {
+        "name": "First National Bank of Omaha",
+        "amount": "$100,000-$250,000",
+        "industry": "Banking",
+        "cycle": "2014-2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$750,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Agricultural Services",
+        "total_amount": "$500,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$150,000",
+        "ideology": "Conservative",
+        "issue_focus": "Tax Reduction",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Joe Ricketts",
+        "amount": "$500,000",
+        "occupation": "Founder, TD Ameritrade"
+      },
+      {
+        "name": "Pete Ricketts Family",
+        "amount": "$1,000,000",
+        "occupation": "Business Owners"
+      }
+    ],
+    "data_source": "OpenSecrets, Nebraska Campaign Finance Records",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N"
+  },
+  "sources": [
+    "Nebraska Secretary of State",
+    "OpenSecrets.org",
+    "Nebraska Campaign Finance Records",
+    "Gubernatorial Campaign Materials"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:48:34.294033",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1150
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

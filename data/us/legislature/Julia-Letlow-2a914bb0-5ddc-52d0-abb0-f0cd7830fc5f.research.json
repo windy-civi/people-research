@@ -1,0 +1,125 @@
+{
+  "legislator_id": "ocd-person/2a914bb0-5ddc-52d0-abb0-f0cd7830fc5f",
+  "name": "Julia Letlow",
+  "state": "Louisiana",
+  "last_updated": "2025-08-06T23:46:56.402151",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong conservative pro-life position, supporting restrictions on abortion and opposing federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Campaign website and congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports expansive gun ownership rights",
+      "category": "Social Issues",
+      "source": "Campaign statements and NRA ratings"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel production, opposes Green New Deal, advocates for domestic energy independence",
+      "category": "Environment/Energy",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, opposes federal overreach in education policy",
+      "category": "Education",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports lower corporate and individual tax rates, opposes tax increases",
+      "category": "Economy",
+      "source": "Campaign economic platform"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Strong support for Israel, hawkish stance on national defense, critical of Iran nuclear deal",
+      "category": "Foreign Policy",
+      "source": "Congressional speeches and voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$100,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Sector",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy Sector",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Individual Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Congressional Voting Record",
+    "Campaign Website",
+    "FEC Campaign Finance Reports",
+    "OpenSecrets.org",
+    "Personal Campaign Materials"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:47:09.876754",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1015
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

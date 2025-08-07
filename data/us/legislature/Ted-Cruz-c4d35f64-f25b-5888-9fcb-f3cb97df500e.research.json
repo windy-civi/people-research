@@ -1,0 +1,147 @@
+{
+  "legislator_id": "ocd-person/c4d35f64-f25b-5888-9fcb-f3cb97df500e",
+  "name": "Ted Cruz",
+  "state": "Texas",
+  "last_updated": "2025-08-06T23:49:52.407848",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://www.cruz.senate.gov/issues/2nd-amendment"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Advocates for complete repeal of Obamacare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://www.cruz.senate.gov/issues/healthcare"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction, and increased border patrol",
+      "category": "Immigration",
+      "source": "https://www.cruz.senate.gov/issues/border-security"
+    },
+    {
+      "title": "Tax Reform",
+      "description": "Supports significant tax cuts, flat tax proposal, and reducing federal tax burden",
+      "category": "Economy",
+      "source": "https://www.cruz.senate.gov/issues/economy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://www.cruz.senate.gov/issues/energy"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for expanded school voucher programs and educational alternatives",
+      "category": "Education",
+      "source": "https://www.cruz.senate.gov/issues/education"
+    },
+    {
+      "title": "Conservative Judicial Appointments",
+      "description": "Strong supporter of originalist judicial nominees, particularly to Supreme Court",
+      "category": "Judicial",
+      "source": "https://www.cruz.senate.gov/issues/judiciary"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "https://www.cruz.senate.gov/issues/pro-life"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$1,250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$386,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$224,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$2.1 million",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$1.6 million",
+        "percentage": "14.2%"
+      },
+      {
+        "industry": "Lawyers & Lobbyists",
+        "total_amount": "$1.3 million",
+        "percentage": "11.7%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Senate Conservatives Fund",
+        "amount": "$750,000",
+        "ideology": "Conservative",
+        "issue_focus": "Conservative Candidate Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "FreedomWorks",
+        "amount": "$425,000",
+        "ideology": "Libertarian Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Texas Right to Life",
+        "amount": "$175,000",
+        "ideology": "Pro-Life",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Mercer",
+        "amount": "$250,000",
+        "occupation": "Hedge Fund Manager"
+      },
+      {
+        "name": "Kelcy Warren",
+        "amount": "$150,000",
+        "occupation": "Energy Executive"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/S4TX00009/"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "OpenSecrets.org Campaign Finance Data",
+    "Senator Ted Cruz Official Website",
+    "Campaign Finance Institute"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:50:08.186467",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1275
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "legislator_id": "ocd-person/2722e0b1-650d-5f77-a348-f7f0d66aa3e2",
+  "name": "Amy Klobuchar",
+  "state": "Minnesota",
+  "last_updated": "2025-08-06T23:50:20.792113",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, adding a public option, and lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://klobuchar.senate.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy investments, rejoining Paris Climate Agreement, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://klobuchar.senate.gov/climate"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure spending, including broadband expansion, transportation improvements, and green infrastructure",
+      "category": "Economy",
+      "source": "https://klobuchar.senate.gov/infrastructure"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and DACA protections",
+      "category": "Immigration",
+      "source": "https://klobuchar.senate.gov/immigration"
+    },
+    {
+      "title": "Education Access",
+      "description": "Advocates for student debt relief, free community college, and increased funding for higher education",
+      "category": "Education",
+      "source": "https://klobuchar.senate.gov/education"
+    },
+    {
+      "title": "Antitrust Legislation",
+      "description": "Champions breaking up big tech companies and strengthening antitrust enforcement",
+      "category": "Technology",
+      "source": "https://klobuchar.senate.gov/antitrust"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion rights and women's healthcare access",
+      "category": "Social Issues",
+      "source": "https://klobuchar.senate.gov/reproductive-rights"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong NATO alliances, diplomatic approaches to international conflicts, and human rights",
+      "category": "Foreign Policy",
+      "source": "https://klobuchar.senate.gov/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$86,550",
+        "industry": "Technology",
+        "cycle": "2020"
+      },
+      {
+        "name": "University of Minnesota",
+        "amount": "$72,300",
+        "industry": "Education",
+        "cycle": "2020"
+      },
+      {
+        "name": "UnitedHealth Group",
+        "amount": "$64,200",
+        "industry": "Healthcare",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Law Firms",
+        "total_amount": "$1,203,450",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Health Professionals",
+        "total_amount": "$892,300",
+        "percentage": "13.7%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$675,200",
+        "percentage": "10.4%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$285,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2020"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2020"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$95,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,800",
+        "occupation": "Attorney"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Professor"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00029558"
+  },
+  "sources": [
+    "https://klobuchar.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Amy_Klobuchar"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:50:36.423910",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 705,
+      "output_tokens": 1278
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

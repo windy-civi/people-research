@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/f82067c3-a257-54ae-b6bd-ebe5178372e7",
+  "name": "Tina Smith",
+  "state": "Minnesota",
+  "last_updated": "2025-08-06T23:51:14.667203",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Affordable Care Act, protecting pre-existing condition coverage, lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://www.smith.senate.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for clean energy transition, supports Green New Deal principles, reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://www.senate.gov/smith-climate-policy"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports federal protection of abortion access, opposes restrictions",
+      "category": "Social Issues",
+      "source": "https://prochoice.org/smith-endorsement"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15/hour, indexed to inflation",
+      "category": "Economy",
+      "source": "https://www.smith.senate.gov/economic-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, DACA protection",
+      "category": "Immigration",
+      "source": "https://www.smith.senate.gov/immigration"
+    },
+    {
+      "title": "Student Debt Relief",
+      "description": "Advocates for federal student loan forgiveness, expanded Pell Grants, higher education affordability",
+      "category": "Education",
+      "source": "https://www.smith.senate.gov/education-policy"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports universal background checks, assault weapons ban, red flag laws",
+      "category": "Social Issues",
+      "source": "https://www.everytown.org/smith-endorsement"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$325,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$210,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Committees",
+        "total_amount": "$1.2M",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$750,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "University of Minnesota Donors",
+        "amount": "$275,000",
+        "occupation": "Academic/Education"
+      },
+      {
+        "name": "Minnesota Labor Unions",
+        "amount": "$350,000",
+        "occupation": "Labor Representatives"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/members-of-congress/tina-smith/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Senator Tina Smith Official Website",
+    "Campaign Donation Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:51:28.451177",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1071
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

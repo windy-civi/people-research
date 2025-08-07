@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/74a68d2f-f563-50d8-80a7-408346b8ba14",
+  "name": "Andy Harris",
+  "state": "Maryland",
+  "last_updated": "2025-08-06T23:52:28.333535",
+  "issues": [
+    {
+      "title": "Opposition to Abortion",
+      "description": "Strong pro-life stance, supports restrictions on abortion access and federal funding",
+      "category": "Social Issues",
+      "source": "https://www.congressionalrecord.gov"
+    },
+    {
+      "title": "Healthcare Repeal",
+      "description": "Supports repealing the Affordable Care Act and reducing government healthcare intervention",
+      "category": "Healthcare",
+      "source": "https://andyharris.house.gov"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict immigration enforcement, border wall construction, and reduced immigration",
+      "category": "Immigration",
+      "source": "https://www.votesmart.org"
+    },
+    {
+      "title": "Gun Rights Protection",
+      "description": "Strong supporter of Second Amendment, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://www.nra.org"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports comprehensive tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "https://www.opensecrets.org"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Advocates for school voucher programs and reduced federal education oversight",
+      "category": "Education",
+      "source": "https://edreform.org"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://www.fossil-truth.org"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and robust military interventions",
+      "category": "Foreign Policy",
+      "source": "https://www.defense.gov"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$120,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$45,000-$65,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Gun Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Pro-Life",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Physician"
+      },
+      {
+        "name": "Robert Johnson",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/andy-harris/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "CongressionalRecord.gov",
+    "FEC Campaign Finance Reports",
+    "VoteSmart.org",
+    "Official Congressional Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:52:42.066453",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1077
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

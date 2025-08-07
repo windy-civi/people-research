@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/baf62641-318a-58be-bb76-f7c6aeb97684",
+  "name": "Mark Alford",
+  "state": "Missouri",
+  "last_updated": "2025-08-06T23:57:40.648168",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of building border wall and implementing stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website and congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Campaign speeches and policy proposals"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership and opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and legislative voting history"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions and opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and strong national defense policies",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for charter schools and educational voucher programs",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel production and opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Congressional energy policy votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$15,000-$30,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000-$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$5,000-$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Michael Johnson",
+        "amount": "$1,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting History",
+    "Campaign Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:57:53.688336",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1016
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

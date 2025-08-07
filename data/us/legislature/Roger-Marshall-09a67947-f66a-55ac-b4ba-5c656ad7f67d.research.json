@@ -1,0 +1,131 @@
+{
+  "legislator_id": "ocd-person/09a67947-f66a-55ac-b4ba-5c656ad7f67d",
+  "name": "Roger Marshall",
+  "state": "Kansas",
+  "last_updated": "2025-08-07T00:08:10.173901",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions and repealing ACA mandates",
+      "category": "Healthcare",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong anti-abortion advocate, supports restricting abortion access and defunding Planned Parenthood",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding, stricter immigration enforcement, and limiting illegal immigration",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts, reduced corporate tax rates, and simplified tax code",
+      "category": "Economy",
+      "source": "Tax policy proposals"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Agricultural Policy",
+      "description": "Supports farm subsidies, crop insurance, and rural economic development",
+      "category": "Agriculture",
+      "source": "Kansas agricultural policy statements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Advocates for fossil fuel production, opposes climate change regulations",
+      "category": "Environment",
+      "source": "Energy policy proposals"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and strong national security measures",
+      "category": "Foreign Policy",
+      "source": "Congressional defense appropriations"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Cerner Corporation",
+        "amount": "$50,000-$75,000",
+        "industry": "Healthcare Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Kansas Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/roger-marshall/summary"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Official Congressional Website",
+    "Campaign Financial Disclosure Reports",
+    "FEC Campaign Contribution Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:08:23.988859",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1059
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

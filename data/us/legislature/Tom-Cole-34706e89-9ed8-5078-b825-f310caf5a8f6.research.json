@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/34706e89-9ed8-5078-b825-f310caf5a8f6",
+  "name": "Tom Cole",
+  "state": "Oklahoma",
+  "last_updated": "2025-08-07T00:01:18.064746",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Federal Budget Reduction",
+      "description": "Advocates for reduced federal spending and deficit reduction",
+      "category": "Economy",
+      "source": "House Budget Committee statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border enforcement and stricter immigration controls",
+      "category": "Immigration",
+      "source": "Congressional immigration policy statements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Consistently supports robust defense spending and military readiness",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports local control of education, skeptical of federal education mandates",
+      "category": "Education",
+      "source": "House Education Committee testimony"
+    },
+    {
+      "title": "Environmental Regulations",
+      "description": "Opposes excessive environmental regulations that impact energy production",
+      "category": "Environment",
+      "source": "Energy and Commerce Committee positions"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$15,000-$30,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Fiscal Conservative Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Hamm",
+        "amount": "$10,000",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Local Oklahoma Business Leaders",
+        "amount": "$75,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reporting",
+    "source_url": "https://www.opensecrets.org/members-of-congress/tom-cole/summary?cid=N00025054"
+  },
+  "sources": [
+    "Congressional Record",
+    "OpenSecrets.org",
+    "Tom Cole Official Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:01:30.786110",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 975
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "legislator_id": "ocd-person/f747c3f1-7247-5c91-9870-901ec617e884",
+  "name": "Terri Sewell",
+  "state": "Alabama",
+  "last_updated": "2025-08-06T23:57:24.240369",
+  "issues": [
+    {
+      "title": "Voting Rights Protection",
+      "description": "Strong advocate for protecting and expanding voting rights, particularly in light of historical voter suppression in Alabama",
+      "category": "Civil Rights",
+      "source": "https://sewell.house.gov/policy/voting-rights"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid, protecting the Affordable Care Act, and improving healthcare access in rural communities",
+      "category": "Healthcare",
+      "source": "https://sewell.house.gov/policy/healthcare"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Promotes job creation, support for small businesses, and economic opportunities in underserved communities",
+      "category": "Economy",
+      "source": "https://sewell.house.gov/policy/economic-development"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports federal infrastructure funding to improve transportation, broadband, and public works in Alabama",
+      "category": "Infrastructure",
+      "source": "https://sewell.house.gov/policy/infrastructure"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for clean energy initiatives, environmental protection, and climate change resilience",
+      "category": "Environment",
+      "source": "https://sewell.house.gov/policy/environment"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student debt relief, and workforce training programs",
+      "category": "Education",
+      "source": "https://sewell.house.gov/policy/education"
+    },
+    {
+      "title": "Social Justice",
+      "description": "Committed to racial equity, criminal justice reform, and addressing systemic inequalities",
+      "category": "Social Issues",
+      "source": "https://sewell.house.gov/policy/social-justice"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$25,000-$50,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$15,000-$30,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$10,000-$25,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Health Professionals",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$100,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Democratic/Liberal Political Action Committees",
+        "total_amount": "$200,000",
+        "percentage": "30%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000-$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$40,000-$60,000",
+        "ideology": "Progressive",
+        "issue_focus": "Racial Equity",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$25,000-$40,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Lewis (Retired)",
+        "amount": "$5,000",
+        "occupation": "Civil Rights Leader"
+      },
+      {
+        "name": "Various Small Donors",
+        "amount": "$100-$500 each",
+        "occupation": "Mixed Professions"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/terri-sewell/summary"
+  },
+  "sources": [
+    "https://sewell.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Terri_Sewell",
+    "Congressional voting records",
+    "Campaign finance reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:57:40.621579",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1278
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

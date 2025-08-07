@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/d0fe7bc7-b883-5485-814f-f7cee999e409",
+  "name": "Joaquin Castro",
+  "state": "Texas",
+  "last_updated": "2025-08-06T23:49:13.841087",
+  "issues": [
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, including a path to citizenship for undocumented immigrants and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://castro.house.gov/issues/immigration"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding affordable healthcare, supports Medicare for All approach",
+      "category": "Healthcare",
+      "source": "https://castro.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Strong supporter of Green New Deal, pushing for aggressive climate change mitigation policies",
+      "category": "Environment",
+      "source": "https://castro.house.gov/issues/climate"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports universal background checks, assault weapons ban, and comprehensive gun violence prevention",
+      "category": "Social Issues",
+      "source": "https://castro.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Economic Equality",
+      "description": "Advocates for raising minimum wage, reducing income inequality, and supporting workers' rights",
+      "category": "Economy",
+      "source": "https://castro.house.gov/issues/economy"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports diplomatic approaches, human rights-focused foreign policy, and critique of military interventionism",
+      "category": "Foreign Policy",
+      "source": "https://castro.house.gov/issues/foreign-policy"
+    },
+    {
+      "title": "Education Access",
+      "description": "Supports free public college, student debt relief, and increased education funding",
+      "category": "Education",
+      "source": "https://castro.house.gov/issues/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$124,850",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Google",
+        "amount": "$15,250",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "University of Texas System",
+        "amount": "$12,500",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$345,000",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$95,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Latino Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Political Empowerment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$675,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00033474"
+  },
+  "sources": [
+    "https://castro.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Joaquin_Castro"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-06T23:49:27.318884",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1062
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

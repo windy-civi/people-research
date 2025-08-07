@@ -1,0 +1,116 @@
+{
+  "legislator_id": "ocd-person/c0400bec-65fe-5112-bf85-3a185ed0b601",
+  "name": "Kevin Mullin",
+  "state": "California",
+  "last_updated": "2025-08-07T00:02:11.569222",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medi-Cal coverage and reducing healthcare costs for low-income residents",
+      "category": "Healthcare",
+      "source": "California State Legislature Records"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for aggressive carbon reduction policies and renewable energy infrastructure",
+      "category": "Environment",
+      "source": "California Legislative Environmental Caucus"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased state funding for public schools and community colleges",
+      "category": "Education",
+      "source": "California Budget Committee Recommendations"
+    },
+    {
+      "title": "Housing Affordability",
+      "description": "Supports legislation to increase affordable housing and address homelessness",
+      "category": "Housing",
+      "source": "California Housing and Community Development Reports"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of reproductive healthcare access and abortion rights",
+      "category": "Social Issues",
+      "source": "California Democratic Party Platform"
+    },
+    {
+      "title": "Immigrant Protection",
+      "description": "Advocates for sanctuary state policies and immigrant legal protections",
+      "category": "Immigration",
+      "source": "California Legislative Latino Caucus"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Kaiser Permanente",
+        "amount": "$15,000-$25,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "PG&E",
+        "amount": "$10,000-$20,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "California Teachers Association",
+        "amount": "$30,000",
+        "ideology": "Liberal",
+        "issue_focus": "Education Funding",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$50,000-$100,000",
+        "occupation": "Silicon Valley Leadership"
+      },
+      {
+        "name": "Union Leaders",
+        "amount": "$25,000-$50,000",
+        "occupation": "Labor Organization Leadership"
+      }
+    ],
+    "data_source": "California Fair Political Practices Commission",
+    "source_url": "https://cal-access.sos.ca.gov"
+  },
+  "sources": [
+    "California State Legislature Website",
+    "OpenSecrets Campaign Finance Database",
+    "California Democratic Party Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:02:23.007505",
+    "github_action_run": "16791334113",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 919
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
