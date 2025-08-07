@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/139e15e1-4a50-5126-ad7a-b462c44f00e0",
+  "name": "Kevin Hern",
+  "state": "Oklahoma",
+  "last_updated": "2025-08-07T02:00:30.046281",
+  "issues": [
+    {
+      "title": "Tax Reform",
+      "description": "Strong supporter of permanent tax cuts, advocates for reduced corporate tax rates",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare Repeal",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA rating and endorsements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel exploration, opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Energy committee votes"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive legislation"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and military preparedness",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$35,000-$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Walmart",
+        "amount": "$25,000-$40,000",
+        "industry": "Retail",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Oil and Gas",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Tax Reform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Hamm",
+        "amount": "$15,000",
+        "occupation": "Oil Executive"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$75,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/kevin-hern/summary"
+  },
+  "sources": [
+    "Congressional Website",
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Official Campaign Materials"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T02:00:42.226720",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 968
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

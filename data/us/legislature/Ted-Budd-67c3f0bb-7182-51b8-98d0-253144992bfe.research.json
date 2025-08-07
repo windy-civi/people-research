@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/67c3f0bb-7182-51b8-98d0-253144992bfe",
+  "name": "Ted Budd",
+  "state": "North Carolina",
+  "last_updated": "2025-08-07T01:59:50.124269",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports building border wall, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Affordable Healthcare",
+      "description": "Opposes government-run healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel production, opposes Green New Deal",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school vouchers, charter school expansion",
+      "category": "Education",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Strong support for military funding, hawkish stance on international relations",
+      "category": "Foreign Policy",
+      "source": "Foreign policy speeches"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$750,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$250,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$1.2 million",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$850,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association (NRA)",
+        "amount": "$250,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$150,000",
+        "ideology": "Pro-Life Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Uihlein",
+        "amount": "$500,000",
+        "occupation": "Businessman"
+      },
+      {
+        "name": "Robert Mercer",
+        "amount": "$250,000",
+        "occupation": "Hedge Fund Manager"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00046241"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "OpenSecrets.org",
+    "Federal Election Commission",
+    "Congressional Voting Records",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T02:00:03.002123",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1023
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

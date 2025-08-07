@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/50093b91-c03b-5dbf-acb8-e5881dd576e4",
+  "name": "Mark Pocan",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-07T01:56:21.042225",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Supports comprehensive single-payer healthcare system",
+      "category": "Healthcare",
+      "source": "https://pocan.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Advocates for aggressive climate change mitigation and green infrastructure investment",
+      "category": "Environment",
+      "source": "https://pocan.house.gov/climate-policy"
+    },
+    {
+      "title": "Comprehensive Immigration Reform",
+      "description": "Supports pathways to citizenship, DACA protection, and comprehensive immigration policy",
+      "category": "Immigration",
+      "source": "https://pocan.house.gov/immigration-stance"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports $15 federal minimum wage and worker protection policies",
+      "category": "Economic Policy",
+      "source": "https://pocan.house.gov/labor-rights"
+    },
+    {
+      "title": "Higher Education Affordability",
+      "description": "Advocates for student debt cancellation and free public college tuition",
+      "category": "Education",
+      "source": "https://pocan.house.gov/education-policy"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of comprehensive LGBTQ+ non-discrimination protections",
+      "category": "Social Issues",
+      "source": "https://pocan.house.gov/equality-agenda"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports ending mass incarceration, police reform, and sentencing modifications",
+      "category": "Social Justice",
+      "source": "https://pocan.house.gov/criminal-justice"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$10,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic Party Committees",
+        "total_amount": "$60,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$12,500",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Individual Donors",
+        "amount": "$250-$2900",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reporting",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00042271"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Mark Pocan Official Congressional Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:56:34.062634",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1021
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

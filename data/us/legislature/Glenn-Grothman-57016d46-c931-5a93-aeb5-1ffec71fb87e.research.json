@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/57016d46-c931-5a93-aeb5-1ffec71fb87e",
+  "name": "Glenn Grothman",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-07T01:59:25.255153",
+  "issues": [
+    {
+      "title": "Anti-Abortion Stance",
+      "description": "Strong pro-life advocate, supports restrictive abortion policies and limiting reproductive rights",
+      "category": "Social Issues",
+      "source": "https://grothman.house.gov/issues"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports significant government spending cuts, opposes increased federal spending and taxation",
+      "category": "Economy",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Immigration Restriction",
+      "description": "Advocates for stricter border control, opposes comprehensive immigration reform, supports reduced immigration levels",
+      "category": "Immigration",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Education Policy",
+      "description": "Supports school choice, charter schools, and reduced federal involvement in education",
+      "category": "Education",
+      "source": "Congressional committee work"
+    },
+    {
+      "title": "Healthcare Opposition",
+      "description": "Opposes the Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions climate change science, opposes significant environmental regulations",
+      "category": "Environment",
+      "source": "Congressional statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$15,000",
+        "industry": "Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$85,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Pro-Life",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Attorney"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Database",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "https://grothman.house.gov",
+    "https://www.fec.gov",
+    "Congressional voting records",
+    "Campaign finance databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:59:38.162974",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 979
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

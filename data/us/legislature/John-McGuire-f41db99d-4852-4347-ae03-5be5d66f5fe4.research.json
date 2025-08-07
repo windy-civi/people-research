@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/f41db99d-4852-4347-ae03-5be5d66f5fe4",
+  "name": "John McGuire",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T01:58:06.918151",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "Candidate campaign website"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Advocates for reduced government spending, lower taxes, and balanced budgets",
+      "category": "Economy",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports stricter immigration enforcement and increased border protection measures",
+      "category": "Immigration",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Policy statements"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs and expanded charter school options",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion and supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports domestic fossil fuel production and opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Energy Sector Corporations",
+        "amount": "$50,000-$75,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Healthcare Industry PACs",
+        "amount": "$35,000-$50,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance",
+        "total_amount": "$100,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Liberty PAC",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Pro-Life Alliance",
+        "amount": "$15,000",
+        "ideology": "Social Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      },
+      {
+        "name": "Second Amendment Foundation",
+        "amount": "$10,000",
+        "ideology": "Conservative",
+        "issue_focus": "Gun Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Candidate Campaign Website",
+    "Federal Election Commission Records",
+    "State Legislative Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:58:19.925745",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1000
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

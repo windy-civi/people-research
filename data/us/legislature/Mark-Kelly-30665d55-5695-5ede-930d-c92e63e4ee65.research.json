@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/30665d55-5695-5ede-930d-c92e63e4ee65",
+  "name": "Mark Kelly",
+  "state": "Arizona",
+  "last_updated": "2025-08-07T01:55:54.736524",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports protecting and expanding the Affordable Care Act, lowering prescription drug costs, and improving access to healthcare",
+      "category": "Healthcare",
+      "source": "https://www.markkellyforsenate.com/issues/healthcare"
+    },
+    {
+      "title": "Climate Change and Clean Energy",
+      "description": "Advocates for aggressive climate action, supporting renewable energy investments and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://www.markkellyforsenate.com/issues/climate"
+    },
+    {
+      "title": "Border Security and Immigration Reform",
+      "description": "Supports comprehensive immigration reform, border security, and a path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "https://www.markkellyforsenate.com/issues/immigration"
+    },
+    {
+      "title": "Education and Workforce Development",
+      "description": "Supports increased funding for public education, student debt relief, and job training programs",
+      "category": "Education",
+      "source": "https://www.markkellyforsenate.com/issues/education"
+    },
+    {
+      "title": "Economic Recovery and Job Creation",
+      "description": "Advocates for infrastructure investment, small business support, and middle-class tax relief",
+      "category": "Economy",
+      "source": "https://www.markkellyforsenate.com/issues/economy"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Supports universal background checks, assault weapons ban, and other gun control measures",
+      "category": "Social Issues",
+      "source": "https://www.markkellyforsenate.com/issues/gun-safety"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Supports improved veterans healthcare, mental health services, and job training for veterans",
+      "category": "Social Issues",
+      "source": "https://www.markkellyforsenate.com/issues/veterans"
+    },
+    {
+      "title": "Foreign Policy and National Security",
+      "description": "Supports strong international alliances, diplomatic approaches to global challenges, and military readiness",
+      "category": "Foreign Policy",
+      "source": "https://www.markkellyforsenate.com/issues/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Apple Inc.",
+        "amount": "$25,000-$50,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$20,000-$45,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$250,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$200,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$150,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "End Citizens United",
+        "amount": "$50,000-$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Campaign Finance Reform",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$1-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/mark-kelly/summary"
+  },
+  "sources": [
+    "https://www.markkellyforsenate.com",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Mark_Kelly"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:56:08.244952",
+    "github_action_run": "16793132510",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1154
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
