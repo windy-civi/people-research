@@ -52,5 +52,5 @@ jobs:
         echo "=== SENDING PROMPT TO CLAUDE 3.5 HAIKU ==="
         echo "Prompt: $full_prompt"
         echo "=== CLAUDE OUTPUT ==="
-        echo "$full_prompt" | claude --print --model haiku --output-format stream-json --verbose
+        echo "$full_prompt" | claude --print --model claude-3-5-haiku-20241022 --output-format stream-json --verbose --dangerously-skip-permissions
         echo "=== END CLAUDE OUTPUT ==="
