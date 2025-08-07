@@ -1,23 +1,7 @@
-name: Claude Research Legislators
+name: Claude Research Test
 
 on:
   workflow_dispatch:
-    inputs:
-      prompt:
-        description: 'Research prompt'
-        required: false
-        default: 'Research this legislators campaign website and find their issues as an array with title/description. Also find their top donors by industry/corporation as an array with donor name, potential issue they care about, and money donated. Output as JSON.'
-        type: string
-      state:
-        description: 'State code (e.g., "ak", "ca")'
-        required: true
-        default: 'us'
-        type: string
-      legislator_count:
-        description: 'Number of legislators to process'
-        required: false
-        default: '1'
-        type: string
 
 jobs:
   research:
@@ -37,143 +21,39 @@ jobs:
       run: |
         npm install -g @anthropic-ai/claude-code
     
-    - name: Create output directory
-      run: |
-        mkdir -p data/${{ github.event.inputs.state }}/legislature
-    
-    - name: Research legislators
+    - name: Research Katie Britt
       env:
-        RESEARCH_PROMPT: ${{ github.event.inputs.prompt }}
-        STATE: ${{ github.event.inputs.state }}
-        COUNT: ${{ github.event.inputs.legislator_count }}
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: |
         #!/bin/bash
         set -e
         
-        # Find YAML files for the specified state
-        yaml_files=$(find openstates-people/data/$STATE/legislature -name "*.yml" -type f | head -$COUNT)
+        # Hardcoded for Katie Britt
+        yaml_file="openstates-people/data/us/legislature/Katie-Boyd-Britt-7bf077d8-e8b9-503e-b9c2-d18b55951e93.yml"
         
-        if [ -z "$yaml_files" ]; then
-          echo "No YAML files found for state: $STATE"
+        if [ ! -f "$yaml_file" ]; then
+          echo "Katie Britt YAML file not found: $yaml_file"
           exit 1
         fi
         
-        echo "Found $(echo "$yaml_files" | wc -l) legislators to research"
+        echo "Researching Katie Britt"
         
-        # Process each legislator
-        for yaml_file in $yaml_files; do
-          # Extract name and UUID from filename
-          filename=$(basename "$yaml_file" .yml)
-          name=$(echo "$filename" | sed 's/-[^-]*-[^-]*-[^-]*-[^-]*-[^-]*$//')
-          uuid=$(echo "$filename" | grep -o '[^-]*-[^-]*-[^-]*-[^-]*-[^-]*$')
-          
-          echo "Researching: $name"
-          
-          # Create research prompt with legislator data
-          full_prompt="Here is legislator data from OpenStates:
+        # Create research prompt with legislator data
+        full_prompt="Here is legislator data from OpenStates:
         
         $(cat "$yaml_file")
         
-        IMPORTANT: You MUST use web search to find current information about this legislator. Search for:
-        1. Their official campaign website or congressional website
-        2. Their positions on key issues  
-        3. Their recent campaign finance data from OpenSecrets.org or FEC filings
-        4. Their top donors and industry contributions
+        IMPORTANT: You MUST use web search to find current information about Katie Britt (Senator from Alabama). Search for:
+        1. Her official Senate website and campaign website
+        2. Her positions on key issues  
+        3. Her recent campaign finance data from OpenSecrets.org or FEC filings
+        4. Her top donors and industry contributions
         
-        $RESEARCH_PROMPT
+        Research Katie Britt's campaign website and find her issues as an array with title/description. Also find her top donors by industry/corporation as an array with donor name, potential issue they care about, and money donated. Output as JSON.
         
-        Use web search tools to gather this information before responding. Do not make up or guess at information.
+        Use web search tools to gather this information before responding. Do not make up or guess at information."
         
-        The output should be valid JSON matching this structure:
-        {
-          \"legislator_id\": \"$uuid\",
-          \"name\": \"$name\",
-          \"state\": \"$STATE\",
-          \"last_updated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",
-          \"issues\": [
-            {
-              \"title\": \"Issue Title\",
-              \"description\": \"Issue description\",
-              \"category\": \"Category\",
-              \"source\": \"https://website.com\"
-            }
-          ],
-          \"donors\": {
-            \"top_companies\": [
-              {
-                \"name\": \"Company Name\",
-                \"amount\": \"$X,XXX\",
-                \"industry\": \"Industry\",
-                \"cycle\": \"2024\"
-              }
-            ],
-            \"top_industries\": [
-              {
-                \"industry\": \"Industry Name\",
-                \"total_amount\": \"$XX,XXX\",
-                \"percentage\": \"XX%\"
-              }
-            ]
-          },
-          \"sources\": [\"url1\", \"url2\"],
-          \"processing_metadata\": {
-            \"processed_date\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\",
-            \"github_action_run\": \"$GITHUB_RUN_ID\"
-          }
-        }"
-          
-          # Use Claude CLI with web search enabled - use the latest model that has web search
-          output_file="data/$STATE/legislature/$filename.research.json"
-          
-          # Use Claude CLI 
-          echo "$full_prompt" | claude > "$output_file"
-          
-          # Validate JSON output
-          if ! python3 -m json.tool "$output_file" > /dev/null 2>&1; then
-            echo "Warning: Invalid JSON output for $name, attempting to fix..."
-            # Try to extract JSON from the output
-            python3 -c "
-        import json
-        import re
-        import sys
-        
-        with open('$output_file', 'r') as f:
-            content = f.read()
-        
-        # Try to find JSON in the content
-        json_match = re.search(r'\{.*\}', content, re.DOTALL)
-        if json_match:
-            try:
-                json_obj = json.loads(json_match.group())
-                with open('$output_file', 'w') as f:
-                    json.dump(json_obj, f, indent=2)
-                print('Fixed JSON for $name')
-            except:
-                print('Could not parse JSON for $name')
-                sys.exit(1)
-        else:
-            print('No JSON found in output for $name')
-            sys.exit(1)
-            " || {
-              echo "Failed to process $name, skipping..."
-              rm -f "$output_file"
-              continue
-            }
-          fi
-          
-          echo "Completed research for: $name"
-          sleep 2  # Rate limiting
-        done
-    
-    - name: Commit and push results
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action Research Bot"
-        git add data/
-        if git diff --staged --quiet; then
-          echo "No changes to commit"
-        else
-          git commit -m "Add enhanced research data with accurate donor information for $(date -u +%Y-%m-%d)"
-          git push
-        fi
+        # Use Claude CLI and echo output
+        echo "=== CLAUDE OUTPUT ==="
+        echo "$full_prompt" | claude
+        echo "=== END CLAUDE OUTPUT ==="
