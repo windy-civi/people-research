@@ -37,19 +37,21 @@ jobs:
         
         full_prompt="Research Katie Britt, a Republican Senate legislator from Alabama.
 
-        You have access to web search tools. Please use them to find COMPREHENSIVE and ACCURATE information about:
+        You have access to web search tools. Please use them to:
 
-        DONOR INFORMATION: Search OpenSecrets.org and other campaign finance databases to find ONLY:
+        1. Search for Katie Britt's OpenSecrets.org contributors page (should look like: https://www.opensecrets.org/members-of-congress/katie-britt/contributors?cid=N00048812&cycle=2024)
+        2. Once you find the full contributors URL, modify it by replacing '/contributors?' with '/contributors.csv?' to get the CSV download URL
+        3. Download and analyze the CSV data to find ONLY:
            - Top contributing INDUSTRIES with specific amounts and percentages (e.g. Oil & Gas, Healthcare, Real Estate, etc.)
            - Single-issue PACs that have donated with specific amounts (e.g. Pro-Israel, Gun Rights, Anti-Abortion, etc.)
 
-        Focus specifically on industry sectors and single-issue political action committees. Do NOT include individual donors or corporate donors.
+        Focus specifically on industry sectors and single-issue political action committees from the CSV data. Do NOT include individual donors or corporate donors.
 
-        Please provide specific source URLs for all information found."
+        Please provide the CSV URL you accessed and summarize the key findings."
         
         # Use Claude CLI with --print flag for non-interactive output and Haiku model
         echo "=== SENDING PROMPT TO CLAUDE 3.5 HAIKU ==="
         echo "Prompt: $full_prompt"
         echo "=== CLAUDE OUTPUT ==="
-        echo "$full_prompt" | claude --print --model claude-3-5-haiku-20241022 --output-format stream-json --verbose --dangerously-skip-permissions
+        echo "$full_prompt" | claude --print --model claude-3-5-haiku-20241022 --output-format stream-json --verbose
         echo "=== END CLAUDE OUTPUT ==="
