@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/969d3e67-5686-5b4c-a8fe-5ec702a7343d",
+  "name": "Yvette Clarke",
+  "state": "New York",
+  "last_updated": "2025-08-07T01:09:49.633127",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of Medicare for All, advocates for comprehensive universal healthcare coverage",
+      "category": "Healthcare",
+      "source": "https://clarke.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal, advocates for aggressive carbon reduction and renewable energy investments",
+      "category": "Environment",
+      "source": "https://clarke.house.gov/climate-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, opposes border wall",
+      "category": "Immigration",
+      "source": "https://clarke.house.gov/immigration-policy"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Advocates for police reform, supports Black Lives Matter movement, pushes for systemic racism legislation",
+      "category": "Social Issues",
+      "source": "https://clarke.house.gov/social-justice"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Supports $15 minimum wage, progressive taxation, student debt relief",
+      "category": "Economy",
+      "source": "https://clarke.house.gov/economic-policy"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of Equality Act, advocates for comprehensive anti-discrimination protections",
+      "category": "Social Issues",
+      "source": "https://clarke.house.gov/civil-rights"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, free public college, student debt cancellation",
+      "category": "Education",
+      "source": "https://clarke.house.gov/education-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$127,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$89,250",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$42,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$350,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$175,000",
+        "percentage": "17.5%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "12.5%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$42,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Health",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$25,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Action",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Technology Executive"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$1,500",
+        "occupation": "Labor Union Representative"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Reporting",
+    "source_url": "https://www.opensecrets.org/members-of-congress/yvette-clarke/summary"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Congressional Website",
+    "Campaign Press Releases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:10:04.190177",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1177
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

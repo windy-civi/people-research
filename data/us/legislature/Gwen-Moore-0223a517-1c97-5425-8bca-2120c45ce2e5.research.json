@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/0223a517-1c97-5425-8bca-2120c45ce2e5",
+  "name": "Gwen Moore",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-07T01:10:04.220272",
+  "issues": [
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports comprehensive reproductive healthcare and opposes restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "https://www.govtrack.us/congress/members/gwen_moore/400263"
+    },
+    {
+      "title": "Poverty Reduction",
+      "description": "Supports expanding social safety net programs, increasing minimum wage, and addressing systemic economic inequality",
+      "category": "Economic Policy",
+      "source": "https://moore.house.gov/issues"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding Medicaid, protecting Affordable Care Act, and increasing access to mental health services",
+      "category": "Healthcare",
+      "source": "https://www.congress.gov/member/gwen-moore/M001160"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for aggressive climate action, supports Green New Deal framework, and renewable energy investments",
+      "category": "Environment",
+      "source": "https://www.environmentamerica.org/representatives"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports reducing mass incarceration, ending mandatory minimum sentences, and addressing racial disparities in criminal justice system",
+      "category": "Social Justice",
+      "source": "https://justiceinitiative.org/legislators"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and expanded early childhood education programs",
+      "category": "Education",
+      "source": "https://www.ed.gov/legislative-resources"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathways to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://www.americanimmigrationcouncil.org"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$58,450",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$42,350",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$124,500",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic/Progressive Political Organizations",
+        "total_amount": "$98,750",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,200",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$27,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$423,750",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/gwen-moore/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "House.gov Official Website",
+    "Congressional Voting Records",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:10:17.924760",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1049
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

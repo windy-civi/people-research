@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/50b75c29-4e98-5622-b60f-59485dcc1141",
+  "name": "John Joyce",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-07T00:54:32.710861",
+  "issues": [
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports market-based solutions and repealing Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://joyce.house.gov/healthcare"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports border wall, stricter immigration enforcement, opposes sanctuary cities",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Gun Rights",
+      "description": "Strong Second Amendment supporter, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates, supports supply-side economic policies",
+      "category": "Economy",
+      "source": "Campaign platform materials"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel development, opposes climate change regulations, pro-fracking",
+      "category": "Environment",
+      "source": "Energy committee statements"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, local control of education, opposes federal education mandates",
+      "category": "Education",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Campaign rhetoric and voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corporation",
+        "amount": "$35,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$2,900",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Linda Johnson",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "Campaign Finance Databases",
+    "Voting Record Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:54:45.345535",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 961
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

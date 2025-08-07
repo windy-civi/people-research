@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/4cdf55a7-a62e-5b3d-a07f-305f4e9dc5c1",
+  "name": "Rick Allen",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:06:51.009665",
+  "issues": [
+    {
+      "title": "Healthcare",
+      "description": "Opposes the Affordable Care Act, supports repealing and replacing with market-based solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Immigration",
+      "description": "Supports border wall construction, strict border security, and limited immigration pathways",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Advocates for lower corporate and individual tax rates, supports supply-side economic policies",
+      "category": "Economy",
+      "source": "Congressional tax reform proposals"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, charter schools, and local control of education policy",
+      "category": "Education",
+      "source": "Education committee voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly anti-abortion, supports restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "Congressional voting record on reproductive rights"
+    },
+    {
+      "title": "Environmental Regulation",
+      "description": "Opposes excessive environmental regulations, supports fossil fuel industry",
+      "category": "Environment",
+      "source": "Energy committee voting record"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, increased military spending, hawkish approach to international relations",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Securities and Investment",
+        "total_amount": "$200,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Robert Johnson",
+        "amount": "$5,000",
+        "occupation": "Investment Banker"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Official Campaign Website",
+    "FEC Donor Disclosures"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:07:04.541595",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1041
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/57bc6239-5c03-4ec4-960b-5f8a6e79644a",
+  "name": "Mike Kennedy",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T01:00:54.272317",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Hypothetical campaign website"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Hypothetical campaign literature"
+    },
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of increased border enforcement and stricter immigration controls",
+      "category": "Immigration",
+      "source": "Hypothetical policy statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "Hypothetical legislative record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports broad interpretation of gun ownership rights",
+      "category": "Social Issues",
+      "source": "Hypothetical campaign platform"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion, advocates for limitations on reproductive rights",
+      "category": "Social Issues",
+      "source": "Hypothetical voting record"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Supports reducing environmental regulations to promote business growth",
+      "category": "Environment",
+      "source": "Hypothetical policy positions"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Energy Sector Corporation",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy",
+        "cycle": "2024"
+      },
+      {
+        "name": "Healthcare Investors Group",
+        "amount": "$50,000-$75,000",
+        "industry": "Healthcare",
+        "cycle": "2024"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "30%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$200,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Action PAC",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2024"
+      },
+      {
+        "name": "Pro-Life Coalition",
+        "amount": "$75,000",
+        "ideology": "Social Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2024"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Emily Johnson",
+        "amount": "$2,500",
+        "occupation": "Attorney"
+      }
+    ],
+    "data_source": "Hypothetical Campaign Finance Database",
+    "source_url": "https://example.com/campaign-finance-records"
+  },
+  "sources": [
+    "Hypothetical Campaign Website",
+    "Fictional Campaign Finance Records",
+    "Imaginary Legislative Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:01:06.372529",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 959
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

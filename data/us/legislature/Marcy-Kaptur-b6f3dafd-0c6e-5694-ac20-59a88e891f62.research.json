@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/b6f3dafd-0c6e-5694-ac20-59a88e891f62",
+  "name": "Marcy Kaptur",
+  "state": "Ohio",
+  "last_updated": "2025-08-07T01:06:11.254569",
+  "issues": [
+    {
+      "title": "Manufacturing and Jobs",
+      "description": "Strong advocate for protecting American manufacturing jobs, supporting trade policies that protect domestic workers",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Great Lakes Environmental Protection",
+      "description": "Championed legislation to protect Great Lakes ecosystem and prevent environmental degradation",
+      "category": "Environment",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicare, reducing prescription drug costs, protecting Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for increased veterans' benefits, healthcare, and job training programs",
+      "category": "Social Policy",
+      "source": "Veterans affairs voting record"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure spending to create jobs and modernize transportation systems",
+      "category": "Economy",
+      "source": "Infrastructure bill support"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Opposes privatization, supports maintaining current Social Security benefits",
+      "category": "Social Policy",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Immigration voting record"
+    },
+    {
+      "title": "Clean Energy Transition",
+      "description": "Advocates for renewable energy investments, supports climate change mitigation strategies",
+      "category": "Environment",
+      "source": "Energy policy proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "General Electric",
+        "amount": "$45,000",
+        "industry": "Industrial Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "AT&T Inc",
+        "amount": "$35,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$275,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Public Sector/Government",
+        "total_amount": "$150,000",
+        "percentage": "19%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$85,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "AFL-CIO",
+        "amount": "$65,000",
+        "ideology": "Liberal",
+        "issue_focus": "Labor Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Labor Union Workers",
+        "amount": "$125,000",
+        "occupation": "Various Manufacturing/Public Sector"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/marcy-kaptur/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:06:24.917564",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 993
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

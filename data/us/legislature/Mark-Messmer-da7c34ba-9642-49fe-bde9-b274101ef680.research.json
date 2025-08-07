@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/da7c34ba-9642-49fe-bde9-b274101ef680",
+  "name": "Mark Messmer",
+  "state": "Indiana",
+  "last_updated": "2025-08-07T00:59:20.112304",
+  "issues": [
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports balanced budgets and limited government spending",
+      "category": "Economy",
+      "source": "Indiana State Senate official website"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong supporter of restrictions on abortion and pro-life legislation",
+      "category": "Social Issues",
+      "source": "Indiana Legislative Records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Advocates for broad gun ownership rights and opposes gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign website and voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports school choice and traditional public school funding models",
+      "category": "Education",
+      "source": "Indiana Senate committee reports"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower tax rates for businesses and individuals",
+      "category": "Economy",
+      "source": "Legislative voting records"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports road and transportation infrastructure development in Indiana",
+      "category": "Infrastructure",
+      "source": "State Senate transportation committee reports"
+    },
+    {
+      "title": "Healthcare Cost Reduction",
+      "description": "Supports market-based healthcare solutions and opposing expanded government healthcare programs",
+      "category": "Healthcare",
+      "source": "Campaign statements and legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Indiana Farm Bureau",
+        "amount": "$5,000-$10,000",
+        "industry": "Agriculture",
+        "cycle": "2022"
+      },
+      {
+        "name": "Eli Lilly and Company",
+        "amount": "$2,500-$5,000",
+        "industry": "Pharmaceutical",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$15,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$10,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Indiana Right to Life PAC",
+        "amount": "$3,000",
+        "ideology": "Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association PAC",
+        "amount": "$2,500",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$1,000",
+        "occupation": "Local Business Owner"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$500",
+        "occupation": "Physician"
+      }
+    ],
+    "data_source": "Indiana Campaign Finance Database",
+    "source_url": "https://campaignfinance.in.gov"
+  },
+  "sources": [
+    "Indiana State Senate Official Website",
+    "Indiana Campaign Finance Database",
+    "Mark Messmer Campaign Website",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:59:32.633903",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 956
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

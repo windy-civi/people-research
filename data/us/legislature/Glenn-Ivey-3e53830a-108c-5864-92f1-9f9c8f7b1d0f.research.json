@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/3e53830a-108c-5864-92f1-9f9c8f7b1d0f",
+  "name": "Glenn Ivey",
+  "state": "Maryland",
+  "last_updated": "2024-01-15T12:00:00.000Z",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports comprehensive criminal justice reform, including reducing mandatory minimum sentences and improving rehabilitation programs",
+      "category": "Social Justice",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding affordable healthcare coverage and protecting the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public schools and expanded access to higher education",
+      "category": "Education",
+      "source": "Policy platform"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports green energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for infrastructure investment and job creation programs",
+      "category": "Economy",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": "Public statements"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Supports stricter gun control measures and background check expansions",
+      "category": "Public Safety",
+      "source": "Legislative record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Law Firms",
+        "amount": "$150,000-$250,000",
+        "industry": "Legal Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Healthcare Companies",
+        "amount": "$100,000-$200,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Legal Services",
+        "total_amount": "$250,000",
+        "percentage": "25%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$200,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Party Committees",
+        "amount": "$500,000",
+        "ideology": "Liberal",
+        "issue_focus": "Party-wide support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Progressive PACs",
+        "amount": "$150,000",
+        "ideology": "Progressive",
+        "issue_focus": "Social Justice",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$300,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Filings",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Campaign Website",
+    "FEC Filings",
+    "Maryland State Election Records",
+    "Public Campaign Statements"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:08:32.499543",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 904
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

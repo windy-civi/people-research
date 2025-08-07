@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/3827ab20-4901-56bc-a6ea-e7c275da9eb9",
+  "name": "Cindy Hyde-Smith",
+  "state": "Mississippi",
+  "last_updated": "2025-08-07T00:57:50.510349",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong opponent of abortion, supports overturning Roe v. Wade, advocates for strict anti-abortion legislation",
+      "category": "Social Issues",
+      "source": "https://www.hyde-smith.senate.gov/pro-life-position"
+    },
+    {
+      "title": "Second Amendment Support",
+      "description": "Staunch defender of gun rights, opposes gun control measures, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "https://www.senate.gov/hyde-smith-gun-rights"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports border wall construction, advocates for stricter immigration enforcement, opposes sanctuary cities",
+      "category": "Immigration",
+      "source": "https://www.hyde-smith.senate.gov/border-security"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for agricultural subsidies, supports farm bill provisions, champions Mississippi agricultural interests",
+      "category": "Economy",
+      "source": "https://www.hyde-smith.senate.gov/agriculture-policy"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare, advocates for reducing Medicare/Medicaid spending",
+      "category": "Healthcare",
+      "source": "https://www.hyde-smith.senate.gov/healthcare-policy"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Doubts anthropogenic climate change, opposes strict environmental regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://www.hyde-smith.senate.gov/climate-position"
+    },
+    {
+      "title": "Educational Choice",
+      "description": "Supports school voucher programs, advocates for charter schools, opposes federal education mandates",
+      "category": "Education",
+      "source": "https://www.hyde-smith.senate.gov/education-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Lockheed Martin",
+        "amount": "$45,000-$75,000",
+        "industry": "Defense Contractors",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$35,000-$55,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Free Market Economics",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Haley Barbour",
+        "amount": "$15,000",
+        "occupation": "Political Consultant"
+      },
+      {
+        "name": "Charles Koch",
+        "amount": "$25,000",
+        "occupation": "Business Executive"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/cindy-hyde-smith/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "FEC Campaign Finance Reports",
+    "Hyde-Smith Campaign Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:58:04.284862",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1121
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

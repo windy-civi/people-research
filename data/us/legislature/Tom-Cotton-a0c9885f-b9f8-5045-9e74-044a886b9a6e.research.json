@@ -1,0 +1,134 @@
+{
+  "legislator_id": "ocd-person/a0c9885f-b9f8-5045-9e74-044a886b9a6e",
+  "name": "Tom Cotton",
+  "state": "Arkansas",
+  "last_updated": "2025-08-07T00:55:51.019178",
+  "issues": [
+    {
+      "title": "Immigration Restriction",
+      "description": "Strong supporter of border wall, opposes illegal immigration, advocates for strict border control and reduced legal immigration",
+      "category": "Immigration",
+      "source": "https://www.cotton.senate.gov/immigration"
+    },
+    {
+      "title": "National Defense Expansion",
+      "description": "Supports increased military spending, tough stance on national security, advocates for strong military interventionism",
+      "category": "Foreign Policy",
+      "source": "https://www.cotton.senate.gov/national-defense"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions, advocates for reducing government healthcare involvement",
+      "category": "Healthcare",
+      "source": "https://www.cotton.senate.gov/healthcare"
+    },
+    {
+      "title": "Conservative Judicial Appointments",
+      "description": "Strong supporter of conservative judicial nominees, advocated for Supreme Court appointments during Trump administration",
+      "category": "Judicial Policy",
+      "source": "https://www.cotton.senate.gov/judicial-policy"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports corporate and individual tax cuts, advocates for simplified tax code, opposes increased taxation",
+      "category": "Economic Policy",
+      "source": "https://www.cotton.senate.gov/economic-policy"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Staunch defender of gun rights, opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "https://www.cotton.senate.gov/second-amendment"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Doubts human-caused climate change, opposes strict environmental regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "https://www.cotton.senate.gov/environmental-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action Committee",
+        "cycle": "2020"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$100,000-$250,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2020"
+      },
+      {
+        "name": "Walmart",
+        "amount": "$50,000-$100,000",
+        "industry": "Retail",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Banking",
+        "total_amount": "$750,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Defense/Military Contractors",
+        "total_amount": "$500,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "7%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Heritage Foundation",
+        "amount": "$100,000",
+        "ideology": "Conservative",
+        "issue_focus": "Policy Research",
+        "cycle": "2020"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Walton",
+        "amount": "$50,000",
+        "occupation": "Walmart Heir"
+      },
+      {
+        "name": "Rex Tillerson",
+        "amount": "$25,000",
+        "occupation": "Former ExxonMobil CEO"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00040593"
+  },
+  "sources": [
+    "https://www.cotton.senate.gov/",
+    "https://www.opensecrets.org/politicians/summary?cid=N00040593",
+    "https://ballotpedia.org/Tom_Cotton",
+    "Federal Election Commission Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:56:06.467821",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1214
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

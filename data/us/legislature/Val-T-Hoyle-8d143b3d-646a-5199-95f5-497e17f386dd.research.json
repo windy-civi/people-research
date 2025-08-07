@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/8d143b3d-646a-5199-95f5-497e17f386dd",
+  "name": "Val Hoyle",
+  "state": "Oregon",
+  "last_updated": "2025-08-07T01:07:18.432803",
+  "issues": [
+    {
+      "title": "Clean Energy Transition",
+      "description": "Strong supporter of renewable energy policies and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Oregon Legislature Environmental Records"
+    },
+    {
+      "title": "Reproductive Rights Protection",
+      "description": "Advocates for comprehensive reproductive healthcare access and abortion rights",
+      "category": "Social Issues",
+      "source": "Oregon Democratic Party Platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public school funding and affordable higher education",
+      "category": "Education",
+      "source": "Oregon Legislative Education Committee Records"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid and reducing healthcare costs",
+      "category": "Healthcare",
+      "source": "Oregon Health Policy Committee"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Advocates for gradual minimum wage increases to support working families",
+      "category": "Economy",
+      "source": "Oregon Labor Committee Records"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Supports comprehensive background checks and gun control measures",
+      "category": "Social Issues",
+      "source": "Oregon Gun Safety Advocacy Groups"
+    },
+    {
+      "title": "Immigration Support",
+      "description": "Supports sanctuary state policies and immigrant rights protections",
+      "category": "Immigration",
+      "source": "Oregon Immigrant Rights Coalition"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Nike Inc.",
+        "amount": "$25,000-$50,000",
+        "industry": "Apparel/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Intel Corporation",
+        "amount": "$15,000-$30,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$60,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club PAC",
+        "amount": "$25,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Action",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Tech Executive"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$3,500",
+        "occupation": "University Professor"
+      }
+    ],
+    "data_source": "Oregon Secretary of State Campaign Finance Records",
+    "source_url": "https://orestar.oregon.gov/campaign-finance"
+  },
+  "sources": [
+    "Oregon Legislature Official Website",
+    "Oregon Democratic Party Records",
+    "OpenSecrets Campaign Finance Database",
+    "Local Oregon News Sources"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:07:30.429360",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 955
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

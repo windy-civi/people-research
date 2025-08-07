@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/1d87ca8c-1a95-531f-bbdd-34e1679d45d2",
+  "name": "Jahana Hayes",
+  "state": "Connecticut",
+  "last_updated": "2025-08-07T01:02:17.942325",
+  "issues": [
+    {
+      "title": "Education Reform",
+      "description": "Strong advocate for improving public education, supporting increased funding and resources for schools",
+      "category": "Education",
+      "source": "https://hayes.house.gov/issues/education"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing conditions, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://hayes.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for aggressive climate action, supports Green New Deal principles and renewable energy investments",
+      "category": "Environment",
+      "source": "https://hayes.house.gov/issues/climate"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "https://hayes.house.gov/issues/immigration"
+    },
+    {
+      "title": "Racial Equity",
+      "description": "Committed to addressing systemic racism, supporting social justice initiatives and economic opportunities for marginalized communities",
+      "category": "Social Issues",
+      "source": "https://hayes.house.gov/issues/social-justice"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Supports comprehensive gun control measures, background checks, and assault weapons ban",
+      "category": "Public Safety",
+      "source": "https://hayes.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for infrastructure investment, job training programs, and support for small businesses",
+      "category": "Economy",
+      "source": "https://hayes.house.gov/issues/economy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$150,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Education",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$50,000",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$1,200,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Reports, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jahana-hayes/summary?cid=N00042141"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "FEC Campaign Finance Reports",
+    "OpenSecrets Donor Database",
+    "Campaign Official Statements"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:02:31.113799",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1017
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

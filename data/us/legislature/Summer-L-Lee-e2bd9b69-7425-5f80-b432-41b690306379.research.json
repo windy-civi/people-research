@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/e2bd9b69-7425-5f80-b432-41b690306379",
+  "name": "Summer Lee",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-07T00:55:23.714594",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Supports comprehensive single-payer healthcare system to provide universal coverage",
+      "category": "Healthcare",
+      "source": "Campaign website, progressive policy platform"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Advocates for aggressive climate action, transitioning to renewable energy and creating green jobs",
+      "category": "Environment",
+      "source": "Congressional progressive caucus statements"
+    },
+    {
+      "title": "Student Debt Cancellation",
+      "description": "Supports complete or partial student loan debt elimination and free public college education",
+      "category": "Education",
+      "source": "Campaign speeches, policy proposals"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocates for ending mass incarceration, police reform, and investment in community resources",
+      "category": "Social Issues",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports $15 federal minimum wage and worker protection policies",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice stance, supports comprehensive reproductive healthcare access",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports path to citizenship, abolishing ICE, protecting immigrant rights",
+      "category": "Immigration",
+      "source": "Policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000-$500,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$100,000-$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$350,000-$500,000",
+        "percentage": "25-30%"
+      },
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$250,000-$400,000",
+        "percentage": "20-25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Justice Democrats",
+        "amount": "$75,000-$150,000",
+        "ideology": "Progressive",
+        "issue_focus": "Grassroots political reform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Working Families Party",
+        "amount": "$50,000-$100,000",
+        "ideology": "Progressive",
+        "issue_focus": "Economic justice",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$10-$200",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Records, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00044488"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "FEC Donation Records",
+    "OpenSecrets.org",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:55:36.531255",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 976
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

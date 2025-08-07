@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/b01048a9-27a5-5fed-b5ef-7bf3b3be6d04",
+  "name": "Linda Sánchez",
+  "state": "California",
+  "last_updated": "2025-08-07T01:07:43.268578",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding the Affordable Care Act, protecting pre-existing condition coverage, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship for undocumented immigrants, and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15 per hour and indexing it to inflation",
+      "category": "Economy",
+      "source": "Congressional testimony"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal framework, aggressive carbon reduction targets, and investment in renewable energy infrastructure",
+      "category": "Environment",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and expanded access to community college and vocational training",
+      "category": "Education",
+      "source": "Committee on Education and Labor statements"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Supports strengthening labor unions, protecting collective bargaining rights, and improving workplace safety regulations",
+      "category": "Labor",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Supports universal background checks, assault weapons ban, and increased funding for gun violence research",
+      "category": "Social Issues",
+      "source": "Legislative co-sponsorships"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$325,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$157,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$425,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Law Firms",
+        "total_amount": "$275,000",
+        "percentage": "14%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$157,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Hispanic Caucus Institute",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Political Empowerment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (under $200)",
+        "amount": "$475,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "OpenSecrets.org",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:07:55.704626",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 976
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

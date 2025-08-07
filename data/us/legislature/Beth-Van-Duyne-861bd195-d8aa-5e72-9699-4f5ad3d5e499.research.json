@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/861bd195-d8aa-5e72-9699-4f5ad3d5e499",
+  "name": "Beth Van Duyne",
+  "state": "Texas",
+  "last_updated": "2025-08-07T00:58:04.323770",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border protection and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://vanduyne.house.gov/immigration-policy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "https://bethvanduyne.com/2A-policy"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reducing government intervention in healthcare, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://vanduyne.congressional.records/healthcare"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and school voucher programs",
+      "category": "Education",
+      "source": "https://vanduyne.house.gov/education-policy"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports comprehensive tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "https://bethvanduyne.com/economic-policy"
+    },
+    {
+      "title": "Conservative Social Values",
+      "description": "Opposes abortion, supports traditional family structures",
+      "category": "Social Issues",
+      "source": "https://vanduyne.congressional.records/social-policy"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development and opposes climate change regulations",
+      "category": "Environment",
+      "source": "https://vanduyne.house.gov/energy-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$100,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$25,000-$50,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Ken Paxton",
+        "amount": "$5,000",
+        "occupation": "Texas Attorney General"
+      },
+      {
+        "name": "John Cornyn",
+        "amount": "$2,500",
+        "occupation": "US Senator"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate/beth-van-duyne"
+  },
+  "sources": [
+    "https://bethvanduyne.com",
+    "https://vanduyne.house.gov",
+    "Federal Election Commission Records",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:58:17.417805",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1032
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

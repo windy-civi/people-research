@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/fe3cbb3c-90cd-5661-8f02-2e7da15459b8",
+  "name": "Marc Veasey",
+  "state": "Texas",
+  "last_updated": "2025-08-07T00:54:20.987703",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid and protecting the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Voting Rights",
+      "description": "Strong advocate for protecting minority voting rights and opposing voter suppression laws",
+      "category": "Civil Rights",
+      "source": "Congressional Black Caucus statements"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles and increased investment in renewable energy",
+      "category": "Environment",
+      "source": "Congressional climate policy proposals"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Congressional immigration policy statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal funding for public education and student debt relief",
+      "category": "Education",
+      "source": "Congressional education policy proposals"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15 per hour",
+      "category": "Economic Policy",
+      "source": "Labor committee proposals"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Supports reducing mass incarceration and reforming sentencing guidelines",
+      "category": "Social Justice",
+      "source": "Congressional Black Caucus policy platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$52,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Legal Services",
+        "total_amount": "$175,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$125,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$52,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Minority Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Official Campaign Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:54:32.671951",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 926
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

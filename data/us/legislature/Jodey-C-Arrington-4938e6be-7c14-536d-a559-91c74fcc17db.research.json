@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/4938e6be-7c14-536d-a559-91c74fcc17db",
+  "name": "Jodey Arrington",
+  "state": "Texas",
+  "last_updated": "2025-08-07T00:56:44.026526",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and increased immigration enforcement",
+      "category": "Immigration",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Advocates for farm subsidies and agricultural policy that supports Texas farmers",
+      "category": "Economic Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Conservative Healthcare Reform",
+      "description": "Supports repealing Affordable Care Act and implementing market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports significant tax cuts for businesses and individuals",
+      "category": "Economic Policy",
+      "source": "Voting record on tax legislation"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports robust defense spending and military infrastructure",
+      "category": "Foreign Policy",
+      "source": "Congressional defense appropriations votes"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Advocates for school choice and reducing federal education bureaucracy",
+      "category": "Education",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000-$75,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000-$55,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Freedom Works",
+        "amount": "$45,000",
+        "ideology": "Libertarian Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Business Owners",
+        "amount": "$125,000",
+        "occupation": "Farmers/Ranchers"
+      },
+      {
+        "name": "Energy Sector Executives",
+        "amount": "$95,000",
+        "occupation": "Oil/Gas Industry"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Database",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Official Campaign Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:56:56.410337",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 966
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

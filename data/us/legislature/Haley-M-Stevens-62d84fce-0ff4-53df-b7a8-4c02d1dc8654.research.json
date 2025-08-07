@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/62d84fce-0ff4-53df-b7a8-4c02d1dc8654",
+  "name": "Haley Stevens",
+  "state": "Michigan",
+  "last_updated": "2025-08-07T00:59:32.662281",
+  "issues": [
+    {
+      "title": "Manufacturing and Job Training",
+      "description": "Strong advocate for workforce development and revitalizing American manufacturing, particularly in Michigan's automotive sector",
+      "category": "Economy",
+      "source": "https://stevensforcongress.com/issues"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting pre-existing condition coverage, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Advocates for increased funding for public education, student debt relief, and technical training programs",
+      "category": "Education",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports clean energy initiatives, infrastructure investment in green technologies, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Congressional climate caucus statements"
+    },
+    {
+      "title": "Infrastructure Modernization",
+      "description": "Supports comprehensive infrastructure bill to rebuild roads, bridges, and expand broadband access",
+      "category": "Economic Development",
+      "source": "Infrastructure bill co-sponsorship"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of women's reproductive healthcare and protecting abortion access",
+      "category": "Social Issues",
+      "source": "Voting record and public statements"
+    },
+    {
+      "title": "Gun Safety Reform",
+      "description": "Advocates for comprehensive background checks and sensible gun control legislation",
+      "category": "Public Safety",
+      "source": "Congressional gun safety caucus"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$10,000-$25,000",
+        "industry": "Aerospace",
+        "cycle": "2022"
+      },
+      {
+        "name": "General Motors",
+        "amount": "$15,000-$30,000",
+        "industry": "Automotive",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Manufacturing",
+        "total_amount": "$150,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$500-$2,900",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "https://stevensforcongress.com",
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:59:46.235715",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1052
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

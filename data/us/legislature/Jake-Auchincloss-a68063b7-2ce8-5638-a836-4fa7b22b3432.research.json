@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/a68063b7-2ce8-5638-a836-4fa7b22b3432",
+  "name": "Jake Auchincloss",
+  "state": "Massachusetts",
+  "last_updated": "2025-08-07T01:10:17.951351",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding public option and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive carbon reduction and green infrastructure investment",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports comprehensive infrastructure modernization, including transportation and digital networks",
+      "category": "Economic Policy",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased federal education funding and student debt relief programs",
+      "category": "Education",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Social Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tech Sector Regulation",
+      "description": "Advocates for increased technology sector oversight and consumer protection",
+      "category": "Technology Policy",
+      "source": "Public statements"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's healthcare rights",
+      "category": "Social Issues",
+      "source": "Voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Google",
+        "amount": "$15,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Microsoft",
+        "amount": "$10,000-$20,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Technology",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Climate PAC",
+        "amount": "$15,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$50,000-$100,000",
+        "occupation": "Technology Leadership"
+      },
+      {
+        "name": "Academic Professionals",
+        "amount": "$25,000-$50,000",
+        "occupation": "University Faculty"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jake-auchincloss"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Campaign Website",
+    "Congressional Voting Records",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:10:30.132283",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 963
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

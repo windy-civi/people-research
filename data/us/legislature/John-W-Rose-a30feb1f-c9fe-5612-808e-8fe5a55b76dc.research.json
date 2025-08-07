@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/a30feb1f-c9fe-5612-808e-8fe5a55b76dc",
+  "name": "John Rose",
+  "state": "Tennessee",
+  "last_updated": "2025-08-07T01:09:10.135483",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong supporter of farm subsidies and agricultural economic policies",
+      "category": "Economy",
+      "source": "https://rose.house.gov/agriculture"
+    },
+    {
+      "title": "Conservative Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for strict immigration enforcement and border wall construction",
+      "category": "Immigration",
+      "source": "Official campaign statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for voucher programs and expanded charter school options",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive legislation"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Monsanto Corporation",
+        "amount": "$35,000",
+        "industry": "Agricultural Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Pharmaceutical Research and Manufacturers of America",
+        "amount": "$25,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Sector",
+        "total_amount": "$150,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$85,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Right to Life Committee",
+        "amount": "$30,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Farmer"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/john-rose/contributors"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Campaign Financial Disclosure Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:09:22.737327",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 957
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "legislator_id": "ocd-person/b66a5d85-c9cd-5689-a482-d175230ab86d",
+  "name": "Greg Murphy",
+  "state": "North Carolina",
+  "last_updated": "2025-08-07T00:53:40.266228",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://gregmurphy.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong anti-abortion position, supports restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "https://votesmart.org/candidate/political-almanac/180950/greg-murphy"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://gregmurphy.house.gov/immigration-policy"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly supports gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://gregmurphy.house.gov/second-amendment"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates",
+      "category": "Economy",
+      "source": "https://gregmurphy.house.gov/economic-policy"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools and school voucher programs",
+      "category": "Education",
+      "source": "https://votesmart.org/candidate/political-positions/180950/greg-murphy"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel production, skeptical of climate change regulations",
+      "category": "Environment",
+      "source": "https://gregmurphy.house.gov/energy-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy/Diversified",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$35,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$125,000",
+        "percentage": "11%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      },
+      {
+        "name": "Heritage Foundation",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "General Conservative Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Art Pope",
+        "amount": "$15,000",
+        "occupation": "Businessman"
+      },
+      {
+        "name": "Robert Luddy",
+        "amount": "$10,000",
+        "occupation": "Entrepreneur"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8NC03104/"
+  },
+  "sources": [
+    "Federal Election Commission",
+    "OpenSecrets.org",
+    "Ballotpedia",
+    "Official Congressional Website",
+    "Vote Smart"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:53:54.239109",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1166
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

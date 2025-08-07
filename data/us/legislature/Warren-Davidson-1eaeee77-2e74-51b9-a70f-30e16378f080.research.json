@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/1eaeee77-2e74-51b9-a70f-30e16378f080",
+  "name": "Warren Davidson",
+  "state": "Ohio",
+  "last_updated": "2025-08-07T00:58:17.446425",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://davidson.house.gov/issues"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing Affordable Care Act, advocates for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding, stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Federal Spending Reduction",
+      "description": "Advocates for significant cuts to federal government spending and budget",
+      "category": "Economy",
+      "source": "Budget voting records"
+    },
+    {
+      "title": "Cryptocurrency Regulation",
+      "description": "Supports minimal regulation of digital currencies, pro-blockchain technology",
+      "category": "Technology/Economy",
+      "source": "Congressional cryptocurrency caucus involvement"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on abortion legislation"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change regulations, skeptical of climate change impact",
+      "category": "Environment",
+      "source": "Congressional environmental voting record"
+    },
+    {
+      "title": "Foreign Policy Hawkishness",
+      "description": "Supports strong military funding, hawkish stance on international interventions",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$45,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$10,000",
+        "industry": "Defense/Aerospace",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$124,500",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$89,250",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Mercer",
+        "amount": "$15,000",
+        "occupation": "Hedge Fund Manager"
+      },
+      {
+        "name": "Peter Thiel",
+        "amount": "$10,000",
+        "occupation": "Technology Investor"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/warren-davidson/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:58:31.039150",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 1042
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

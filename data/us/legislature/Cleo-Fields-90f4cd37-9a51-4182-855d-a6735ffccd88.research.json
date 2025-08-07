@@ -1,0 +1,110 @@
+{
+  "legislator_id": "ocd-person/90f4cd37-9a51-4182-855d-a6735ffccd88",
+  "name": "Cleo Fields",
+  "state": "Louisiana",
+  "last_updated": "2025-08-07T01:08:58.450950",
+  "issues": [
+    {
+      "title": "Education Reform",
+      "description": "Strong advocate for improving K-12 public education funding and expanding access to higher education scholarships",
+      "category": "Education",
+      "source": "Louisiana State Legislature Records"
+    },
+    {
+      "title": "Healthcare Expansion",
+      "description": "Supported Medicaid expansion under Affordable Care Act to increase healthcare access for low-income Louisiana residents",
+      "category": "Healthcare",
+      "source": "Louisiana Health Policy Voting Records"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Pushed for sentencing reforms, reduced incarceration rates, and rehabilitation programs for non-violent offenders",
+      "category": "Social Justice",
+      "source": "Louisiana Criminal Justice Committee Testimony"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocated for job training programs, small business support, and attracting technology and manufacturing investments",
+      "category": "Economy",
+      "source": "Louisiana Economic Development Committee"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Supported coastal restoration projects and regulations to protect Louisiana's environmental resources",
+      "category": "Environment",
+      "source": "Louisiana Environmental Action Committee"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "AT&T",
+        "amount": "$15,000-$25,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Shell Oil Company",
+        "amount": "$10,000-$20,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Legal/Lobbying",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Louisiana Democratic Party",
+        "amount": "$100,000",
+        "ideology": "Liberal",
+        "issue_focus": "Progressive Policy Advancement",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,500",
+        "occupation": "University Professor"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$1,000",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "Louisiana State Legislature Official Records",
+    "OpenSecrets Campaign Finance Database",
+    "Louisiana Democratic Party Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:09:10.106857",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 890
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

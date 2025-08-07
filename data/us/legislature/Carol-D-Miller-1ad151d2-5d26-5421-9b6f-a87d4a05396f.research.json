@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/1ad151d2-5d26-5421-9b6f-a87d4a05396f",
+  "name": "Carol Miller",
+  "state": "West Virginia",
+  "last_updated": "2025-08-07T01:13:24.132007",
+  "issues": [
+    {
+      "title": "Coal Industry Support",
+      "description": "Strong advocate for protecting coal mining jobs and opposing environmental regulations that impact fossil fuel industries",
+      "category": "Energy/Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Campaign website statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "House floor speeches"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation and supports expansive firearm ownership rights",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing portions of Affordable Care Act and reducing government healthcare mandates",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for corporate and individual tax cuts to stimulate economic growth",
+      "category": "Economy",
+      "source": "Campaign economic policy proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports expanding charter schools and providing education vouchers",
+      "category": "Education",
+      "source": "Educational policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000-$75,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000-$55,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Murray",
+        "amount": "$15,000",
+        "occupation": "Coal Mining Executive"
+      },
+      {
+        "name": "Various West Virginia Small Business Owners",
+        "amount": "$50,000-$75,000",
+        "occupation": "Mixed Small Business"
+      }
+    ],
+    "data_source": "FEC Disclosure Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "Carol Miller Campaign Website",
+    "OpenSecrets.org Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:13:37.183796",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 990
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

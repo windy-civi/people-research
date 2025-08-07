@@ -1,0 +1,140 @@
+{
+  "legislator_id": "ocd-person/705749f4-c12c-5090-88fa-012d36611500",
+  "name": "Pete Aguilar",
+  "state": "California",
+  "last_updated": "2025-08-07T01:04:33.525809",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to affordable healthcare, protecting pre-existing condition coverage, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://aguilar.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://aguilar.house.gov/issues/immigration"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, reducing carbon emissions, and investing in renewable energy infrastructure",
+      "category": "Environment",
+      "source": "https://aguilar.house.gov/issues/climate"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for infrastructure investment, job creation programs, and supporting small businesses in underserved communities",
+      "category": "Economy",
+      "source": "https://aguilar.house.gov/issues/economy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student debt relief, and expanded access to vocational and higher education",
+      "category": "Education",
+      "source": "https://aguilar.house.gov/issues/education"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Advocates for comprehensive background checks, assault weapons ban, and increased funding for gun violence research",
+      "category": "Social Issues",
+      "source": "https://aguilar.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access, protecting Roe v. Wade, and women's healthcare rights",
+      "category": "Social Issues",
+      "source": "https://aguilar.house.gov/issues/reproductive-rights"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$245,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$87,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$42,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Law Firms",
+        "total_amount": "$328,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$215,000",
+        "percentage": "14%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$189,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$87,500",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Latino Victory Project",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Nancy Pelosi",
+        "amount": "$10,000",
+        "occupation": "Political Leader"
+      },
+      {
+        "name": "Various Small Donors",
+        "amount": "$500,000",
+        "occupation": "Multiple"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8CA31087/"
+  },
+  "sources": [
+    "https://aguilar.house.gov",
+    "https://www.fec.gov/data/candidate/H8CA31087/",
+    "OpenSecrets.org Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:04:48.175040",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1227
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

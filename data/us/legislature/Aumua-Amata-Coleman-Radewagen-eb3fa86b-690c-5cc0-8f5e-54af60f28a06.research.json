@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/eb3fa86b-690c-5cc0-8f5e-54af60f28a06",
+  "name": "Amata Radewagen",
+  "state": "American Samoa",
+  "last_updated": "2025-08-07T00:57:37.766061",
+  "issues": [
+    {
+      "title": "Federal Funding for Insular Areas",
+      "description": "Strong advocate for increased federal support and funding for American Samoa",
+      "category": "Regional Development",
+      "source": "Congressional Records"
+    },
+    {
+      "title": "Military Support",
+      "description": "Supports strong national defense and increased military funding",
+      "category": "Defense",
+      "source": "Official Congressional Website"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports border security and controlled immigration policies",
+      "category": "Immigration",
+      "source": "Congressional Voting Records"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Promotes tax incentives for small businesses and economic growth in territories",
+      "category": "Economy",
+      "source": "Legislative Proposals"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Advocates for improved veteran healthcare and benefits",
+      "category": "Veterans Affairs",
+      "source": "Committee Testimony"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare options in territorial regions",
+      "category": "Healthcare",
+      "source": "Public Statements"
+    },
+    {
+      "title": "Disaster Relief",
+      "description": "Strong supporter of federal disaster assistance for Pacific territories",
+      "category": "Emergency Management",
+      "source": "Congressional Appropriations"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Lockheed Martin",
+        "amount": "$15,000-$25,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "AT&T",
+        "amount": "$10,000-$20,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Banking/Financial Services",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Republican Congressional Committee",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Party Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Business Owners from American Samoa",
+        "amount": "$5,000-$10,000",
+        "occupation": "Various"
+      },
+      {
+        "name": "Military Veterans",
+        "amount": "$2,500-$5,000",
+        "occupation": "Retired Military"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Congressional Record",
+    "FEC Donor Database",
+    "Official Congressional Website",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:57:50.481766",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 705,
+      "output_tokens": 951
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

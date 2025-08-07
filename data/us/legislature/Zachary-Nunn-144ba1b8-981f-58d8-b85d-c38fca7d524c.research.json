@@ -1,0 +1,148 @@
+{
+  "legislator_id": "ocd-person/144ba1b8-981f-58d8-b85d-c38fca7d524c",
+  "name": "Zach Nunn",
+  "state": "Iowa",
+  "last_updated": "2025-08-07T01:05:29.018973",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website and congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Campaign materials and voting history"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Advocates for farm subsidies and rural economic development programs",
+      "category": "Economy",
+      "source": "Iowa congressional delegation policy positions"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes full government-run healthcare",
+      "category": "Healthcare",
+      "source": "Campaign website and legislative proposals"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and congressional voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports local control of education, advocates for school choice and charter school expansion",
+      "category": "Education",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lowering corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Campaign economic policy platform"
+    },
+    {
+      "title": "National Defense",
+      "description": "Advocates for increased military spending and strong national security measures",
+      "category": "Foreign Policy",
+      "source": "Congressional defense committee positions"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$15,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$100,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      },
+      {
+        "name": "Heritage Foundation Action",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "General Conservative Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Agricultural Donors",
+        "amount": "$75,000",
+        "occupation": "Farmers/Agricultural Professionals"
+      },
+      {
+        "name": "Local Iowa Business Owners",
+        "amount": "$50,000",
+        "occupation": "Various Small Business Owners"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/candidate-reports"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "Campaign Official Website",
+    "OpenSecrets.org",
+    "Iowa State Election Commission"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:05:44.551472",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1177
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

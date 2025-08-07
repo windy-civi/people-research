@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/8d953afe-9b42-5c80-9f43-4ccf8af79513",
+  "name": "Jim Costa",
+  "state": "CA",
+  "last_updated": "2025-08-07T01:11:08.493240",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for agricultural interests in California's Central Valley, supporting water infrastructure and farmer protections",
+      "category": "Agriculture",
+      "source": "https://costa.house.gov/agriculture"
+    },
+    {
+      "title": "Water Resources",
+      "description": "Prioritizes water infrastructure, drought relief, and water allocation for Central Valley farmers",
+      "category": "Infrastructure",
+      "source": "https://costa.house.gov/water-policy"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare coverage, protecting the Affordable Care Act, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://costa.house.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for renewable energy development, carbon reduction, and environmental protection measures",
+      "category": "Environment",
+      "source": "https://costa.house.gov/environment"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathways to citizenship and border security",
+      "category": "Immigration",
+      "source": "https://costa.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, student loan reform, and workforce training programs",
+      "category": "Education",
+      "source": "https://costa.house.gov/education"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for job creation, infrastructure investment, and support for small businesses",
+      "category": "Economy",
+      "source": "https://costa.house.gov/economy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Occidental Petroleum",
+        "amount": "$15,000-$25,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Chevron Corporation",
+        "amount": "$10,000-$20,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agricultural Services",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Energy/Natural Resources",
+        "total_amount": "$200,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Blue Dog Coalition PAC",
+        "amount": "$15,000",
+        "ideology": "Moderate Democratic",
+        "issue_focus": "Fiscal Responsibility",
+        "cycle": "2022"
+      },
+      {
+        "name": "Farm Bureau PAC",
+        "amount": "$10,000",
+        "ideology": "Agricultural Interests",
+        "issue_focus": "Agricultural Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Executives",
+        "amount": "$50,000-$100,000",
+        "occupation": "Agriculture Industry Leaders"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$25,000-$50,000",
+        "occupation": "Various Small Business Owners"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jim-costa/summary"
+  },
+  "sources": [
+    "https://costa.house.gov",
+    "https://www.opensecrets.org",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:11:22.147467",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1050
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

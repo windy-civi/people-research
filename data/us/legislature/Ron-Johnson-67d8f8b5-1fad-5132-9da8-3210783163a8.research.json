@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/67d8f8b5-1fad-5132-9da8-3210783163a8",
+  "name": "Ron Johnson",
+  "state": "Wisconsin",
+  "last_updated": "2025-08-07T01:05:12.166065",
+  "issues": [
+    {
+      "title": "COVID-19 Vaccine Skepticism",
+      "description": "Expressed doubts about vaccine effectiveness and mandates, questioned official pandemic response",
+      "category": "Healthcare",
+      "source": "https://www.jsonline.com/story/news/politics/2021/01/25/ron-johnson-covid-19-vaccine-skepticism-continues/4263572001/"
+    },
+    {
+      "title": "Election Integrity Challenges",
+      "description": "Supported claims of potential voter fraud in 2020 presidential election, challenged certification of electoral votes",
+      "category": "Election Policy",
+      "source": "https://www.npr.org/2021/01/06/954107236/ron-johnson-2020-election"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Opposes government spending, supports tax cuts, advocates for reduced federal budget",
+      "category": "Economic Policy",
+      "source": "https://www.johnson.senate.gov/public/index.cfm/economic-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports stricter border control, opposes comprehensive immigration reform, advocates for increased border security",
+      "category": "Immigration",
+      "source": "https://www.johnson.senate.gov/public/index.cfm/immigration"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership, opposes gun control legislation, defends constitutional gun rights",
+      "category": "Social Issues",
+      "source": "https://www.nraila.org/articles/20220808/senator-ron-johnson-fights-for-second-amendment-rights"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions scientific consensus on human-caused climate change, opposes major environmental regulations",
+      "category": "Environment",
+      "source": "https://www.washingtonpost.com/climate-environment/2022/06/15/ron-johnson-climate-change"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing Affordable Care Act, advocates for market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://www.johnson.senate.gov/public/index.cfm/healthcare"
+    },
+    {
+      "title": "Foreign Policy Hawkishness",
+      "description": "Supports strong military funding, critical of diplomatic engagement with adversarial nations",
+      "category": "Foreign Policy",
+      "source": "https://www.foreign.senate.gov/members/johnson"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Northwestern Mutual",
+        "amount": "$45,000-$75,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "W.R. Grace & Co",
+        "amount": "$25,000-$50,000",
+        "industry": "Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$350,000",
+        "percentage": "18.5%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$275,000",
+        "percentage": "14.5%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Uihlein",
+        "amount": "$250,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Diane Hendricks",
+        "amount": "$150,000",
+        "occupation": "Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ron-johnson/summary?cid=N00032546"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senator Ron Johnson Official Website",
+    "Milwaukee Journal Sentinel",
+    "NPR",
+    "Washington Post"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:05:28.991640",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1265
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

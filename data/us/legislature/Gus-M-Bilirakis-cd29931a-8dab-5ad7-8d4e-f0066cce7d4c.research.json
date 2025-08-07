@@ -1,0 +1,148 @@
+{
+  "legislator_id": "ocd-person/cd29931a-8dab-5ad7-8d4e-f0066cce7d4c",
+  "name": "Gus Bilirakis",
+  "state": "Florida",
+  "last_updated": "2025-08-07T00:56:56.440533",
+  "issues": [
+    {
+      "title": "Healthcare Affordability",
+      "description": "Supports reducing healthcare costs, opposes complete government-run healthcare, advocates for market-based solutions",
+      "category": "Healthcare",
+      "source": "Official Congressional website"
+    },
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of increased border enforcement, stricter immigration controls, and completing border wall construction",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates, supports permanent tax cuts from 2017 Tax Cuts and Jobs Act",
+      "category": "Economic Policy",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strongly pro-gun rights, opposes gun control legislation, supports broad interpretation of constitutional gun ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Consistently advocates for increased veteran healthcare funding, support for military benefits and infrastructure",
+      "category": "Veterans Affairs",
+      "source": "Veterans committee work"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on federal funding for abortion services, advocates for pro-life policies",
+      "category": "Social Issues",
+      "source": "Voting record and religious advocacy"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports domestic oil and gas production, opposes strict environmental regulations that impact energy sectors",
+      "category": "Environment/Energy",
+      "source": "Energy committee participation"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools, voucher programs, and reducing federal intervention in education policy",
+      "category": "Education",
+      "source": "Education policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$15,000-$25,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "AT&T",
+        "amount": "$10,000-$20,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$5,000-$15,000",
+        "industry": "Defense/Aerospace",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Health Professionals",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      },
+      {
+        "industry": "Insurance",
+        "total_amount": "$75,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Michael Bilirakis",
+        "amount": "$5,000",
+        "occupation": "Retired Politician"
+      },
+      {
+        "name": "Local Business Owners",
+        "amount": "$25,000-$50,000 aggregate",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reporting",
+    "source_url": "https://www.opensecrets.org/members-of-congress/gus-bilirakis/summary"
+  },
+  "sources": [
+    "Congressional voting records",
+    "Official campaign website",
+    "OpenSecrets.org",
+    "Federal Election Commission reports",
+    "Local Florida news sources"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:57:12.862748",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 709,
+      "output_tokens": 1254
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

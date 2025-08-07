@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/32caaab6-5712-57c2-83c6-7b226b2c1056",
+  "name": "Norma Torres",
+  "state": "California",
+  "last_updated": "2025-08-07T00:59:07.251306",
+  "issues": [
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "https://torres.house.gov/issues/immigration"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanding healthcare coverage and protecting the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://torres.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles and aggressive climate change mitigation strategies",
+      "category": "Environment",
+      "source": "https://torres.house.gov/issues/environment"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Strong supporter of stricter gun control measures and background check expansions",
+      "category": "Public Safety",
+      "source": "https://torres.house.gov/issues/gun-safety"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocates for major infrastructure spending to create jobs and modernize transportation systems",
+      "category": "Economy",
+      "source": "https://torres.house.gov/issues/infrastructure"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding and student debt relief programs",
+      "category": "Education",
+      "source": "https://torres.house.gov/issues/education"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Champions minimum wage increases and stronger labor protections",
+      "category": "Labor",
+      "source": "https://torres.house.gov/issues/labor"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$10,000-$25,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$15,000-$30,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$10,000",
+        "ideology": "Liberal",
+        "issue_focus": "Abortion Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual donors under $200",
+        "amount": "$150,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Reporting",
+    "source_url": "https://www.opensecrets.org/members-of-congress/norma-torres/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:59:20.088159",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1042
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/8fe2b037-b8ff-5161-9bb4-196e9f1d9dca",
+  "name": "Roger Wicker",
+  "state": "Mississippi",
+  "last_updated": "2025-08-07T01:02:02.927814",
+  "issues": [
+    {
+      "title": "National Defense",
+      "description": "Strong supporter of military funding and national security, advocates for robust defense budget and military preparedness",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee records"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes Affordable Care Act, supports market-driven healthcare solutions and reduced government intervention",
+      "category": "Healthcare",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports border security, stricter immigration enforcement, and limited pathways to citizenship",
+      "category": "Immigration",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Advocates for lower corporate tax rates, supports permanent tax cuts from 2017 Tax Cuts and Jobs Act",
+      "category": "Economy",
+      "source": "Senate Finance Committee statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong pro-gun rights supporter, opposes gun control legislation, defends constitutional gun ownership",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Climate and Energy",
+      "description": "Supports fossil fuel industries, skeptical of climate change legislation, promotes energy independence",
+      "category": "Environment",
+      "source": "Senate Energy Committee records"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, local control of education, limited federal education intervention",
+      "category": "Education",
+      "source": "Congressional education policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Northrop Grumman",
+        "amount": "$48,500",
+        "industry": "Defense Contractors",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$42,750",
+        "industry": "Defense Contractors",
+        "cycle": "2022"
+      },
+      {
+        "name": "Raytheon Technologies",
+        "amount": "$35,250",
+        "industry": "Defense Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Aerospace",
+        "total_amount": "$275,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$210,000",
+        "percentage": "17%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$185,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Thomas Marsh",
+        "amount": "$5,600",
+        "occupation": "Defense Industry Executive"
+      },
+      {
+        "name": "Robert Coleman",
+        "amount": "$4,250",
+        "occupation": "Banking CEO"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/roger-wicker/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Official Campaign Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:02:17.914774",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1141
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

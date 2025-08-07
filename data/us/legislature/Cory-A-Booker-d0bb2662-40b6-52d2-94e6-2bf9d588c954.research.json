@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/d0bb2662-40b6-52d2-94e6-2bf9d588c954",
+  "name": "Cory Booker",
+  "state": "New Jersey",
+  "last_updated": "2025-08-07T01:03:11.829496",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Strong advocate for ending mass incarceration, reducing mandatory minimum sentences, and supporting the First Step Act",
+      "category": "Social Justice",
+      "source": "https://www.booker.senate.gov/criminal-justice-reform"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Supports comprehensive climate change legislation, aggressive emissions reduction, and renewable energy transition",
+      "category": "Environment",
+      "source": "https://www.booker.senate.gov/climate-policy"
+    },
+    {
+      "title": "Medicare for All",
+      "description": "Supports universal healthcare coverage, expanding Medicare, and reducing pharmaceutical drug prices",
+      "category": "Healthcare",
+      "source": "https://www.booker.senate.gov/healthcare-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship for undocumented immigrants, and DACA protection",
+      "category": "Immigration",
+      "source": "https://www.booker.senate.gov/immigration-policy"
+    },
+    {
+      "title": "Education Equity",
+      "description": "Supports increased education funding, student debt relief, and expanding access to early childhood education",
+      "category": "Education",
+      "source": "https://www.booker.senate.gov/education-policy"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Advocates for addressing systemic racism, police reform, and economic opportunities for marginalized communities",
+      "category": "Social Issues",
+      "source": "https://www.booker.senate.gov/racial-justice"
+    },
+    {
+      "title": "Economic Opportunity",
+      "description": "Supports minimum wage increases, job training programs, and economic development in underserved communities",
+      "category": "Economy",
+      "source": "https://www.booker.senate.gov/economic-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Alphabet Inc",
+        "amount": "$47,650",
+        "industry": "Technology",
+        "cycle": "2020"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "amount": "$36,200",
+        "industry": "Technology",
+        "cycle": "2020"
+      },
+      {
+        "name": "Goldman Sachs",
+        "amount": "$28,900",
+        "industry": "Financial Services",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Law Firms",
+        "total_amount": "$982,450",
+        "percentage": "22.3%"
+      },
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$456,720",
+        "percentage": "10.4%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$332,100",
+        "percentage": "7.5%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$125,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2020"
+      },
+      {
+        "name": "End Citizens United",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Campaign Finance Reform",
+        "cycle": "2020"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$62,500",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "ActBlue",
+        "amount": "$2,300,000",
+        "occupation": "Online Fundraising Platform"
+      },
+      {
+        "name": "Small Individual Donors",
+        "amount": "$1,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/cory-booker/summary"
+  },
+  "sources": [
+    "https://www.booker.senate.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Cory_Booker",
+    "https://www.fec.gov"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:03:27.141806",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1256
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

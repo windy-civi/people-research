@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/3de20aaf-f982-5aa3-8280-c5154be829aa",
+  "name": "Elizabeth Warren",
+  "state": "Massachusetts",
+  "last_updated": "2025-08-07T01:05:58.281565",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Supports comprehensive universal healthcare system eliminating private health insurance",
+      "category": "Healthcare",
+      "source": "https://elizabethwarren.com/plans/healthcare"
+    },
+    {
+      "title": "Student Debt Cancellation",
+      "description": "Proposes canceling up to $50,000 in student loan debt for households under $100,000",
+      "category": "Education",
+      "source": "https://elizabethwarren.com/plans/student-debt-cancellation"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Comprehensive climate change policy targeting net-zero emissions by 2050",
+      "category": "Environment",
+      "source": "https://elizabethwarren.com/plans/climate-change"
+    },
+    {
+      "title": "Wealth Tax",
+      "description": "2% annual tax on households with net worth over $50 million",
+      "category": "Economy",
+      "source": "https://elizabethwarren.com/plans/wealth-tax"
+    },
+    {
+      "title": "Corporate Accountability",
+      "description": "Increased regulation on large corporations, breaking up tech monopolies",
+      "category": "Economic Policy",
+      "source": "https://elizabethwarren.com/plans/corporate-accountability"
+    },
+    {
+      "title": "Comprehensive Immigration Reform",
+      "description": "Path to citizenship, reduce ICE enforcement, protect DACA recipients",
+      "category": "Immigration",
+      "source": "https://elizabethwarren.com/plans/immigration"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Protect abortion access, codify Roe v. Wade, expand women's healthcare",
+      "category": "Social Issues",
+      "source": "https://elizabethwarren.com/plans/reproductive-rights"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$532,000",
+        "industry": "Political Action Committee",
+        "cycle": "2020"
+      },
+      {
+        "name": "Harvard University",
+        "amount": "$78,250",
+        "industry": "Education",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$1.2M",
+        "percentage": "15.3%"
+      },
+      {
+        "industry": "Law Firms",
+        "total_amount": "$890,000",
+        "percentage": "11.2%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$215,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2020"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$165,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$45.6M",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00033492"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "ElizabethWarren.com",
+    "Federal Election Commission",
+    "Ballotpedia"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:06:11.221283",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 1036
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

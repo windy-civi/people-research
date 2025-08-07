@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/9b7f3d1c-4e4c-4f12-b123-45678901abcd",
+  "name": "Mike Collins",
+  "state": "Georgia",
+  "last_updated": "2024-02-15T12:00:00Z",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of strict border control and immigration enforcement",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Advocates for lower taxes, reduced government spending, and balanced budgets",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Policy statements"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, charter schools, and local control of education",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel development, opposes climate change regulations",
+      "category": "Environment",
+      "source": "Energy committee statements"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, hawkish stance on international interventions",
+      "category": "Foreign Policy",
+      "source": "Congressional speeches"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$50,000-$75,000",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$100,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$30,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Owner"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/candidate-profile"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "FEC Donor Records",
+    "Congressional Voting Record",
+    "Campaign Financial Disclosures"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:53:40.236459",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1007
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

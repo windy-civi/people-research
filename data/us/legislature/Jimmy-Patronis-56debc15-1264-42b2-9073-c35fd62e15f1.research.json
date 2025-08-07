@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/56debc15-1264-42b2-9073-c35fd62e15f1",
+  "name": "Jimmy Patronis",
+  "state": "Florida",
+  "last_updated": "2025-08-07T00:58:31.063716",
+  "issues": [
+    {
+      "title": "Financial Regulation",
+      "description": "Chief Financial Officer of Florida, focusing on banking oversight and consumer protection",
+      "category": "Economy",
+      "source": "Florida CFO Official Website"
+    },
+    {
+      "title": "Insurance Reform",
+      "description": "Advocating for reducing insurance costs and protecting Florida homeowners from high premiums",
+      "category": "Economic Policy",
+      "source": "Florida Insurance Regulation Reports"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights and opposing gun control measures",
+      "category": "Social Issues",
+      "source": "NRA Ratings and Endorsements"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Supporting natural disaster preparedness and coastal protection in Florida",
+      "category": "Environment",
+      "source": "Florida Resilience Programs"
+    },
+    {
+      "title": "Healthcare Cost Reduction",
+      "description": "Advocating for lower healthcare costs and opposing expanded Medicaid",
+      "category": "Healthcare",
+      "source": "Florida Healthcare Policy Statements"
+    },
+    {
+      "title": "Anti-Immigration Stance",
+      "description": "Supporting stricter immigration enforcement and opposing sanctuary policies",
+      "category": "Immigration",
+      "source": "Florida State Immigration Policies"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supporting charter schools and school voucher programs",
+      "category": "Education",
+      "source": "Florida Education Policy Documents"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Insurance Industry Associations",
+        "amount": "$250,000-$500,000",
+        "industry": "Insurance",
+        "cycle": "2022"
+      },
+      {
+        "name": "Banking Sector Donors",
+        "amount": "$150,000-$300,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$750,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$500,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Conservative Political Action Committee",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Republican Party Support",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Florida Business Executives",
+        "amount": "$50,000-$100,000",
+        "occupation": "Various Business Leaders"
+      }
+    ],
+    "data_source": "Florida Elections Commission",
+    "source_url": "https://dos.myflorida.com/elections"
+  },
+  "sources": [
+    "Florida CFO Official Website",
+    "Florida Elections Commission Records",
+    "Florida State Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:58:43.560757",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 931
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

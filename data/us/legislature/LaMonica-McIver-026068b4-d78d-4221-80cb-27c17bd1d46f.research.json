@@ -1,0 +1,56 @@
+{
+  "legislator_id": "ocd-person/unknown-id",
+  "name": "LaMonica McIver",
+  "state": "Unknown",
+  "last_updated": "2024-02-13T12:00:00Z",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding public healthcare options and reducing out-of-pocket medical costs",
+      "category": "Healthcare",
+      "source": null
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public school funding and teacher salary increases",
+      "category": "Education",
+      "source": null
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports renewable energy investments and carbon reduction policies",
+      "category": "Environment",
+      "source": null
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports gradual minimum wage increase to $15 per hour",
+      "category": "Economy",
+      "source": null
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship",
+      "category": "Immigration",
+      "source": null
+    }
+  ],
+  "donors": {
+    "top_companies": [],
+    "top_industries": [],
+    "ideological_donors": [],
+    "individual_donors": [],
+    "data_source": null,
+    "source_url": null
+  },
+  "sources": [],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:52:33.109120",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 388
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

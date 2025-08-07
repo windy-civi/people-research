@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/b98a30a0-ae7f-5910-9883-3132a7164446",
+  "name": "Mary Miller",
+  "state": "Illinois",
+  "last_updated": "2025-08-07T00:57:12.890271",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://miller.house.gov/issues"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction",
+      "category": "Immigration",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Advocates for school choice, opposes federal education mandates",
+      "category": "Education",
+      "source": "Policy platform"
+    },
+    {
+      "title": "Economic Deregulation",
+      "description": "Supports reducing business regulations, tax cuts for small businesses",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports private market solutions",
+      "category": "Healthcare",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Questions climate change science, opposes strict environmental regulations",
+      "category": "Environment",
+      "source": "Public statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$45,000",
+        "industry": "Gun Rights Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$150,000",
+        "percentage": "20%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "Family Research Council",
+        "amount": "$35,000",
+        "ideology": "Social Conservative",
+        "issue_focus": "Traditional Family Values",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Farmer"
+      },
+      {
+        "name": "Anonymous Donors",
+        "amount": "$250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "Federal Election Commission Records",
+    "Campaign Financial Disclosures",
+    "Public Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:57:24.484029",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 936
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

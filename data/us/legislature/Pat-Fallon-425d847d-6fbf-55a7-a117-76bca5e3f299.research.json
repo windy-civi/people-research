@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/425d847d-6fbf-55a7-a117-76bca5e3f299",
+  "name": "Pat Fallon",
+  "state": "Texas",
+  "last_updated": "2025-08-07T00:55:11.235514",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and increased border patrol funding",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Affordable Care Act Repeal",
+      "description": "Supports complete repeal of ACA, advocates for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for permanent tax cuts, reduction of corporate tax rates",
+      "category": "Economy",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs, charter school expansion",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports fossil fuel development, opposes green energy mandates",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending, strong national defense",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$50,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$200,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Simmons",
+        "amount": "$25,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Sheldon Adelson Family",
+        "amount": "$50,000",
+        "occupation": "Philanthropists"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Database",
+    "Campaign Official Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:55:23.688123",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 997
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

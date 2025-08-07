@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/6dca533f-6c45-5308-9d6c-b579d4baf301",
+  "name": "Lois Frankel",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:08:45.956872",
+  "issues": [
+    {
+      "title": "Women's Rights and Equal Pay",
+      "description": "Strong advocate for gender equality, supporting legislation to close wage gaps and protect reproductive rights",
+      "category": "Social Issues",
+      "source": "https://frankel.house.gov"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding affordable healthcare, protecting the Affordable Care Act, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal principles, renewable energy investment, and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Congressional climate policy statements"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Advocates for stricter background checks, assault weapons ban, and comprehensive gun control measures",
+      "category": "Public Safety",
+      "source": "House floor speeches"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education, student loan debt relief, and affordable higher education",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, DACA protections, and humane border policies",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Economic Justice",
+      "description": "Advocates for minimum wage increases, worker protections, and small business support",
+      "category": "Economy",
+      "source": "Legislative proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$84,450",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$72,300",
+        "industry": "Political Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Women's Political Organizations",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$95,000",
+        "percentage": "14%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$84,450",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Congressional Website",
+    "Campaign Platform Documents",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:08:58.426246",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 956
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

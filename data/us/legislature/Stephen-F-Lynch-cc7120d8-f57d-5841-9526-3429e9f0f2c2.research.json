@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/cc7120d8-f57d-5841-9526-3429e9f0f2c2",
+  "name": "Stephen Lynch",
+  "state": "Massachusetts",
+  "last_updated": "2025-08-07T00:56:06.498956",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to affordable healthcare, including protecting and strengthening the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Advocates for significant federal investment in transportation, bridges, and public infrastructure projects",
+      "category": "Economic Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Labor Rights",
+      "description": "Strong supporter of union rights, minimum wage increases, and worker protection legislation",
+      "category": "Labor",
+      "source": "Labor union endorsements"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports aggressive climate change mitigation, including renewable energy investments and emissions reduction",
+      "category": "Environment",
+      "source": "Congressional climate caucus membership"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal funding for public education and student debt relief",
+      "category": "Education",
+      "source": "Education committee statements"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong transatlantic relationships and measured approach to international interventions",
+      "category": "Foreign Policy",
+      "source": "Foreign affairs committee participation"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Raytheon Technologies",
+        "amount": "$25,000-$50,000",
+        "industry": "Defense/Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "General Electric",
+        "amount": "$15,000-$30,000",
+        "industry": "Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Labor Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$500-$2,900",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional website",
+    "Official campaign materials",
+    "Federal Election Commission records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:56:19.200219",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 940
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

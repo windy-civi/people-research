@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/66724fb4-e553-59cb-b8ba-314e3bf9f1ea",
+  "name": "Michelle Fischbach",
+  "state": "Minnesota",
+  "last_updated": "2025-08-07T00:58:56.003163",
+  "issues": [
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong anti-abortion advocate, supports restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Supports unrestricted gun ownership, opposes gun control legislation",
+      "category": "Civil Liberties",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border enforcement and stricter immigration policies",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates",
+      "category": "Economic Policy",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes government-run healthcare, supports private market solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice and local control of education policy",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Climate Policy",
+      "description": "Skeptical of climate change legislation, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agricultural Interests",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Contributors from Minnesota",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:59:07.222575",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 899
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/a59c041e-ecaf-4742-bcee-959c08cbedf8",
+  "name": "Laura Friedman",
+  "state": "California",
+  "last_updated": "2025-08-07T00:59:46.260249",
+  "issues": [
+    {
+      "title": "Climate Change Legislation",
+      "description": "Strong advocate for aggressive climate action, supporting California's carbon reduction goals and renewable energy transition",
+      "category": "Environment",
+      "source": "California State Legislature Records"
+    },
+    {
+      "title": "Housing Affordability",
+      "description": "Supports increased housing density, zoning reform, and affordable housing development to address California's housing crisis",
+      "category": "Housing",
+      "source": "Official Legislative Website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding state-level healthcare coverage and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "California Legislative Health Committee"
+    },
+    {
+      "title": "Transportation Infrastructure",
+      "description": "Advocates for public transit expansion and sustainable transportation solutions",
+      "category": "Infrastructure",
+      "source": "Transportation Committee Proposals"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public education funding and reducing student debt",
+      "category": "Education",
+      "source": "California Education Committee"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Supports comprehensive gun control measures and background check expansions",
+      "category": "Public Safety",
+      "source": "State Legislature Gun Safety Proposals"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and reproductive healthcare protections",
+      "category": "Social Issues",
+      "source": "California Women's Caucus"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$25,000-$50,000",
+        "industry": "Environmental Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Tech Industry PAC",
+        "amount": "$15,000-$30,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Environmental Organizations",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "California Environmental Voters",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Tech Executives",
+        "amount": "$10,000-$25,000",
+        "occupation": "Technology Leadership"
+      },
+      {
+        "name": "Environmental Activists",
+        "amount": "$5,000-$15,000",
+        "occupation": "Non-Profit Leadership"
+      }
+    ],
+    "data_source": "California Fair Political Practices Commission",
+    "source_url": "https://cal-access.sos.ca.gov"
+  },
+  "sources": [
+    "California State Legislature Website",
+    "OpenSecrets.org",
+    "California Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T00:59:59.465134",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 979
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

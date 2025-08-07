@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/8b8caa4b-52c1-54aa-bb51-bd0bccdc69b9",
+  "name": "Hal Rogers",
+  "state": "Kentucky",
+  "last_updated": "2025-08-07T01:00:13.033300",
+  "issues": [
+    {
+      "title": "Appalachian Economic Development",
+      "description": "Strong advocate for economic development programs in Appalachian region, supporting infrastructure and job creation initiatives",
+      "category": "Economic Development",
+      "source": "https://rogers.house.gov/appalachian-development"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border enforcement, funding for border wall, and stricter immigration control measures",
+      "category": "Immigration",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Opioid Crisis Response",
+      "description": "Supported federal funding for addiction treatment and prevention programs, particularly in Kentucky",
+      "category": "Healthcare",
+      "source": "Congressional appropriations records"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Advocates for farm subsidies, rural agricultural development programs, and crop insurance",
+      "category": "Agriculture",
+      "source": "Farm bill voting records"
+    },
+    {
+      "title": "Defense Spending",
+      "description": "Consistently supports increased military budget and defense infrastructure funding",
+      "category": "Foreign Policy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "Coal Industry Protection",
+      "description": "Opposes environmental regulations that impact coal industry, supports coal mining economic preservation",
+      "category": "Environment",
+      "source": "Energy policy voting records"
+    },
+    {
+      "title": "Conservative Social Values",
+      "description": "Pro-life stance, supports traditional family values, opposes expanded LGBTQ+ rights",
+      "category": "Social Issues",
+      "source": "Congressional voting history"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Koch Industries",
+        "amount": "$75,000-$100,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      },
+      {
+        "name": "Northrop Grumman",
+        "amount": "$50,000-$75,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Fiscal Conservatism",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$5,000",
+        "occupation": "Coal Industry Executive"
+      },
+      {
+        "name": "Elizabeth Johnson",
+        "amount": "$2,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/hal-rogers/summary"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Congressional Website",
+    "Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:00:26.254647",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1009
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

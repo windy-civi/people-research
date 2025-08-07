@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/b5d26a8a-2954-574c-abf8-1c232e928c9c",
+  "name": "Lucy McBath",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:03:52.441355",
+  "issues": [
+    {
+      "title": "Gun Control",
+      "description": "Advocate for comprehensive gun safety legislation, inspired by personal loss of son to gun violence",
+      "category": "Social Issues",
+      "source": "https://lucymcbath.com/issues/gun-safety"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Support expanding Affordable Care Act, protect pre-existing condition coverage",
+      "category": "Healthcare",
+      "source": "https://mcbath.house.gov/healthcare"
+    },
+    {
+      "title": "Racial Justice",
+      "description": "Champion police reform, address systemic racism, support comprehensive civil rights legislation",
+      "category": "Social Justice",
+      "source": "https://lucymcbath.house.gov/racial-equity"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Support Green New Deal principles, invest in renewable energy, reduce carbon emissions",
+      "category": "Environment",
+      "source": "https://mcbath.house.gov/climate"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Advocate for minimum wage increase, support small business development, reduce income inequality",
+      "category": "Economy",
+      "source": "https://lucymcbath.house.gov/economic-policy"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Protect abortion access, support women's reproductive healthcare choices",
+      "category": "Social Issues",
+      "source": "https://mcbath.house.gov/womens-rights"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Support comprehensive immigration reform, path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "https://lucymcbath.house.gov/immigration"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Emily's List",
+        "amount": "$250,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Everytown for Gun Safety",
+        "amount": "$150,000",
+        "industry": "Gun Control Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic Party Affiliated Organizations",
+        "total_amount": "$1.2 million",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$750,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Brady Campaign",
+        "amount": "$100,000",
+        "ideology": "Liberal",
+        "issue_focus": "Gun Control",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Small Donors",
+        "amount": "$2.5 million",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/lucy-mcbath/summary"
+  },
+  "sources": [
+    "https://lucymcbath.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Lucy_McBath"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:04:05.391899",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1035
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

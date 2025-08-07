@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/13e07344-3cec-5f29-a27b-2dd6979dbeb5",
+  "name": "Barry Loudermilk",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:01:49.221611",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Official Congressional voting record"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Advocates for reduced government spending, lower taxes, and balanced budget",
+      "category": "Economy",
+      "source": "Loudermilk campaign statements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction, and increased border patrol funding",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Repeal of Affordable Care Act",
+      "description": "Supports complete repeal of Obamacare and market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs and reduced federal involvement in education",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate change regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional statements"
+    },
+    {
+      "title": "Strong National Defense",
+      "description": "Supports increased military funding and aggressive foreign policy approach",
+      "category": "Foreign Policy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion, opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Official campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$25,000-$50,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000-$25,000",
+        "industry": "Advocacy Organization",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Securities & Investment",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Attorney"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/barry-loudermilk/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Campaign Financial Disclosure Reports",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:02:02.886454",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1041
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

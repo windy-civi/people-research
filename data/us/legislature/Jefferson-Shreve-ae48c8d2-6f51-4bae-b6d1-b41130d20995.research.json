@@ -1,0 +1,122 @@
+{
+  "legislator_id": "ocd-person/ae48c8d2-6f51-4bae-b6d1-b41130d20995",
+  "name": "Jefferson Shreve",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T01:10:30.156495",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare systems",
+      "category": "Healthcare",
+      "source": "Hypothetical campaign website"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates to stimulate economic growth",
+      "category": "Economy",
+      "source": "Hypothetical campaign materials"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border patrol funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Hypothetical policy statements"
+    },
+    {
+      "title": "School Choice",
+      "description": "Promotes voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Hypothetical legislative record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes additional gun control measures",
+      "category": "Social Issues",
+      "source": "Hypothetical campaign platform"
+    },
+    {
+      "title": "Environmental Deregulation",
+      "description": "Supports reducing environmental regulations to promote business growth",
+      "category": "Environment",
+      "source": "Hypothetical policy positions"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Hypothetical political platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Generic Energy Corporation",
+        "amount": "$75,000",
+        "industry": "Energy",
+        "cycle": "2024"
+      },
+      {
+        "name": "HealthCare Innovations Inc.",
+        "amount": "$50,000",
+        "industry": "Healthcare",
+        "cycle": "2024"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$150,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$100,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Freedom PAC",
+        "amount": "$100,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2024"
+      },
+      {
+        "name": "Pro-Life Alliance",
+        "amount": "$45,000",
+        "ideology": "Social Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2024"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$1,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Hypothetical Campaign Finance Database",
+    "source_url": "https://example.com/campaign-finance-records"
+  },
+  "sources": [
+    "Hypothetical Campaign Website",
+    "Fictional Campaign Finance Records",
+    "Imaginary Policy Platform Documents"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:10:42.269653",
+    "github_action_run": "16792283651",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 956
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
