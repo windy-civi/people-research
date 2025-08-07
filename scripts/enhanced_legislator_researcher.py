@@ -176,7 +176,7 @@ Use web search to find the most current and accurate information available. Be t
                         "content": prompt
                     }],
                     tools=[{
-                        "type": "web_search",
+                        "type": "web_search_20250305",
                         "name": "web_search",
                         "description": "Search the web for current information about politicians, their policy positions, and campaign finance data"
                     }]
