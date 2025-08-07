@@ -33,10 +33,21 @@ jobs:
         set -e
         
         
-        echo "Testing Claude with simple prompt"
+        echo "Researching Katie Britt's donors"
         
-        # Simple web search prompt
-        full_prompt="What was the Chicago Cubs' most recent score and what date was it? Provide a source."
+        # Katie Britt donor research prompt
+        full_prompt="Research Senator Katie Britt's top campaign donors and contributors. Search specifically on these sites:
+        1. OpenSecrets.org - for her donor data and industry contributions
+        2. FEC.gov - for official campaign finance filings
+        3. Senate.gov lobbying disclosure - for lobbying connections
+        
+        Find:
+        - Top corporate donors with specific dollar amounts and cycles
+        - Top contributing industries with totals
+        - Major PAC and special interest group contributions
+        - Any notable lobbying connections or revolving door relationships
+        
+        Provide direct links to the specific pages where you found this data on OpenSecrets.org, FEC.gov, and Senate lobbying disclosure databases."
         
         # Use Claude CLI with --print flag for non-interactive output
         echo "=== SENDING PROMPT TO CLAUDE ==="
