@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/168e0e9e-0d4c-57d2-99a6-8fc99be594be",
+  "name": "Sylvia Garcia",
+  "state": "Texas",
+  "last_updated": "2025-08-07T01:26:56.689507",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicare and protecting the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://garcia.house.gov/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "https://garcia.house.gov/immigration"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports Green New Deal and aggressive carbon reduction policies",
+      "category": "Environment",
+      "source": "https://garcia.house.gov/climate"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Promotes minimum wage increase to $15/hour and worker protections",
+      "category": "Economy",
+      "source": "https://garcia.house.gov/economy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal funding for public education and student debt relief",
+      "category": "Education",
+      "source": "https://garcia.house.gov/education"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong advocate for protecting abortion access and women's healthcare",
+      "category": "Social Issues",
+      "source": "https://garcia.house.gov/reproductive-rights"
+    },
+    {
+      "title": "Gun Violence Prevention",
+      "description": "Supports universal background checks and assault weapons ban",
+      "category": "Social Issues",
+      "source": "https://garcia.house.gov/gun-safety"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$127,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$85,300",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$345,000",
+        "percentage": "42%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$215,000",
+        "percentage": "26%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Abortion Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$2,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Donor Records",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "FEC Campaign Finance Records",
+    "OpenSecrets.org",
+    "Campaign Contribution Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:27:08.577905",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 957
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

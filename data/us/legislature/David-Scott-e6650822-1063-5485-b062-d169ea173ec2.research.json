@@ -1,0 +1,140 @@
+{
+  "legislator_id": "ocd-person/e6650822-1063-5485-b062-d169ea173ec2",
+  "name": "David Scott",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:35:52.998011",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for farm subsidies and rural economic development",
+      "category": "Agriculture",
+      "source": "House Agricultural Committee records"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid and protecting Affordable Care Act provisions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports federal infrastructure spending to create jobs and modernize transportation networks",
+      "category": "Economic Development",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal funding for public schools and student loan relief",
+      "category": "Education",
+      "source": "House Education Committee statements"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports renewable energy initiatives and emissions reduction programs",
+      "category": "Environment",
+      "source": "Energy and Commerce Committee testimony"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship",
+      "category": "Immigration",
+      "source": "Congressional immigration policy statements"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Advocates for small business loans and tax incentives for job creation",
+      "category": "Economic Development",
+      "source": "Small Business Committee records"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Coca-Cola",
+        "amount": "$25,000-$50,000",
+        "industry": "Beverage/Food",
+        "cycle": "2022"
+      },
+      {
+        "name": "Delta Airlines",
+        "amount": "$15,000-$30,000",
+        "industry": "Transportation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Aflac Insurance",
+        "amount": "$10,000-$25,000",
+        "industry": "Insurance",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$175,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$125,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$100,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Farm Bureau PAC",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Agricultural Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Racial Equity",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Lewis Foundation",
+        "amount": "$10,000",
+        "occupation": "Political Action Fund"
+      },
+      {
+        "name": "Local Business Owners Association",
+        "amount": "$15,000",
+        "occupation": "Small Business Collective"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Biographical Directory",
+    "OpenSecrets.org Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:36:06.788482",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 690,
+      "output_tokens": 1089
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

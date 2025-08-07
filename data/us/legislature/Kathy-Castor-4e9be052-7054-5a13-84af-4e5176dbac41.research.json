@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/4e9be052-7054-5a13-84af-4e5176dbac41",
+  "name": "Kathy Castor",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:15:01.307301",
+  "issues": [
+    {
+      "title": "Climate Change and Environmental Protection",
+      "description": "Strong advocate for addressing climate change, supporting renewable energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://castor.house.gov/issues/climate-change"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare coverage, protecting the Affordable Care Act, and lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://castor.house.gov/issues/healthcare"
+    },
+    {
+      "title": "COVID-19 Pandemic Response",
+      "description": "Advocated for comprehensive pandemic relief, support for healthcare workers, and economic assistance to communities",
+      "category": "Public Health",
+      "source": "https://castor.house.gov/covid-response"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports major infrastructure improvements, including transportation, broadband, and green energy infrastructure",
+      "category": "Economic Development",
+      "source": "https://castor.house.gov/infrastructure"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathways to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://castor.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased education funding, student debt relief, and expanding access to higher education",
+      "category": "Education",
+      "source": "https://castor.house.gov/education"
+    },
+    {
+      "title": "Social Justice and Equality",
+      "description": "Supports civil rights legislation, LGBTQ+ protections, and addressing systemic racial inequalities",
+      "category": "Social Issues",
+      "source": "https://castor.house.gov/social-justice"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$52,750",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$45,230",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc.",
+        "amount": "$21,500",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$350,000",
+        "percentage": "28%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$275,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$200,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$52,750",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$35,000",
+        "ideology": "Environmental Advocacy",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$25,000",
+        "ideology": "LGBTQ+ Rights",
+        "issue_focus": "Equality and Civil Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$1,250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H8FL12133/"
+  },
+  "sources": [
+    "https://castor.house.gov",
+    "https://www.opensecrets.org/politicians/summary?cid=N00037261",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:15:16.114267",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1182
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

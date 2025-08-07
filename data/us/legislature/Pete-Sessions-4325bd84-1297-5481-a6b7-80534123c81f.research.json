@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/4325bd84-1297-5481-a6b7-80534123c81f",
+  "name": "Pete Sessions",
+  "state": "Texas",
+  "last_updated": "2025-08-07T01:14:37.138684",
+  "issues": [
+    {
+      "title": "Tax Reduction",
+      "description": "Strong supporter of tax cuts, supports reducing corporate and individual tax rates",
+      "category": "Economy",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website and speeches"
+    },
+    {
+      "title": "Healthcare Repeal",
+      "description": "Opposed to Affordable Care Act, supports complete repeal and market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports robust defense spending and military modernization",
+      "category": "Foreign Policy",
+      "source": "Congressional appropriations votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for charter schools and education voucher programs",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Committee testimony"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "AT&T Inc",
+        "amount": "$25,000-$50,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$15,000-$30,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$125,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$10,000-$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$5,000-$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Simmons",
+        "amount": "$50,000",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Darwin Deason",
+        "amount": "$25,000",
+        "occupation": "Technology Entrepreneur"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov"
+  },
+  "sources": [
+    "Congressional voting records",
+    "Federal Election Commission data",
+    "Campaign finance reports",
+    "Official campaign website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:15:01.276566",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 961
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

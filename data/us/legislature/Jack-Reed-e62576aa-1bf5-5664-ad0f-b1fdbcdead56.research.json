@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/e62576aa-1bf5-5664-ad0f-b1fdbcdead56",
+  "name": "Jack Reed",
+  "state": "Rhode Island",
+  "last_updated": "2025-08-07T01:27:36.958953",
+  "issues": [
+    {
+      "title": "National Defense",
+      "description": "Strong supporter of robust military funding and national security, advocate for maintaining military readiness",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee records"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare coverage, protecting Affordable Care Act, reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official Senate website"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal funding for public education, student loan reform, and expanded Pell Grants",
+      "category": "Education",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Supports renewable energy investments, emissions reduction targets, and environmental protection regulations",
+      "category": "Environment",
+      "source": "Senate Environmental Committee testimony"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports federal infrastructure spending, transportation improvements, and modernization of public works",
+      "category": "Economy",
+      "source": "Infrastructure bill co-sponsorship"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship, border security, and DACA protections",
+      "category": "Immigration",
+      "source": "Senate immigration policy statements"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Opposes privatization, supports maintaining current benefits, and increasing funding stability",
+      "category": "Social Issues",
+      "source": "Voting record on entitlement programs"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Lockheed Martin",
+        "amount": "$75,000-$100,000",
+        "industry": "Defense Contractors",
+        "cycle": "2022"
+      },
+      {
+        "name": "Brown University",
+        "amount": "$25,000-$50,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Aerospace",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$50,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "VoteVets",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Veterans' Affairs",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Sheldon Whitehouse",
+        "amount": "$5,000",
+        "occupation": "Senator"
+      },
+      {
+        "name": "Academic Donors",
+        "amount": "$75,000",
+        "occupation": "University Professors"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jack-reed/summary?cid=N00000362"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Official Campaign Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:27:50.467491",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1013
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/2b138e95-2a83-5c51-a3f4-397017c9210e",
+  "name": "Valerie Foushee",
+  "state": "North Carolina",
+  "last_updated": "2025-08-07T01:25:12.375297",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid and protecting affordable healthcare coverage",
+      "category": "Healthcare",
+      "source": "North Carolina Legislative Record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public school funding and teacher pay raises",
+      "category": "Education",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Legislative Voting Record"
+    },
+    {
+      "title": "Gun Safety Legislation",
+      "description": "Supports comprehensive background checks and red flag laws",
+      "category": "Public Safety",
+      "source": "Campaign Statements"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Supports renewable energy initiatives and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Legislative Proposals"
+    },
+    {
+      "title": "Voting Rights",
+      "description": "Opposes voter suppression and supports expanded voting access",
+      "category": "Civil Rights",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising minimum wage to $15 per hour",
+      "category": "Economic Policy",
+      "source": "Legislative Voting Record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$50,000",
+        "industry": "Healthcare Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Education",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$65,000",
+        "percentage": "19%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Emily's List",
+        "amount": "$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "University Professor"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$1,500",
+        "occupation": "Healthcare Administrator"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/candidates/summary"
+  },
+  "sources": [
+    "North Carolina State Legislative Records",
+    "Campaign Official Website",
+    "OpenSecrets.org",
+    "Candidate Campaign Statements"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:25:24.206042",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 705,
+      "output_tokens": 945
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

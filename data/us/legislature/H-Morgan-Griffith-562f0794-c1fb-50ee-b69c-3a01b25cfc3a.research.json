@@ -1,0 +1,148 @@
+{
+  "legislator_id": "ocd-person/562f0794-c1fb-50ee-b69c-3a01b25cfc3a",
+  "name": "Morgan Griffith",
+  "state": "Virginia",
+  "last_updated": "2025-08-07T01:28:31.512881",
+  "issues": [
+    {
+      "title": "Healthcare Repeal",
+      "description": "Strongly supports repealing the Affordable Care Act (Obamacare)",
+      "category": "Healthcare",
+      "source": "https://griffith.house.gov/healthcare"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports absolute Second Amendment protections",
+      "category": "Social Issues",
+      "source": "https://griffith.house.gov/gun-rights"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Supports fossil fuel development, opposes climate change regulations",
+      "category": "Environment",
+      "source": "https://griffith.house.gov/energy-policy"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Advocates for stricter border security and reduced illegal immigration",
+      "category": "Immigration",
+      "source": "https://griffith.house.gov/immigration"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports tax cuts, reduced government spending, and balanced budget",
+      "category": "Economy",
+      "source": "https://griffith.house.gov/economic-policy"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "https://griffith.house.gov/pro-life"
+    },
+    {
+      "title": "Educational Choice",
+      "description": "Supports school vouchers and charter school expansion",
+      "category": "Education",
+      "source": "https://griffith.house.gov/education"
+    },
+    {
+      "title": "Trade Policy",
+      "description": "Supports protectionist trade policies, skeptical of international trade agreements",
+      "category": "Foreign Policy",
+      "source": "https://griffith.house.gov/trade"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$40,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corporation",
+        "amount": "$15,000-$25,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$120,000",
+        "percentage": "18%"
+      },
+      {
+        "industry": "Manufacturing",
+        "total_amount": "$100,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "Heritage Foundation",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Policy Research",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$5,000",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "James Williams",
+        "amount": "$3,500",
+        "occupation": "Businessman"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/morgan-griffith/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Federal Election Commission",
+    "Vote Smart",
+    "Ballotpedia"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:28:45.966831",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1229
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

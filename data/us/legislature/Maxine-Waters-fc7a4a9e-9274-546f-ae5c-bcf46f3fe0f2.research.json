@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/fc7a4a9e-9274-546f-ae5c-bcf46f3fe0f2",
+  "name": "Maxine Waters",
+  "state": "California",
+  "last_updated": "2025-08-07T01:15:40.612304",
+  "issues": [
+    {
+      "title": "Economic Justice",
+      "description": "Strong advocate for increasing minimum wage, supporting working-class families, and reducing economic inequality",
+      "category": "Economy",
+      "source": "https://waters.house.gov/economic-policy"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Support for expanded healthcare access, Medicare expansion, and protection of the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://waters.house.gov/healthcare"
+    },
+    {
+      "title": "Housing Rights",
+      "description": "Comprehensive housing policy focusing on affordable housing, mortgage assistance, and preventing foreclosures",
+      "category": "Housing",
+      "source": "https://waters.house.gov/housing-policy"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocating for police accountability, ending systemic racism in law enforcement, and reducing mass incarceration",
+      "category": "Social Issues",
+      "source": "https://waters.house.gov/criminal-justice"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Support for aggressive climate change legislation, green energy investments, and environmental justice",
+      "category": "Environment",
+      "source": "https://waters.house.gov/climate-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Path to citizenship for undocumented immigrants, opposing harsh border policies, supporting DACA recipients",
+      "category": "Immigration",
+      "source": "https://waters.house.gov/immigration"
+    },
+    {
+      "title": "Financial Regulation",
+      "description": "Strong supporter of consumer financial protections, Wall Street oversight, and preventing predatory lending",
+      "category": "Economy",
+      "source": "https://waters.house.gov/financial-policy"
+    },
+    {
+      "title": "Racial Equity",
+      "description": "Comprehensive approach to addressing systemic racism in economic, social, and political systems",
+      "category": "Social Issues",
+      "source": "https://waters.house.gov/racial-justice"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$450,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$275,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$85,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$620,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$450,000",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Lawyers/Legal Services",
+        "total_amount": "$380,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$275,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Congressional Black Caucus PAC",
+        "amount": "$195,000",
+        "ideology": "Progressive",
+        "issue_focus": "African American Political Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Small Donors",
+        "amount": "$1,200,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/maxine-waters/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Financial Disclosure Reports",
+    "Official House Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:15:55.269262",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1176
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

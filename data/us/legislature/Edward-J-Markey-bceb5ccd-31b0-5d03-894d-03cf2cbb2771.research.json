@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/bceb5ccd-31b0-5d03-894d-03cf2cbb2771",
+  "name": "Ed Markey",
+  "state": "Massachusetts",
+  "last_updated": "2025-08-07T01:16:07.411732",
+  "issues": [
+    {
+      "title": "Green New Deal",
+      "description": "Co-authored landmark climate change legislation with Alexandria Ocasio-Cortez, proposing comprehensive plan to address climate crisis through massive economic transformation",
+      "category": "Environment",
+      "source": "https://markey.senate.gov/climate"
+    },
+    {
+      "title": "Medicare for All",
+      "description": "Strong supporter of universal healthcare, advocating for comprehensive single-payer healthcare system to provide coverage for all Americans",
+      "category": "Healthcare",
+      "source": "https://markey.senate.gov/healthcare"
+    },
+    {
+      "title": "Student Debt Relief",
+      "description": "Supports comprehensive student loan forgiveness and making public colleges tuition-free",
+      "category": "Education",
+      "source": "https://markey.senate.gov/education"
+    },
+    {
+      "title": "Net Neutrality",
+      "description": "Fierce advocate for protecting open internet and preventing internet service providers from controlling online content access",
+      "category": "Technology",
+      "source": "https://markey.senate.gov/technology"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "https://markey.senate.gov/immigration"
+    },
+    {
+      "title": "Climate Justice",
+      "description": "Advocates for equitable climate policy that addresses environmental racism and supports frontline communities",
+      "category": "Social Justice",
+      "source": "https://markey.senate.gov/climate-justice"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Long-time supporter of comprehensive LGBTQ+ non-discrimination protections and equality",
+      "category": "Social Issues",
+      "source": "https://markey.senate.gov/equality"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$425,000",
+        "industry": "Political Action",
+        "cycle": "2020"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$215,000",
+        "industry": "Political Action",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Retired",
+        "total_amount": "$1,245,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Education",
+        "total_amount": "$675,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$185,000",
+        "ideology": "Liberal",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2020"
+      },
+      {
+        "name": "Planned Parenthood",
+        "amount": "$95,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$3,500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ed-markey/summary?cid=N00000270"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senator Ed Markey Official Website",
+    "Federal Election Commission Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:16:20.857288",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1026
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

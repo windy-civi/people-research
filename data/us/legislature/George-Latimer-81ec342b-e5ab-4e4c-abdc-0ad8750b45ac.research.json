@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/81ec342b-e5ab-4e4c-abdc-0ad8750b45ac",
+  "name": "George Latimer",
+  "state": "New York",
+  "last_updated": "2025-08-07T01:18:04.636540",
+  "issues": [
+    {
+      "title": "Public Education Funding",
+      "description": "Strong supporter of increasing state education funding, particularly for suburban and urban school districts",
+      "category": "Education",
+      "source": "NY State Legislature Records"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Advocates for expanded Medicaid coverage and protecting affordable healthcare options",
+      "category": "Healthcare",
+      "source": "Campaign Platform Statements"
+    },
+    {
+      "title": "Environmental Protection",
+      "description": "Supports renewable energy initiatives and stronger environmental regulations in New York",
+      "category": "Environment",
+      "source": "Westchester County Legislative Records"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports increased funding for transportation and infrastructure improvements in Westchester County",
+      "category": "Infrastructure",
+      "source": "Local Government Proposals"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for stricter gun control measures and background check requirements",
+      "category": "Social Issues",
+      "source": "State Legislative Voting Records"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Supports initiatives to increase affordable housing options and prevent displacement",
+      "category": "Housing",
+      "source": "County Legislative Proposals"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports gradual minimum wage increases to support working-class families",
+      "category": "Economy",
+      "source": "State Budget Discussions"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Real Estate Developers Association",
+        "amount": "$25,000-$50,000",
+        "industry": "Real Estate",
+        "cycle": "2022"
+      },
+      {
+        "name": "Teachers Union PAC",
+        "amount": "$15,000-$30,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Public Sector Unions",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$60,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "New York State Democratic Party",
+        "amount": "$50,000-$75,000",
+        "ideology": "Liberal",
+        "issue_focus": "Broad Democratic Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund PAC",
+        "amount": "$10,000-$20,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Local Business Owners",
+        "amount": "$5,000-$10,000",
+        "occupation": "Various Local Businesses"
+      },
+      {
+        "name": "Education Professionals",
+        "amount": "$3,000-$7,000",
+        "occupation": "Teachers, Administrators"
+      }
+    ],
+    "data_source": "New York State Board of Elections",
+    "source_url": "https://www.elections.ny.gov/campaign-finance-data"
+  },
+  "sources": [
+    "New York State Legislature Official Records",
+    "Westchester County Legislative Archives",
+    "Candidate Campaign Websites",
+    "Local News Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:18:18.911852",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1009
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

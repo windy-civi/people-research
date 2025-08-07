@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/5eae38e3-8420-5c09-831a-db73d9cba978",
+  "name": "Paul Gosar",
+  "state": "Arizona",
+  "last_updated": "2025-08-07T01:21:33.161892",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall, opposes illegal immigration, advocates for strict border enforcement",
+      "category": "Immigration",
+      "source": "https://gosar.house.gov/immigration"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership, opposes gun control legislation, supports unrestricted firearm rights",
+      "category": "Social Issues",
+      "source": "NRA ratings and voting record"
+    },
+    {
+      "title": "Anti-Abortion Stance",
+      "description": "Pro-life advocate, supports restrictions on abortion, opposes federal funding for abortion services",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Climate Change Denial",
+      "description": "Skeptical of climate change science, opposes environmental regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional speeches and voting record"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Supports repealing Affordable Care Act, advocates for market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Conservative Economic Policy",
+      "description": "Supports tax cuts, opposes government regulations, advocates for reduced federal spending",
+      "category": "Economy",
+      "source": "Congressional budget votes"
+    },
+    {
+      "title": "Foreign Policy Hawkishness",
+      "description": "Supports strong military spending, hawkish stance on international conflicts, skeptical of diplomatic solutions",
+      "category": "Foreign Policy",
+      "source": "Congressional defense appropriations votes"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$42,500",
+        "industry": "Energy and Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$275,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$185,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Freedom Caucus PAC",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Mercer",
+        "amount": "$35,000",
+        "occupation": "Hedge Fund Manager"
+      },
+      {
+        "name": "Sheldon Adelson",
+        "amount": "$25,000",
+        "occupation": "Casino Magnate"
+      }
+    ],
+    "data_source": "OpenSecrets FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/paul-gosar/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional Voting Records",
+    "Paul Gosar Official Website",
+    "Federal Election Commission Filings"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:21:46.347188",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 1029
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

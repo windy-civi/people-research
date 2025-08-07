@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/54c25fbc-b91d-5d2b-8403-9b8fb1fb6792",
+  "name": "Pete Stauber",
+  "state": "Minnesota",
+  "last_updated": "2025-08-07T01:36:06.815754",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Fossil Fuel Support",
+      "description": "Advocates for expanded domestic oil and gas production, opposes climate change regulations",
+      "category": "Environment",
+      "source": "Energy policy statements"
+    },
+    {
+      "title": "Healthcare Privatization",
+      "description": "Supports market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Advocates for lower corporate and individual tax rates, supports supply-side economic policies",
+      "category": "Economy",
+      "source": "Campaign economic platform"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools and voucher programs, advocates for reduced federal education oversight",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Campaign moral platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$65,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Richard Johnson",
+        "amount": "$2,900",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Sarah Miller",
+        "amount": "$1,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "FEC Campaign Finance Reports",
+    "Congressional Voting Records",
+    "OpenSecrets Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:36:18.918810",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 960
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

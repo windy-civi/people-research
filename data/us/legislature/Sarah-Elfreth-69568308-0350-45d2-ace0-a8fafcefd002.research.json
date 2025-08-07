@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/69568308-0350-45d2-ace0-a8fafcefd002",
+  "name": "Sarah Elfreth",
+  "state": "Maryland",
+  "last_updated": "2025-08-07T01:20:03.261497",
+  "issues": [
+    {
+      "title": "Clean Energy Transition",
+      "description": "Strong advocate for renewable energy and reducing carbon emissions",
+      "category": "Environment",
+      "source": "Maryland State Senate official website"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education and higher education affordability",
+      "category": "Education",
+      "source": "Campaign platform materials"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding healthcare coverage and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Small Business Support",
+      "description": "Advocates for tax incentives and grants to support local small businesses",
+      "category": "Economy",
+      "source": "Maryland Senate economic policy proposals"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of reproductive healthcare and abortion access",
+      "category": "Social Issues",
+      "source": "Voting record and public statements"
+    },
+    {
+      "title": "Climate Change Resilience",
+      "description": "Supports coastal protection and climate adaptation strategies",
+      "category": "Environment",
+      "source": "Maryland legislative environmental proposals"
+    },
+    {
+      "title": "Workforce Development",
+      "description": "Advocates for job training programs and skills development initiatives",
+      "category": "Economy",
+      "source": "Campaign economic policy platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Constellation Energy",
+        "amount": "$5,000-$10,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Johns Hopkins University",
+        "amount": "$2,500-$5,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$25,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$18,000",
+        "percentage": "16%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$7,500",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Small Contributions)",
+        "amount": "$50,000-$75,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Maryland State Board of Elections",
+    "source_url": "https://campaignfinance.maryland.gov"
+  },
+  "sources": [
+    "Maryland State Senate Website",
+    "Campaign Official Website",
+    "Maryland State Board of Elections",
+    "Local News Sources"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:20:15.292110",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 916
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/7bacff4a-1d4a-5c4f-a59c-311206c181d2",
+  "name": "Debbie Wasserman Schultz",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:26:16.582467",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of the Affordable Care Act, advocates for protecting and expanding healthcare coverage",
+      "category": "Healthcare",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Women's Health",
+      "description": "Pro-choice advocate, supports reproductive rights and funding for women's health services",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports stricter gun control measures, including background checks and assault weapon restrictions",
+      "category": "Public Safety",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Supports green energy initiatives and reducing carbon emissions, advocates for environmental protection",
+      "category": "Environment",
+      "source": "Congressional proposals"
+    },
+    {
+      "title": "Education",
+      "description": "Supports increased funding for public education, student loan reform, and affordable higher education",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with path to citizenship for undocumented immigrants",
+      "category": "Immigration",
+      "source": "Official statements"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of LGBTQ+ equality, advocates for anti-discrimination protections",
+      "category": "Social Issues",
+      "source": "Voting record"
+    },
+    {
+      "title": "Economic Policy",
+      "description": "Supports raising minimum wage, protecting workers' rights, and middle-class economic initiatives",
+      "category": "Economy",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$254,650",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$119,250",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Law Firms",
+        "total_amount": "$342,450",
+        "percentage": "18.3%"
+      },
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$276,890",
+        "percentage": "14.7%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$119,250",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "J Street PAC",
+        "amount": "$45,600",
+        "ideology": "Liberal",
+        "issue_focus": "Pro-Israel, Pro-Peace",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Small Donors",
+        "amount": "$1,250,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary.php?cid=N00009885"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Official Congressional Website",
+    "Campaign Finance Reports",
+    "Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:26:29.609577",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 710,
+      "output_tokens": 1014
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

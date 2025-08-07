@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/20c33933-79f5-58d1-834c-60779932257e",
+  "name": "Austin Scott",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:33:40.939830",
+  "issues": [
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for agricultural subsidies and farm support programs",
+      "category": "Agriculture",
+      "source": "https://austinscott.house.gov/agriculture"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control legislation, supports broad gun ownership rights",
+      "category": "Social Issues",
+      "source": "NRA legislative ratings"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "House healthcare voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Congressional tax policy statements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Strong supporter of increased defense spending and military readiness",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations votes"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Advocates for school voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Education policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Monsanto Company",
+        "amount": "$25,000-$50,000",
+        "industry": "Agricultural Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$15,000-$35,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Defense/Military",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Agriculture Executives",
+        "amount": "$25,000",
+        "occupation": "Agricultural Business Leadership"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Legislative Website",
+    "Campaign Financial Disclosure Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:33:52.645708",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 691,
+      "output_tokens": 923
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

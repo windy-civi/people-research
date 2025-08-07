@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/3056cc98-9ca1-5293-8064-fc12fd9c689f",
+  "name": "Rich McCormick",
+  "state": "Georgia",
+  "last_updated": "2025-08-07T01:35:14.183285",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Campaign website, Congressional voting record"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based healthcare solutions and reducing federal healthcare regulations",
+      "category": "Healthcare",
+      "source": "Campaign speeches, GOP platform statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Advocates for unrestricted gun ownership, opposes additional gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings, campaign materials"
+    },
+    {
+      "title": "Fiscal Conservatism",
+      "description": "Supports lower taxes, reduced government spending, and balanced budget approaches",
+      "category": "Economy",
+      "source": "Congressional budget voting record"
+    },
+    {
+      "title": "Election Integrity",
+      "description": "Supports voter ID laws and stricter election verification processes",
+      "category": "Political Reform",
+      "source": "Campaign statements, voting legislation support"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports restrictions on reproductive healthcare",
+      "category": "Social Issues",
+      "source": "Conservative policy platforms"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Advocates for school voucher programs and increased charter school funding",
+      "category": "Education",
+      "source": "Educational policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000-$125,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "House Freedom Fund",
+        "amount": "$50,000-$100,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000-$350,000",
+        "percentage": "22-28%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000-$225,000",
+        "percentage": "15-18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000-$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000-$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Corporate Executives",
+        "amount": "$10,000-$25,000",
+        "occupation": "Various Business Leadership Roles"
+      },
+      {
+        "name": "Local Georgia Businesspeople",
+        "amount": "$5,000-$15,000",
+        "occupation": "Small Business Owners"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H2GA06114/"
+  },
+  "sources": [
+    "FEC Campaign Finance Records",
+    "Congressional Voting Records",
+    "Campaign Official Website",
+    "OpenSecrets.org Donor Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:35:27.685422",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1027
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

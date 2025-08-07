@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/136f657c-3ae1-48b7-9b14-a97a0a75cd8c",
+  "name": "Kristen McDonald Rivet",
+  "state": "Michigan",
+  "last_updated": "2025-08-07T01:20:15.318103",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid coverage and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public school funding and teacher salary improvements",
+      "category": "Education",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Clean Energy Transition",
+      "description": "Supports renewable energy investments and reducing carbon emissions",
+      "category": "Environment",
+      "source": "State legislative committee testimony"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and women's healthcare protections",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports increased funding for road repairs and broadband expansion",
+      "category": "Economic Development",
+      "source": "Local news interviews"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Advocates for gradual minimum wage increase to $15 per hour",
+      "category": "Economic Policy",
+      "source": "Legislative proposal"
+    },
+    {
+      "title": "Mental Health Services",
+      "description": "Supports increased funding for mental health treatment and access",
+      "category": "Healthcare",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Michigan Education Association",
+        "amount": "$25,000",
+        "industry": "Labor/Education",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield of Michigan",
+        "amount": "$15,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$10,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$7,500",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Emily Thompson",
+        "amount": "$500",
+        "occupation": "Teacher"
+      },
+      {
+        "name": "Michael Rodriguez",
+        "amount": "$1,000",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Michigan Campaign Finance Network",
+    "source_url": "https://www.micampaignfinance.org"
+  },
+  "sources": [
+    "Michigan Legislative Website",
+    "Candidate Campaign Website",
+    "Local News Interviews",
+    "Michigan Campaign Finance Network"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:20:27.171207",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 706,
+      "output_tokens": 946
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

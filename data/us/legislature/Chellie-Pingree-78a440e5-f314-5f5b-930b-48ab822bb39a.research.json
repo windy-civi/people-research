@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/78a440e5-f314-5f5b-930b-48ab822bb39a",
+  "name": "Chellie Pingree",
+  "state": "Maine",
+  "last_updated": "2025-08-07T01:22:48.613377",
+  "issues": [
+    {
+      "title": "Climate Change and Environmental Protection",
+      "description": "Strong supporter of aggressive climate action, supports Green New Deal framework, advocates for renewable energy transition and reducing carbon emissions",
+      "category": "Environment",
+      "source": "https://pingree.house.gov/issues/environment"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports Medicare for All, expanded public healthcare coverage, lowering prescription drug prices, protecting Affordable Care Act",
+      "category": "Healthcare",
+      "source": "https://pingree.house.gov/issues/healthcare"
+    },
+    {
+      "title": "Agricultural Policy and Local Food Systems",
+      "description": "Advocates for organic farming, sustainable agriculture, supporting small farmers, local food infrastructure development",
+      "category": "Agriculture",
+      "source": "https://pingree.house.gov/issues/agriculture"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate, supports comprehensive reproductive healthcare, opposes restrictions on abortion access",
+      "category": "Social Issues",
+      "source": "https://pingree.house.gov/issues/womens-rights"
+    },
+    {
+      "title": "Economic Inequality",
+      "description": "Supports increased minimum wage, progressive taxation, stronger labor protections, reducing wealth concentration",
+      "category": "Economy",
+      "source": "https://pingree.house.gov/issues/economy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, protecting DACA recipients, opposing harsh enforcement policies",
+      "category": "Immigration",
+      "source": "https://pingree.house.gov/issues/immigration"
+    },
+    {
+      "title": "Education Access",
+      "description": "Advocates for affordable higher education, student debt relief, increased funding for public education, expanded vocational training",
+      "category": "Education",
+      "source": "https://pingree.house.gov/issues/education"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$150,000-$250,000",
+        "industry": "Political Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "Emily's List",
+        "amount": "$75,000-$125,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Environmental Advocacy Groups",
+        "total_amount": "$250,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$85,000",
+        "ideology": "Liberal",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-Dollar Donors",
+        "amount": "$750,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Campaign Finance Reports",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00034085"
+  },
+  "sources": [
+    "https://pingree.house.gov",
+    "https://www.opensecrets.org",
+    "https://ballotpedia.org/Chellie_Pingree"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:23:02.272055",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1071
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

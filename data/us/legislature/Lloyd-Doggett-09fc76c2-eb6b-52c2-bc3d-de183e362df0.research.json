@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/09fc76c2-eb6b-52c2-bc3d-de183e362df0",
+  "name": "Lloyd Doggett",
+  "state": "Texas",
+  "last_updated": "2025-08-07T01:20:53.012433",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of expanding healthcare access, protecting the Affordable Care Act, and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "https://doggett.house.gov/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for aggressive climate change mitigation, supports Green New Deal principles, and renewable energy investments",
+      "category": "Environment",
+      "source": "https://doggett.house.gov/climate"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "https://doggett.house.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, student debt relief, and expanding access to higher education",
+      "category": "Education",
+      "source": "https://doggett.house.gov/education"
+    },
+    {
+      "title": "Social Security Protection",
+      "description": "Opposes privatization, supports expanding Social Security benefits and protecting current recipients",
+      "category": "Social Policy",
+      "source": "https://doggett.house.gov/socialsecurity"
+    },
+    {
+      "title": "Tax Reform",
+      "description": "Advocates for progressive taxation, closing corporate tax loopholes, and increasing taxes on high-income earners",
+      "category": "Economy",
+      "source": "https://doggett.house.gov/taxreform"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of LGBTQ+ equality, anti-discrimination protections, and marriage equality",
+      "category": "Social Issues",
+      "source": "https://doggett.house.gov/lgbtq"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$125,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "University of Texas",
+        "amount": "$48,500",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Legal Services",
+        "total_amount": "$342,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$276,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$45,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Under $200)",
+        "amount": "$523,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/lloyd-doggett/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets Campaign Finance Database",
+    "FEC Campaign Contribution Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:21:06.354521",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 1034
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

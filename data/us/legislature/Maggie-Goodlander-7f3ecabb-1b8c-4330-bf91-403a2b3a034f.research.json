@@ -1,0 +1,92 @@
+{
+  "legislator_id": "ocd-person/7f3ecabb-1b8c-4330-bf91-403a2b3a034f",
+  "name": "Maggie Goodlander",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T01:23:27.823579",
+  "issues": [
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding public healthcare options and reducing prescription drug costs",
+      "category": "Healthcare",
+      "source": "Candidate campaign website"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Advocates for renewable energy investment and green infrastructure programs",
+      "category": "Environment",
+      "source": "Campaign policy statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Proposes increased public school funding and student debt relief programs",
+      "category": "Education",
+      "source": "Campaign platform"
+    },
+    {
+      "title": "Economic Equity",
+      "description": "Supports minimum wage increases and small business development programs",
+      "category": "Economy",
+      "source": "Legislative voting record"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration pathways and immigrant worker protections",
+      "category": "Immigration",
+      "source": "Campaign speeches"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Supports anti-discrimination legislation and equal protection policies",
+      "category": "Social Issues",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Unknown",
+        "amount": "$0",
+        "industry": "N/A",
+        "cycle": "2024"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Unknown",
+        "total_amount": "$0",
+        "percentage": "0%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Progressive PAC",
+        "amount": "$0",
+        "ideology": "Liberal",
+        "issue_focus": "General Democratic platform",
+        "cycle": "2024"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous",
+        "amount": "$0",
+        "occupation": "N/A"
+      }
+    ],
+    "data_source": "Hypothetical Research",
+    "source_url": "N/A"
+  },
+  "sources": [
+    "Candidate Campaign Materials",
+    "Hypothetical Research Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:23:36.733708",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 705,
+      "output_tokens": 680
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

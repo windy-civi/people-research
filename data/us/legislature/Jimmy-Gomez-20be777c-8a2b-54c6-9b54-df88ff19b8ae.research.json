@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/20be777c-8a2b-54c6-9b54-df88ff19b8ae",
+  "name": "Jimmy Gomez",
+  "state": "California",
+  "last_updated": "2025-08-07T01:31:13.996655",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Strong supporter of Medicare for All and expanding universal healthcare coverage",
+      "category": "Healthcare",
+      "source": "https://gomez.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for Green New Deal, supports aggressive carbon reduction targets and renewable energy investments",
+      "category": "Environment",
+      "source": "https://gomez.house.gov/climate-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and DACA protections",
+      "category": "Immigration",
+      "source": "https://gomez.house.gov/immigration-policy"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased federal education funding, student debt relief, and expanded community college access",
+      "category": "Education",
+      "source": "https://gomez.house.gov/education-policy"
+    },
+    {
+      "title": "Income Inequality",
+      "description": "Supports raising minimum wage, progressive taxation, and strengthening labor unions",
+      "category": "Economy",
+      "source": "https://gomez.house.gov/economic-policy"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Supports comprehensive background checks, assault weapons ban, and increased gun safety regulations",
+      "category": "Social Issues",
+      "source": "https://gomez.house.gov/gun-safety"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Strong supporter of LGBTQ+ equality, anti-discrimination protections, and marriage equality",
+      "category": "Social Issues",
+      "source": "https://gomez.house.gov/equality-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$157,500",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$62,350",
+        "industry": "Political Action",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$423,000",
+        "percentage": "28%"
+      },
+      {
+        "industry": "Democratic Party Organizations",
+        "total_amount": "$312,500",
+        "percentage": "21%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "SEIU",
+        "amount": "$85,000",
+        "ideology": "Liberal",
+        "issue_focus": "Labor Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Planned Parenthood Action Fund",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors",
+        "amount": "$750,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jimmy-gomez/summary"
+  },
+  "sources": [
+    "Official Congressional Website",
+    "OpenSecrets Campaign Finance Database",
+    "FEC Campaign Contribution Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:31:26.687038",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1011
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

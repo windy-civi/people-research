@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/75cfdbf0-b681-5535-8a97-b53310335e72",
+  "name": "Steve Daines",
+  "state": "Montana",
+  "last_updated": "2025-08-07T01:16:46.528550",
+  "issues": [
+    {
+      "title": "Energy Policy",
+      "description": "Strong supporter of fossil fuel development, advocates for expanded oil and gas drilling in Montana and on federal lands",
+      "category": "Energy",
+      "source": "Senate.gov official website"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting records"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports tax cuts, advocates for reduced corporate tax rates and simplified tax code",
+      "category": "Economy",
+      "source": "Voting record on tax legislation"
+    },
+    {
+      "title": "Environmental Regulation",
+      "description": "Skeptical of climate change regulations, supports reducing environmental restrictions on energy production",
+      "category": "Environment",
+      "source": "Senate committee testimonies"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong anti-abortion position, supports restrictions on abortion funding and procedures",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive rights"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Centurion Energy",
+        "amount": "$75,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Northwestern Energy",
+        "amount": "$52,500",
+        "industry": "Utilities",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Diversified",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$350,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$275,000",
+        "percentage": "17%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$225,000",
+        "percentage": "14%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$125,000",
+        "ideology": "Conservative",
+        "issue_focus": "Free Market Economics",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Greg Gianforte",
+        "amount": "$25,000",
+        "occupation": "Business Owner/Politician"
+      },
+      {
+        "name": "Dennis Washington",
+        "amount": "$15,000",
+        "occupation": "Construction Magnate"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/steve-daines/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Official Campaign Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:17:00.435122",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 1119
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

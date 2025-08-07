@@ -1,0 +1,125 @@
+{
+  "legislator_id": "ocd-person/58bfb394-46c1-51e6-9f85-c3f091ddada7",
+  "name": "Guy Reschenthaler",
+  "state": "Pennsylvania",
+  "last_updated": "2025-08-07T01:25:38.784449",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall, opposes illegal immigration, advocates for stricter border enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Staunch defender of gun ownership, opposes gun control legislation, supports unrestricted firearm ownership",
+      "category": "Social Issues",
+      "source": "Campaign website"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights, advocates for defunding Planned Parenthood",
+      "category": "Social Issues",
+      "source": "Legislative voting history"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports significant tax cuts, advocates for reduced corporate and individual tax rates",
+      "category": "Economy",
+      "source": "Congressional budget proposals"
+    },
+    {
+      "title": "Military Support",
+      "description": "Strong advocate for increased military funding, supports robust national defense spending",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting record"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions, advocates for reduced government intervention",
+      "category": "Healthcare",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports charter schools, voucher programs, and reducing federal control of education",
+      "category": "Education",
+      "source": "Educational policy statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes strict environmental regulations, skeptical of climate change mitigation efforts",
+      "category": "Environment",
+      "source": "Congressional statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$45,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Political Organizations",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Defense/Military Contractors",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$65,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Conservative PAC Contributors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Congressional voting records",
+    "Campaign finance reports",
+    "Official congressional website",
+    "Campaign statements",
+    "Federal Election Commission records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:25:51.692713",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 1014
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

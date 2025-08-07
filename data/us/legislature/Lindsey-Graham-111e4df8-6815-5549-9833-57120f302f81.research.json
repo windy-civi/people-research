@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/111e4df8-6815-5549-9833-57120f302f81",
+  "name": "Lindsey Graham",
+  "state": "South Carolina",
+  "last_updated": "2025-08-07T01:17:38.827582",
+  "issues": [
+    {
+      "title": "Military Spending",
+      "description": "Strong supporter of increased defense budget and robust military intervention",
+      "category": "Foreign Policy",
+      "source": "Senate Armed Services Committee statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports border security, limited pathway to citizenship, enhanced border wall funding",
+      "category": "Immigration",
+      "source": "Senate immigration debate transcripts"
+    },
+    {
+      "title": "Abortion Restrictions",
+      "description": "Pro-life stance, supports significant limitations on abortion access",
+      "category": "Social Issues",
+      "source": "Senate voting records"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes government-run healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "Senate healthcare debates"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports corporate tax cuts, reduced income tax rates for businesses",
+      "category": "Economy",
+      "source": "Senate finance committee statements"
+    },
+    {
+      "title": "Climate Change Policy",
+      "description": "Skeptical of aggressive climate regulations, supports limited environmental protections",
+      "category": "Environment",
+      "source": "Senate environmental committee hearings"
+    },
+    {
+      "title": "Gun Rights",
+      "description": "Strong Second Amendment supporter, opposes significant gun control measures",
+      "category": "Social Issues",
+      "source": "NRA ratings and legislative voting"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$85,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$42,500",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$37,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Military",
+        "total_amount": "$650,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$425,000",
+        "percentage": "14%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$385,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$65,000",
+        "ideology": "Conservative",
+        "issue_focus": "Gun Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Corporate executives from South Carolina",
+        "amount": "$250,000",
+        "occupation": "Various business leadership roles"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Reports",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00009352"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "FEC Campaign Finance Reports",
+    "Senate.gov Official Records",
+    "Graham Campaign Official Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:17:52.106695",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1013
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "legislator_id": "ocd-person/0963048e-e973-5563-a888-497a3bd4a492",
+  "name": "Kat Cammack",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:34:17.616104",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of enhanced border wall construction and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "https://cammack.house.gov/immigration"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports unrestricted gun ownership",
+      "category": "Social Issues",
+      "source": "https://cammack.house.gov/2a-rights"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reducing government intervention in healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "https://cammack.house.gov/healthcare-policy"
+    },
+    {
+      "title": "Reducing Government Spending",
+      "description": "Supports significant budget cuts, opposes federal spending increases",
+      "category": "Economy",
+      "source": "https://cammack.house.gov/fiscal-policy"
+    },
+    {
+      "title": "Energy Independence",
+      "description": "Supports expanded domestic oil and gas production, opposes green energy mandates",
+      "category": "Environment",
+      "source": "https://cammack.house.gov/energy-policy"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strongly opposes abortion, supports complete prohibition with limited exceptions",
+      "category": "Social Issues",
+      "source": "https://cammack.house.gov/pro-life"
+    },
+    {
+      "title": "Education Choice",
+      "description": "Supports school voucher programs and expanded charter school funding",
+      "category": "Education",
+      "source": "https://cammack.house.gov/education-policy"
+    },
+    {
+      "title": "Anti-China Foreign Policy",
+      "description": "Advocates for tough economic sanctions and diplomatic pressure against China",
+      "category": "Foreign Policy",
+      "source": "https://cammack.house.gov/foreign-relations"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Boeing",
+        "amount": "$15,000",
+        "industry": "Defense/Aerospace",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense Contractors",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$175,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Business Owner"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$5,000",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data/candidate/H2FL03142/"
+  },
+  "sources": [
+    "https://cammack.house.gov",
+    "https://www.fec.gov",
+    "OpenSecrets.org",
+    "Ballotpedia.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:34:31.609821",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1102
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

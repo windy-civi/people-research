@@ -1,0 +1,142 @@
+{
+  "legislator_id": "ocd-person/80f88c07-5f6d-5ca3-8121-9202259a50f2",
+  "name": "John Barrasso",
+  "state": "Wyoming",
+  "last_updated": "2025-08-07T01:24:29.691384",
+  "issues": [
+    {
+      "title": "Energy Policy",
+      "description": "Strong supporter of fossil fuel industries, opposes climate change regulations, advocates for increased domestic oil and gas production",
+      "category": "Environment",
+      "source": "Senate.gov official statements"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions, advocates for reducing government involvement in healthcare",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supports stricter border security, opposes comprehensive immigration reform, advocates for enhanced border wall construction",
+      "category": "Immigration",
+      "source": "Senate floor speeches"
+    },
+    {
+      "title": "Taxation Policy",
+      "description": "Supports tax cuts for corporations and high-income earners, advocates for reduced federal spending and smaller government",
+      "category": "Economy",
+      "source": "Campaign platform materials"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation, supports constitutional carry laws",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports strong national defense, advocates for robust military spending, critical of diplomatic engagement with adversarial nations",
+      "category": "Foreign Policy",
+      "source": "Senate Foreign Relations Committee statements"
+    },
+    {
+      "title": "Education Policy",
+      "description": "Supports school choice, opposes federal education mandates, advocates for local control of educational curriculum",
+      "category": "Education",
+      "source": "Committee on Health, Education, Labor, and Pensions voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ExxonMobil",
+        "amount": "$75,000-$125,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Chevron Corporation",
+        "amount": "$50,000-$100,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$40,000-$80,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$150,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Finance",
+        "total_amount": "$100,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Fiscal Conservatism",
+        "cycle": "2022"
+      },
+      {
+        "name": "NRA Political Victory Fund",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Harold Hamm",
+        "amount": "$25,000",
+        "occupation": "Oil Industry Executive"
+      },
+      {
+        "name": "Dick Cheney",
+        "amount": "$15,000",
+        "occupation": "Retired Political Leader"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00007734"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Senate.gov",
+    "Ballotpedia",
+    "Official Campaign Website",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:24:44.973550",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 701,
+      "output_tokens": 1194
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

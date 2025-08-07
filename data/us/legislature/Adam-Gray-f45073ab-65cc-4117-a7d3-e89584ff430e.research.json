@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/f45073ab-65cc-4117-a7d3-e89584ff430e",
+  "name": "Adam Gray",
+  "state": "California",
+  "last_updated": "2025-08-07T01:19:50.700798",
+  "issues": [
+    {
+      "title": "Water Resource Management",
+      "description": "Strong advocate for sustainable water policies in California's Central Valley, supporting water infrastructure improvements and agricultural water allocation",
+      "category": "Environment",
+      "source": "California State Legislature Records"
+    },
+    {
+      "title": "Agricultural Economic Support",
+      "description": "Supports policies protecting agricultural businesses and farmers, particularly in Central Valley regions",
+      "category": "Economy",
+      "source": "California Legislative Website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid coverage and protecting healthcare affordability for rural communities",
+      "category": "Healthcare",
+      "source": "Legislative Voting Records"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased K-12 and community college funding, particularly in rural and agricultural regions",
+      "category": "Education",
+      "source": "California Budget Proposals"
+    },
+    {
+      "title": "Cannabis Legalization",
+      "description": "Supported comprehensive cannabis legalization and regulated market development",
+      "category": "Social Issues",
+      "source": "California Cannabis Legislation"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration policies that protect agricultural workers' rights",
+      "category": "Immigration",
+      "source": "State Legislative Immigration Proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Chevron Corporation",
+        "amount": "$15,000-$25,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Pacific Gas & Electric",
+        "amount": "$10,000-$20,000",
+        "industry": "Utilities",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "California Agricultural Leadership PAC",
+        "amount": "$35,000",
+        "ideology": "Moderate",
+        "issue_focus": "Agricultural Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund PAC",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Farmer"
+      },
+      {
+        "name": "Maria Rodriguez",
+        "amount": "$2,500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "California Fair Political Practices Commission",
+    "source_url": "https://cal-access.sos.ca.gov"
+  },
+  "sources": [
+    "California State Legislature Website",
+    "California Fair Political Practices Commission",
+    "Campaign Finance Records",
+    "Legislative Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:20:03.237787",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 923
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

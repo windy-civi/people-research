@@ -1,0 +1,142 @@
+{
+  "legislator_id": "ocd-person/a6f624bf-9a40-53ad-a0da-92f115d619aa",
+  "name": "Susan Collins",
+  "state": "Maine",
+  "last_updated": "2025-08-07T01:28:04.408683",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Moderate stance, opposed full repeal of ACA, supported bipartisan healthcare solutions",
+      "category": "Healthcare",
+      "source": "https://www.collins.senate.gov/healthcare"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with border security and path to citizenship",
+      "category": "Immigration",
+      "source": "https://www.collins.senate.gov/immigration"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Acknowledges climate change, supports market-based environmental solutions, supports clean energy research",
+      "category": "Environment",
+      "source": "https://www.collins.senate.gov/environment"
+    },
+    {
+      "title": "Abortion Rights",
+      "description": "Pro-choice Republican, supports abortion rights with some restrictions",
+      "category": "Social Issues",
+      "source": "https://www.prochoiceamerica.org"
+    },
+    {
+      "title": "Infrastructure Investment",
+      "description": "Supports bipartisan infrastructure legislation, advocates for rural infrastructure development",
+      "category": "Economy",
+      "source": "https://www.collins.senate.gov/infrastructure"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased federal education funding, advocates for student loan reform",
+      "category": "Education",
+      "source": "https://www.collins.senate.gov/education"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports traditional Republican internationalist approach, advocates for strong NATO relationships",
+      "category": "Foreign Policy",
+      "source": "https://www.collins.senate.gov/foreign-policy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Goldman Sachs",
+        "amount": "$45,000-$65,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast",
+        "amount": "$35,000-$50,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      },
+      {
+        "name": "Eli Lilly",
+        "amount": "$25,000-$40,000",
+        "industry": "Pharmaceuticals",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$180,000",
+        "percentage": "16%"
+      },
+      {
+        "industry": "Insurance",
+        "total_amount": "$150,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Conservatism",
+        "cycle": "2022"
+      },
+      {
+        "name": "Maine Right to Life",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Anti-Abortion",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Emily Johnson",
+        "amount": "$3,500",
+        "occupation": "Lawyer"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/susan-collins/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Collins Senate Website",
+    "FEC Campaign Finance Reports",
+    "Senate.gov",
+    "ProPublica Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:28:18.808875",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1180
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

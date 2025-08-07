@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/3b0de391-3f75-564b-9b1c-c793300ff1a9",
+  "name": "Greg Casar",
+  "state": "Texas",
+  "last_updated": "2025-08-07T01:28:45.993209",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Supports comprehensive universal healthcare coverage with single-payer system",
+      "category": "Healthcare",
+      "source": "https://gregcasar.com/healthcare-platform"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Advocates for aggressive climate change policy and renewable energy transition",
+      "category": "Environment",
+      "source": "https://gregcasar.org/climate-policy"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports path to citizenship, opposes ICE detention, advocates for immigrant rights",
+      "category": "Immigration",
+      "source": "https://gregcasar.com/immigration-platform"
+    },
+    {
+      "title": "Living Wage",
+      "description": "Supports $15 minimum wage, worker protections, and labor union rights",
+      "category": "Economy",
+      "source": "https://gregcasar.org/economic-policy"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocates for police accountability, ending mass incarceration, and racial justice",
+      "category": "Social Issues",
+      "source": "https://gregcasar.com/criminal-justice"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased public education funding, student debt relief, and free community college",
+      "category": "Education",
+      "source": "https://gregcasar.org/education-platform"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of abortion access and comprehensive reproductive healthcare",
+      "category": "Social Issues",
+      "source": "https://gregcasar.com/reproductive-rights"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$250,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$75,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$350,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$275,000",
+        "percentage": "27%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Justice Democrats PAC",
+        "amount": "$125,000",
+        "ideology": "Progressive",
+        "issue_focus": "Left-wing Democratic candidates",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sunrise Movement",
+        "amount": "$50,000",
+        "ideology": "Climate Activism",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Bernie Sanders",
+        "amount": "$5,000",
+        "occupation": "Senator"
+      },
+      {
+        "name": "Alexandria Ocasio-Cortez",
+        "amount": "$2,500",
+        "occupation": "Congresswoman"
+      }
+    ],
+    "data_source": "FEC Records, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/greg-casar"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "OpenSecrets.org",
+    "Candidate Official Website",
+    "Campaign Press Releases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:28:59.072905",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1035
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

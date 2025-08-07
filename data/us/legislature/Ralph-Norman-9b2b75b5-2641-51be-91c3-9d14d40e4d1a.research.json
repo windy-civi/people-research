@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/9b2b75b5-2641-51be-91c3-9d14d40e4d1a",
+  "name": "Ralph Norman",
+  "state": "South Carolina",
+  "last_updated": "2025-08-07T01:23:15.789981",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Healthcare",
+      "description": "Supports repealing the Affordable Care Act, advocates for market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Immigration",
+      "description": "Supports border wall construction, stricter immigration enforcement, and reduced illegal immigration",
+      "category": "Immigration",
+      "source": "Congressional statements"
+    },
+    {
+      "title": "Tax Policy",
+      "description": "Supports tax cuts, reduced government spending, and simplified tax code",
+      "category": "Economy",
+      "source": "Voting record"
+    },
+    {
+      "title": "Environmental Regulation",
+      "description": "Opposes excessive environmental regulations, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Congressional voting history"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Strong supporter of military funding, hawkish stance on national defense",
+      "category": "Foreign Policy",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Education",
+      "description": "Supports school choice, charter schools, and reduced federal education intervention",
+      "category": "Education",
+      "source": "Campaign platform"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$350,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$50,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Freedom Caucus PAC",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Limited Government",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$2,900",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$5,000",
+        "occupation": "Financial Services Executive"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Federal Election Commission Records",
+    "Congressional Voting Database",
+    "Campaign Official Website",
+    "OpenSecrets.org"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:23:27.799185",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 946
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

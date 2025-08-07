@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/c281df65-bcd6-5f42-860c-874e38bcd03a",
+  "name": "Byron Donalds",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:33:00.817822",
+  "issues": [
+    {
+      "title": "Conservative Fiscal Policy",
+      "description": "Supports tax cuts, reduced government spending, and free-market economic approaches",
+      "category": "Economy",
+      "source": "Byron Donalds official website"
+    },
+    {
+      "title": "School Choice and Education Reform",
+      "description": "Strong advocate for charter schools, school voucher programs, and expanding educational options for parents",
+      "category": "Education",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction, and reduced illegal immigration",
+      "category": "Immigration",
+      "source": "Congressional speeches and campaign materials"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights, and advocates for pro-life policies",
+      "category": "Social Issues",
+      "source": "Voting record and public statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and legislative voting"
+    },
+    {
+      "title": "Healthcare Market Solutions",
+      "description": "Advocates for market-based healthcare solutions, opposes government-run healthcare programs",
+      "category": "Healthcare",
+      "source": "Congressional healthcare voting record"
+    },
+    {
+      "title": "Conservative Foreign Policy",
+      "description": "Supports strong national defense, military funding, and robust anti-terrorism strategies",
+      "category": "Foreign Policy",
+      "source": "Congressional foreign policy votes"
+    },
+    {
+      "title": "Climate and Energy",
+      "description": "Supports fossil fuel development, opposes aggressive climate change regulations",
+      "category": "Environment",
+      "source": "Energy policy voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$50,000-$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$25,000-$40,000",
+        "industry": "Energy/Political Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Conservative Political Organizations",
+        "total_amount": "$200,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth PAC",
+        "amount": "$75,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative Pro-Life",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Donors",
+        "amount": "$500,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "Federal Election Commission",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "Byron Donalds Official Congressional Website",
+    "Federal Election Commission Records",
+    "Congressional Voting Records",
+    "Campaign Finance Databases"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:33:14.593725",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 1026
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

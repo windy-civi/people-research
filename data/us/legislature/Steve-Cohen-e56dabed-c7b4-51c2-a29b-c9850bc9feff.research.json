@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/e56dabed-c7b4-51c2-a29b-c9850bc9feff",
+  "name": "Steve Cohen",
+  "state": "Tennessee",
+  "last_updated": "2025-08-07T01:23:02.301247",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Strong supporter of sentencing reform, reducing mandatory minimums, and addressing racial disparities in the criminal justice system",
+      "category": "Social Justice",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Marijuana Legalization",
+      "description": "Advocates for federal decriminalization and legalization of marijuana",
+      "category": "Social Policy",
+      "source": "Multiple congressional bills sponsored"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to healthcare, protecting the Affordable Care Act, and reducing prescription drug prices",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Long-time supporter of LGBTQ+ equality, including marriage equality and anti-discrimination protections",
+      "category": "Civil Rights",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for stricter gun control measures, including universal background checks and assault weapons ban",
+      "category": "Public Safety",
+      "source": "Congressional bill sponsorships"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional statements"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Supports aggressive action on climate change, including renewable energy investments and emissions reduction",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Voting Rights",
+      "description": "Strong advocate for protecting voting rights, opposing voter suppression, and supporting voting access",
+      "category": "Civil Rights",
+      "source": "Congressional bill sponsorships"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$75,000-$150,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Comcast Corp",
+        "amount": "$15,000-$30,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Lawyers/Law Firms",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Democratic/Liberal Political Organizations",
+        "total_amount": "$100,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$25,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Human Rights Campaign",
+        "amount": "$15,000",
+        "ideology": "Liberal",
+        "issue_focus": "LGBTQ+ Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$250-$1000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/members-of-congress/steve-cohen/summary?cid=N00003338"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Congressional voting records",
+    "Official congressional website",
+    "Campaign finance reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:23:15.762290",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 695,
+      "output_tokens": 1046
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

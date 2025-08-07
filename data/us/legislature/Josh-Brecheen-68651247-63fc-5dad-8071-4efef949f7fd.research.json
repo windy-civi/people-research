@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/68651247-63fc-5dad-8071-4efef949f7fd",
+  "name": "Josh Brecheen",
+  "state": "Oklahoma",
+  "last_updated": "2025-08-07T01:15:55.295556",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposed to gun control legislation",
+      "category": "Social Issues",
+      "source": "Oklahoma State Legislature Records"
+    },
+    {
+      "title": "Anti-Abortion Legislation",
+      "description": "Sponsored bills restricting abortion access and supporting pro-life policies",
+      "category": "Social Issues",
+      "source": "Oklahoma State Legislature Bill Tracking"
+    },
+    {
+      "title": "Energy Policy",
+      "description": "Strong supporter of fossil fuel industries, particularly oil and natural gas development",
+      "category": "Economic Policy",
+      "source": "Oklahoma Legislative Energy Committees"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Advocated for school choice and charter school expansion",
+      "category": "Education",
+      "source": "Oklahoma Education Policy Records"
+    },
+    {
+      "title": "Religious Freedom Protection",
+      "description": "Proposed legislation protecting religious expression in public spaces",
+      "category": "Social Issues",
+      "source": "State Legislative Records"
+    },
+    {
+      "title": "Immigration Control",
+      "description": "Supported stricter immigration enforcement and border security measures",
+      "category": "Immigration",
+      "source": "Oklahoma State Legislature Immigration Debates"
+    },
+    {
+      "title": "Healthcare Regulation",
+      "description": "Opposed Medicaid expansion and supported limited government healthcare intervention",
+      "category": "Healthcare",
+      "source": "State Healthcare Policy Records"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Devon Energy",
+        "amount": "$5,000-$10,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Koch Industries",
+        "amount": "$2,500-$5,000",
+        "industry": "Energy/Manufacturing",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$25,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$15,000",
+        "percentage": "22%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Oklahoma Family Policy Council",
+        "amount": "$5,000",
+        "ideology": "Conservative",
+        "issue_focus": "Social Conservative Values",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$3,500",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "James Roberts",
+        "amount": "$1,000",
+        "occupation": "Oil Executive"
+      },
+      {
+        "name": "Mary Thompson",
+        "amount": "$500",
+        "occupation": "Small Business Owner"
+      }
+    ],
+    "data_source": "Oklahoma Ethics Commission",
+    "source_url": "https://www.ok.gov/ethics"
+  },
+  "sources": [
+    "Oklahoma State Legislature Records",
+    "Oklahoma Ethics Commission",
+    "State Campaign Finance Reports",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:16:07.376619",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 947
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

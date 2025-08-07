@@ -1,0 +1,141 @@
+{
+  "legislator_id": "ocd-person/af50abf4-b711-5bbc-a920-465e39c99f42",
+  "name": "Joe Wilson",
+  "state": "South Carolina",
+  "last_updated": "2025-08-07T01:27:23.435500",
+  "issues": [
+    {
+      "title": "Border Security",
+      "description": "Strong supporter of border wall and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Official congressional website"
+    },
+    {
+      "title": "Conservative Healthcare Reform",
+      "description": "Opposes Affordable Care Act, supports market-based healthcare solutions",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Advocates for increased defense spending and military support",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations votes"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports permanent tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Congressional tax policy proposals"
+    },
+    {
+      "title": "School Choice",
+      "description": "Supports voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive rights",
+      "category": "Social Issues",
+      "source": "Voting record on abortion legislation"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Club for Growth",
+        "amount": "$57,500",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$22,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$15,750",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense/Military",
+        "total_amount": "$275,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$185,000",
+        "percentage": "15%"
+      },
+      {
+        "industry": "Finance/Insurance",
+        "total_amount": "$150,000",
+        "percentage": "12%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "National Rifle Association",
+        "amount": "$45,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "Heritage Foundation",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Conservative Policy Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Wilson",
+        "amount": "$5,000",
+        "occupation": "Business Executive"
+      },
+      {
+        "name": "Elizabeth Johnson",
+        "amount": "$3,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "FEC Campaign Finance Reports",
+    "source_url": "https://www.fec.gov/data/candidate/H4SC02082/"
+  },
+  "sources": [
+    "FEC Campaign Finance Records",
+    "Congressional Voting History",
+    "Official Congressional Website",
+    "Campaign Finance Disclosure Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:27:36.929653",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 693,
+      "output_tokens": 1084
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

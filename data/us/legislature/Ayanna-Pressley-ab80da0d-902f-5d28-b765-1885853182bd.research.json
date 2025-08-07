@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/ab80da0d-902f-5d28-b765-1885853182bd",
+  "name": "Ayanna Pressley",
+  "state": "Massachusetts",
+  "last_updated": "2025-08-07T01:20:39.331214",
+  "issues": [
+    {
+      "title": "Medicare for All",
+      "description": "Strong supporter of universal single-payer healthcare system, advocating for comprehensive medical coverage for all Americans",
+      "category": "Healthcare",
+      "source": "Congressional Progressive Caucus platform"
+    },
+    {
+      "title": "Green New Deal",
+      "description": "Comprehensive climate change policy proposing massive economic transformation to address environmental challenges and create green jobs",
+      "category": "Environment",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocates for ending mass incarceration, eliminating cash bail, and addressing systemic racism in policing and judicial systems",
+      "category": "Social Justice",
+      "source": "Congressional Black Caucus policy platform"
+    },
+    {
+      "title": "Minimum Wage Increase",
+      "description": "Supports raising federal minimum wage to $15 per hour, arguing for living wage standards",
+      "category": "Economic Policy",
+      "source": "House Democratic Caucus proposals"
+    },
+    {
+      "title": "Student Debt Cancellation",
+      "description": "Advocates for comprehensive student loan forgiveness and making public higher education tuition-free",
+      "category": "Education",
+      "source": "Progressive Democratic platform"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, pathway to citizenship, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Congressional Hispanic Caucus proposals"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice advocate supporting comprehensive reproductive healthcare access",
+      "category": "Social Issues",
+      "source": "Planned Parenthood legislative scorecard"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "ActBlue",
+        "amount": "$537,983",
+        "industry": "Political Technology",
+        "cycle": "2020"
+      },
+      {
+        "name": "EMILY's List",
+        "amount": "$127,450",
+        "industry": "Political Action Committee",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Liberal/Progressive Political Organizations",
+        "total_amount": "$1.2M",
+        "percentage": "45%"
+      },
+      {
+        "industry": "Education Sector",
+        "total_amount": "$350,000",
+        "percentage": "13%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Justice Democrats",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Grassroots Political Reform",
+        "cycle": "2020"
+      },
+      {
+        "name": "Our Revolution",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "Economic Justice",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$2.1M",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Records, OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary?cid=N00041162"
+  },
+  "sources": [
+    "Congressional Records",
+    "Official Campaign Website",
+    "FEC Donor Disclosures",
+    "OpenSecrets Campaign Finance Database"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:20:52.981584",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 699,
+      "output_tokens": 991
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

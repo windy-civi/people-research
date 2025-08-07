@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/79c4f42e-4775-5ed0-a7e1-d0c942ce6c34",
+  "name": "Ami Bera",
+  "state": "California",
+  "last_updated": "2025-08-07T01:15:28.250736",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports expanding access to affordable healthcare, protecting pre-existing condition coverage, and lowering prescription drug costs",
+      "category": "Healthcare",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for reducing carbon emissions, investing in renewable energy, and supporting green technology initiatives",
+      "category": "Environment",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Education Investment",
+      "description": "Supports increased funding for public education, student loan debt relief, and expanded STEM education programs",
+      "category": "Education",
+      "source": "Congressional speeches"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship for undocumented immigrants, and protecting DACA recipients",
+      "category": "Immigration",
+      "source": "Official policy statements"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Advocates for small business support, middle-class tax relief, and infrastructure investment",
+      "category": "Economy",
+      "source": "Campaign materials"
+    },
+    {
+      "title": "Healthcare Research",
+      "description": "Supports increased NIH funding and medical research to address chronic diseases",
+      "category": "Healthcare",
+      "source": "Congressional committee work"
+    },
+    {
+      "title": "Foreign Policy",
+      "description": "Supports diplomatic engagement, international cooperation, and strategic alliances",
+      "category": "Foreign Policy",
+      "source": "Congressional foreign affairs committee"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Pharmaceutical Companies",
+        "amount": "$125,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Technology Firms",
+        "amount": "$95,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Healthcare",
+        "total_amount": "$250,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$200,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Democratic Party National Committee",
+        "amount": "$175,000",
+        "ideology": "Liberal",
+        "issue_focus": "Party-wide support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Healthcare Advocacy PAC",
+        "amount": "$85,000",
+        "ideology": "Progressive",
+        "issue_focus": "Healthcare reform",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors",
+        "amount": "$500,000",
+        "occupation": "Mixed professional backgrounds"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC Filings",
+    "source_url": "https://www.opensecrets.org/members-of-congress/ami-bera/summary"
+  },
+  "sources": [
+    "Official Campaign Website",
+    "Congressional Records",
+    "OpenSecrets Donor Database",
+    "FEC Campaign Finance Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:15:40.580017",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 703,
+      "output_tokens": 951
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

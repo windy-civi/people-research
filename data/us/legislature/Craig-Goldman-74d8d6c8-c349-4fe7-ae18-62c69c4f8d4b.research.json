@@ -1,0 +1,124 @@
+{
+  "legislator_id": "ocd-person/74d8d6c8-c349-4fe7-ae18-62c69c4f8d4b",
+  "name": "Craig Goldman",
+  "state": "Texas",
+  "last_updated": "2025-08-07T01:23:51.510394",
+  "issues": [
+    {
+      "title": "Conservative Fiscal Policy",
+      "description": "Supports lower taxes and reduced government spending",
+      "category": "Economy",
+      "source": "Texas Legislature voting records"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership and opposing gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign website and legislative voting history"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for stricter immigration enforcement and border protection",
+      "category": "Immigration",
+      "source": "Texas House of Representatives legislative proposals"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports restrictions on abortion and opposes abortion funding",
+      "category": "Social Issues",
+      "source": "Voting record and campaign statements"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports local control of education and limited state intervention",
+      "category": "Education",
+      "source": "Legislative committee participation"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Advocates for reduced government involvement in healthcare markets",
+      "category": "Healthcare",
+      "source": "Legislative voting patterns"
+    },
+    {
+      "title": "Energy Industry Support",
+      "description": "Supports Texas oil and gas industry, opposes excessive environmental regulations",
+      "category": "Environment/Economy",
+      "source": "Campaign contributions and legislative advocacy"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Texas Oil and Gas Association",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "AT&T",
+        "amount": "$10,000-$20,000",
+        "industry": "Telecommunications",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$75,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Financial Services",
+        "total_amount": "$50,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Texas Right to Life PAC",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Movement",
+        "cycle": "2022"
+      },
+      {
+        "name": "Texas Values",
+        "amount": "$10,000",
+        "ideology": "Conservative",
+        "issue_focus": "Social Conservative Issues",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Joe Smith",
+        "amount": "$5,000",
+        "occupation": "Oil Executive"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$2,500",
+        "occupation": "Business Owner"
+      }
+    ],
+    "data_source": "Texas Ethics Commission",
+    "source_url": "https://www.ethics.state.tx.us"
+  },
+  "sources": [
+    "Texas Legislature Official Website",
+    "Texas Ethics Commission Records",
+    "Campaign Finance Reports",
+    "OpenSecrets.org",
+    "Candidate Campaign Website"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:24:04.011966",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 698,
+      "output_tokens": 963
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/aa578bb8-0e69-45d5-ba94-d52d6043caf1",
+  "name": "Lateefah Simon",
+  "state": "California",
+  "last_updated": "2025-08-07T01:25:51.716467",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Advocate for reducing mass incarceration, supporting rehabilitation programs, and ending systemic racism in criminal justice system",
+      "category": "Social Justice",
+      "source": "https://www.lateefahsimon.org"
+    },
+    {
+      "title": "Mental Health Support",
+      "description": "Increase funding for mental health services, reduce stigma, and improve access to mental healthcare",
+      "category": "Healthcare",
+      "source": "California Legislative Records"
+    },
+    {
+      "title": "Transportation Equity",
+      "description": "Expand public transit infrastructure, reduce transportation costs for low-income communities",
+      "category": "Infrastructure",
+      "source": "Bay Area Transportation Authority"
+    },
+    {
+      "title": "Affordable Housing",
+      "description": "Support policies to increase affordable housing, protect renters' rights, combat housing discrimination",
+      "category": "Housing",
+      "source": "California Housing Policy Coalition"
+    },
+    {
+      "title": "Climate Change Mitigation",
+      "description": "Support Green New Deal-style policies, renewable energy transition, environmental justice initiatives",
+      "category": "Environment",
+      "source": "California Environmental Protection Agency"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Increase education funding, support public schools, reduce student debt, expand community college access",
+      "category": "Education",
+      "source": "California Education Committee"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Support minimum wage increases, worker protections, union organizing rights",
+      "category": "Labor",
+      "source": "California Labor Federation"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Tech Solidarity PAC",
+        "amount": "$75,000",
+        "industry": "Technology",
+        "cycle": "2022"
+      },
+      {
+        "name": "California Teachers Association",
+        "amount": "$50,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Progressive Advocacy",
+        "total_amount": "$250,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$175,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Color of Change PAC",
+        "amount": "$45,000",
+        "ideology": "Progressive",
+        "issue_focus": "Racial Justice",
+        "cycle": "2022"
+      },
+      {
+        "name": "Environmental Defense Fund",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Anonymous Small Donors",
+        "amount": "$150,000",
+        "occupation": "Mixed"
+      }
+    ],
+    "data_source": "California Secretary of State Campaign Finance Database",
+    "source_url": "https://cal-access.sos.ca.gov"
+  },
+  "sources": [
+    "California State Legislature Records",
+    "Campaign Finance Reports",
+    "Official Campaign Website",
+    "Local News Interviews"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:26:04.345518",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 955
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

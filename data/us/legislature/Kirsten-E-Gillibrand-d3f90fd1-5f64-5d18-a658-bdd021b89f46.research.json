@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/d3f90fd1-5f64-5d18-a658-bdd021b89f46",
+  "name": "Kirsten Gillibrand",
+  "state": "New York",
+  "last_updated": "2025-08-07T01:29:11.368842",
+  "issues": [
+    {
+      "title": "Women's Rights and Gender Equality",
+      "description": "Strong advocate for paid family leave, combating sexual harassment, and equal pay legislation",
+      "category": "Social Issues",
+      "source": "https://www.gillibrand.senate.gov/priorities/women"
+    },
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports Medicare for All, expanding healthcare access, lowering prescription drug prices",
+      "category": "Healthcare",
+      "source": "https://www.gillibrand.senate.gov/priorities/healthcare"
+    },
+    {
+      "title": "Climate Change Action",
+      "description": "Advocates for Green New Deal, aggressive carbon reduction, renewable energy investments",
+      "category": "Environment",
+      "source": "https://www.gillibrand.senate.gov/priorities/climate"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform, path to citizenship, DACA protections",
+      "category": "Immigration",
+      "source": "https://www.gillibrand.senate.gov/priorities/immigration"
+    },
+    {
+      "title": "Education Access",
+      "description": "Supports free public college, student debt relief, increased education funding",
+      "category": "Education",
+      "source": "https://www.gillibrand.senate.gov/priorities/education"
+    },
+    {
+      "title": "Gun Control",
+      "description": "Advocates for universal background checks, assault weapons ban, gun safety legislation",
+      "category": "Public Safety",
+      "source": "https://www.gillibrand.senate.gov/priorities/guncontrol"
+    },
+    {
+      "title": "LGBTQ+ Rights",
+      "description": "Supports comprehensive anti-discrimination protections, marriage equality, transgender rights",
+      "category": "Social Issues",
+      "source": "https://www.gillibrand.senate.gov/priorities/lgbtq"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Alphabet Inc",
+        "amount": "$58,250",
+        "industry": "Technology",
+        "cycle": "2020"
+      },
+      {
+        "name": "Morgan Stanley",
+        "amount": "$46,700",
+        "industry": "Financial Services",
+        "cycle": "2020"
+      },
+      {
+        "name": "Citigroup Inc",
+        "amount": "$39,850",
+        "industry": "Financial Services",
+        "cycle": "2020"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Finance/Real Estate",
+        "total_amount": "$1.2M",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$850K",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "EMILY's List",
+        "amount": "$185,000",
+        "ideology": "Liberal",
+        "issue_focus": "Women's Political Representation",
+        "cycle": "2020"
+      },
+      {
+        "name": "League of Conservation Voters",
+        "amount": "$75,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Protection",
+        "cycle": "2020"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small Individual Donors",
+        "amount": "$3.2M",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/summary?cid=N00033355"
+  },
+  "sources": [
+    "https://www.gillibrand.senate.gov",
+    "https://www.opensecrets.org",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:29:24.722288",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 705,
+      "output_tokens": 1090
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

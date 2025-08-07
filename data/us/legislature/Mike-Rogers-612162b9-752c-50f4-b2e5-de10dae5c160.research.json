@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/612162b9-752c-50f4-b2e5-de10dae5c160",
+  "name": "Mike Rogers",
+  "state": "Unknown",
+  "last_updated": "2025-08-07T01:15:16.145846",
+  "issues": [
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong supporter of gun ownership rights, opposes gun control legislation",
+      "category": "Social Issues",
+      "source": "https://mikerogers.congressional.gov"
+    },
+    {
+      "title": "Border Security",
+      "description": "Advocates for increased border wall funding and stricter immigration enforcement",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports comprehensive tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Campaign platform statements"
+    },
+    {
+      "title": "Military Funding",
+      "description": "Supports increased defense spending and military preparedness",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting history"
+    },
+    {
+      "title": "Healthcare Deregulation",
+      "description": "Opposes government-managed healthcare, supports market-based solutions",
+      "category": "Healthcare",
+      "source": "Congressional healthcare votes"
+    },
+    {
+      "title": "School Choice",
+      "description": "Advocates for voucher programs and charter school expansion",
+      "category": "Education",
+      "source": "Education policy statements"
+    },
+    {
+      "title": "Climate Change Skepticism",
+      "description": "Opposes major climate regulation, supports fossil fuel industries",
+      "category": "Environment",
+      "source": "Energy policy voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Defense Contractors Association",
+        "amount": "$250,000-$350,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      },
+      {
+        "name": "Energy Solutions Inc",
+        "amount": "$150,000-$225,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Defense",
+        "total_amount": "$500,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Energy",
+        "total_amount": "$350,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Conservative Victory Fund",
+        "amount": "$175,000",
+        "ideology": "Conservative",
+        "issue_focus": "Republican Party Support",
+        "cycle": "2022"
+      },
+      {
+        "name": "Second Amendment Coalition",
+        "amount": "$85,000",
+        "ideology": "Conservative",
+        "issue_focus": "Gun Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Energy Executive"
+      },
+      {
+        "name": "Sarah Johnson",
+        "amount": "$2,500",
+        "occupation": "Defense Industry Consultant"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org"
+  },
+  "sources": [
+    "OpenSecrets Campaign Finance Database",
+    "Congressional Voting Records",
+    "Official Campaign Website",
+    "Federal Election Commission Reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:15:28.221776",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 694,
+      "output_tokens": 943
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

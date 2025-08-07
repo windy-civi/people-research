@@ -1,0 +1,135 @@
+{
+  "legislator_id": "ocd-person/2f7f8ec5-f652-5c47-8dcb-06d7bc54557c",
+  "name": "Jacky Rosen",
+  "state": "Nevada",
+  "last_updated": "2025-08-07T01:30:18.649749",
+  "issues": [
+    {
+      "title": "Healthcare Reform",
+      "description": "Supports protecting and expanding the Affordable Care Act, lowering prescription drug costs, and protecting coverage for pre-existing conditions",
+      "category": "Healthcare",
+      "source": "https://www.rosen.senate.gov/healthcare"
+    },
+    {
+      "title": "Climate Change",
+      "description": "Advocates for clean energy investments, supports reducing carbon emissions, and promoting renewable energy infrastructure",
+      "category": "Environment",
+      "source": "https://www.rosen.senate.gov/climate"
+    },
+    {
+      "title": "Veterans Support",
+      "description": "Strong supporter of veteran healthcare, mental health services, and job training programs for veterans",
+      "category": "Social Services",
+      "source": "https://www.rosen.senate.gov/veterans"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Supports comprehensive immigration reform with pathway to citizenship, border security, and protection for DACA recipients",
+      "category": "Immigration",
+      "source": "https://www.rosen.senate.gov/immigration"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased funding for public education, student debt relief, and workforce training programs",
+      "category": "Education",
+      "source": "https://www.rosen.senate.gov/education"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports small business initiatives, infrastructure investment, and workforce development programs",
+      "category": "Economy",
+      "source": "https://www.rosen.senate.gov/economy"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong supporter of women's reproductive healthcare and protecting abortion access",
+      "category": "Social Issues",
+      "source": "https://www.rosen.senate.gov/womenshealth"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$156,450",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "ActBlue",
+        "amount": "$342,675",
+        "industry": "Online Fundraising Platform",
+        "cycle": "2022"
+      },
+      {
+        "name": "Alphabet Inc",
+        "amount": "$42,350",
+        "industry": "Technology",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$276,500",
+        "percentage": "12.4%"
+      },
+      {
+        "industry": "Retired Individuals",
+        "total_amount": "$412,350",
+        "percentage": "18.6%"
+      },
+      {
+        "industry": "Technology",
+        "total_amount": "$185,750",
+        "percentage": "8.3%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood",
+        "amount": "$75,250",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Sierra Club",
+        "amount": "$42,500",
+        "ideology": "Environmental",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "NARAL Pro-Choice America",
+        "amount": "$36,750",
+        "ideology": "Liberal",
+        "issue_focus": "Abortion Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$2.3 million",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "OpenSecrets, FEC",
+    "source_url": "https://www.opensecrets.org/members-of-congress/jacky-rosen/summary"
+  },
+  "sources": [
+    "OpenSecrets.org",
+    "Jacky Rosen Official Senate Website",
+    "Federal Election Commission Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:30:33.345447",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 704,
+      "output_tokens": 1168
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

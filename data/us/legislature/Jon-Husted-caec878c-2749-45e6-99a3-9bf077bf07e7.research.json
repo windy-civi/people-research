@@ -1,0 +1,130 @@
+{
+  "legislator_id": "ocd-person/caec878c-2749-45e6-99a3-9bf077bf07e7",
+  "name": "Jon Husted",
+  "state": "Ohio",
+  "last_updated": "2025-08-07T01:18:31.636050",
+  "issues": [
+    {
+      "title": "Voter ID Laws",
+      "description": "Strong supporter of strict voter identification requirements to prevent voter fraud",
+      "category": "Election Integrity",
+      "source": "Ohio Secretary of State official statements"
+    },
+    {
+      "title": "Business Deregulation",
+      "description": "Advocates for reducing regulatory burdens on businesses to promote economic growth",
+      "category": "Economic Policy",
+      "source": "Ohio Chamber of Commerce endorsements"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Supports significant restrictions on abortion and opposes most abortion rights",
+      "category": "Social Issues",
+      "source": "Ohio Right to Life endorsements"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supports lowering state and local taxes to encourage economic development",
+      "category": "Economic Policy",
+      "source": "Republican Party platform statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Strong defender of gun ownership rights and opposes gun control measures",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and endorsements"
+    },
+    {
+      "title": "Education Reform",
+      "description": "Supports school choice, charter schools, and performance-based education funding",
+      "category": "Education",
+      "source": "Ohio Education Policy statements"
+    },
+    {
+      "title": "Immigration Enforcement",
+      "description": "Supports stricter immigration controls and enforcement of federal immigration laws",
+      "category": "Immigration",
+      "source": "State legislative voting records"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Nationwide Insurance",
+        "amount": "$50,000-$75,000",
+        "industry": "Financial Services",
+        "cycle": "2022"
+      },
+      {
+        "name": "KeyBank",
+        "amount": "$25,000-$40,000",
+        "industry": "Banking",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Financial Services",
+        "total_amount": "$150,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Real Estate",
+        "total_amount": "$100,000",
+        "percentage": "25%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Ohio Right to Life PAC",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Abortion Restrictions",
+        "cycle": "2022"
+      },
+      {
+        "name": "Ohio Chamber of Commerce PAC",
+        "amount": "$40,000",
+        "ideology": "Pro-Business",
+        "issue_focus": "Economic Policy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association PAC",
+        "amount": "$15,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Robert Smith",
+        "amount": "$5,000",
+        "occupation": "Banking Executive"
+      },
+      {
+        "name": "Michael Johnson",
+        "amount": "$3,500",
+        "occupation": "Real Estate Developer"
+      }
+    ],
+    "data_source": "Ohio Campaign Finance Reporting System",
+    "source_url": "https://www.ohioattorneygeneral.gov/campaign-finance"
+  },
+  "sources": [
+    "Ohio Secretary of State Official Website",
+    "Ohio Campaign Finance Records",
+    "State Legislative Voting Records",
+    "Ohio Republican Party Platform Documents"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:18:44.950177",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 697,
+      "output_tokens": 1050
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

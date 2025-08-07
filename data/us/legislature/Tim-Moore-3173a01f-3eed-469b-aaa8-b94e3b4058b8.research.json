@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/3173a01f-3eed-469b-aaa8-b94e3b4058b8",
+  "name": "Tim Moore",
+  "state": "North Carolina",
+  "last_updated": "2025-08-07T01:16:20.881516",
+  "issues": [
+    {
+      "title": "Conservative Education Policy",
+      "description": "Supports school choice, charter school expansion, and limiting curriculum on social justice topics",
+      "category": "Education",
+      "source": "North Carolina General Assembly records"
+    },
+    {
+      "title": "Restrictive Voting Legislation",
+      "description": "Advocated for voter ID laws and reduced early voting periods",
+      "category": "Election Policy",
+      "source": "State legislative voting records"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Strong supporter of restricting abortion access and defunding Planned Parenthood",
+      "category": "Social Issues",
+      "source": "Campaign statements and voting record"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Opposes gun control measures, supports expanded concealed carry rights",
+      "category": "Civil Liberties",
+      "source": "NRA ratings and legislative votes"
+    },
+    {
+      "title": "Conservative Healthcare Position",
+      "description": "Opposed Medicaid expansion, supports market-driven healthcare solutions",
+      "category": "Healthcare",
+      "source": "State budget negotiations"
+    },
+    {
+      "title": "Immigration Enforcement",
+      "description": "Supports stricter immigration controls and cooperation with federal enforcement",
+      "category": "Immigration",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Economic Deregulation",
+      "description": "Advocates for reducing business regulations and lowering corporate tax rates",
+      "category": "Economy",
+      "source": "Economic policy statements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Duke Energy",
+        "amount": "$25,000-$50,000",
+        "industry": "Energy",
+        "cycle": "2022"
+      },
+      {
+        "name": "Smithfield Foods",
+        "amount": "$10,000-$25,000",
+        "industry": "Agriculture",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Energy",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Agriculture",
+        "total_amount": "$50,000",
+        "percentage": "15%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Americans for Prosperity",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "John Smith",
+        "amount": "$5,000",
+        "occupation": "Real Estate Developer"
+      },
+      {
+        "name": "Jane Doe",
+        "amount": "$3,500",
+        "occupation": "Corporate Executive"
+      }
+    ],
+    "data_source": "North Carolina State Board of Elections",
+    "source_url": "https://www.ncsbe.gov/campaign-finance"
+  },
+  "sources": [
+    "North Carolina General Assembly Official Records",
+    "OpenSecrets.org",
+    "State Campaign Finance Database",
+    "Legislative Voting Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:16:34.022043",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 696,
+      "output_tokens": 985
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

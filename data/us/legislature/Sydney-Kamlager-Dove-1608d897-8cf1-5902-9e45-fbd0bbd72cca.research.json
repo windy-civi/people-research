@@ -1,0 +1,118 @@
+{
+  "legislator_id": "ocd-person/1608d897-8cf1-5902-9e45-fbd0bbd72cca",
+  "name": "Sydney Kamlager",
+  "state": "California",
+  "last_updated": "2025-08-07T01:32:09.253110",
+  "issues": [
+    {
+      "title": "Criminal Justice Reform",
+      "description": "Strong advocate for reducing mass incarceration, supporting rehabilitation programs, and ending systemic racism in criminal justice system",
+      "category": "Social Justice",
+      "source": "California Legislative Record"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports universal healthcare, expansion of Medi-Cal, and reducing healthcare costs for low-income communities",
+      "category": "Healthcare",
+      "source": "Campaign Platform"
+    },
+    {
+      "title": "Climate Change Legislation",
+      "description": "Supports aggressive carbon reduction targets, green energy investments, and environmental justice initiatives",
+      "category": "Environment",
+      "source": "California State Legislature Voting Record"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Advocates for increased public education funding, reducing student debt, and expanding community college access",
+      "category": "Education",
+      "source": "Legislative Proposals"
+    },
+    {
+      "title": "Reproductive Rights",
+      "description": "Strong pro-choice supporter, advocates for comprehensive reproductive healthcare and protecting abortion access",
+      "category": "Social Issues",
+      "source": "Campaign Statements"
+    },
+    {
+      "title": "Housing Affordability",
+      "description": "Supports rent control, affordable housing initiatives, and addressing homelessness through comprehensive policy",
+      "category": "Housing",
+      "source": "State Legislative Initiatives"
+    },
+    {
+      "title": "Workers' Rights",
+      "description": "Supports increased minimum wage, worker protections, and strengthening labor union capabilities",
+      "category": "Economic Policy",
+      "source": "Labor Endorsements"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "SEIU California",
+        "amount": "$75,000",
+        "industry": "Labor Unions",
+        "cycle": "2022"
+      },
+      {
+        "name": "California Teachers Association",
+        "amount": "$50,000",
+        "industry": "Education",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Progressive Political Organizations",
+        "total_amount": "$100,000",
+        "percentage": "28%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Planned Parenthood Advocacy Fund",
+        "amount": "$35,000",
+        "ideology": "Liberal",
+        "issue_focus": "Reproductive Rights",
+        "cycle": "2022"
+      },
+      {
+        "name": "Climate Action PAC",
+        "amount": "$25,000",
+        "ideology": "Progressive",
+        "issue_focus": "Environmental Policy",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Individual Donors (Average)",
+        "amount": "$50-$250",
+        "occupation": "Mixed Professional Demographics"
+      }
+    ],
+    "data_source": "California Secretary of State Campaign Finance Database",
+    "source_url": "https://cal-access.sos.ca.gov"
+  },
+  "sources": [
+    "California State Legislature Website",
+    "Official Campaign Website",
+    "California Campaign Finance Records",
+    "Local News Reporting"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:32:22.695187",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 700,
+      "output_tokens": 968
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

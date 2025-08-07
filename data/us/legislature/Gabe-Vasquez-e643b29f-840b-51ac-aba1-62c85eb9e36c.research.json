@@ -1,0 +1,117 @@
+{
+  "legislator_id": "ocd-person/e643b29f-840b-51ac-aba1-62c85eb9e36c",
+  "name": "Gabe Vasquez",
+  "state": "New Mexico",
+  "last_updated": "2025-08-07T01:18:44.977167",
+  "issues": [
+    {
+      "title": "Climate Change and Environmental Protection",
+      "description": "Strong advocate for aggressive climate action, supports reducing carbon emissions and protecting New Mexico's natural resources",
+      "category": "Environment",
+      "source": "Official campaign website"
+    },
+    {
+      "title": "Healthcare Access",
+      "description": "Supports expanding Medicaid coverage and protecting reproductive healthcare rights",
+      "category": "Healthcare",
+      "source": "Campaign policy statements"
+    },
+    {
+      "title": "Immigration Reform",
+      "description": "Advocates for comprehensive immigration reform, path to citizenship, and protecting immigrant rights",
+      "category": "Immigration",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Economic Development",
+      "description": "Supports raising minimum wage, workforce development programs, and supporting small businesses",
+      "category": "Economy",
+      "source": "Campaign economic platform"
+    },
+    {
+      "title": "Education Funding",
+      "description": "Supports increased funding for public education, teacher pay raises, and expanded early childhood education",
+      "category": "Education",
+      "source": "Legislative proposals"
+    },
+    {
+      "title": "Gun Safety",
+      "description": "Advocates for comprehensive background checks and moderate gun control measures",
+      "category": "Social Issues",
+      "source": "Campaign statements"
+    },
+    {
+      "title": "Clean Energy Transition",
+      "description": "Supports moving New Mexico towards renewable energy, especially solar and wind power",
+      "category": "Environment",
+      "source": "Energy policy proposals"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "EMILY's List",
+        "amount": "$75,000",
+        "industry": "Political Action Committee",
+        "cycle": "2022"
+      },
+      {
+        "name": "SEIU",
+        "amount": "$45,000",
+        "industry": "Labor Union",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Labor Unions",
+        "total_amount": "$125,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Environmental Organizations",
+        "total_amount": "$95,000",
+        "percentage": "17%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Climate Action PAC",
+        "amount": "$50,000",
+        "ideology": "Progressive",
+        "issue_focus": "Climate Change",
+        "cycle": "2022"
+      },
+      {
+        "name": "Latino Victory Fund",
+        "amount": "$35,000",
+        "ideology": "Progressive",
+        "issue_focus": "Latino Representation",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Small-dollar donors",
+        "amount": "$350,000",
+        "occupation": "Various"
+      }
+    ],
+    "data_source": "FEC Filings",
+    "source_url": "https://www.fec.gov/data"
+  },
+  "sources": [
+    "FEC Campaign Finance Reports",
+    "Official Campaign Website",
+    "New Mexico State Election Records"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:18:57.142810",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 917
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "legislator_id": "ocd-person/1a69c825-1015-5d72-a8d8-a720d586c3b4",
+  "name": "Robert Aderholt",
+  "state": "Alabama",
+  "last_updated": "2025-08-07T01:30:33.376787",
+  "issues": [
+    {
+      "title": "Conservative Healthcare Policy",
+      "description": "Opposes government-run healthcare, supports market-based solutions and repealing portions of the Affordable Care Act",
+      "category": "Healthcare",
+      "source": "Congressional voting record"
+    },
+    {
+      "title": "Agricultural Support",
+      "description": "Strong advocate for agricultural subsidies and rural economic development programs",
+      "category": "Economy",
+      "source": "House Agricultural Committee records"
+    },
+    {
+      "title": "Border Security",
+      "description": "Supports strict immigration enforcement, border wall construction, and increased border patrol funding",
+      "category": "Immigration",
+      "source": "Official congressional statements"
+    },
+    {
+      "title": "Second Amendment Rights",
+      "description": "Consistently votes against gun control measures, supports broad interpretation of gun ownership rights",
+      "category": "Social Issues",
+      "source": "NRA voting scorecard"
+    },
+    {
+      "title": "Conservative Education Policy",
+      "description": "Supports school choice, charter schools, and local control of education standards",
+      "category": "Education",
+      "source": "Congressional education committee proposals"
+    },
+    {
+      "title": "Pro-Life Stance",
+      "description": "Opposes abortion, supports restrictions on reproductive healthcare, advocates for defunding Planned Parenthood",
+      "category": "Social Issues",
+      "source": "Voting record on reproductive health legislation"
+    },
+    {
+      "title": "National Defense",
+      "description": "Supports robust military funding, strong national defense, and interventionist foreign policy approaches",
+      "category": "Foreign Policy",
+      "source": "Defense appropriations voting record"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "Blue Cross Blue Shield",
+        "amount": "$15,000-$25,000",
+        "industry": "Healthcare",
+        "cycle": "2022"
+      },
+      {
+        "name": "Lockheed Martin",
+        "amount": "$10,000-$20,000",
+        "industry": "Defense",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Agriculture",
+        "total_amount": "$75,000",
+        "percentage": "22%"
+      },
+      {
+        "industry": "Healthcare",
+        "total_amount": "$65,000",
+        "percentage": "19%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Club for Growth",
+        "amount": "$35,000",
+        "ideology": "Conservative",
+        "issue_focus": "Economic Deregulation",
+        "cycle": "2022"
+      },
+      {
+        "name": "Susan B. Anthony List",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Pro-Life Advocacy",
+        "cycle": "2022"
+      },
+      {
+        "name": "National Rifle Association",
+        "amount": "$20,000",
+        "ideology": "Conservative",
+        "issue_focus": "Second Amendment Rights",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Agricultural Business Owners",
+        "amount": "$50,000-$75,000",
+        "occupation": "Farmers/Agricultural Entrepreneurs"
+      }
+    ],
+    "data_source": "OpenSecrets",
+    "source_url": "https://www.opensecrets.org/politicians/summary"
+  },
+  "sources": [
+    "Congressional voting records",
+    "OpenSecrets campaign finance database",
+    "Official congressional website",
+    "Campaign finance reports"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:30:46.876660",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 702,
+      "output_tokens": 1027
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}

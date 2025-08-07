@@ -1,0 +1,123 @@
+{
+  "legislator_id": "ocd-person/75a3fd65-8775-4482-8943-6961de0b886a",
+  "name": "Randy Fine",
+  "state": "Florida",
+  "last_updated": "2025-08-07T01:32:36.158575",
+  "issues": [
+    {
+      "title": "Anti-CRT Legislation",
+      "description": "Supported bills limiting discussion of race and racism in Florida schools",
+      "category": "Education",
+      "source": "Florida House of Representatives Records"
+    },
+    {
+      "title": "Parental Rights in Education",
+      "description": "Sponsored controversial bill restricting LGBTQ+ discussions in early education",
+      "category": "Social Issues",
+      "source": "Florida Legislative Records"
+    },
+    {
+      "title": "Election Security",
+      "description": "Advocated for stricter voting regulations and enhanced election monitoring",
+      "category": "Election Policy",
+      "source": "Florida State Legislature Voting Records"
+    },
+    {
+      "title": "COVID-19 Vaccine Restrictions",
+      "description": "Opposed vaccine mandates and supported individual choice",
+      "category": "Healthcare",
+      "source": "Florida House Committee Transcripts"
+    },
+    {
+      "title": "Tax Reduction",
+      "description": "Supported comprehensive tax cuts for businesses and individuals",
+      "category": "Economy",
+      "source": "Florida Budget Committee Reports"
+    },
+    {
+      "title": "Immigration Enforcement",
+      "description": "Supported stricter state-level immigration enforcement policies",
+      "category": "Immigration",
+      "source": "Florida Legislative Proposal Archives"
+    },
+    {
+      "title": "Second Amendment Protection",
+      "description": "Consistently advocated for expansive gun ownership rights",
+      "category": "Social Issues",
+      "source": "NRA Legislative Scorecards"
+    }
+  ],
+  "donors": {
+    "top_companies": [
+      {
+        "name": "DeSantis Political Committee",
+        "amount": "$50,000-$100,000",
+        "industry": "Political Action",
+        "cycle": "2022"
+      },
+      {
+        "name": "Florida Business Roundtable",
+        "amount": "$25,000-$50,000",
+        "industry": "Business Advocacy",
+        "cycle": "2022"
+      }
+    ],
+    "top_industries": [
+      {
+        "industry": "Real Estate",
+        "total_amount": "$150,000",
+        "percentage": "35%"
+      },
+      {
+        "industry": "Insurance",
+        "total_amount": "$75,000",
+        "percentage": "18%"
+      }
+    ],
+    "ideological_donors": [
+      {
+        "name": "Florida Family Policy Council",
+        "amount": "$25,000",
+        "ideology": "Conservative",
+        "issue_focus": "Social Conservative Policies",
+        "cycle": "2022"
+      },
+      {
+        "name": "Club for Growth",
+        "amount": "$40,000",
+        "ideology": "Conservative",
+        "issue_focus": "Free Market Economics",
+        "cycle": "2022"
+      }
+    ],
+    "individual_donors": [
+      {
+        "name": "Ron DeSantis",
+        "amount": "$10,000",
+        "occupation": "Governor of Florida"
+      },
+      {
+        "name": "Local Business Executives",
+        "amount": "$5,000-$15,000",
+        "occupation": "Various Business Leadership Roles"
+      }
+    ],
+    "data_source": "Florida Division of Elections",
+    "source_url": "https://dos.myflorida.com/elections/candidates/campaign-finance/"
+  },
+  "sources": [
+    "Florida House of Representatives Official Website",
+    "Florida Legislative Records",
+    "Campaign Finance Reports",
+    "Local News Archives"
+  ],
+  "processing_metadata": {
+    "processed_date": "2025-08-07T01:32:49.325915",
+    "github_action_run": "16792589064",
+    "tokens_used": {
+      "input_tokens": 692,
+      "output_tokens": 992
+    },
+    "model": "claude-3-5-haiku-latest"
+  }
+}
