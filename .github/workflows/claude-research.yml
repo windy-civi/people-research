@@ -25,7 +25,7 @@ jobs:
         echo "Checking if Claude CLI is in PATH..."
         which claude || echo "Claude not found in PATH"
     
-    - name: Research Katie Britt
+    - name: Claude Hello World
       env:
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: |
