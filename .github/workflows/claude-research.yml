@@ -32,30 +32,11 @@ jobs:
         #!/bin/bash
         set -e
         
-        # Hardcoded for Katie Britt
-        yaml_file="openstates-people/data/us/legislature/Katie-Boyd-Britt-7bf077d8-e8b9-503e-b9c2-d18b55951e93.yml"
         
-        if [ ! -f "$yaml_file" ]; then
-          echo "Katie Britt YAML file not found: $yaml_file"
-          exit 1
-        fi
+        echo "Testing Claude with simple prompt"
         
-        echo "Researching Katie Britt"
-        
-        # Create research prompt with legislator data
-        full_prompt="Here is legislator data from OpenStates:
-        
-        $(cat "$yaml_file")
-        
-        IMPORTANT: You MUST use web search to find current information about Katie Britt (Senator from Alabama). Search for:
-        1. Her official Senate website and campaign website
-        2. Her positions on key issues  
-        3. Her recent campaign finance data from OpenSecrets.org or FEC filings
-        4. Her top donors and industry contributions
-        
-        Research Katie Britt's campaign website and find her issues as an array with title/description. Also find her top donors by industry/corporation as an array with donor name, potential issue they care about, and money donated. Output as JSON.
-        
-        Use web search tools to gather this information before responding. Do not make up or guess at information."
+        # Simple hello world prompt
+        full_prompt="Hello Claude! Please respond with 'Hello World' and tell me what 2+2 equals."
         
         # Debug: Check if Claude CLI is working
         echo "Testing Claude CLI..."
