@@ -49,9 +49,9 @@ jobs:
         
         Provide direct links to the specific pages where you found this data on OpenSecrets.org, FEC.gov, and Senate lobbying disclosure databases."
         
-        # Use Claude CLI with --print flag for non-interactive output
-        echo "=== SENDING PROMPT TO CLAUDE ==="
+        # Use Claude CLI with --print flag for non-interactive output and Haiku model
+        echo "=== SENDING PROMPT TO CLAUDE 3.5 HAIKU ==="
         echo "Prompt: $full_prompt"
         echo "=== CLAUDE OUTPUT ==="
-        echo "$full_prompt" | claude --print
+        echo "$full_prompt" | claude --print --model haiku
         echo "=== END CLAUDE OUTPUT ==="
