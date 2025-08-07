@@ -35,14 +35,7 @@ jobs:
     
     - name: Install Claude CLI
       run: |
-        curl -fsSL https://claude.ai/install.sh | sh
-        echo "$HOME/.local/bin" >> $GITHUB_PATH
-    
-    - name: Setup Claude CLI
-      env:
-        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      run: |
-        echo "$ANTHROPIC_API_KEY" | claude auth
+        npm install -g @anthropic-ai/claude-code
     
     - name: Create output directory
       run: |
@@ -53,6 +46,7 @@ jobs:
         RESEARCH_PROMPT: ${{ github.event.inputs.prompt }}
         STATE: ${{ github.event.inputs.state }}
         COUNT: ${{ github.event.inputs.legislator_count }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: |
         #!/bin/bash
         set -e
@@ -132,7 +126,8 @@ jobs:
           # Use Claude CLI with web search enabled - use the latest model that has web search
           output_file="data/$STATE/legislature/$filename.research.json"
           
-          echo "$full_prompt" | claude --model claude-3-5-sonnet-20241022 > "$output_file"
+          # Use Claude CLI 
+          echo "$full_prompt" | claude > "$output_file"
           
           # Validate JSON output
           if ! python3 -m json.tool "$output_file" > /dev/null 2>&1; then
