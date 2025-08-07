@@ -35,19 +35,18 @@ jobs:
         
         echo "Researching Katie Britt's donors"
         
-        # Katie Britt donor research prompt
-        full_prompt="Research Senator Katie Britt's top campaign donors and contributors. Search specifically on these sites:
-        1. OpenSecrets.org - for her donor data and industry contributions
-        2. FEC.gov - for official campaign finance filings
-        3. Senate.gov lobbying disclosure - for lobbying connections
-        
-        Find:
-        - Top corporate donors with specific dollar amounts and cycles
-        - Top contributing industries with totals
-        - Major PAC and special interest group contributions
-        - Any notable lobbying connections or revolving door relationships
-        
-        Provide direct links to the specific pages where you found this data on OpenSecrets.org, FEC.gov, and Senate lobbying disclosure databases."
+        full_prompt="Research Katie Britt, a Republican Senate legislator from Alabama.
+
+        You have access to web search tools. Please use them to find COMPREHENSIVE and ACCURATE information about:
+
+        DONOR INFORMATION: Search OpenSecrets.org and other campaign finance databases to find:
+           - Top corporate donors with specific amounts
+           - Industry breakdowns with percentages  
+           - PAC and ideological donor information
+           - Individual donor data where available
+           - Current election cycle data (2024, 2022, etc.)
+
+        Please provide specific source URLs for all information found."
         
         # Use Claude CLI with --print flag for non-interactive output and Haiku model
         echo "=== SENDING PROMPT TO CLAUDE 3.5 HAIKU ==="
