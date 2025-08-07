@@ -35,8 +35,8 @@ jobs:
         
         echo "Testing Claude with simple prompt"
         
-        # Simple hello world prompt
-        full_prompt="Hello Claude! Please respond with 'Hello World' and tell me what 2+2 equals."
+        # Simple web search prompt
+        full_prompt="What was the Chicago Cubs' most recent score and what date was it? Provide a source."
         
         # Use Claude CLI with --print flag for non-interactive output
         echo "=== SENDING PROMPT TO CLAUDE ==="
