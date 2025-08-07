@@ -39,12 +39,11 @@ jobs:
 
         You have access to web search tools. Please use them to find COMPREHENSIVE and ACCURATE information about:
 
-        DONOR INFORMATION: Search OpenSecrets.org and other campaign finance databases to find:
-           - Top corporate donors with specific amounts
-           - Industry breakdowns with percentages  
-           - PAC and ideological donor information
-           - Individual donor data where available
-           - Current election cycle data (2024, 2022, etc.)
+        DONOR INFORMATION: Search OpenSecrets.org and other campaign finance databases to find ONLY:
+           - Top contributing INDUSTRIES with specific amounts and percentages (e.g. Oil & Gas, Healthcare, Real Estate, etc.)
+           - Single-issue PACs that have donated with specific amounts (e.g. Pro-Israel, Gun Rights, Anti-Abortion, etc.)
+
+        Focus specifically on industry sectors and single-issue political action committees. Do NOT include individual donors or corporate donors.
 
         Please provide specific source URLs for all information found."
         
