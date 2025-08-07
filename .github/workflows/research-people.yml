@@ -1,4 +1,4 @@
-name: Simple Legislator Research
+name: Enhanced Legislator Research
 on:
   workflow_dispatch:
     inputs:
@@ -39,13 +39,14 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Research People
+      - name: Research People (Enhanced with Web Search)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LOCALE: ${{ github.event.inputs.locale }}
           MAX_PEOPLE: ${{ github.event.inputs.max_people }}
         run: |
-          python scripts/simple_researcher.py openstates-people .
+          # Uses enhanced researcher with web search capabilities for accurate donor data
+          python scripts/enhanced_simple_researcher.py openstates-people .
 
       - name: Commit Results
         run: |
@@ -59,6 +60,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new research data to commit"
           else
-            git commit -m "Add research data for $(date +%Y-%m-%d)"
+            git commit -m "Add enhanced research data with accurate donor information for $(date +%Y-%m-%d)"
             git push origin main
           fi

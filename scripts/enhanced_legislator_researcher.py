@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Legislator Research Script
+Enhanced Legislator Research Script
 
-This script processes individual legislator data from OpenStates and uses Claude
-to find campaign websites, issues, and donor information.
+This script uses Claude with web search capabilities to research legislators
+and get real-time donor information from OpenSecrets.
 """
 
 import os
@@ -15,14 +15,12 @@ from typing import Dict, List, Any, Optional
 from anthropic import Anthropic
 import anthropic
 import logging
-import re
-from urllib.parse import quote
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-class LegislatorResearcher:
+class EnhancedLegislatorResearcher:
     def __init__(self, api_key: str):
         """Initialize the researcher with Anthropic API key."""
         # Clear any proxy environment variables that might interfere
@@ -57,8 +55,8 @@ class LegislatorResearcher:
             logger.error(f"Error loading YAML file {yaml_path}: {e}")
             raise
     
-    def create_issues_research_prompt(self, legislator_data: Dict[str, Any]) -> str:
-        """Create a prompt focused only on issues research."""
+    def create_enhanced_research_prompt(self, legislator_data: Dict[str, Any]) -> str:
+        """Create a comprehensive research prompt that includes web search for donor data."""
         name = legislator_data.get('name', 'Unknown')
         party = legislator_data.get('party', [{}])[0].get('name', 'Unknown') if legislator_data.get('party') else 'Unknown'
         
@@ -76,13 +74,23 @@ class LegislatorResearcher:
         
         prompt = f"""Research {name}, a {party} {chamber} legislator from {state} district {district}.
 
-Focus ONLY on their policy positions and campaign issues. Provide COMPREHENSIVE information about their stances on major policy areas.
+You have access to web search tools. Please use them to find COMPREHENSIVE and ACCURATE information about:
 
-REQUIREMENTS:
-- Provide 5-10 issues minimum covering all major policy areas they have taken positions on
-- Include detailed policy positions across: healthcare, economy, immigration, education, environment, foreign policy, social issues, etc.
-- Be thorough - this is for comprehensive political research
-- Focus on factual positions, voting records, and public statements
+1. POLICY ISSUES: Research their campaign positions, voting record, and policy stances across all major areas (healthcare, economy, immigration, education, environment, foreign policy, social issues, etc.)
+
+2. DONOR INFORMATION: Search OpenSecrets.org and other campaign finance databases to find:
+   - Top corporate donors with specific amounts
+   - Industry breakdowns with percentages
+   - PAC and ideological donor information
+   - Individual donor data where available
+   - Current election cycle data (2024, 2022, etc.)
+
+IMPORTANT REQUIREMENTS:
+- For donor data: Use OpenSecrets.org, FEC.gov, and other official campaign finance sources
+- Get SPECIFIC dollar amounts and company names, not estimates
+- Include the correct OpenSecrets URL for the legislator
+- For issues: Focus on factual positions from official sources, voting records, and public statements
+- Be comprehensive - provide 5-10 issues minimum and extensive donor lists
 
 Output ONLY valid JSON in this exact structure:
 {{
@@ -98,90 +106,79 @@ Output ONLY valid JSON in this exact structure:
       "source": "URL or source of information"
     }}
   ],
+  "donors": {{
+    "top_companies": [
+      {{
+        "name": "Company/Organization Name",
+        "amount": "Specific dollar amount",
+        "industry": "Industry classification",
+        "cycle": "Election cycle (e.g., 2024, 2022)"
+      }}
+    ],
+    "top_industries": [
+      {{
+        "industry": "Industry Name",
+        "total_amount": "Total contributions",
+        "percentage": "Percentage of total"
+      }}
+    ],
+    "ideological_donors": [
+      {{
+        "name": "PAC/Advocacy group name",
+        "amount": "Specific dollar amount",
+        "ideology": "Conservative/Liberal/Single-issue description",
+        "issue_focus": "Specific issue they advocate for",
+        "cycle": "Election cycle"
+      }}
+    ],
+    "individual_donors": [
+      {{
+        "name": "Individual donor name",
+        "amount": "Amount if available",
+        "occupation": "Occupation if available"
+      }}
+    ],
+    "data_source": "OpenSecrets.org, FEC.gov, etc.",
+    "source_url": "Correct OpenSecrets URL for this legislator"
+  }},
   "sources": [
     "List of primary sources used for this research"
   ]
 }}
 
-Be COMPREHENSIVE and EXHAUSTIVE - provide detailed information based on your knowledge about their campaign issues (5-10 minimum).
-
-IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown formatting, or code blocks. The response should be a single JSON object that can be parsed directly."""
+Use web search to find the most current and accurate information available. Be thorough and precise with donor amounts and company names."""
         
         return prompt
     
-    def get_opensecrets_id(self, name: str, state: str) -> Optional[str]:
-        """Get OpenSecrets candidate ID by searching their database."""
-        try:
-            # Search for the candidate on OpenSecrets
-            search_url = f"https://www.opensecrets.org/api/?method=getLegislators&id={quote(state)}&apikey=demo&output=json"
-            
-            # For now, we'll use a mapping approach since the API requires an API key
-            # In a real implementation, you'd need an OpenSecrets API key
-            logger.warning("OpenSecrets API requires authentication. Using fallback method.")
-            
-            # Common OpenSecrets ID patterns for known legislators
-            # This is a simplified approach - in production you'd want a proper API key
-            return None
-            
-        except Exception as e:
-            logger.error(f"Error getting OpenSecrets ID: {e}")
-            return None
+    def _get_current_time(self) -> str:
+        """Get current time in ISO format."""
+        from datetime import datetime
+        return datetime.now().isoformat()
     
-    def scrape_opensecrets_donors(self, name: str, state: str) -> Dict[str, Any]:
-        """Scrape donor information from OpenSecrets website."""
-        try:
-            # Import the donor researcher
-            from donor_researcher import DonorResearcher
-            
-            donor_researcher = DonorResearcher()
-            return donor_researcher.research_donors(name, state)
-            
-        except ImportError:
-            logger.warning("DonorResearcher not available, using fallback method")
-            # Fallback to basic URL generation
-            search_name = name.replace(' ', '-').lower()
-            url = f"https://www.opensecrets.org/members-of-congress/{search_name}/contributors"
-            
-            return {
-                "top_companies": [],
-                "top_industries": [],
-                "ideological_donors": [],
-                "individual_donors": [],
-                "data_source": "OpenSecrets (fallback - requires donor_researcher.py)",
-                "source_url": url,
-                "note": "Donor data requires donor_researcher.py for accurate scraping"
-            }
-        except Exception as e:
-            logger.error(f"Error scraping OpenSecrets data: {e}")
-            return {
-                "top_companies": [],
-                "top_industries": [],
-                "ideological_donors": [],
-                "individual_donors": [],
-                "data_source": "Error occurred",
-                "source_url": "",
-                "error": str(e)
-            }
-    
-    def research_issues(self, legislator_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Research only the issues for a legislator."""
+    def research_legislator(self, legislator_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Research a single legislator using Claude with web search tools."""
         max_retries = 2
         
         for attempt in range(max_retries + 1):
             try:
-                prompt = self.create_issues_research_prompt(legislator_data)
+                prompt = self.create_enhanced_research_prompt(legislator_data)
                 
                 # Add retry instruction if this is a retry
                 if attempt > 0:
                     prompt += f"\n\nRETRY ATTEMPT {attempt + 1}: Please ensure you output ONLY valid JSON without any markdown formatting, code blocks, or explanatory text."
                 
-                # Use Claude Haiku 3.5 for cost efficiency
+                # Use Claude Sonnet 3.5 for better web search capabilities
                 message = self.anthropic.messages.create(
-                    model="claude-3-5-haiku-latest",
-                    max_tokens=3000,
+                    model="claude-3-5-sonnet-20241022",
+                    max_tokens=4000,
                     messages=[{
                         "role": "user",
                         "content": prompt
+                    }],
+                    tools=[{
+                        "type": "web_search",
+                        "name": "web_search",
+                        "description": "Search the web for current information about politicians, their policy positions, and campaign finance data"
                     }]
                 )
                 
@@ -207,8 +204,8 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                                 "input_tokens": message.usage.input_tokens if message.usage else "unknown",
                                 "output_tokens": message.usage.output_tokens if message.usage else "unknown"
                             },
-                            "model": "claude-3-5-haiku-latest",
-                            "research_type": "issues_only"
+                            "model": "claude-3-5-sonnet-20241022",
+                            "research_type": "enhanced_with_web_search"
                         }
                         
                         return json_data
@@ -224,52 +221,17 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                     if attempt == max_retries:
                         raise ValueError("No valid JSON found in Claude response after all retries")
                     else:
-                        logger.info(f"Retrying issues research for {legislator_data.get('name', 'Unknown')} (attempt {attempt + 2}/{max_retries + 1})")
+                        logger.info(f"Retrying research for {legislator_data.get('name', 'Unknown')} (attempt {attempt + 2}/{max_retries + 1})")
                         continue
                         
             except Exception as e:
-                logger.error(f"Issues research error for {legislator_data.get('name', 'Unknown')}: {e}")
+                logger.error(f"Research error for {legislator_data.get('name', 'Unknown')}: {e}")
                 return self._create_error_response(legislator_data, str(e))
-    
-    def research_legislator(self, legislator_data: Dict[str, Any]) -> Dict[str, Any]:
-        """Research a single legislator - issues and donors separately."""
-        name = legislator_data.get('name', 'Unknown')
-        state = legislator_data.get('roles', [{}])[0].get('jurisdiction', 'Unknown') if legislator_data.get('roles') else 'Unknown'
-        
-        # Step 1: Research issues using Claude
-        logger.info(f"Researching issues for {name}")
-        issues_result = self.research_issues(legislator_data)
-        
-        # Step 2: Research donors using web scraping
-        logger.info(f"Researching donors for {name}")
-        donors_result = self.scrape_opensecrets_donors(name, state)
-        
-        # Combine the results
-        combined_result = {
-            "legislator_id": issues_result.get("legislator_id", ""),
-            "name": issues_result.get("name", name),
-            "state": issues_result.get("state", state),
-            "last_updated": self._get_current_time(),
-            "issues": issues_result.get("issues", []),
-            "donors": donors_result,
-            "sources": issues_result.get("sources", []),
-            "processing_metadata": {
-                "processed_date": self._get_current_time(),
-                "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
-                "model": "claude-3-5-haiku-latest",
-                "research_type": "split_issues_and_donors"
-            }
-        }
-        
-        return combined_result
-    
-    def _get_current_time(self) -> str:
-        """Get current time in ISO format."""
-        from datetime import datetime
-        return datetime.now().isoformat()
+
     
     def _extract_json_from_response(self, response_text: str) -> Optional[str]:
         """Extract JSON from Claude's response."""
+        import re
         
         # Log the response for debugging
         logger.debug(f"Raw response: {response_text[:500]}...")
@@ -314,15 +276,14 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
                 "ideological_donors": [],
                 "individual_donors": [],
                 "data_source": "Error occurred",
-                "source_url": "",
-                "error": error_message
+                "source_url": ""
             },
             "sources": [],
             "processing_metadata": {
                 "processed_date": self._get_current_time(),
                 "github_action_run": os.environ.get("GITHUB_RUN_ID", "unknown"),
                 "error": True,
-                "model": "claude-3-5-haiku-latest"
+                "model": "claude-3-5-sonnet-20241022"
             }
         }
     
@@ -344,7 +305,7 @@ IMPORTANT: Output ONLY valid JSON. Do not include any explanatory text, markdown
 def main():
     """Main function to process a single legislator."""
     if len(sys.argv) != 3:
-        print("Usage: python legislator_researcher.py <yaml_file_path> <output_json_path>")
+        print("Usage: python enhanced_legislator_researcher.py <yaml_file_path> <output_json_path>")
         sys.exit(1)
     
     yaml_path = sys.argv[1]
@@ -363,8 +324,8 @@ def main():
     
     try:
         # Initialize researcher
-        logger.info("Initializing LegislatorResearcher...")
-        researcher = LegislatorResearcher(api_key)
+        logger.info("Initializing EnhancedLegislatorResearcher...")
+        researcher = EnhancedLegislatorResearcher(api_key)
         
         # Load legislator data
         logger.info(f"Loading legislator data from {yaml_path}")
